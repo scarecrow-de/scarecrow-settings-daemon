@@ -80,8 +80,7 @@ load_timezones (GList *cities)
                 }
 
                 country = gweather_location_get_country (l->data);
-		// TODO: GWeather 4 migration
-                timezone_id = 0; // gweather_timezone_get_tzid (gweather_location_get_timezone (l->data));
+                timezone_id = g_time_zone_get_identifier (gweather_location_get_timezone (l->data));
                 gweather_location_get_coords (l->data,
                                               &latitude,
                                               &longitude);
