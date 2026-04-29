@@ -22,7 +22,7 @@
 #include "shell-action-modes.h"
 #include "media-keys.h"
 
-#define SETTINGS_BINDING_DIR "org.gnome.settings-daemon.plugins.media-keys"
+#define SETTINGS_BINDING_DIR "io.github.scarecrow.settings-daemon.plugins.media-keys"
 
 #define GSD_ACTION_MODE_LAUNCHER (SHELL_ACTION_MODE_NORMAL | \
                                   SHELL_ACTION_MODE_OVERVIEW)

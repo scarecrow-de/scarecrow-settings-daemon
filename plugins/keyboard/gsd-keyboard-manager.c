@@ -44,7 +44,7 @@
 #include "gsd-enums.h"
 #include "gsd-settings-migrate.h"
 
-#define GSD_KEYBOARD_DIR "org.gnome.settings-daemon.peripherals.keyboard"
+#define GSD_KEYBOARD_DIR "io.github.scarecrow.settings-daemon.peripherals.keyboard"
 
 #define KEY_CLICK          "click"
 #define KEY_CLICK_VOLUME   "click-volume"
@@ -55,13 +55,13 @@
 #define KEY_BELL_MODE      "bell-mode"
 #define KEY_BELL_CUSTOM_FILE "bell-custom-file"
 
-#define GNOME_DESKTOP_INTERFACE_DIR "org.gnome.desktop.interface"
+#define GNOME_DESKTOP_INTERFACE_DIR "io.github.scarecrow.desktop.interface"
 
 #define KEY_GTK_IM_MODULE    "gtk-im-module"
 #define GTK_IM_MODULE_SIMPLE "gtk-im-context-simple"
 #define GTK_IM_MODULE_IBUS   "ibus"
 
-#define GNOME_DESKTOP_INPUT_SOURCES_DIR "org.gnome.desktop.input-sources"
+#define GNOME_DESKTOP_INPUT_SOURCES_DIR "io.github.scarecrow.desktop.input-sources"
 
 #define KEY_INPUT_SOURCES        "sources"
 #define KEY_KEYBOARD_OPTIONS     "xkb-options"
@@ -71,7 +71,7 @@
 
 #define DEFAULT_LAYOUT "us"
 
-#define GNOME_A11Y_APPLICATIONS_INTERFACE_DIR "org.gnome.desktop.a11y.applications"
+#define GNOME_A11Y_APPLICATIONS_INTERFACE_DIR "io.github.scarecrow.desktop.a11y.applications"
 #define KEY_OSK_ENABLED "screen-keyboard-enabled"
 
 struct _GsdKeyboardManager
@@ -415,12 +415,12 @@ convert_libgnomekbd_options (GSettings *settings)
         GSettings *libgnomekbd_settings;
         gchar **options, **o;
 
-        if (!schema_is_installed ("org.gnome.libgnomekbd.keyboard"))
+        if (!schema_is_installed ("io.github.scarecrow.libgnomekbd.keyboard"))
                 return;
 
         opt_array = g_ptr_array_new_with_free_func (g_free);
 
-        libgnomekbd_settings = g_settings_new ("org.gnome.libgnomekbd.keyboard");
+        libgnomekbd_settings = g_settings_new ("io.github.scarecrow.libgnomekbd.keyboard");
         options = g_settings_get_strv (libgnomekbd_settings, "options");
 
         for (o = options; *o; ++o) {
@@ -447,12 +447,12 @@ convert_libgnomekbd_layouts (GSettings *settings)
         GSettings *libgnomekbd_settings;
         gchar **layouts, **l;
 
-        if (!schema_is_installed ("org.gnome.libgnomekbd.keyboard"))
+        if (!schema_is_installed ("io.github.scarecrow.libgnomekbd.keyboard"))
                 return;
 
         init_builder_with_sources (&builder, settings);
 
-        libgnomekbd_settings = g_settings_new ("org.gnome.libgnomekbd.keyboard");
+        libgnomekbd_settings = g_settings_new ("io.github.scarecrow.libgnomekbd.keyboard");
         layouts = g_settings_get_strv (libgnomekbd_settings, "layouts");
 
         for (l = layouts; *l; ++l) {
@@ -695,10 +695,10 @@ migrate_keyboard_settings (void)
                 { "remember-numlock-state", "remember-numlock-state", NULL },
         };
 
-        gsd_settings_migrate_check ("org.gnome.settings-daemon.peripherals.keyboard.deprecated",
-                                    "/org/gnome/settings-daemon/peripherals/keyboard/",
-                                    "org.gnome.desktop.peripherals.keyboard",
-                                    "/org/gnome/desktop/peripherals/keyboard/",
+        gsd_settings_migrate_check ("io.github.scarecrow.settings-daemon.peripherals.keyboard.deprecated",
+                                    "/io/github/scarecrow/settings-daemon/peripherals/keyboard/",
+                                    "io.github.scarecrow.desktop.peripherals.keyboard",
+                                    "/io/github/scarecrow/desktop/peripherals/keyboard/",
                                     entries, G_N_ELEMENTS (entries));
 }
 

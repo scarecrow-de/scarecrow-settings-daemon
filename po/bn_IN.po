@@ -30,11 +30,11 @@ msgstr ""
 msgid "GNOME Settings Daemon"
 msgstr "GNOME Settings ডেমন"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
 msgstr "স্মার্ট-কার্ড মুছে ফেলার কাজ"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:2
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
@@ -43,11 +43,11 @@ msgstr ""
 "করুন। লগ-ইন করার জন্য ব্যবহৃত স্মার্ট-কার্ড সরিয়ে ফেলা হলে এই কাজ সঞ্চালিত "
 "হবে।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid "Disable touchpad while typing"
 msgstr "টাইপ করার সময় টাচ-প্যাড নিষ্ক্রিয় করা হবে"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad "
 "while typing."
@@ -56,11 +56,11 @@ msgstr ""
 "ধার্য "
 "করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:5
 msgid "Enable horizontal scrolling"
 msgstr "অনুভূমিক দিশায় স্ক্রোলিং ব্যবস্থা সক্রিয় করুন"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:6
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
@@ -69,11 +69,11 @@ msgstr ""
 "অনুমতি "
 "প্রদান করার উদ্দেশ্যে এই মান TRUE (সত্য) ধার্য করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:7
 msgid "Select the touchpad scroll method"
 msgstr "টাচ-প্যাড স্ক্রোলের ব্যবস্থা নির্বাচন করা হবে"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid ""
 "Select the touchpad scroll method. Supported values are: \"disabled\", "
 "\"edge-scrolling\", \"two-finger-scrolling\"."
@@ -83,11 +83,11 @@ msgstr ""
 "\"two-finger-scrolling"
 "\" (দুই আঙ্গুলের স্ক্রোলিং)।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:9
 msgid "Enable mouse clicks with touchpad"
 msgstr "টাচ-প্যাডের সাথে মাউস ক্লিক সক্রিয় করা হবে"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:10
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
@@ -95,42 +95,42 @@ msgstr ""
 "ধার্য "
 "করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:11
 msgid "Enable touchpad"
 msgstr "টাচ-প্যাড সক্রিয় করুন"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:12
 msgid "Set this to TRUE to enable all touchpads."
 msgstr "সকল টাচ-প্যাড সক্রিয় করার জন্য এই মান TRUE (সত্য) ধার্য করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:13
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
 msgstr ""
 "Control-কি টিপে মুক্ত করার পরে পয়েন্টারের বর্তমান অবস্থান চিহ্নিত করা হয়।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:14
 msgid "Double click time"
 msgstr "দুইবার ক্লিক করতে ব্যয় হওয়া সময়"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:15
 msgid "Length of a double click in milliseconds."
 msgstr "দুইবার ক্লিক করতে ব্যয় হওয়া সময়, মিলিসেকেন্ড অনুযায়ী।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:16
 msgid "Drag threshold"
 msgstr "থ্রেশোল্ড টানুন"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:17
 msgid "Distance before a drag is started."
 msgstr "ড্র্যাগ আরম্ভের পূর্বের দূরত্ব।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:18
 msgid "Middle button emulation"
 msgstr "মাউসের মধ্যবর্তী বাটনের অনুকরণ"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:19
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
@@ -139,15 +139,15 @@ msgstr ""
 "সক্রিয় "
 "করা হবে।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:20
 msgid "Whether the tablet's orientation is locked, or rotated automatically."
 msgstr "ট্যাবলেটের দিশা লক করা হয়েছে, অথবা স্বয়ংক্রিয়ভাবে পরিবর্তিত হবে।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:21
 msgid "Device hotplug custom command"
 msgstr "ডিভাইস হট-প্লাগ করার স্বনির্ধারিত কমান্ড"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:22
 msgid ""
 "Command to be run when a device is added or removed. An exit value of 1 "
 "means that the device will not be handled further by gnome-settings-daemon."
@@ -156,96 +156,96 @@ msgstr ""
 "অর্থ "
 "হল ডিভাইসটি অার gnome-settings-daemon দ্বারা ব্যবস্থাপিত হবে না।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.datetime.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.orientation.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
 msgid "Activation of this plugin"
 msgstr "এই প্লাগ-ইন সক্রিয়করণ"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.datetime.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.orientation.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
 msgid "Whether this plugin would be activated by gnome-settings-daemon or not"
 msgstr "gnome-settings-daemon দ্বারা এই প্লাগ-ইন সক্রিয় করা হবে কি না"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:5
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:13
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:5
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.datetime.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow.settings-daemon.plugins.orientation.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "Priority to use for this plugin"
 msgstr "এই প্লাগ-ইনের ক্ষেত্রে ব্যবহারযোগ্য গুরুত্ব"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:6
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:14
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.datetime.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow.settings-daemon.plugins.orientation.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
 msgstr ""
 "gnome-settings-daemon প্রারম্ভিক সারিতে ব্যবহারযোগ্য প্লাগ-ইনের গুরুত্ব"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom stylus absolute mode"
 msgstr "Wacom স্টাইলাসের সুনির্দিষ্ট মোড"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
 msgid "Enable this to set the tablet to absolute mode."
 msgstr ""
 "ট্যাবলেটের ক্ষেত্রে সুনির্দিষ্ট মোড সক্রিয় করার জন্য এই মান নির্ধারণ করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
 msgid "Wacom tablet area"
 msgstr "Wacom ট্যাবলেটের ক্ষেত্র"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
 msgstr ""
 "সরঞ্জাম দ্বারা ব্যবহারযোগ্য অঞ্চল চিহ্নিত করার জন্য এই ক্ষেত্রে x1, y1 ও x2, "
 "y2 "
 "নির্ধারণ করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom tablet aspect ratio"
 msgstr "Wacom ট্যাবলেটের অ্যাস্পেক্ট অনুপাত"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
@@ -254,11 +254,11 @@ msgstr ""
 "এটিকে "
 "সক্রিয় করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
 msgstr "Wacom ট্যাবলেটের আবর্তন"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
 "Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
 "'ccw' for 90 degree counterclockwise."
@@ -267,33 +267,33 @@ msgstr ""
 "ডিগ্রির "
 "জন্য 'half', এবং ঘড়ির কাঁটার বিপরীত দিকে 90 ডিগ্রির জন্য 'ccw'।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom touch feature"
 msgstr "Wacom স্পর্শের বৈশিষ্ট্য"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Enable this to move the cursor when the user touches the tablet."
 msgstr ""
 "ব্যবহারকারী দ্বারা ট্যাবলেট স্পর্শ করার ফলে কার্সারের চলাচলের জন্য এটি সক্রিয় "
 "করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 #| msgid "Wacom tablet rotation"
 msgid "Wacom last calibrated resolution"
 msgstr "Wacom শেষ ক্যালিব্রেটেড রিজোলিউশন"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
 msgid ""
 "Holds the last calibrated resolution to help check if calibration is needed."
 msgstr ""
 "ক্যালিব্রেশনের প্রয়োজন কিনা তা যাচাই করতে সাহায্য করতে, শেষ ক্যালিব্রেটেড "
 "রিজোলিউশন ধরে রাখে।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom display mapping"
 msgstr "Wacom প্রদর্শনের ম্যাপিং"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
 msgid ""
 "EDID information of monitor to map tablet to. Must be in the format [vendor, "
 "product, serial]. [\"\",\"\",\"\"] disables mapping."
@@ -302,81 +302,81 @@ msgstr ""
 "সিরিয়াল] "
 "হতে হবে। [\"\",\"\",\"\"] ম্যাপিং নিষ্ক্রিয় করে।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
 msgid "Wacom stylus pressure curve"
 msgstr "Wacom স্টাইলাস প্রেসার কার্ভ"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr "স্টাইলাসে প্রয়োগ করা কার্ভের x1, y1 এবং x2, y2 এ এটি সেট করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
 msgid "Wacom stylus button mapping"
 msgstr "Wacom স্টাইলাস বাটনের ম্যাপিং"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
 msgid "Set this to the logical button mapping."
 msgstr "লজিক্যাল বাটন ম্যাপিংয়ে এটি নির্ধারণ করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
 msgid "Wacom stylus pressure threshold"
 msgstr "Wacom স্টাইলাস প্রেসার থ্রেসোল্ড"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
 msgstr ""
 "যে প্রেসার মানে একটি স্টাইলাস ক্লিক ইভেন্ট প্রস্তুত করা হয়েছে তাতে এটি সেট "
 "করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
 msgid "Wacom eraser pressure curve"
 msgstr "Wacom ইরেজার প্রেসার কার্ভ"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr "ইরেজারে প্রয়োগ করা কার্ভের x1, y1 এবং x2, y2 এ এটি সেট করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
 msgid "Wacom eraser button mapping"
 msgstr "Wacom ইরেসার বাটনের ম্যাপিং"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:28
 msgid "Wacom eraser pressure threshold"
 msgstr "Wacom ইরেজার প্রেসার থ্রেসোল্ড"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:29
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
 msgstr ""
 "যে প্রেসার মানে একটি ইরেজার ক্লিক ইভেন্ট প্রস্তুত করা হয়েছে তাতে এটি সেট করুন।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Wacom button action type"
 msgstr "Wacom বাটনের কাজের ধরন"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid "The type of action triggered by the button being pressed."
 msgstr "বাটন টেপা হলে কী ধরনের কাজ সঞ্চালিত হবে।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:32
 msgid "Key combination for the custom action"
 msgstr "স্বনির্ধারিত কাজের কি-সংকলন"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:33
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
 msgstr ""
 "স্বনির্ধারিত কাজ সঞ্চালনার জন্য বাটন টেপা হলে যে কি-বোর্ড শর্ট-কাট টেপা হবে।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:34
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr "টাউচরিং বা টাউচস্ট্রীপ স্বনির্ধারিত কাজের জন্য কী সমন্বয়"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:35
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
@@ -387,39 +387,39 @@ msgstr ""
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:38
 msgid "Button label for OLED display."
 msgstr "OLED প্রদর্শনের জন্য বোতাম লেবেল।"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:39
 msgid "Label will be rendered to OLED display belonging to the button"
 msgstr "বোতাম সংশ্লিষ্ট OLED প্রদর্শনে লেবেল রেন্ডার হবে"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "The duration a display profile is valid"
 msgstr "প্রদর্শনের প্রোফাইলের বৈধতার সময়কাল"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
 msgstr "এত দিনের পরে প্রদর্শন রঙ প্রোফাইল অবৈধ বলে বিবেচনা করা হয়।"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "The duration a printer profile is valid"
 msgstr "প্রিন্টার প্রোফাইলের বৈধতার সময়কাল"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:8
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
 msgstr "এত দিন পরে প্রিন্টার রঙ প্রোফাইল অবৈধ বলে বিবেচনা করা হয়।"
 
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
 msgstr "লোড করার অনুমতি বিশিষ্ট প্লাগ-ইনগুলির তালিকা"
 
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:2
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
@@ -430,22 +430,22 @@ msgstr ""
 "'সকল')। প্লাগ-ইন লোড করতে তথাপি তাদের সক্রিয় হিসাবে চিহ্নিত করতে হবে। এটি "
 "শুধুমাত্র স্টার্ট-অাপে মূল্যায়ন করা হয়।"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
 msgstr "উপেক্ষা করার জন্য চিহ্নিত মাউন্ট পাথ"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr ""
 "অবশিষ্ট স্থান হ্রাস হলে, উপেক্ষা করার জন্য চিহ্নিত মাউন্ট পয়েন্টের তালিকা।"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Free percentage notify threshold"
 msgstr ""
 "সতর্কতামূলক সূচনা উৎপন্ন করার জন্য চিহ্নিত অবশিষ্ট শতাংশের পরিমাণের প্রান্তিক "
 "মাপ"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
@@ -456,12 +456,12 @@ msgstr ""
 "পরিমাণের "
 "থেকে কম হয়ে গেলে একটি সতর্কবার্তা প্রদর্শন করা হবে।"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Subsequent free space percentage notify threshold"
 msgstr ""
 "পরবর্তী সূচনাবার্তার ক্ষেত্রে প্রযোজ্য ফাঁকা স্থানের শতাংশের প্রান্তিক মাপ"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
@@ -470,11 +470,11 @@ msgstr ""
 "হ্রাস হবে "
 "তা নির্ধারণ করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
 msgid "Free space notify threshold"
 msgstr "অবশিষ্ট স্থানের শতাংশের পরিমাণের প্রান্তিক মাপ"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
@@ -483,11 +483,11 @@ msgstr ""
 "স্থান "
 "উপস্থিত থাকলে কোনো সতর্কবার্তা প্রদর্শন করা হবে না।"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
 msgid "Minimum notify period for repeated warnings"
 msgstr "নিয়মিত সর্তকতামূলক বার্তার ক্ষেত্রে সর্বনিম্ন সূচনাপ্রদানের সময়কাল"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:12
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
@@ -496,317 +496,317 @@ msgstr ""
 "প্রদর্শন এই "
 "সময়ের অবকাল অবধি সীমিত রাখা হবে।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Custom keybindings"
 msgstr "স্বনির্ধারিত কি-বাইন্ডিং"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
 msgid "List of custom keybindings"
 msgstr "স্বনির্ধারিত কি-বাইন্ডিংয়ের তালিকা"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
 msgid "Launch calculator"
 msgstr "ক্যালকুলেটর আরম্ভ করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
 msgid "Binding to launch the calculator."
 msgstr "ক্যালকুলেটর আরম্ভের জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
 #| msgid "X Settings"
 msgid "Launch settings"
 msgstr "লঞ্চ সেটিং"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
 #| msgid "Binding to launch the search tool."
 msgid "Binding to launch GNOME settings."
 msgstr "GNOME সেটিংস আরম্ভ করতে বাইন্ড করা হচ্ছে।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
 msgid "Launch email client"
 msgstr "ই-মেইল ক্লায়েন্ট আরম্ভ করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
 msgid "Binding to launch the email client."
 msgstr "ই-মেইল ক্লায়েন্ট আরম্ভ করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
 msgid "Eject"
 msgstr "বহিষ্কার"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
 msgid "Binding to eject an optical disc."
 msgstr "অপটিক্যাল ডিস্ক ইজেক্ট করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
 msgid "Launch help browser"
 msgstr "সহায়িকা প্রদর্শক ব্রাউজার চালু করো"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
 msgid "Binding to launch the help browser."
 msgstr "সহায়ক তথ্যের ব্রাউজার আরম্ভ করতে বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
 msgid "Home folder"
 msgstr "ব্যক্তিগত ফোল্ডার"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
 msgid "Binding to open the Home folder."
 msgstr "ব্যক্তিগত ফোল্ডার খোলার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
 msgid "Launch media player"
 msgstr "মিডিয়া প্লেয়ার আরম্ভ করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
 msgid "Binding to launch the media player."
 msgstr "মিডিয়া প্লেয়ার আরম্ভ করতে বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
 msgid "Next track"
 msgstr "পরবর্তী গান"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
 msgid "Binding to skip to next track."
 msgstr "পরবর্তী গানে এগিয়ে চলার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
 msgid "Pause playback"
 msgstr "প্লে-ব্যাক স্থগিত করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
 msgid "Binding to pause playback."
 msgstr "প্লে-ব্যাক স্থগিত করার জন্য বাইন্ড করুন।"
 
 # FIXME
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
 msgid "Play (or play/pause)"
 msgstr "বাজাও (বা বাজাও/বিরতি)"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr ""
 "প্লে-ব্যাক অর্থাৎ চালনার আরম্ভের জন্য বাইন্ড করুন (অথবা চালনা/স্থগিত কর্মের "
 "মধ্যে "
 "পরিবর্তন)।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
 msgid "Log out"
 msgstr "লগ-আউট"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
 msgid "Binding to log out."
 msgstr "লগ-আউটের জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
 msgid "Previous track"
 msgstr "পূর্ববর্তী গান"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
 msgid "Binding to skip to previous track."
 msgstr "পূর্ববর্তী গানে পিছিয়ে যাওয়ার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
 msgid "Lock screen"
 msgstr "পর্দা নিষ্ক্রিয় করো"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
 msgid "Binding to lock the screen."
 msgstr "পর্দা লক করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
 msgid "Search"
 msgstr "অনুসন্ধান"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
 msgid "Binding to launch the search tool."
 msgstr "অনুসন্ধানের সামগ্রী আরম্ভ করতে বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
 msgid "Stop playback"
 msgstr "প্লে-ব্যাক বন্ধ করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
 msgid "Binding to stop playback."
 msgstr "প্লে-ব্যাক বন্ধ করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
 msgid "Volume down"
 msgstr "শব্দমাত্রা কমাও"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
 msgid "Binding to lower the system volume."
 msgstr "সিস্টেমের আওয়াজ হ্রাস করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
 msgid "Volume mute"
 msgstr "শব্দ বন্ধ করো"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
 msgid "Binding to mute the system volume."
 msgstr "সিস্টেমের আওয়াজ নিঃশব্দ করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
 msgid "Volume up"
 msgstr "শব্দমাত্রা বৃদ্ধি করো"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
 msgid "Binding to raise the system volume."
 msgstr "সিস্টেমের আওয়াজ বৃদ্ধির জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
 msgid "Take a screenshot"
 msgstr "একটি স্ক্রিন-শট নিন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
 msgid "Binding to take a screenshot."
 msgstr "স্ক্রিন-শট নেওয়ার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
 msgid "Take a screenshot of a window"
 msgstr "পর্দার একটি স্ক্রিন-শট নিন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
 msgid "Binding to take a screenshot of a window."
 msgstr "উইন্ডোর স্ক্রিন-শট নেওয়ার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
 msgid "Take a screenshot of an area"
 msgstr "একটি অংশের স্ক্রিন-শট নিন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
 msgid "Binding to take a screenshot of an area."
 msgstr "একটি অংশে স্ক্রিন-শট নেওয়ার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
 msgid "Copy a screenshot to clipboard"
 msgstr "ক্লিপ-বোর্ডে একটি স্ক্রিন-শট কপি করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
 msgid "Binding to copy a screenshot to clipboard."
 msgstr "ক্লিপ-বোর্ডে স্ক্রিন-শট কপি করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
 msgid "Copy a screenshot of a window to clipboard"
 msgstr "উইন্ডোর স্ক্রিন-শট ক্লিপ-বোর্ডে কপি করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to copy a screenshot of a window to clipboard."
 msgstr "একটি উইন্ডোর একটি স্ক্রীনশট ক্লিপবোর্ডে অনুলিপি করতে বাঁধা হচ্ছে।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Copy a screenshot of an area to clipboard"
 msgstr "একটি অঞ্চলের একটি স্ক্রীনশট ক্লিপবোর্ডে অনুলিপি করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
 msgid "Binding to copy a screenshot of an area to clipboard."
 msgstr "একটি অঞ্চলের একটি স্ক্রীনশট ক্লিপবোর্ডে অনুলিপি করতে বাঁধা হচ্ছে।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Record a short video of the screen"
 msgstr "স্ক্রিনের একটি সংক্ষিপ্ত ভিডিও রেকর্ড করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
 msgid "Launch web browser"
 msgstr "ওয়েব ব্রাউজার চালু করো"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
 msgid "Binding to launch the web browser."
 msgstr "ওয়েব ব্রাউজার আরম্ভ করতে বাউন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
 msgid "Toggle magnifier"
 msgstr "বিবর্ধক টগল করা হবে"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
 msgid "Binding to show the screen magnifier"
 msgstr "পর্দার মাপ বিবর্ধক প্রদর্শন করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
 msgid "Toggle screen reader"
 msgstr "পর্দা পাঠের ব্যবস্থা টগল করা হবে"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
 msgid "Binding to start the screen reader"
 msgstr "পর্দা পাঠের ব্যবস্থা আরম্ভ করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
 msgid "Toggle on-screen keyboard"
 msgstr "পর্দার কি-বোর্ড টগল করা হবে"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
 msgid "Binding to show the on-screen keyboard"
 msgstr "পর্দায় উপস্থিত কি-বোর্ড প্রদর্শন করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
 msgid "Increase text size"
 msgstr "হরফের মাপ বৃদ্ধি করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
 msgid "Binding to increase the text size"
 msgstr "হরফের মাপ বৃদ্ধির জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
 msgid "Decrease text size"
 msgstr "হরফের মাপ হ্রাস করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
 msgid "Binding to decrease the text size"
 msgstr "হরফের মাপ হ্রাস করার জন্য বাইন্ড করুন।"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
 msgid "Toggle contrast"
 msgstr "বৈপরিত্য টগল করা হবে"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
 msgid "Binding to toggle the interface contrast"
 msgstr "ইন্টারফেসের বৈপরিত্য টগল করার জন্য বাইন্ড করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
 msgid "Magnifier zoom in"
 msgstr "বিবর্ধকে বড় মাপে প্রদর্শন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Binding for the magnifier to zoom in"
 msgstr "বিবর্ধক দ্বারা বড় মাপে প্রদর্শনের জন্য বাইন্ড করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid "Magnifier zoom out"
 msgstr "বিবর্ধকে ছোট মাপে প্রদর্শন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Binding for the magnifier to zoom out"
 msgstr "বিবর্ধক দ্বারা ছোট মাপে প্রদর্শনের জন্য বাইন্ড করুন"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
 msgid "Name"
 msgstr "নাম"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
 msgid "Name of the custom binding"
 msgstr "স্বনির্ধারিত বাইন্ডিংয়ের নাম"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:76
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:76
 msgid "Binding"
 msgstr "বাইন্ডিং"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
 msgid "Binding for the custom binding"
 msgstr "স্বনির্ধারিত বাইন্ডিংয়ের জন্য বাইন্ডিং"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:78
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:78
 msgid "Command"
 msgstr "কমান্ড"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:79
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:79
 msgid "Command to run when the binding is invoked"
 msgstr "বাইন্ডিং আরম্ভের সময় সঞ্চালনযোগ্য কমান্ড"
 
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
 msgid "On which connections the service is enabled"
 msgstr "কোন সংযোগে পরিষেবাটি সক্রিয়"
 
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:6
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
@@ -814,11 +814,11 @@ msgstr ""
 "NetworkManager সংযোগগুলির তালিকা (প্রত্যেকটি তার UUID দিয়ে উপস্থাপিত) "
 "যেখানে পরিষেবা সক্রিয় করা এবং শুরু করা হয়েছে।"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "File for default configuration for RandR"
 msgstr "RandR-র ডিফল্ট কনফিগারেশনের ফাইল"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
 msgid ""
 "The XRandR plugin will look for a default configuration in the file "
 "specified by this key. This is similar to the ~/.config/monitors.xml that "
@@ -835,11 +835,11 @@ msgstr ""
 "উল্লিখিত "
 "ফাইল পরিবর্তে ব্যবহার করা হবে।"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
 msgid "Whether to turn off specific monitors after boot"
 msgstr "বুট করার পরে কিছু সুনির্দিষ্ট মনিটর বন্ধ করা হবে কি না"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
 msgid ""
 "'clone' will display the same thing on all monitors, 'dock' will switch off "
 "the internal monitor, 'do-nothing' will use the default Xorg behaviour "
@@ -852,11 +852,11 @@ msgstr ""
 "ডিফল্ট, 'follow-lid', lid (যথাক্রমে) খোলা অাছে না বন্ধ অাছে সেই অনুসারে 'do-"
 "nothing' এবং 'dock' এর মধ্যে একটি বেছে নেবে।"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
 msgstr "অ্যান্ট-অ্যালায়েসিং"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
@@ -868,11 +868,11 @@ msgstr ""
 "অ্যালায়েসিংয়ের জন্য \"grayscale\", ও সাব-পিক্সেল অ্যান্টি-অ্যালায়েসিংয়ের জন্য "
 "(শুধুমাত্র LCD পর্দায় প্রযোজ্য) \"rgba\"।"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
 msgstr "হিন্টিং"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: \"none"
 "\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
@@ -886,11 +886,11 @@ msgstr ""
 "পর্দায় "
 "প্রযোজ্য) \"rgba\"।"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "RGBA order"
 msgstr "RGBA ক্রম"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
@@ -904,11 +904,11 @@ msgstr ""
 "\" (সবচেয়ে বেশি ব্যবহৃত মান), বাঁদিকে নীল ব্যবহারের জন্য \"bgr\", উপরে লাল "
 "ব্যবহারের জন্য \"vrgb\", নীচে লাল ব্যবহারের জন্য \"vbgr\"।"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
 msgstr "সুনির্দিষ্ট ভাবে নিষ্ক্রিয় GTK+ মডিউলের তালিকা"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
@@ -917,11 +917,11 @@ msgstr ""
 "ডিফল্ট "
 "ভাবে তাদের কনফিগারেশনে সক্রিয় করা থাকলেও।"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
 msgid "List of explicitly enabled GTK+ modules"
 msgstr "সুনির্দিষ্ট ভাবে সক্রিয় GTK+ মডিউলগুলির তালিকা"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
 "A list of strings representing the GTK+ modules that will be loaded, usually "
 "in addition to conditional and forcibly disabled ones."
@@ -1845,11 +1845,11 @@ msgstr "স্বয়ংক্রিয় নিদ্রাবস্থা"
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
 #.
-#: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
+#: ../plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "ল্যাপটপের উজ্জ্বলতা পরিবর্তন করুন"
 
-#: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:6
+#: ../plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in.h:6
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "ল্যাপটপের উজ্জ্বলতা পরিবর্তনের জন্য অনুমোদন আবশ্যক"
 
@@ -2364,11 +2364,11 @@ msgstr "সম্পাদনা"
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
 #.
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Wacom ট্যাবলেটের উজ্জ্বলিত LED পরিবর্তন করা হবে"
 
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:6
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr "Wacom ট্যাবলেটের উজ্জ্বলিত LED পরিবর্তন করার জন্য অনুমোদন প্রয়োজন"
 
@@ -2376,12 +2376,12 @@ msgstr "Wacom ট্যাবলেটের উজ্জ্বলিত LED প
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
 #.
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:11
 #| msgid "Modify the lit LED for a Wacom tablet"
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Wacom ট্যাবলেটের OLED ছবি পরিবর্তন করা হবে"
 
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:12
 #| msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "Wacom ট্যাবলেটের OLED ছবি পরিবর্তন করার জন্য অনুমোদন প্রয়োজন"

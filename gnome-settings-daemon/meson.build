@@ -4,9 +4,9 @@ sources = files(
 )
 
 dbus_ifaces = [
-  ['SessionManager', 'gsd-session-manager-glue'],
-  ['ScreenSaver', 'gsd-screen-saver-glue'],
-  ['Shell', 'gsd-shell-glue']
+  ['SessionManager', 'scarecrow-gsd-session-manager-glue'],
+  ['ScreenSaver', 'scarecrow-gsd-screen-saver-glue'],
+  ['Shell', 'scarecrow-gsd-shell-glue']
 ]
 
 dbus_headers = []
@@ -25,7 +25,7 @@ foreach iface: dbus_ifaces
     iface[1],
     name + '.xml',
     interface_prefix: name + '.',
-    namespace: 'Gsd',
+    namespace: 'ScarecrowGsd',
     annotations: [name, 'org.gtk.GDBus.C.Name', iface[0]]
   )
   '''
@@ -50,7 +50,7 @@ if enable_wayland
 endif
 
 libgsd = shared_library(
-  'gsd',
+  'scarecrow_gsd',
   sources: sources + dbus_headers,
   include_directories: top_inc,
   dependencies: deps,

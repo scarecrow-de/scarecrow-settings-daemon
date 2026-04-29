@@ -790,8 +790,8 @@ gsd_night_light_init (GsdNightLight *self)
         self->cached_sunrise = -1.f;
         self->cached_sunset = -1.f;
         self->cached_temperature = GSD_COLOR_TEMPERATURE_DEFAULT;
-        self->settings = g_settings_new ("org.gnome.settings-daemon.plugins.color");
-        self->location_settings = g_settings_new ("org.gnome.system.location");
+        self->settings = g_settings_new ("io.github.scarecrow.settings-daemon.plugins.color");
+        self->location_settings = g_settings_new ("io.github.scarecrow.system.location");
 }
 
 GsdNightLight *

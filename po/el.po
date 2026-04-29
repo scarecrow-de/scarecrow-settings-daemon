@@ -55,11 +55,11 @@ msgstr ""
 "X-Generator: Poedit 2.3\n"
 "X-Project-Style: gnome\n"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
 msgstr "Ενέργεια αφαίρεσης της έξυπνης κάρτας"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
 "get performed when the smartcard used for log in is removed."
@@ -68,55 +68,55 @@ msgstr ""
 "ενέργεια αυτή θα πραγματοποιηθεί όταν αφαιρεθεί η έξυπνη κάρτα που "
 "χρησιμοποιείται για σύνδεση."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:25
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:25
 msgid "Possible values are “on”, “off”, and “custom”."
 msgstr "Πιθανές τιμές είναι «on», «off», και «custom»."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:35
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:35
 msgid "Keyboard Bell Custom Filename"
 msgstr "Προσαρμοσμένο όνομα αρχείου ήχου κουδουνιού για το πληκτρολόγιο"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:36
 msgid "File name of the bell sound to be played."
 msgstr "Το όνομα αρχείου του ήχου κουδουνιού που θα αναπαραχθεί."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:42
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:42
 msgid "Double click time"
 msgstr "Χρόνος διπλού κλικ"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:43
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:43
 msgid "Length of a double click in milliseconds."
 msgstr "Διάρκεια του διπλού κλικ σε χιλιοστά δευτερολέπτου."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:47
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:47
 msgid "Drag threshold"
 msgstr "Κατώφλι συρόμενων"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:48
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:48
 msgid "Distance before a drag is started."
 msgstr "Απόσταση πριν από την έναρξη συρσίματος."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:54
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:54
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr ""
 "Αν ο προσανατολισμός του tablet είναι κλειδωμένος, ή περιστρέφεται αυτόματα."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:62
 msgid "Mouse button orientation"
 msgstr "Προσανατολισμός κουμπιών ποντικιού"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:63
 msgid "Swap left and right mouse buttons for left-handed mice."
 msgstr ""
 "Αλλάξτε τα αριστερά και δεξιά κουμπιά του ποντικιού για αριστερόχειρες."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:67
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:134
 msgid "Single Click"
 msgstr "Απλό κλικ"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:135
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:68
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:135
 msgid ""
 "Acceleration multiplier for mouse motion. A value of -1 is the system "
 "default."
@@ -124,13 +124,13 @@ msgstr ""
 "Πολλαπλασιαστής επιτάχυνσης για κίνηση του ποντικιού. Μια τιμή -1 είναι η "
 "προεπιλογή του συστήματος."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:139
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:72
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:139
 msgid "Motion Threshold"
 msgstr "Κατώφλι κίνησης"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:140
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:73
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:140
 msgid ""
 "Distance in pixels the pointer must move before accelerated mouse motion is "
 "activated. A value of -1 is the system default."
@@ -139,11 +139,11 @@ msgstr ""
 "επιταχυνόμενη κίνηση του ποντικιού. Μια τιμή -1 είναι η προεπιλογή του "
 "συστήματος."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:77
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:77
 msgid "Middle button emulation"
 msgstr "Εξομοίωση μεσαίου κουμπιού"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:78
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:78
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
@@ -151,27 +151,27 @@ msgstr ""
 "Ενεργοποιεί την εξομοίωση μεσαίου πλήκτρου του ποντικιού με ταυτόχρονο κλικ "
 "του αριστερού και δεξιού κουμπιού."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:87
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:87
 msgid "Key Repeat Interval"
 msgstr "Μεσοδιάστημα επανάλληψης κλειδιού"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:88
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:88
 msgid "Delay between repeats in milliseconds."
 msgstr "Καθυστέρηση μεταξύ επαναλήψεων σε χιλιοστά του δευτερολέπτου."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:92
 msgid "Initial Key Repeat Delay"
 msgstr "Καθυστέρηση επανάληψης του αρχικού κλειδιού"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:93
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:93
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Αρχική καθυστέρηση επανάληψης κλειδιών σε χιλιοστά του δευτερολέπτου."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:97
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:97
 msgid "Remember NumLock state"
 msgstr "Απομνημόνευση κατάστασης NumLock"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:98
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:98
 msgid ""
 "When set to true, GNOME will remember the state of the NumLock LED between "
 "sessions."
@@ -179,11 +179,11 @@ msgstr ""
 "Όταν έχει οριστεί αληθές, το GNOME θα θυμάται την κατάσταση του LED NumLock "
 "μεταξύ των συνεδριών."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:104
 msgid "Disable touchpad while typing"
 msgstr "Απενεργοποίηση πινακίδας αφής κατά την πληκτρολόγηση"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:105
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad "
 "while typing."
@@ -191,11 +191,11 @@ msgstr ""
 "Ορισμός αυτού σε ΑΛΗΘΕΣ αν πατάτε κατά λάθος την πινακίδα αφής κατά την "
 "πληκτρολόγηση."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Enable horizontal scrolling"
 msgstr "Ενεργοποίηση οριζόντιας κύλισης"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:110
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:110
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
@@ -203,11 +203,11 @@ msgstr ""
 "Ορισμός αυτού σε ΑΛΗΘΕΣ για να επιτρέπεται η οριζόντια κύλιση με την ίδια "
 "μέθοδο που επιλέχθηκε στο κλειδί scroll_method."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:114
 msgid "Select the touchpad scroll method"
 msgstr "Επιλέξτε την μέθοδο κύλισης της πινακίδας αφής"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:115
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:115
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
@@ -215,30 +215,30 @@ msgstr ""
 "Επιλέξτε την μέθοδο κύλισης της πινακίδας αφής. Οι υποστηριζόμενες τιμές "
 "είναι: «disabled», «edge-scrolling», «two-finger-scrolling»."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Enable mouse clicks with touchpad"
 msgstr "Ενεργοποίηση κλικ ποντικιού με την πινακίδα αφής"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:120
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Ορισμός αυτού σε ΑΛΗΘΕΣ για να μπορείτε να κάνετε κλικ μέσω της πινακίδας "
 "αφής."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Enable touchpad"
 msgstr "Ενεργοποιήση πινακίδας αφής"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:125
 msgid "Set this to TRUE to enable all touchpads."
 msgstr "Ορισμός αυτού σε ΑΛΗΘΕΣ για να ενεργοποιήσετε όλες τις πινακίδες αφής."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:129
 msgid "Touchpad button orientation"
 msgstr "Πρσανατολισμός κουμπιών επιφάνειας αφής"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:130
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:130
 msgid ""
 "Swap left and right mouse buttons for left-handed mice with “left”, “right” "
 "for right-handed, “mouse” to follow the mouse setting."
@@ -247,44 +247,44 @@ msgstr ""
 "για αριστερόχειρες με «αριστερό», «δεξί» για δεξιόχειρες, «ποντίκι» για να "
 "ακολουθήσετε τη ρύθμιση του ποντικιού."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:144
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:144
 msgid "Natural scrolling"
 msgstr "Φυσική κύλιση"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:145
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:145
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Ορισμός αυτού σε TRUE για να ενεργοποιήσετε την φυσική (αντίστροφη) κύλιση "
 "για τις πινακίδες αφής."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Mouse wheel emulation button. 0 to disable the feature."
 msgstr ""
 "Κουμπί εξομοίωσης ροδέλας ποντικιού. 0 για να απενεργοποιήσετε τη λειτουργία."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:10
 msgid "Wacom stylus absolute mode"
 msgstr "Απόλυτη λειτουργία γραφίδας Wacom"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:11
 msgid "Enable this to set the tablet to absolute mode."
 msgstr "Ενεργοποιήστε για να ορίσετε το tablet σε απόλυτη λειτουργία."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:15
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:15
 msgid "Wacom tablet area"
 msgstr "Περιοχή tablet Wacom"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:16
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:16
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
 msgstr ""
 "Ορίστε αυτό σε x1, y1 και x2, y2 ως ωφέλιμη επιφάνεια χρησιμοποιούμενη από "
 "τα εργαλεία."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:20
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:20
 msgid "Wacom tablet aspect ratio"
 msgstr "Αναλογία tablet Wacom"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:21
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:21
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
@@ -292,11 +292,11 @@ msgstr ""
 "Ενεργοποιήστε το για να περιορίσει την περιοχή του tablet Wacom να ταιριάζει "
 "με την αναλογία της εξόδου."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
 msgstr "Περιστροφή tablet Wacom"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
 "“ccw” for 90 degree counterclockwise."
@@ -304,85 +304,85 @@ msgstr ""
 "Ορίστε αυτό σε 'none', 'cw' δεξιόστροφη περιστροφή για 90 μοίρες, 'half' για "
 "180 μοίρες, και 'ccw' για αριστερόστροφη περιστροφή 90 μοιρών."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
 msgstr "Λειτουργία αφής Wacom"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:31
 msgid "Enable this to move the cursor when the user touches the tablet."
 msgstr ""
 "Ενεργοποιήστε αυτό για να μετακινείται ο δρομέας όταν ο χρήστης αγγίζει το "
 "tablet."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom stylus pressure curve"
 msgstr "Καμπύλη πίεσης γραφίδας Wacom"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:38
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:38
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Ορίστε αυτό σε x1, y1 και x2, y2 της καμπύλης πίεσης που εφαρμόζεται στη "
 "γραφίδα."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:42
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:42
 msgid "Wacom stylus button mapping"
 msgstr "Χαρτογράφηση κουμπιού γραφίδας Wacom"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:43
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:60
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:43
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:60
 msgid "Set this to the logical button mapping."
 msgstr "Ορίστε αυτό στην λογική χαρτογράφηση κουμπιού."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:47
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:47
 msgid "Wacom stylus pressure threshold"
 msgstr "Wacom όριο πίεσης γραφίδας"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:48
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:48
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
 msgstr ""
 "Ορίστε αυτό στην τιμή της πίεσης στην οποία παράγεται ένα συμβάν κλικ "
 "γραφίδας."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:54
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:54
 msgid "Wacom eraser pressure curve"
 msgstr "Wacom καμπύλη πίεσης γόμας"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:55
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:55
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Ορίστε αυτό σε x1, y1 και x2, y2 της καμπύλης πίεσης που εφαρμόζεται στη "
 "γόμα."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:59
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:59
 msgid "Wacom eraser button mapping"
 msgstr "Wacom χαρτογράφηση κουμπιού γόμας"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:64
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:64
 msgid "Wacom eraser pressure threshold"
 msgstr "Wacom όριο πίεσης γόμας"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:65
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:65
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
 msgstr ""
 "Ορίστε αυτό στην τιμή της πίεσης στην οποία παράγεται ένα συμβάν κλικ γόμας."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:71
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:71
 msgid "Wacom button action type"
 msgstr "Wacom κουμπί τύπου δράσης"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:72
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:72
 msgid "The type of action triggered by the button being pressed."
 msgstr "Το είδος της δράσης που ενεργοποιείται από το κουμπί που πιέζεται."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:76
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:76
 msgid "Key combination for the custom action"
 msgstr "Ο συνδυασμός πλήκτρων για την προσαρμοσμένη ενέργεια"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:77
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:77
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -390,12 +390,12 @@ msgstr ""
 "Η συντόμευση πληκτρολογίου που παράγεται όταν πατηθεί το κουμπί για τις "
 "προσαρμοσμένες ενέργειες."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:81
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr ""
 "Οι συνδυασμοί πλήκτρων για μια ενέργεια δακτυλίου επαφής ή λουρίδας επαφής"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:82
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
@@ -406,19 +406,19 @@ msgstr ""
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:88
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:88
 msgid "Button label for OLED display."
 msgstr "Η ετικέτα κουμπιού για την οθόνη OLED."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:89
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:89
 msgid "Label will be rendered to OLED display belonging to the button"
 msgstr "Η ετικέτα θα αποδοθεί στην οθόνη OLED που ανήκει στο κουμπί"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:6
 msgid "The duration a display profile is valid"
 msgstr "Η διάρκεια που μια κατατομή οθόνης είναι έγκυρη"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:7
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
@@ -426,11 +426,11 @@ msgstr ""
 "Αυτός είναι ο αριθμός των ημερών μετά τον οποίο η κατατομή χρωμάτων της "
 "οθόνης θεωρείται άκυρη."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:11
 msgid "The duration a printer profile is valid"
 msgstr "Η διάρκεια που είναι έγκυρη μια κατατομή εκτυπωτή"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:12
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
@@ -438,11 +438,11 @@ msgstr ""
 "Αυτός είναι ο αριθμός των ημερών μετά τον οποίο η κατατομή του εκτυπωτή "
 "θεωρείται άκυρη."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "If the night light mode is enabled"
 msgstr "Εάν η λειτουργία νυχτός είναι ενεργοποιημένη"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:17
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at preset times."
@@ -450,11 +450,11 @@ msgstr ""
 "Η λειτουργία νυχτός αλλάζει τη θερμοκρασία χρώματος της οθόνης σας, όταν ο "
 "ήλιος έχει δύσει ή την παρούσα στιγμή."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "Temperature of the display when enabled"
 msgstr "Θερμοκρασία της οθόνης όταν είναι ενεργοποιημένο"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:22
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:22
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
@@ -463,22 +463,22 @@ msgstr ""
 "χρωματικούς τόνους της οθόνης όταν είναι ενεργοποιημένη η λειτουργία νυχτός. "
 "Οι υψηλότερες τιμές είναι πιο μπλε, ενώ οι χαμηλότερες πιο κόκκινο."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "Use the sunrise and sunset"
 msgstr "Χρησιμοποιήστε την ανατολή και τη δύση του ηλίου"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:27
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:27
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
 msgstr ""
 "Υπολογίστε την ανατολή και τη δύση αυτόματα, από την τρέχουσα τοποθεσία."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:31
 msgid "The start time"
 msgstr "Η ώρα έναρξης"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:32
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
@@ -486,11 +486,11 @@ msgstr ""
 "Όταν το «night-light-schedule-automatic» είναι απενεργοποιημένο, "
 "χρησιμοποιήστε αυτήν την ώρα έναρξης σε ώρες από τα μεσάνυχτα."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
 msgstr "Η ώρα λήξης"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:37
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:37
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
@@ -498,11 +498,11 @@ msgstr ""
 "Όταν το «night-light-schedule-automatic» είναι απενεργοποιημένο, "
 "χρησιμοποιήστε αυτήν την ώρα λήξης σε ώρες από τα μεσάνυχτα."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The last detected position"
 msgstr "Η τελευταία  θέση που ανιχνεύτηκε"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:42
 msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
@@ -512,11 +512,11 @@ msgstr ""
 "τελευταία εντοπισμένη τοποθεσία. Η προεπιλεγμένη τιμή είναι μια μη έγκυρη "
 "τιμή για να βεβαιωθείτε ότι είναι πάντα ενημερωμένο κατά την εκκίνηση."
 
-#: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
 msgstr "Λίστα προσθέτων που επιτρέπεται να φορτωθεί"
 
-#: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in:7
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
@@ -524,21 +524,21 @@ msgstr ""
 "Μια λίστα συμβολοσειρών που αναπαριστά τα πρόσθετα που επιτρέπεται να "
 "φορτωθούν (προεπιλογή: «όλα»). Αυτό αξιολογείται μόνο στην εκκίνηση."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
 msgstr "Διαδρομές προσάρτησης για παράλειψη"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:7
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr ""
 "Ορίστε μια λίστα διαδρομών προσάρτησης για παράλειψη όταν λιγοστεύει ο χώρος "
 "τους."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
 msgstr "Κατώφλι ενημέρωσης για ελεύθερο χώρο σε ποσοστό"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:13
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:13
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
@@ -547,11 +547,11 @@ msgstr ""
 "προειδοποίηση εξάντλησης του χώρου στον δίσκο. Εάν το ποσοστό του ελεύθερου "
 "χώρου πέσει κάτω από αυτό, θα εμφανιστεί μια προειδοποίηση."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
 msgstr "Μεταγενέστερη ειδοποίηση ποσοστού ορίου ελεύθερου χώρου"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:19
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:19
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
@@ -559,11 +559,11 @@ msgstr ""
 "Καθορίστε το ποσοστό που ο ελεύθερος χώρος του δίσκου θα πρέπει να μειωθεί "
 "πριν εκδοθεί η επόμενη προειδοποίηση."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
 msgstr "Όριο ειδοποίησης ελεύθερου χώρου"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:24
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:24
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
@@ -571,12 +571,12 @@ msgstr ""
 "Ορίστε ένα μέγεθος σε GB. Αν το μέγεθος του ελεύθερου χώρου είναι μεγαλύτερο "
 "από αυτό, δεν θα εμφανιστεί καμία προειδοποίηση."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
 msgstr ""
 "Η ελάχιστη περίοδος ενημέρωσης για τις επαναλαμβανόμενες προειδοποιήσεις"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:29
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:29
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
@@ -584,853 +584,853 @@ msgstr ""
 "Καθορίστε τον χρόνο σε λεπτά. Οι επόμενες προειδοποιήσεις για έναν τόμο δεν "
 "θα εμφανίζωνται συχνότερα από αυτήν την περίοδο."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:189
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:516
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:189
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:516
 msgid "Launch calculator"
 msgstr "Εκκίνηση αριθμομηχανής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:7
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:190
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:190
 msgid "Binding to launch the calculator."
 msgstr "Συνδυασμός για εκκίνηση αριθμομηχανής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:521
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:194
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:521
 msgid "Launch settings"
 msgstr "Ρυθμίσεις εκκίνησης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:195
 #, fuzzy
 #| msgid "Binding to launch GNOME settings."
 msgid "Binding to launch GNOME Settings."
 msgstr "Συνδυασμός για την εκκίνηση ρυθμίσεων GNOME."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:526
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:16
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:199
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:526
 msgid "Launch email client"
 msgstr "Εκκίνηση εφαρμογής ηλ.αλληλογραφίας"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:17
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:200
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:17
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:200
 msgid "Binding to launch the email client."
 msgstr "Συνδυασμός για την εκκίνηση πελάτη αλληλογραφίας."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:21
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:204
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:531
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:21
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:204
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:531
 msgid "Eject"
 msgstr "Εξαγωγή"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:22
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:205
 msgid "Binding to eject an optical disc."
 msgstr "Συνδυασμός για αποβολή ενός οπτικού δίσκου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:209
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:26
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:209
 msgid "Launch help browser"
 msgstr "Εκκίνηση περιηγητή βοήθειας"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:210
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:27
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:210
 msgid "Binding to launch the help browser."
 msgstr "Συνδυασμός για εκκίνηση περιηγητή βοήθειας."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:214
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:536
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:31
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:214
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:536
 msgid "Home folder"
 msgstr "Προσωπικός φάκελος"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:32
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:215
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:32
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:215
 msgid "Binding to open the Home folder."
 msgstr "Συνδυασμός για το άνοιγμα του προσωπικού φακέλου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:36
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:219
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:36
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:219
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:541
 msgid "Launch media player"
 msgstr "Εκκίνηση αναπαραγωγέα πολυμέσων"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:37
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:220
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:37
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:220
 msgid "Binding to launch the media player."
 msgstr "Συνδυασμός για την εκκίνηση του αναπαραγωγέα πολυμέσων."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:224
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:546
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:41
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:224
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:546
 msgid "Next track"
 msgstr "Επόμενο κομμάτι"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:225
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:42
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:225
 msgid "Binding to skip to next track."
 msgstr "Συνδυασμός για παράκαμψη σε επόμενο κομμάτι."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:229
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:551
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:46
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:229
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:551
 msgid "Pause playback"
 msgstr "Παύση αναπαραγωγής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:47
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:230
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:47
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:230
 msgid "Binding to pause playback."
 msgstr "Συνδυασμός για την παύση αναπαραγωγής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:51
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:234
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:556
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:51
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:234
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:556
 msgid "Play (or play/pause)"
 msgstr "Αναπαραγωγή (ή αναπαραγωγή/παύση)"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:235
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:52
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:235
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr ""
 "Συνδυασμός για την εκκίνηση της αναπαραγωγής (ή εναλλαγή ανάμεσα σε "
 "αναπαραγωγή/παύση)."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:239
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:56
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:239
 msgid "Log out"
 msgstr "Αποσύνδεση"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:57
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:240
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:57
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:240
 msgid "Binding to log out."
 msgstr "Συνδυασμός για την αποσύνδεση χρήστη."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:244
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:561
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:61
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:244
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:561
 msgid "Previous track"
 msgstr "Προηγούμενο κομμάτι"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:245
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:62
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:245
 msgid "Binding to skip to previous track."
 msgstr "Συνδυασμός για παράκαμψη σε προηγούμενο κομμάτι."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:249
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:566
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:66
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:249
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:566
 msgid "Lock screen"
 msgstr "Κλείδωμα οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:67
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:250
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:67
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:250
 msgid "Binding to lock the screen."
 msgstr "Συνδυασμός για το κλείδωμα της οθόνης."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:71
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:254
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:571
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:71
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:254
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:571
 msgid "Search"
 msgstr "Αναζήτηση"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:72
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:255
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:72
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:255
 msgid "Binding to launch the search tool."
 msgstr "Συνδυασμός για την εκκίνηση του εργαλείου αναζήτησης."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:259
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:576
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:76
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:259
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:576
 msgid "Stop playback"
 msgstr "Διακοπή αναπαραγωγής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:260
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:77
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:260
 msgid "Binding to stop playback."
 msgstr "Συνδυασμός για την παύση της αναπαραγωγής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:81
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:266
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:583
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:81
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:266
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:583
 msgid "Volume down"
 msgstr "Μείωση έντασης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:267
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:82
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:267
 msgid "Binding to lower the volume."
 msgstr "Συνδυασμός για την μείωση του ήχου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:271
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:588
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:86
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:271
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:588
 msgid "Volume mute/unmute"
 msgstr "Σίγαση/αναίρεση σίγασης έντασης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:272
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:87
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:272
 msgid "Binding to mute/unmute the volume."
 msgstr "Συνδυασμός για την σίγαση/αναίρεση σίγασης του ήχου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:276
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:593
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:91
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:276
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:593
 msgid "Volume up"
 msgstr "Αύξηση έντασης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:277
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:92
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:277
 msgid "Binding to raise the volume."
 msgstr "Συνδυασμός για την αύξηση της έντασης του ήχου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:317
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:628
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:96
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:317
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:628
 msgid "Microphone mute/unmute"
 msgstr "Σίγαση/αναίρεση σίγασης μικροφώνου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:318
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:97
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:318
 msgid "Binding to mute/unmute the microphone."
 msgstr "Συνδυασμός για σίγαση/αναίρεση σίγασης του μικροφώνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:322
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:101
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:322
 msgid "Take a screenshot"
 msgstr "Λήψη στιγμιότυπου οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:323
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:102
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:323
 msgid "Binding to take a screenshot."
 msgstr "Συνδιασμός πλήκτρων για τη λήψη ενός στιγμιότυπου οθόνης."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:327
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:106
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:327
 msgid "Take a screenshot of a window"
 msgstr "Λήψη στιγμιότυπου ενός παραθύρου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:107
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:328
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:107
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:328
 msgid "Binding to take a screenshot of a window."
 msgstr "Συνδιασμός πλήκτρων για τη λήψη στιγμιότυπου ενός παραθύρου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:111
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:332
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:111
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:332
 msgid "Take a screenshot of an area"
 msgstr "Λήψη στιγμιότυπου μίας περιοχής της οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:333
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:112
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:333
 msgid "Binding to take a screenshot of an area."
 msgstr "Συνδιασμός πλήκτρων για τη λήψη στιγμιότυπου μιας περιοχής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:337
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:116
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:337
 msgid "Copy a screenshot to clipboard"
 msgstr "Αντιγραφή στιγμιότυπου οθόνης στο πρόχειρο"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:117
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:338
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:117
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:338
 msgid "Binding to copy a screenshot to clipboard."
 msgstr ""
 "Συνδυασμός πλήκτρων για την αντιγραφή στιγμιότυπου οθόνης στο πρόχειρο."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:121
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:342
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:121
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:342
 msgid "Copy a screenshot of a window to clipboard"
 msgstr "Αντιγραφή στιγμιότυπου ενός παραθύρου στο πρόχειρο"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:343
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:122
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:343
 msgid "Binding to copy a screenshot of a window to clipboard."
 msgstr ""
 "Συνδυασμός πλήκτρων για την αντιγραφή στιγμιότυπου ενός παραθύρου στο "
 "πρόχειρο."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:347
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:126
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:347
 msgid "Copy a screenshot of an area to clipboard"
 msgstr "Αντιγραφή στιγμιότυπου μιας περιοχής στο πρόχειρο"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:348
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:127
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:348
 msgid "Binding to copy a screenshot of an area to clipboard."
 msgstr ""
 "Συνδυασμός πλήκτρων για την αντιγραφή στιγμιότυπου μιας περιοχής στο "
 "πρόχειρο."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:352
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:131
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:352
 msgid "Record a short video of the screen"
 msgstr "Εγγραφή σύντομου βίντεο της οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:353
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:132
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:353
 msgid "Binding to record a short video of the screen"
 msgstr "Συνδυασμός για την εγγραφή ενός σύντομου βίντεο της οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:357
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:633
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:136
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:357
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:633
 msgid "Launch web browser"
 msgstr "Εκκίνηση περιηγητή ιστοσελίδων"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:358
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:137
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:358
 msgid "Binding to launch the web browser."
 msgstr "Συνδυασμός για εκκίνηση περιηγητή ιστοσελίδων."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:387
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:141
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:387
 msgid "Toggle magnifier"
 msgstr "Εναλλαγή μεγεθυντή"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:388
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:142
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:388
 msgid "Binding to show the screen magnifier"
 msgstr "Συνδυασμός πλήκτρων για την εμφάνιση του μεγεθυντικού φακού οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:362
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:146
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:362
 msgid "Toggle screen reader"
 msgstr "Εναλλαγή αναγνώστη οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:363
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:147
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:363
 msgid "Binding to start the screen reader"
 msgstr "Συνδυασμός πλήκτρων για την εκκίνηση του αναγνώστη οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:367
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:151
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:367
 msgid "Toggle on-screen keyboard"
 msgstr "Εναλλαγή πληκτρολογίου οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:368
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:152
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:368
 msgid "Binding to show the on-screen keyboard"
 msgstr "Συνδυασμός πλήκτρων για την εμφάνιση του πληκτρολογίου οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:372
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:156
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:372
 msgid "Increase text size"
 msgstr "Μεγέθυνση κειμένου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:373
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:157
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:373
 msgid "Binding to increase the text size"
 msgstr "Συνδυασμός πλήκτρων για την μεγέθυνση κειμένου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:377
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:161
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:377
 msgid "Decrease text size"
 msgstr "Σμίκρυνση κειμένου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:378
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:162
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:378
 msgid "Binding to decrease the text size"
 msgstr "Συνδυασμός πλήκτρων για την σμίκρυνση κειμένου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:382
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:166
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:382
 msgid "Toggle contrast"
 msgstr "Εναλλαγή αντίθεσης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:383
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:167
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:383
 msgid "Binding to toggle the interface contrast"
 msgstr "Συνδυασμός πλήκτρων για την ενεργοποίησης διεπαφής αντίθεσης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:171
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:392
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:171
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:392
 msgid "Magnifier zoom in"
 msgstr "Μεγέθυνση μεγεθυντικού φακού"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:172
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:393
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:172
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:393
 msgid "Binding for the magnifier to zoom in"
 msgstr "Συνδυασμός πλήκτρων για τη μεγέθυνση του μεγεθυντικού φακού"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:176
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:397
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:639
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:176
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:397
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:639
 msgid "Magnifier zoom out"
 msgstr "Σμίκρυνση μεγεθυντικού φακού"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:177
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:398
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:177
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:398
 msgid "Binding for the magnifier to zoom out"
 msgstr "Συνδυασμός πλήκτρων για τη σμίκρυνση του μεγεθυντικού φακού"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:184
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:184
 msgid "Custom keybindings"
 msgstr "Προσαρμοσμένες συντομεύσεις πληκτρολογίου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:185
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:185
 msgid "List of custom keybindings"
 msgstr "Κατάλογος προσαρμοσμένων συντομεύσεων πληκτρολογίου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:282
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:282
 #, fuzzy
 #| msgid "Volume step"
 msgid "Size of volume step"
 msgstr "Βήμα ήχου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:283
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:283
 msgid "Size of the volume step for each volume change"
 msgstr ""
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:289
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:600
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:289
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:600
 #, fuzzy
 #| msgid "Quiet Volume Down"
 msgid "Quiet volume down"
 msgstr "Μείωση αθόρυβης έντασης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:290
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:290
 msgid "Binding to lower the volume without emitting a sound effect."
 msgstr "Συνδυασμός για μείωση της έντασης του ήχου χωρίς εκπομπή ηχητικού εφέ."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:294
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:605
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:294
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:605
 #, fuzzy
 #| msgid "Volume mute/unmute"
 msgid "Quiet volume mute/unmute"
 msgstr "Σίγαση/αναίρεση σίγασης έντασης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:295
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:295
 #, fuzzy
 #| msgid "Binding to mute/unmute the volume."
 msgid "Binding to mute/unmute the volume without emitting a sound effect."
 msgstr "Συνδυασμός για την σίγαση/αναίρεση σίγασης του ήχου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:299
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:610
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:299
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:610
 #, fuzzy
 #| msgid "Quiet Volume Up"
 msgid "Quiet volume up"
 msgstr "Αύξηση αθόρυβης έντασης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:300
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:300
 msgid "Binding to raise the volume without emitting a sound effect."
 msgstr "Συνδυασμός για την αύξηση της έντασης χωρίς εκπομπή ηχητικού εφέ."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:306
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:617
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:306
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:617
 msgid "Precise volume down"
 msgstr "Μείωση έντασης με ακρίβεια"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:307
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:307
 msgid "Binding to lower the volume with higher precision."
 msgstr "Συνδυασμός για μείωση της έντασης με μεγαλύτερη ακρίβεια."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:311
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:622
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:311
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:622
 msgid "Precise volume up"
 msgstr "Αύξηση έντασης με ακρίβεια"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:312
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:312
 msgid "Binding to raise the volume with higher precision."
 msgstr "Συνδυασμός για αύξηση της έντασης με μεγαλύτερη ακρίβεια."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:402
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:402
 msgid "Toggle touchpad on/off"
 msgstr "Εναλλαγή ενεργοποίησης/απενεργοποίησης πινακίδας αφής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:403
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:403
 msgid "Binding to toggle the touchpad on/off."
 msgstr "Συνδυασμός  για να ενεργοποιήσετε/απενεργοποιήσετε την πινακίδας αφής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:407
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:644
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:407
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:644
 msgid "Switch touchpad on"
 msgstr "Ενεργή πινακίδα αφής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:408
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:408
 msgid "Binding to switch the touchpad on."
 msgstr "Συνδυασμός για την ενεργοποίηση της πινακίδας αφής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:412
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:649
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:412
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:649
 msgid "Switch touchpad off"
 msgstr "Ανενεργή πινακίδα αφής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:413
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:413
 msgid "Binding to switch the touchpad off."
 msgstr "Συνδυασμός για την απενεργοποίηση της πινακίδας αφής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:418
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:655
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:418
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:655
 msgid "Skip backward in current track"
 msgstr ""
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:419
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:419
 #, fuzzy
 #| msgid "Binding to skip to next track."
 msgid "Binding to skip backward in current track."
 msgstr "Συνδυασμός για παράκαμψη σε επόμενο κομμάτι."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:423
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:660
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:423
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:660
 msgid "Skip forward in current track"
 msgstr ""
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:424
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:424
 #, fuzzy
 #| msgid "Binding to skip to next track."
 msgid "Binding to skip forward in current track."
 msgstr "Συνδυασμός για παράκαμψη σε επόμενο κομμάτι."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:428
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:665
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:428
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:665
 #, fuzzy
 #| msgid "Toggle Airplane Mode"
 msgid "Toggle repeat playback mode"
 msgstr "Εναλλαγή λειτουργίας αεροπλάνου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:429
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:429
 #, fuzzy
 #| msgid "Binding to launch the media player."
 msgid "Binding to toggle repeat mode in media player."
 msgstr "Συνδυασμός για την εκκίνηση του αναπαραγωγέα πολυμέσων."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:433
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:670
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:433
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:670
 msgid "Toggle random playback mode"
 msgstr "Εναλλαγή λειτουργίας τυχαίας αναπαραγωγής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:434
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:434
 #, fuzzy
 #| msgid "Binding to launch the media player."
 msgid "Binding to toggle random playback mode in media player."
 msgstr "Συνδυασμός για την εκκίνηση του αναπαραγωγέα πολυμέσων."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:439
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:676
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:439
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:676
 msgid "Toggle automatic screen orientation"
 msgstr "Εναλλαγή αυτόματου προσανατολισμού οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:440
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:440
 #, fuzzy
 #| msgid "Binding to take a screenshot."
 msgid "Binding to toggle automatic screen orientation."
 msgstr "Συνδιασμός πλήκτρων για τη λήψη ενός στιγμιότυπου οθόνης."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:444
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:681
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:444
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:681
 msgid "Power button"
 msgstr "Κουμπί ρεύματος"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:445
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:445
 msgid "Binding for power button."
 msgstr "Συνδυασμός για το κουμπί ρεύματος."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:449
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:686
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:449
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:686
 msgid "Hibernate button"
 msgstr "Κουμπί αδρανοποίησης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:450
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:450
 #, fuzzy
 #| msgid "Binding to mute/unmute the microphone."
 msgid "Binding to hibernate the machine."
 msgstr "Συνδυασμός για σίγαση/αναίρεση σίγασης του μικροφώνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:454
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:691
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:454
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:691
 msgid "Suspend button"
 msgstr "Κουμπί αναστολής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:455
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:455
 #, fuzzy
 #| msgid "Binding to launch the email client."
 msgid "Binding to suspend the machine."
 msgstr "Συνδυασμός για την εκκίνηση πελάτη αλληλογραφίας."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:460
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:697
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:460
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:697
 msgid "Screen brightness up"
 msgstr "Αύξηση φωτεινότητας οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:461
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:461
 #, fuzzy
 #| msgid "Binding to increase the text size"
 msgid "Binding to increase the screen brightness."
 msgstr "Συνδυασμός πλήκτρων για την μεγέθυνση κειμένου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:465
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:702
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:465
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:702
 msgid "Screen brightness down"
 msgstr "Μείωση φωτεινότητας οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:466
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:466
 #, fuzzy
 #| msgid "Binding to decrease the text size"
 msgid "Binding to decrease the screen brightness."
 msgstr "Συνδυασμός πλήκτρων για την σμίκρυνση κειμένου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:470
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:707
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:470
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:707
 msgid "Screen brightness cycle"
 msgstr ""
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:471
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:471
 #, fuzzy
 #| msgid "Binding to lock the screen."
 msgid "Binding to cycle the screen brightness."
 msgstr "Συνδυασμός για το κλείδωμα της οθόνης."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:476
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:713
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:476
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:713
 msgid "Keyboard brightness up"
 msgstr "Αύξηση φωτεινότητας πληκτρολογίου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:477
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:477
 msgid "Binding to increase the keyboard brightness."
 msgstr "Συνδυασμός για την αύξηση φωτεινότητας πληκτρολογίου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:481
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:718
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:481
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:718
 msgid "Keyboard brightness down"
 msgstr "Μείωση φωτεινότητας πληκτρολογίου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:482
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:482
 msgid "Binding to decrease the keyboard brightness."
 msgstr "Συνδυασμός για την μείωση φωτεινότητας πληκτρολογίου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:486
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:723
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:486
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:723
 msgid "Keyboard brightness toggle"
 msgstr "Εναλλαγή φωτεινότητας πληκτρολογίου"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:487
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:487
 msgid "Binding to toggle the keyboard brightness."
 msgstr "Συνδυασμός για την εναλλαγή φωτεινότητας πληκτρολογίου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:492
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:729
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:492
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:729
 msgid "Show battery status"
 msgstr "Εμφάνιση κατάστασης μπαταρίας"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:493
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:493
 msgid "Binding to show current battery status."
 msgstr "Συνδυασμός για την εμφάνιση τρέχουσας κατάστασης μπαταρίας."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:498
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:735
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:498
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:735
 #, fuzzy
 #| msgid "Rfkill"
 msgid "RF kill"
 msgstr "Rfkill"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:499
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:499
 msgid "Binding to toggle airplane mode."
 msgstr "Συνδυασμός για εναλλαγή λειτουργίας αεροπλάνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:503
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:740
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:503
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:740
 #, fuzzy
 #| msgid "Bluetooth disabled"
 msgid "Bluetooth RF kill"
 msgstr "Το Bluetooth απενεργοποιήθηκε"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:504
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:504
 msgid "Binding to toggle bluetooth airplane mode."
 msgstr "Συνδυασμός για εναλλαγή bluetooth λειτουργίας αεροπλάνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:517
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:517
 msgid "Static binding to launch the calculator."
 msgstr "Στατικός συνδυασμός για εκκίνηση αριθμομηχανής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:522
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:522
 msgid "Static binding to launch GNOME Settings."
 msgstr "Στατικός συνδυασμός για την εκκίνηση Ρυθμίσεων GNOME."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:527
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:527
 msgid "Static binding to launch the email client."
 msgstr "Στατικός συνδυασμός για την εκκίνηση πελάτη αλληλογραφίας."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:532
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:532
 msgid "Static binding to eject an optical disc."
 msgstr "Στατικός συνδυασμός για αποβολή ενός οπτικού δίσκου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:537
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:537
 msgid "Static binding to open the Home folder."
 msgstr "Στατικός συνδυασμός για το άνοιγμα του προσωπικού φακέλου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:542
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:542
 msgid "Static binding to launch the media player."
 msgstr "Στατικός συνδυασμός για την εκκίνηση του αναπαραγωγέα πολυμέσων."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:547
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:547
 msgid "Static binding to skip to next track."
 msgstr "Στατικός συνδυασμός για παράκαμψη σε επόμενο κομμάτι."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:552
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:552
 msgid "Static binding to pause playback."
 msgstr "Στατικός συνδυασμός για την παύση αναπαραγωγής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:557
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:557
 msgid "Static binding to start playback (or toggle play/pause)."
 msgstr ""
 "Στατικός συνδυασμός για την εκκίνηση της αναπαραγωγής (ή εναλλαγή ανάμεσα σε "
 "αναπαραγωγή/παύση)."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:562
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:562
 msgid "Static binding to skip to previous track."
 msgstr "Στατικός συνδυασμός για παράκαμψη σε προηγούμενο κομμάτι."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:567
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:567
 msgid "Static binding to lock the screen."
 msgstr "Στατικός συνδυασμός για το κλείδωμα της οθόνης."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:572
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:572
 msgid "Static binding to launch the search tool."
 msgstr "Στατικός συνδυασμός για την εκκίνηση του εργαλείου αναζήτησης."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:577
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:577
 msgid "Static binding to stop playback."
 msgstr "Στατικός συνδυασμός για την παύση της αναπαραγωγής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:584
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:584
 msgid "Static binding to lower the volume."
 msgstr "Στατικός συνδυασμός για την μείωση του ήχου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:589
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:606
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:589
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:606
 msgid "Static binding to mute/unmute the volume."
 msgstr "Στατικός συνδυασμός για την σίγαση/αναίρεση σίγασης του ήχου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:594
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:594
 msgid "Static binding to raise the volume."
 msgstr "Στατικός συνδυασμός για την αύξηση της έντασης του ήχου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:601
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:601
 msgid "Static binding to lower the volume without emitting a sound effect."
 msgstr ""
 "Στατικός συνδυασμός για τη μείωση της έντασης χωρίς την εκπομπή ηχητικού εφέ."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:611
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:611
 msgid "Static binding to raise the volume without emitting a sound effect."
 msgstr ""
 "Στατικός συνδυασμός για την αύξηση της έντασης χωρίς την εκπομπή ηχητικού "
 "εφέ."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:618
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:618
 msgid "Static binding to lower the volume with higher precision."
 msgstr "Στατικός συνδυασμός για την μείωση του ήχου με υψηλή ακρίβεια."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:623
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:623
 msgid "Static binding to raise the volume with higher precision."
 msgstr ""
 "Στατικός συνδυασμός για την αύξηση της έντασης του ήχου με υψηλή ακρίβεια."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:629
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:629
 msgid "Static binding to mute/unmute the microphone."
 msgstr "Στατικός συνδυασμός  για σίγαση/αναίρεση σίγασης του μικροφώνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:634
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:634
 msgid "Static binding to launch the web browser."
 msgstr "Στατικός συνδυασμός  για εκκίνηση περιηγητή ιστοσελίδων."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:640
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:640
 msgid "Static binding to toggle the touchpad on/off."
 msgstr ""
 "Στατικός συνδυασμός για την ενεργοποίηση/απενεργοποίηση της πινακίδας αφής."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:645
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:645
 msgid "Static binding to switch the touchpad on."
 msgstr "Στατικός συνδυασμός για την ενεργοποίηση της πινακίδας αφής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:650
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:650
 msgid "Static binding to switch the touchpad off."
 msgstr "Στατικός συνδυασμός για την απενεργοποίηση της πινακίδας αφής"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:656
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:656
 msgid "Static binding to skip backward in current track."
 msgstr "Στατικός συνδυασμός για παράκαμψη σε προηγούμενο κομμάτι."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:661
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:661
 msgid "Static binding to skip forward in current track."
 msgstr "Στατικός συνδυασμός για παράκαμψη σε επόμενο κομμάτι."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:666
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:666
 #, fuzzy
 #| msgid "Binding to launch the media player."
 msgid "Static binding to toggle repeat mode in media player."
 msgstr "Συνδυασμός για την εκκίνηση του αναπαραγωγέα πολυμέσων."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:671
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:671
 #, fuzzy
 #| msgid "Binding to launch the media player."
 msgid "Static binding to toggle random playback mode in media player."
 msgstr "Συνδυασμός για την εκκίνηση του αναπαραγωγέα πολυμέσων."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:677
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:677
 msgid "Static binding to toggle automatic screen orientation."
 msgstr ""
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:682
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:682
 msgid "Static binding for power button."
 msgstr "Στατικός συνδυασμός για το κουμπί ρεύματος."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:687
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:687
 #, fuzzy
 #| msgid "Binding to mute/unmute the microphone."
 msgid "Static binding to hibernate the machine."
 msgstr "Συνδυασμός για σίγαση/αναίρεση σίγασης του μικροφώνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:692
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:692
 #, fuzzy
 #| msgid "Binding to mute/unmute the microphone."
 msgid "Static binding to suspend the machine."
 msgstr "Συνδυασμός για σίγαση/αναίρεση σίγασης του μικροφώνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:698
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:698
 msgid "Static binding to increase the screen brightness."
 msgstr "Στατικός συνδυασμός για την αύξηση της φωτεινότητας της οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:703
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:703
 msgid "Static binding to decrease the screen brightness."
 msgstr "Στατικός συνδυασμός για την μείωση της φωτεινότητας της οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:708
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:708
 #, fuzzy
 #| msgid "Binding to lock the screen."
 msgid "Static binding to cycle the screen brightness."
 msgstr "Συνδυασμός για το κλείδωμα της οθόνης."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:714
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:714
 msgid "Static binding to increase the keyboard brightness."
 msgstr "Στατικός συνδυασμός για την αύξηση της φωτεινότητας της πληκτρολογίου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:719
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:719
 msgid "Static binding to decrease the keyboard brightness."
 msgstr "Στατικός συνδυασμός για την μείωση της φωτεινότητας της πληκτρολογίου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:724
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:724
 msgid "Static binding to toggle the keyboard brightness."
 msgstr ""
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:730
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:730
 msgid "Static binding to show current battery status."
 msgstr ""
 "Στατικός συνδυασμός για την εμφάνιση της τρέχουσας κατάστασης της μπαταρίας."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:736
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:736
 msgid "Static binding to toggle airplane mode."
 msgstr "Στατικός συνδυασμός για την εναλλαγή σε λειτουργία αεροπλάνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:741
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:741
 msgid "Static binding to toggle bluetooth airplane mode."
 msgstr ""
 "Στατικός συνδυασμός για την εναλλαγή bluetooth σε λειτουργία αεροπλάνου."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:746
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:746
 msgid "Maximum length of screen recordings"
 msgstr "Μέγιστο μήκος εγγραφών οθόνης"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:747
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:747
 msgid ""
 "The maximum length of single screen cast recordings in seconds or 0 for "
 "unlimited"
@@ -1438,58 +1438,58 @@ msgstr ""
 "Το μέγιστο μήκος εγγραφών μίας απλής οθόνης σε δευτερόλεπτα ή 0 για "
 "απεριόριστο"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:754
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:754
 msgid "Name"
 msgstr "Όνομα"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:755
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:755
 msgid "Name of the custom binding"
 msgstr "Όνομα του συνδυασμού πλήκτρων"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:759
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:759
 msgid "Binding"
 msgstr "Συνδυασμός"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:760
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:760
 msgid "Binding for the custom binding"
 msgstr "Συνδυασμός πλήκτρων για τον προσαρμοσμένο συνδιασμό"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:764
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:764
 msgid "Command"
 msgstr "Εντολή"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:765
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:765
 msgid "Command to run when the binding is invoked"
 msgstr "Εντολή που θα εκτελεστεί όταν επικληθεί ο συνδυασμός"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:6
 msgid "The brightness of the screen when idle"
 msgstr "Η φωτεινότητα της οθόνης όταν είναι αδρανής"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:7
 msgid ""
 "This is the laptop panel screen brightness used when the session is idle."
 msgstr ""
 "Αυτή είναι η φωτεινότητα της οθόνης του φορητού υπολογιστή που "
 "χρησιμοποιείται όταν η συνεδρία είναι αδρανής."
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:11
 msgid "Dim the screen after a period of inactivity"
 msgstr "Απενεργοποίηση οθόνης μετά από μια περίοδο αδράνειας"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:12
 msgid "If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
 "Εάν η οθόνη πρέπει να απενεργοποιηθεί για εξοικονόμηση ενέργειας όταν ο "
 "υπολογιστής είναι αδρανής."
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:16
 msgid "Sleep timeout computer when on AC"
 msgstr ""
 "Λήξη χρόνου αναστολής υπολογιστή όταν είναι με τροφοδοσία εναλλασσόμενου "
 "ρεύματος"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:17
 msgid ""
 "The amount of time in seconds the computer on AC power needs to be inactive "
 "before it goes to sleep. A value of 0 means never."
@@ -1498,26 +1498,26 @@ msgstr ""
 "ρεύματος πρέπει να είναι ανενεργός πριν περάσει σε λειτουργία αναστολής. Μια "
 "τιμή 0 σημαίνει ποτέ."
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:21
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:31
 msgid "Whether to hibernate, suspend or do nothing when inactive"
 msgstr ""
 "Εάν πρόκειται να περάσει σε λειτουργία αδρανοποίησης, αναστολής ή να μην "
 "γίνει τίποτα όταν είστε ανενεργός"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:22
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:32
 msgid ""
 "The type of sleeping that should be performed when the computer is inactive."
 msgstr ""
 "Ο τύπος της αναστολής που πρέπει να εκτελεστεί όταν ο υπολογιστής είναι "
 "ανενεργός."
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:26
 msgid "Sleep timeout computer when on battery"
 msgstr "Λήξη χρόνου αναστολής υπολογιστή όταν είναι με τροφοδοσία μπαταρίας"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:27
 msgid ""
 "The amount of time in seconds the computer on battery power needs to be "
 "inactive before it goes to sleep. A value of 0 means never."
@@ -1526,19 +1526,19 @@ msgstr ""
 "μπαταρία πρέπει να είναι ανενεργός πριν περάσει σε λειτουργία αναστολής. Μια "
 "τιμή 0 σημαίνει ποτέ."
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Enable the ALS sensor"
 msgstr "Ενεργοποίηση αισθηατήρα ALS"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:37
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:37
 msgid "If the ambient light sensor functionality is enabled."
 msgstr "Εάν είναι ενεργοποιημένη η λειτουργία αισθητήρα περιβάλλοντος φωτός."
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:41
 msgid "Power button action"
 msgstr "Ενέργεια του κουμπιού ρεύματος"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:42
 msgid ""
 "The action to take when the system power button is pressed. This action is "
 "hard-coded (and the setting ignored) on virtual machines (power off) and "
@@ -1548,11 +1548,11 @@ msgstr ""
 "συστήματος. Αυτή η ενέργεια είναι κωδικοποιημένη (και η ρύθμιση αγνοείται) "
 "σε εικονικές μηχανές (απενεργοποίηση) και tablets (αναστολή)."
 
-#: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in:6
 msgid "On which connections the service is enabled"
 msgstr "Σε ποιες συνδέσεις είναι ενεργοποιημένη η υπηρεσία"
 
-#: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in:7
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
@@ -1560,11 +1560,11 @@ msgstr ""
 "Η λίστα των συνδέσεων του NetworkManager (καθεμία αντιπροσωπεύεται με το "
 "UUID της) στις οποίες αυτή η υπηρεσία είναι ενεργοποιημένη και ξεκίνησε."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
 msgstr "Εξομάλυνση"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -1575,11 +1575,11 @@ msgstr ""
 "\"grayscale\" για κανονική κλίμακα του γκρι, και \"rgba\" για εξομάλυνση "
 "υποεικονοστοιχείων (μόνο για οθόνες LCD)."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
 msgstr "Εξομάλυνση"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:12
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -1606,11 +1606,11 @@ msgstr ""
 "γραμματοσειράς, τη μορφή της γραμματοσειράς και την κατάσταση των μηχανών "
 "γραμματοσειράς FreeType."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
 msgstr "Σειρά RGBA"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -1621,11 +1621,11 @@ msgstr ""
 "\"rgb\" για κόκκινο στα αριστερά (το πιο κοινό), \"bgr\" για γαλάζιο στα "
 "αριστερά, \"vrgb\" για κόκκινο στο άνω μέρος, \"vbgr\" για κόκκινο κάτω."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
 msgstr "Λίστα των ρητώς απενεργοποιημένων αρθρωμάτων GTK"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:22
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:22
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
@@ -1633,11 +1633,11 @@ msgstr ""
 "Μια λίστα συμβολοσειρών που αντιπροσωπεύουν τα αρθρώματα GTK+ που δεν θα "
 "φορτωθούν, ακόμη και αν είναι ενεργοποιημένες στις ρυθμίσεις τους."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
 msgstr "Κατάλογος ρητώς ενεργοποιημένων αρθρωμάτων GTK+"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
 "A list of strings representing the GTK+ modules that will be loaded, usually "
 "in addition to conditional and forcibly disabled ones."
@@ -1645,11 +1645,11 @@ msgstr ""
 "Μια λίστα συμβολοσειρών που αντιπροσωπεύουν τα αρθρώματα GTK+ που δεν θα "
 "φορτωθούν, συνήθως ως αντικαταστάτες των απενεργοποιημένων."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "A dictionary of XSETTINGS to override"
 msgstr "Ένα λεξικό XSETTINGS για να αντικατάσταση"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:32
 msgid ""
 "This dictionary maps XSETTINGS names to overrides values. The values must be "
 "either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
@@ -2299,11 +2299,11 @@ msgstr "Αυτόματη αδρανοποίηση"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:21
+#: plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in:21
 msgid "Modify the laptop brightness"
 msgstr "Τροποποιήστε τη φωτεινότητα του φορητού υπολογιστή"
 
-#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:22
+#: plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in:22
 msgid "Authentication is required to modify the laptop brightness"
 msgstr ""
 "Απαιτείται πιστοποίηση για την τροποποίηση της φωτεινότητας του φορητού "
@@ -2621,11 +2621,11 @@ msgstr ""
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:20
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:20
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Τροποποίηση του φωτισμού LED, για ένα tablet Wacom"
 
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr ""
 "Απαιτείται πιστοποίηση για την τροποποίηση του φωτισμού LED για ένα tablet "
@@ -2634,11 +2634,11 @@ msgstr ""
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:35
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:35
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Τροποποίηση της εικόνας OLED για ένα tablet Wacom"
 
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:36
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr ""
 "Απαιτείται πιστοποίηση για την τροποποίηση της εικόνας OLED για ένα tablet "

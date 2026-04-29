@@ -68,23 +68,23 @@
 #include "gvc-mixer-control.h"
 #include "gvc-mixer-sink.h"
 
-#define GSD_DBUS_PATH "/org/gnome/SettingsDaemon"
-#define GSD_DBUS_NAME "org.gnome.SettingsDaemon"
-#define GSD_DBUS_BASE_INTERFACE "org.gnome.SettingsDaemon"
+#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_MEDIA_KEYS_DBUS_PATH GSD_DBUS_PATH "/MediaKeys"
 #define GSD_MEDIA_KEYS_DBUS_NAME GSD_DBUS_NAME ".MediaKeys"
 
-#define GNOME_KEYRING_DBUS_NAME "org.gnome.keyring"
-#define GNOME_KEYRING_DBUS_PATH "/org/gnome/keyring/daemon"
-#define GNOME_KEYRING_DBUS_INTERFACE "org.gnome.keyring.Daemon"
+#define GNOME_KEYRING_DBUS_NAME "io.github.scarecrow.keyring"
+#define GNOME_KEYRING_DBUS_PATH "/io/github/scarecrow/keyring/daemon"
+#define GNOME_KEYRING_DBUS_INTERFACE "io.github.scarecrow.keyring.Daemon"
 
-#define SHELL_DBUS_NAME "org.gnome.Shell"
-#define SHELL_DBUS_PATH "/org/gnome/Shell"
+#define SHELL_DBUS_NAME "io.github.scarecrow.Shell"
+#define SHELL_DBUS_PATH "/io/github/scarecrow/Shell"
 
 #define CUSTOM_BINDING_SCHEMA SETTINGS_BINDING_DIR ".custom-keybinding"
 
-#define SETTINGS_SOUND_DIR "org.gnome.desktop.sound"
+#define SETTINGS_SOUND_DIR "io.github.scarecrow.desktop.sound"
 #define ALLOW_VOLUME_ABOVE_100_PERCENT_KEY "allow-volume-above-100-percent"
 
 #define SHELL_GRABBER_CALL_TIMEOUT G_MAXINT
@@ -95,8 +95,8 @@
 #define GSD_REENABLE_POWER_BUTTON_DELAY                 3000 /* ms */
 
 static const gchar introspection_xml[] =
-"<node name='/org/gnome/SettingsDaemon/MediaKeys'>"
-"  <interface name='org.gnome.SettingsDaemon.MediaKeys'>"
+"<node name='/io.github.scarecrow.SettingsDaemon/MediaKeys'>"
+"  <interface name='io.github.scarecrow.SettingsDaemon.MediaKeys'>"
 "    <annotation name='org.freedesktop.DBus.GLib.CSymbol' value='gsd_media_keys_manager'/>"
 "    <method name='GrabMediaPlayerKeys'>"
 "      <arg name='application' direction='in' type='s'/>"
@@ -112,10 +112,10 @@ static const gchar introspection_xml[] =
 "  </interface>"
 "</node>";
 
-#define SETTINGS_INTERFACE_DIR "org.gnome.desktop.interface"
-#define SETTINGS_POWER_DIR "org.gnome.settings-daemon.plugins.power"
-#define SETTINGS_XSETTINGS_DIR "org.gnome.settings-daemon.plugins.xsettings"
-#define SETTINGS_TOUCHPAD_DIR "org.gnome.desktop.peripherals.touchpad"
+#define SETTINGS_INTERFACE_DIR "io.github.scarecrow.desktop.interface"
+#define SETTINGS_POWER_DIR "io.github.scarecrow.settings-daemon.plugins.power"
+#define SETTINGS_XSETTINGS_DIR "io.github.scarecrow.settings-daemon.plugins.xsettings"
+#define SETTINGS_TOUCHPAD_DIR "io.github.scarecrow.desktop.peripherals.touchpad"
 #define TOUCHPAD_ENABLED_KEY "send-events"
 #define HIGH_CONTRAST "HighContrast"
 
@@ -127,9 +127,9 @@ static const gchar introspection_xml[] =
 #define SYSTEMD_DBUS_PATH                       "/org/freedesktop/login1"
 #define SYSTEMD_DBUS_INTERFACE                  "org.freedesktop.login1.Manager"
 
-#define AUDIO_SELECTION_DBUS_NAME               "org.gnome.Shell.AudioDeviceSelection"
-#define AUDIO_SELECTION_DBUS_PATH               "/org/gnome/Shell/AudioDeviceSelection"
-#define AUDIO_SELECTION_DBUS_INTERFACE          "org.gnome.Shell.AudioDeviceSelection"
+#define AUDIO_SELECTION_DBUS_NAME               "io.github.scarecrow.Shell.AudioDeviceSelection"
+#define AUDIO_SELECTION_DBUS_PATH               "/io/github/scarecrow/Shell/AudioDeviceSelection"
+#define AUDIO_SELECTION_DBUS_INTERFACE          "io.github.scarecrow.Shell.AudioDeviceSelection"
 
 #define GSD_MEDIA_KEYS_MANAGER_GET_PRIVATE(o) (gsd_media_keys_manager_get_instance_private (o))
 
@@ -1366,7 +1366,7 @@ play_volume_changed_audio (GsdMediaKeysManager *manager,
                 ca_context_set_driver (priv->ca, "pulse");
                 ca_context_change_props (priv->ca, 0,
                                          CA_PROP_APPLICATION_ID,
-                                         "org.gnome.VolumeControl",
+                                         "io.github.scarecrow.VolumeControl",
                                          NULL);
 
                 priv->gtksettings =
@@ -2046,7 +2046,7 @@ do_video_rotate_lock_action (GsdMediaKeysManager *manager,
                 return;
         }
 
-        settings = g_settings_new ("org.gnome.settings-daemon.peripherals.touchscreen");
+        settings = g_settings_new ("io.github.scarecrow.settings-daemon.peripherals.touchscreen");
         locked = !g_settings_get_boolean (settings, "orientation-lock");
         g_settings_set_boolean (settings, "orientation-lock", locked);
         g_object_unref (settings);
@@ -2061,7 +2061,7 @@ do_toggle_accessibility_key (const char *key)
         GSettings *settings;
         gboolean state;
 
-        settings = g_settings_new ("org.gnome.desktop.a11y.applications");
+        settings = g_settings_new ("io.github.scarecrow.desktop.a11y.applications");
         state = g_settings_get_boolean (settings, key);
         g_settings_set_boolean (settings, key, !state);
         g_object_unref (settings);
@@ -2135,7 +2135,7 @@ do_magnifier_zoom_action (GsdMediaKeysManager *manager,
 	else
 		offset = -1.0;
 
-	settings = g_settings_new ("org.gnome.desktop.a11y.magnifier");
+	settings = g_settings_new ("io.github.scarecrow.desktop.a11y.magnifier");
 	value = g_settings_get_double (settings, "mag-factor");
 	value += offset;
 	value = roundl (value);
@@ -2525,7 +2525,7 @@ do_rfkill_action (GsdMediaKeysManager *manager,
         g_dbus_proxy_call (priv->rfkill_proxy,
                            "org.freedesktop.DBus.Properties.Set",
                            g_variant_new ("(ssv)",
-                                          "org.gnome.SettingsDaemon.Rfkill",
+                                          "io.github.scarecrow.SettingsDaemon.Rfkill",
                                           data->property,
                                           g_variant_new_boolean (new_state)),
                            G_DBUS_CALL_FLAGS_NONE, -1,
@@ -2704,7 +2704,7 @@ do_action (GsdMediaKeysManager *manager,
                 do_media_action (manager, timestamp);
                 break;
         case CALCULATOR_KEY:
-                do_execute_desktop_or_desktop (manager, "org.gnome.Calculator.desktop", "gnome-calculator.desktop", timestamp);
+                do_execute_desktop_or_desktop (manager, "io.github.scarecrow.Calculator.desktop", "gnome-calculator.desktop", timestamp);
                 break;
         case CONTROL_CENTER_KEY:
                 do_execute_desktop_or_desktop (manager, "gnome-control-center.desktop", NULL, timestamp);
@@ -3142,9 +3142,9 @@ rfkill_appeared_cb (GDBusConnection *connection,
 
         g_dbus_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                                   0, NULL,
-                                  "org.gnome.SettingsDaemon.Rfkill",
-                                  "/org/gnome/SettingsDaemon/Rfkill",
-                                  "org.gnome.SettingsDaemon.Rfkill",
+                                  "io.github.scarecrow.SettingsDaemon.Rfkill",
+                                  "/io.github.scarecrow.SettingsDaemon/Rfkill",
+                                  "io.github.scarecrow.SettingsDaemon.Rfkill",
                                   priv->rfkill_cancellable,
                                   on_rfkill_proxy_ready, manager);
 }
@@ -3214,7 +3214,7 @@ start_media_keys_idle_cb (GsdMediaKeysManager *manager)
                                   on_screencast_proxy_ready, manager);
 
         priv->rfkill_watch_id = g_bus_watch_name (G_BUS_TYPE_SESSION,
-                                                  "org.gnome.SettingsDaemon.Rfkill",
+                                                  "io.github.scarecrow.SettingsDaemon.Rfkill",
                                                   G_BUS_NAME_WATCHER_FLAGS_NONE,
                                                   rfkill_appeared_cb,
                                                   NULL,
@@ -3318,10 +3318,10 @@ migrate_keybinding_settings (void)
                 { "magnifier-zoom-out",         "magnifier-zoom-out",           map_keybinding },
         };
 
-        gsd_settings_migrate_check ("org.gnome.settings-daemon.plugins.media-keys.deprecated",
-                                    "/org/gnome/settings-daemon/plugins/media-keys/",
-                                    "org.gnome.settings-daemon.plugins.media-keys",
-                                    "/org/gnome/settings-daemon/plugins/media-keys/",
+        gsd_settings_migrate_check ("io.github.scarecrow.settings-daemon.plugins.media-keys.deprecated",
+                                    "/io/github/scarecrow/settings-daemon/plugins/media-keys/",
+                                    "io.github.scarecrow.settings-daemon.plugins.media-keys",
+                                    "/io/github/scarecrow/settings-daemon/plugins/media-keys/",
                                     binding_entries, G_N_ELEMENTS (binding_entries));
 }
 
@@ -3851,7 +3851,7 @@ on_bus_gotten (GObject             *source_object,
                                            NULL);
 
         priv->mmkeys_name_id = g_bus_own_name_on_connection (priv->connection,
-                                                             "org.gnome.SettingsDaemon.MediaKeys",
+                                                             "io.github.scarecrow.SettingsDaemon.MediaKeys",
                                                              G_BUS_NAME_OWNER_FLAGS_NONE,
                                                              NULL, NULL, NULL, NULL);
 

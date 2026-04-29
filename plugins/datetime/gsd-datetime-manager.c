@@ -27,7 +27,7 @@
 #include "gsd-timezone-monitor.h"
 #include "gnome-settings-profile.h"
 
-#define DATETIME_SCHEMA "org.gnome.desktop.datetime"
+#define DATETIME_SCHEMA "io.github.scarecrow.desktop.datetime"
 #define AUTO_TIMEZONE_KEY "automatic-timezone"
 
 struct _GsdDatetimeManager

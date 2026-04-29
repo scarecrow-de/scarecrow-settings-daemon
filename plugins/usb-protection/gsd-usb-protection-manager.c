@@ -33,7 +33,7 @@
 #include "gsd-enums.h"
 #include "gsd-usb-protection-manager.h"
 
-#define PRIVACY_SETTINGS "org.gnome.desktop.privacy"
+#define PRIVACY_SETTINGS "io.github.scarecrow.desktop.privacy"
 #define USB_PROTECTION "usb-protection"
 #define USB_PROTECTION_LEVEL "usb-protection-level"
 
@@ -128,16 +128,16 @@ G_DEFINE_TYPE (GsdUsbProtectionManager, gsd_usb_protection_manager, G_TYPE_OBJEC
 
 static gpointer manager_object = NULL;
 
-#define GSD_DBUS_NAME "org.gnome.SettingsDaemon"
-#define GSD_DBUS_PATH "/org/gnome/SettingsDaemon"
-#define GSD_DBUS_BASE_INTERFACE "org.gnome.SettingsDaemon"
+#define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_USB_PROTECTION_DBUS_NAME GSD_DBUS_NAME ".UsbProtection"
 #define GSD_USB_PROTECTION_DBUS_PATH GSD_DBUS_PATH "/UsbProtection"
 
 static const gchar introspection_xml[] =
 "<node>"
-"  <interface name='org.gnome.SettingsDaemon.UsbProtection'>"
+"  <interface name='io.github.scarecrow.SettingsDaemon.UsbProtection'>"
 "    <property name='Available' type='b' access='read'/>"
 "  </interface>"
 "</node>";

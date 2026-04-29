@@ -1,4 +1,4 @@
-policy = 'org.gnome.settings-daemon.plugins.wacom.policy'
+policy = 'io.github.scarecrow.settings-daemon.plugins.wacom.policy'
 
 policy_in = configure_file(
   input: policy + '.in.in',

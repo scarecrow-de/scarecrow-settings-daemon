@@ -123,7 +123,7 @@ gsd_smartcard_utils_register_error_domain (GQuark error_domain,
 
                 dbus_error_string = dashed_string_to_dbus_error_string (error_domain_string,
                                                                         "gsd",
-                                                                        "org.gnome.SettingsDaemon",
+                                                                        "io.github.scarecrow.SettingsDaemon",
                                                                         enum_class->values[i].value_nick);
 
                 g_debug ("%s: Registering dbus error %s", type_name, dbus_error_string);

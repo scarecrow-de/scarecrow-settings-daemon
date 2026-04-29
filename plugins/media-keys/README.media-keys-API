@@ -10,9 +10,9 @@ The D-Bus API is described in gsd-media-keys-manager.c (look for
 introspection_xml), but a small explanation follows here.
 
 1. Create yourself a proxy object for the remote interface:
-Object path: /org/gnome/SettingsDaemon/MediaKeys
-D-Bus name: org.gnome.SettingsDaemon.MediaKeys
-Interface name: org.gnome.SettingsDaemon.MediaKeys
+Object path: /io.github.scarecrow.SettingsDaemon/MediaKeys
+D-Bus name: io.github.scarecrow.SettingsDaemon.MediaKeys
+Interface name: io.github.scarecrow.SettingsDaemon.MediaKeys
 
 2. Register your application with gnome-settings-daemon
 GrabMediaPlayerKeys ("my-application", 0)

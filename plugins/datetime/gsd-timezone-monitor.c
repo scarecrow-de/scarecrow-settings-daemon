@@ -465,7 +465,7 @@ gsd_timezone_monitor_init (GsdTimezoneMonitor *self)
 
         priv->current_timezone = timedate1_dup_timezone (priv->dtm);
 
-        priv->location_settings = g_settings_new ("org.gnome.system.location");
+        priv->location_settings = g_settings_new ("io.github.scarecrow.system.location");
         g_signal_connect_swapped (priv->location_settings, "changed::enabled",
                                   G_CALLBACK (check_location_settings), self);
         check_location_settings (self);

@@ -34,11 +34,11 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Poedit 2.0.1\n"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
 msgstr "Действие при удалении смарт-карты"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:2
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
 "get performed when the smartcard used for log in is removed."
@@ -46,55 +46,55 @@ msgstr ""
 "Установите значение «none», «lock-screen» или «force-logout». Действие будет "
 "выполнено при извлечении смарт-карты, используемой для входа в систему."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
 msgstr "Подсвечивает текущее положение указателя при нажатие клавиши Ctrl."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Double click time"
 msgstr "Время двойного щелчка"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:5
 msgid "Length of a double click in milliseconds."
 msgstr "Длительность двойного щелчка в миллисекундах."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:6
 msgid "Drag threshold"
 msgstr "Порог перетаскивания"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:7
 msgid "Distance before a drag is started."
 msgstr "Пороговое значение расстояния для начала перетаскивания."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr "Менять ли ориентацию планшета автоматически или нет."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 msgid "Wacom stylus absolute mode"
 msgstr "Абсолютный режим стилуса Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
 msgid "Enable this to set the tablet to absolute mode."
 msgstr "Включите, чтобы планшет работал в абсолютном режиме."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
 msgid "Wacom tablet area"
 msgstr "Область планшета Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
 msgstr ""
 "Установите точки области x1, y1 и x2, y2, в которой можно пользоваться "
 "инструментами."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom tablet aspect ratio"
 msgstr "Соотношение сторон планшета Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
@@ -102,11 +102,11 @@ msgstr ""
 "Включите, чтобы ограничить область планшета Wacom, чтобы она соответствовала "
 "соотношению сторон устройства вывода."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
 msgid "Wacom tablet rotation"
 msgstr "Вращение планшета Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
 "“ccw” for 90 degree counterclockwise."
@@ -114,83 +114,83 @@ msgstr ""
 "Установите в значение «none», «cw» (на 90 градусов по часовой стрелке), "
 "«half» (на 180 градусов), «ccw» (на 90 градусов против часовой стрелки)."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom touch feature"
 msgstr "Режим сенсора"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
 msgid "Enable this to move the cursor when the user touches the tablet."
 msgstr "Включите, чтобы только перемещать курсор при касании планшета."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom stylus pressure curve"
 msgstr "Кривая нажатия стилуса Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Установите точки x1, y1 и x2, y2 кривой силы нажатия; кривая применяется к "
 "стилусу."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom stylus button mapping"
 msgstr "Соответствие кнопок для стилуса Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Set this to the logical button mapping."
 msgstr "Установите значение для соответствия кнопок."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 msgid "Wacom stylus pressure threshold"
 msgstr "Порог нажатия стилуса Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
 msgstr ""
 "Установите значение силы нажатия, при котором создаётся событие нажатия "
 "стилуса."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom eraser pressure curve"
 msgstr "Кривая нажатия ластика Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Установите точки x1, y1 и x2, y2 кривой силы нажатия; кривая применяется к "
 "ластику."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
 msgid "Wacom eraser button mapping"
 msgstr "Соответствие кнопок для ластика Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
 msgid "Wacom eraser pressure threshold"
 msgstr "Порог нажатия ластика Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
 msgstr ""
 "Установите значение силы нажатия, при котором создаётся событие нажатия "
 "ластика."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
 msgid "Wacom button action type"
 msgstr "Тип действия клавиш Wacom"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
 msgid "The type of action triggered by the button being pressed."
 msgstr "Тип действия, переключаемый нажатием клавиши."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
 msgid "Key combination for the custom action"
 msgstr "Комбинация клавиш для пользовательского действия"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -198,13 +198,13 @@ msgstr ""
 "Комбинация клавиш для пользовательских действий, генерируемая при нажатии на "
 "клавишу."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr ""
 "Комбинации клавиш для выполнения пользовательских действий с сенсорными "
 "кольцами и сенсорными полосами"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
@@ -214,21 +214,21 @@ msgstr ""
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Button label for OLED display."
 msgstr "Подпись на кнопке для OLED-дисплея."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid "Label will be rendered to OLED display belonging to the button"
 msgstr ""
 "Текстовая метка будет отображаться на OLED-дисплее, который принадлежит "
 "кнопке"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:1
 msgid "The duration a display profile is valid"
 msgstr "Длительность корректности профиля монитора"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:2
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
@@ -236,11 +236,11 @@ msgstr ""
 "Количество дней, после которого цветовой профиль монитора считается "
 "некорректным."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:3
 msgid "The duration a printer profile is valid"
 msgstr "Длительность корректности профиля принтера"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:4
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
@@ -248,11 +248,11 @@ msgstr ""
 "Количество дней, после которого цветовой профиль принтера считается "
 "некорректным."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "If the night light mode is enabled"
 msgstr "Если включён режим ночной подсветки"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
 "Night light mode changes the color temperature of your display when the sun "
 "has gone down or at present times."
@@ -260,11 +260,11 @@ msgstr ""
 "Режим ночной подсветки изменяет цветовую температуру дисплея после заката "
 "солнца или в данный момент."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "Temperature of the display when enabled"
 msgstr "Цветовая температура дисплея когда включено"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:8
 msgid ""
 "This temperature in Kelvin is used to modify the screen tones when night "
 "light mode is enabled. Higher values are bluer, lower redder."
@@ -273,11 +273,11 @@ msgstr ""
 "включенном режиме ночной подсветки. Более высокие значения — больше синих "
 "тонов, более низкие - больше красных."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:9
 msgid "Use the sunrise and sunset"
 msgstr "Использовать время заката и восхода солнца"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:10
 msgid ""
 "Calculate the sunrise and sunset times automatically, from the current "
 "location."
@@ -285,11 +285,11 @@ msgstr ""
 "Вычислять время восхода и захода солнца автоматически, из текущего "
 "местоположения."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:11
 msgid "The start time"
 msgstr "Время запуска"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:12
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this start time in "
 "hours from midnight."
@@ -297,11 +297,11 @@ msgstr ""
 "Когда «night-light-schedule-automatic» отключено, используется время запуска "
 "в часах начиная с полуночи."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:13
 msgid "The end time"
 msgstr "Время завершения"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:14
 msgid ""
 "When “night-light-schedule-automatic” is disabled, use this end time in "
 "hours from midnight."
@@ -309,11 +309,11 @@ msgstr ""
 "Когда «night-light-schedule-automatic» отключено, используется время "
 "завершения в часах начиная с полуночи."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:15
 msgid "The last detected position"
 msgstr "Последнее обнаруженное расположение"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:16
 msgid ""
 "When location services are available this represents the last detected "
 "location. The default value is an invalid value to ensure it is always "
@@ -324,11 +324,11 @@ msgstr ""
 "недопустимое значение, чтобы гарантировать, что оно всегда обновляется при "
 "запуске."
 
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
 msgstr "Список модулей, которые могут быть загружены"
 
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:2
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
@@ -336,21 +336,21 @@ msgstr ""
 "Список строк, представляющих модули, которые разрешено загружать (по "
 "умолчанию: «all» (все»)). Это оценивается только при запуске."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
 msgid "Mount paths to ignore"
 msgstr "Игнорируемые точки монтирования"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr ""
 "Список точек монтирования, которые не будут отслеживаться на нехватку "
 "свободного места."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Free percentage notify threshold"
 msgstr "Пороговый процент свободного места для уведомления"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
@@ -359,11 +359,11 @@ msgstr ""
 "о нехватке свободного места. Если процент свободного места будет ниже этого "
 "значения, будет получено предупреждение."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Subsequent free space percentage notify threshold"
 msgstr "Пороговый процент свободного места для повторного уведомления"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
@@ -371,11 +371,11 @@ msgstr ""
 "Укажите процент свободного места, при превышении которого будет получено "
 "повторное предупреждение."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Free space notify threshold"
 msgstr "Пороговое значение свободного места для уведомления"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
@@ -383,11 +383,11 @@ msgstr ""
 "Укажите объём в ГБ. Если объём свободного места больше этого значения, будет "
 "получено предупреждение."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
 msgid "Minimum notify period for repeated warnings"
 msgstr "Минимальное время между повторяющимися предупреждениями"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
@@ -395,313 +395,313 @@ msgstr ""
 "Укажите время в минутах. Последующие предупреждения об объёме свободного "
 "места для раздела не будут отображаться чаще, чем один раз в этот период."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
 msgid "Custom keybindings"
 msgstr "Пользовательские комбинации клавиш"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
 msgid "List of custom keybindings"
 msgstr "Список комбинаций клавиш"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Launch calculator"
 msgstr "Запустить калькулятор"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
 msgid "Binding to launch the calculator."
 msgstr "Комбинация клавиш для запуска калькулятора."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
 msgid "Launch settings"
 msgstr "Запустить параметры"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
 msgid "Binding to launch GNOME settings."
 msgstr "Комбинация клавиш для запуска параметров GNOME."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
 msgid "Launch email client"
 msgstr "Запустить клиент электронной почты"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
 msgid "Binding to launch the email client."
 msgstr "Комбинация клавиш для запуска почтового клиента."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
 msgid "Eject"
 msgstr "Извлечь"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
 msgid "Binding to eject an optical disc."
 msgstr "Комбинация клавиш для извлечения оптического диска."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
 msgid "Launch help browser"
 msgstr "Запустить справочную систему"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
 msgid "Binding to launch the help browser."
 msgstr "Комбинация клавиш для запуска справочной системы."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
 msgid "Home folder"
 msgstr "Домашняя папка"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
 msgid "Binding to open the Home folder."
 msgstr "Комбинация клавиш для открытия домашней папки."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
 msgid "Launch media player"
 msgstr "Запустить мультимедийный проигрыватель"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
 msgid "Binding to launch the media player."
 msgstr "Комбинация клавиш для запуска мультимедийного проигрывателя."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
 msgid "Next track"
 msgstr "Следующая дорожка"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
 msgid "Binding to skip to next track."
 msgstr "Комбинация клавиш для перехода к следующей дорожке."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
 msgid "Pause playback"
 msgstr "Приостановить воспроизведение"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
 msgid "Binding to pause playback."
 msgstr "Комбинация клавиш для приостановки воспроизведения."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
 msgid "Play (or play/pause)"
 msgstr "Воспроизведение (или воспроизведение/приостановка)"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr ""
 "Комбинация клавиш для запуска воспроизведения (или переключения "
 "воспроизведение/приостановка)."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
 msgid "Log out"
 msgstr "Завершить сеанс"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
 msgid "Binding to log out."
 msgstr "Комбинация клавиш для завершения сеанса."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
 msgid "Previous track"
 msgstr "Предыдущая дорожка"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
 msgid "Binding to skip to previous track."
 msgstr "Комбинация клавиш для перехода к предыдущей дорожке."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
 msgid "Lock screen"
 msgstr "Заблокировать экран"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
 msgid "Binding to lock the screen."
 msgstr "Комбинация клавиш для блокирования экрана."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
 msgid "Search"
 msgstr "Поиск"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
 msgid "Binding to launch the search tool."
 msgstr "Комбинация клавиш для запуска инструмента поиска."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
 msgid "Stop playback"
 msgstr "Остановить воспроизведение"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
 msgid "Binding to stop playback."
 msgstr "Комбинация клавиш для остановки воспроизведения."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
 msgid "Volume down"
 msgstr "Уменьшить громкость"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
 msgid "Binding to lower the system volume."
 msgstr "Комбинация клавиш для уменьшения громкости."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
 msgid "Volume mute"
 msgstr "Выключить звук"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
 msgid "Binding to mute the system volume."
 msgstr "Комбинация клавиш для выключения звука."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
 msgid "Volume up"
 msgstr "Увеличить громкость"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
 msgid "Binding to raise the system volume."
 msgstr "Комбинация клавиш для увеличения громкости."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
 msgid "Take a screenshot"
 msgstr "Создать снимок экрана"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
 msgid "Binding to take a screenshot."
 msgstr "Комбинация клавиш для создания снимка экрана."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
 msgid "Take a screenshot of a window"
 msgstr "Сделать снимок окна"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
 msgid "Binding to take a screenshot of a window."
 msgstr "Комбинация клавиш для создания снимка окна."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
 msgid "Take a screenshot of an area"
 msgstr "Сделать снимок области"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
 msgid "Binding to take a screenshot of an area."
 msgstr "Комбинация клавиш для создания снимка области."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
 msgid "Copy a screenshot to clipboard"
 msgstr "Копировать снимок экрана в буфер обмена"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
 msgid "Binding to copy a screenshot to clipboard."
 msgstr "Комбинация клавиш для копирования снимка экрана в буфер обмена."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
 msgid "Copy a screenshot of a window to clipboard"
 msgstr "Копировать снимок окна в буфер обмена"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
 msgid "Binding to copy a screenshot of a window to clipboard."
 msgstr "Комбинация клавиш для копирования снимка окна в буфер обмена."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
 msgid "Copy a screenshot of an area to clipboard"
 msgstr "Копировать снимок области в буфер обмена"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
 msgid "Binding to copy a screenshot of an area to clipboard."
 msgstr "Комбинация клавиш для копирования снимка области в буфер обмена."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
 msgid "Record a short video of the screen"
 msgstr "Записать короткое видео экрана"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Launch web browser"
 msgstr "Запустить веб-браузер"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Binding to launch the web browser."
 msgstr "Комбинация клавиш для запуска веб-браузера."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
 msgid "Toggle magnifier"
 msgstr "Включить или выключить экранный увеличитель"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Binding to show the screen magnifier"
 msgstr "Комбинация клавиш для включения экранного увеличителя"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
 msgid "Toggle screen reader"
 msgstr "Включить или выключить чтение с экрана"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
 msgid "Binding to start the screen reader"
 msgstr "Комбинация клавиш для включения чтения с экрана"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
 msgid "Toggle on-screen keyboard"
 msgstr "Включить или выключить экранную клавиатуру"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
 msgid "Binding to show the on-screen keyboard"
 msgstr "Комбинация клавиш для включения экранной клавиатуры"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
 msgid "Increase text size"
 msgstr "Увеличить размер текста"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
 msgid "Binding to increase the text size"
 msgstr "Комбинация клавиш для увеличения размера текста"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
 msgid "Decrease text size"
 msgstr "Уменьшить размер текста"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
 msgid "Binding to decrease the text size"
 msgstr "Комбинация клавиш для уменьшения размера текста"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
 msgid "Toggle contrast"
 msgstr "Включить или выключить контрастность"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
 msgid "Binding to toggle the interface contrast"
 msgstr "Комбинация клавиш для включения контрастности"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
 msgid "Magnifier zoom in"
 msgstr "Приблизить увеличитель"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
 msgid "Binding for the magnifier to zoom in"
 msgstr "Комбинация клавиш для приближения экранного увеличителя"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
 msgid "Magnifier zoom out"
 msgstr "Отдалить увеличитель"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
 msgid "Binding for the magnifier to zoom out"
 msgstr "Комбинация клавиш для отдаления экранного увеличителя"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
 msgid "Name"
 msgstr "Название"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Name of the custom binding"
 msgstr "Название пользовательской комбинации клавиш"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid "Binding"
 msgstr "Комбинация клавиш"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Binding for the custom binding"
 msgstr "Комбинация клавиш для пользовательской комбинации клавиш"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
 msgid "Command"
 msgstr "Команда"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
 msgid "Command to run when the binding is invoked"
 msgstr "Команда, выполняемая при нажатии комбинации клавиш"
 
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
 msgid "On which connections the service is enabled"
 msgstr "Соединения, для которых включена служба"
 
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
@@ -709,11 +709,11 @@ msgstr ""
 "Список соединений NetworkManager (каждое соединение имеет уникальный UUID), "
 "для которых эта служба включена и запущена."
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
 msgid "File for default configuration for RandR"
 msgstr "Файл для настроек по умолчанию для RandR"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
 msgid ""
 "The XRandR plugin will look for a default configuration in the file "
 "specified by this key. This is similar to the ~/.config/monitors.xml that "
@@ -727,11 +727,11 @@ msgstr ""
 "файл не соответствует настройке мониторов пользователя, вместо него будет "
 "использоваться файл, определённый этим ключом."
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "Whether to turn off specific monitors after boot"
 msgstr "Выключать ли определённые мониторы после перезагрузки"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
 msgid ""
 "“clone” will display the same thing on all monitors, “dock” will switch off "
 "the internal monitor, “do-nothing” will use the default Xorg behaviour "
@@ -745,11 +745,11 @@ msgstr ""
 "«follow-lid» — выбор между «dock» и «do-nothing» в зависимости от того, "
 "открыта или закрыта (соответственно) крышка ноутбука."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
 msgid "Antialiasing"
 msgstr "Сглаживание"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -759,11 +759,11 @@ msgstr ""
 "«none» — без сглаживания; «grayscale» — стандартное чёрно-белое сглаживание; "
 "«rgba» — субпиксельное сглаживание (только для ЖК-экранов)."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Hinting"
 msgstr "Хинтинг"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: “none” "
 "for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
@@ -788,11 +788,11 @@ msgstr ""
 "рендерингу в зависимости от качества шрифта, его формата и состояния движка "
 "шрифтов FreeType."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "RGBA order"
 msgstr "Порядок RGBA"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -802,11 +802,11 @@ msgstr ""
 "сглаживания «rgba». Возможные значения: «rgb» (красный слева, наиболее "
 "часто), «bgr» (синий слева), «vrgb» (красный сверху), «vbgr» (красный снизу)."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "List of explicitly disabled GTK+ modules"
 msgstr "Список отключенных модулей GTK+"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
@@ -814,11 +814,11 @@ msgstr ""
 "Список модулей GTK+, которые не будут загружаться даже в том случае, если "
 "они включены по умолчанию в настройках."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "List of explicitly enabled GTK+ modules"
 msgstr "Список включенных модулей GTK+"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
 "A list of strings representing the GTK+ modules that will be loaded, usually "
 "in addition to conditional and forcibly disabled ones."
@@ -1580,11 +1580,11 @@ msgstr "Автоматический спящий режим"
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
 #.
-#: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
+#: ../plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "Изменить яркость экрана ноутбука"
 
-#: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:6
+#: ../plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in.h:6
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "Для изменения настройки яркости требуется аутентификация"
 
@@ -1836,11 +1836,11 @@ msgstr "Пользователь не авторизован с помощью �
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
 #.
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Изменение работы светодиода для планшета Wacom"
 
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:6
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr ""
 "Для изменения работы светодиода для планшета Wacom требуется аутентификация"
@@ -1849,11 +1849,11 @@ msgstr ""
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
 #.
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Изменить образ OLED для планшета Wacom"
 
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:12
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "Для изменения OLED-изображения планшета Wacom требуется аутентификация"
 

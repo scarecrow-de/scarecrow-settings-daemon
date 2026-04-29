@@ -374,7 +374,7 @@ gsd_color_calibrate_class_init (GsdColorCalibrateClass *klass)
 static void
 gsd_color_calibrate_init (GsdColorCalibrate *calibrate)
 {
-        calibrate->settings = g_settings_new ("org.gnome.settings-daemon.plugins.color");
+        calibrate->settings = g_settings_new ("io.github.scarecrow.settings-daemon.plugins.color");
         calibrate->client = cd_client_new ();
         g_signal_connect (calibrate->client, "device-added",
                           G_CALLBACK (gcm_session_device_added_notify_cb),

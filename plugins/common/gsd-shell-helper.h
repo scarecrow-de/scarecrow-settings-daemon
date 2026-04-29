@@ -20,7 +20,7 @@
 #ifndef __GSD_SHELL_HELPER_H__
 #define __GSD_SHELL_HELPER_H__
 
-#include "gsd-shell-glue.h"
+#include "scarecrow-gsd-shell-glue.h"
 
 G_BEGIN_DECLS
 

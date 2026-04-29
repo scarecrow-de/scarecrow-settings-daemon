@@ -515,11 +515,11 @@ msgstr ""
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:21
+#: plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in:21
 msgid "Modify the laptop brightness"
 msgstr ""
 
-#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:22
+#: plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in:22
 msgid "Authentication is required to modify the laptop brightness"
 msgstr ""
 
@@ -783,21 +783,21 @@ msgstr ""
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:20
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:20
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr ""
 
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr ""
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:35
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:35
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr ""
 
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:36
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr ""

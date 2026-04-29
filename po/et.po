@@ -30,11 +30,11 @@ msgstr ""
 "X-Generator: Poedit 2.1.1\n"
 "X-DamnedLies-Scope: partial\n"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:12
 msgid "Smartcard removal action"
 msgstr "Smartcardi eemaldamise tegevus"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:13
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:13
 msgid ""
 "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
 "get performed when the smartcard used for log in is removed."
@@ -43,7 +43,7 @@ msgstr ""
 "või „force-logout“ (väljalogimise sundimine). See tegevus käivitatakse "
 "sisselogimiseks kasutatud smartcardi eemaldamisel."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:52
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:52
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
@@ -51,40 +51,40 @@ msgstr ""
 "Näitab hiirekursori asukohta, kui Control klahv alla vajutatakse ning "
 "vabastatakse."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:56
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:56
 msgid "Double click time"
 msgstr "Topeltklõpsu kestus"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:57
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:57
 msgid "Length of a double click in milliseconds."
 msgstr "Topeltklõpsu kestus millisekundites."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:61
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:61
 msgid "Drag threshold"
 msgstr "Lohistamise lävi"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:62
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:62
 msgid "Distance before a drag is started."
 msgstr "Lohistamise alustamiseks vajalik vahemaa."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:68
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
 msgstr "Kas tahvelarvuti suund on lukus või pöördub automaatselt."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:76
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:76
 msgid "Mouse button orientation"
 msgstr "Hiireklahvi orientatsioon"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:86
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:148
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:86
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:148
 msgid "Motion Threshold"
 msgstr "Liikumise lävi"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:91
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:91
 msgid "Middle button emulation"
 msgstr "Keskmise nupu emulatsioon"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:92
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:92
 msgid ""
 "Enables middle mouse button emulation through simultaneous left and right "
 "button click."
@@ -92,27 +92,27 @@ msgstr ""
 "Keskmise nupu emulatsiooni lubamine samaaegsel vasaku ja parema nupu "
 "vajutamisel."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:101
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:101
 msgid "Key Repeat Interval"
 msgstr "Klahvikorduse intervall"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:102
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:102
 msgid "Delay between repeats in milliseconds."
 msgstr "Korduste viide millisekundites."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:106
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:106
 msgid "Initial Key Repeat Delay"
 msgstr "Esialgne klahvikorduse viide"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:107
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:107
 msgid "Initial key repeat delay in milliseconds."
 msgstr "Esialgne klahvikorduse viide millisekundites."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:113
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:113
 msgid "Disable touchpad while typing"
 msgstr "Puuteplaadi keelamine tippimise ajaks"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:114
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:114
 msgid ""
 "Set this to TRUE if you have problems with accidentally hitting the touchpad "
 "while typing."
@@ -120,11 +120,11 @@ msgstr ""
 "Märgi see väärtus juhul, kui sind segab, et sa tippimise ajal kogemata "
 "puuteplaati puudutad."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:118
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:118
 msgid "Enable horizontal scrolling"
 msgstr "Rõhtsa kerimise lubamine"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:119
 msgid ""
 "Set this to TRUE to allow horizontal scrolling by the same method selected "
 "with the scroll_method key."
@@ -132,11 +132,11 @@ msgstr ""
 "Kui märgitud, siis on rõhtne kerimine lubatud scroll_method võtmega määratud "
 "moel."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:123
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:123
 msgid "Select the touchpad scroll method"
 msgstr "Puuteplaadi kerimismeetodi valimine"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:124
 msgid ""
 "Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
 "scrolling”, “two-finger-scrolling”."
@@ -145,60 +145,60 @@ msgstr ""
 "„edge-scrolling“ (kerimine servalt) ja „two-finger-scrolling“ (kahe sõrmega "
 "kerimine)."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:128
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:128
 msgid "Enable mouse clicks with touchpad"
 msgstr "Hiireklõpsude lubamine puuteplaadilt"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:129
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:129
 msgid ""
 "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
 "Kui märgitud, siis tõlgendatakse puuteplaadil toksimist hiireklõpsudena."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:133
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:133
 msgid "Enable touchpad"
 msgstr "Puuteplaadi lubamine"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:134
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:134
 msgid "Set this to TRUE to enable all touchpads."
 msgstr "Kui märgitud, siis on kõik puuteplaadid lubatud."
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:138
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:138
 msgid "Touchpad button orientation"
 msgstr "Puuteplaadi nupu orientatsioon"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:153
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:153
 msgid "Natural scrolling"
 msgstr "Loomulik kerimine"
 
-#: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:154
+#: data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in:154
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
 "Kui märgitud, siis on loomulik (pööratud) kerimine puuteplaatidel lubatud."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:10
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:10
 msgid "Wacom stylus absolute mode"
 msgstr "Wacomi krihvli absoluutrežiim"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:11
 msgid "Enable this to set the tablet to absolute mode."
 msgstr "Märgi see, et määrata digitaallaud absoluutrežiimi."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:15
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:15
 msgid "Wacom tablet area"
 msgstr "Wacomi digitaallaua ala"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:16
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:16
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
 msgstr ""
 "Määra selle väärtuseks tööriistade kasutatava ala x1, y1 ja x2, y2 "
 "koordinaadid."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:20
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:20
 msgid "Wacom tablet aspect ratio"
 msgstr "Wacom digitaallaua külgede suhe"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:21
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:21
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
@@ -206,11 +206,11 @@ msgstr ""
 "Märgi see, et määrata Wacomi digitaallaua ala kattuma väljundseadme külgede "
 "suhtega."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:25
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:25
 msgid "Wacom tablet rotation"
 msgstr "Wacom digitaallaua pööramine"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:26
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:26
 msgid ""
 "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
 "“ccw” for 90 degree counterclockwise."
@@ -218,81 +218,81 @@ msgstr ""
 "Määra väärtuseks kas „none“, „cw“ (90 kraadi päripäeva), „half“ (180 kraadi) "
 "või „ccw“ (90 kraadi vastupäeva)."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:30
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:30
 msgid "Wacom touch feature"
 msgstr "Wacomi puutevõimalused"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:31
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:31
 msgid "Enable this to move the cursor when the user touches the tablet."
 msgstr ""
 "Märgi see, et kursor liiguks ainult siis, kui kasutaja puudutab "
 "digitaallauda."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom stylus pressure curve"
 msgstr "Wacomi krihvli tugevuskõver"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:38
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:38
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Määra selle väärtuseks krihvli tugevuskõvera x1, y1 ja x2, y2 koordinaadid."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:42
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:42
 msgid "Wacom stylus button mapping"
 msgstr "Wacomi krihvli nuppude paigutus"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:43
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:60
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:43
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:60
 msgid "Set this to the logical button mapping."
 msgstr "Selle määramine loogilisele nupupaigutusele."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:47
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:47
 msgid "Wacom stylus pressure threshold"
 msgstr "Wacomi krihvli tugevuse lävi"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:48
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:48
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
 msgstr "Vajutuse tugevuse määramine, mille juures krihvel teeb hiireklõpsu."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:54
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:54
 msgid "Wacom eraser pressure curve"
 msgstr "Wacomi kustukummi tugevuskõver"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:55
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:55
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Määra selle väärtuseks kustukummi tugevuskõvera x1, y1 ja x2, y2 "
 "koordinaadid."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:59
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:59
 msgid "Wacom eraser button mapping"
 msgstr "Wacomi kustukummi nuppude paigutus"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:64
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:64
 msgid "Wacom eraser pressure threshold"
 msgstr "Wacomi kustukummi tugevuse lävi"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:65
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:65
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
 msgstr "Vajutuse tugevuse määramine, mille juures kustukumm teeb hiireklõpsu."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:71
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:71
 msgid "Wacom button action type"
 msgstr "Wacomi nupu tegevuse liik"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:72
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:72
 msgid "The type of action triggered by the button being pressed."
 msgstr "Mis liiki tegevus käivitatakse nupu vajutamisel."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:76
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:76
 msgid "Key combination for the custom action"
 msgstr "Kohandatud seose klahviseos"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:77
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:77
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -300,11 +300,11 @@ msgstr ""
 "Klaviatuuri klahviseos, mis genereeritakse kohandatud tegevuse nupu "
 "vajutamisel."
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:81
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr "Klahviseosed puuteringi ja puuteriba kohandatud tegevuste jaoks"
 
-#: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
+#: data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in:82
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
@@ -312,35 +312,35 @@ msgstr ""
 "Klaviatuuri klahviseos, mis genereeritakse, kui puuteringi või puuteriba "
 "kasutatakse kohandatud tegevuste jaoks (üles, siis alla)."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:6
 msgid "The duration a display profile is valid"
 msgstr "Kui kaua monitori profiil kehtib"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:7
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
 msgstr "Nii mitme päeva pärast loetakse monitori profiil aegunuks."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:11
 msgid "The duration a printer profile is valid"
 msgstr "Kui kaua printeri profiil kehtib"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:12
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
 msgstr "Nii mitme päeva pärast loetakse printeri profiil aegunuks."
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:31
 msgid "The start time"
 msgstr "Käivitusaeg"
 
-#: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
+#: data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "The end time"
 msgstr "Lõpuaeg"
 
-#: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in:7
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: “all”). This is only evaluated on startup."
@@ -348,19 +348,19 @@ msgstr ""
 "Sõnede loend moodulitest, mille laadimist lubatakse (vaikimisi: „all“ ehk "
 "kõik). Seda hinnatakse ainult käivitusel."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:6
 msgid "Mount paths to ignore"
 msgstr "Eiratavad haakepunktid"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:7
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr "Määra haakepunktid, mille kettaruumi vähesust eiratakse."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:12
 msgid "Free percentage notify threshold"
 msgstr "Vaba kettaruumi protsendi teavituslävi"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:13
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:13
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
@@ -368,22 +368,22 @@ msgstr ""
 "Vaba kettaruumi lävi protsentides, mil kuvatakse esimene hoiatus. Kui vaba "
 "kettaruumi jääb määratud protsendist vähem, kuvatakse hoiatus."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:18
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:18
 msgid "Subsequent free space percentage notify threshold"
 msgstr "Vaba kettaruumi protsendi muutus enne kordushoiatust"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:19
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:19
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
 msgstr ""
 "Mitme protsendini peab vaba kettaruum enne kordushoiatuse näitamist kahanema."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:23
 msgid "Free space notify threshold"
 msgstr "Vaba kettaruumi teavituslävi"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:24
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:24
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
@@ -391,11 +391,11 @@ msgstr ""
 "Määra maht GB-des. Kui vaba ruumi on rohkem, kui see väärtus, ei näidata "
 "mingit hoiatust."
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Minimum notify period for repeated warnings"
 msgstr "Kordushoiatuste intervall"
 
-#: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:29
+#: data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in:29
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
@@ -403,327 +403,327 @@ msgstr ""
 "Määra aeg minutites. Kordushoiatused sama köite kohta ei ilmu tihedamini kui "
 "määratud vahemik."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:6
 msgid "Custom keybindings"
 msgstr "Kohandatud kiirklahvid"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:7
 msgid "List of custom keybindings"
 msgstr "Kohandatud kiirklahvide loend"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:11
 msgid "Launch calculator"
 msgstr "Kalkulaatori käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:12
 msgid "Binding to launch the calculator."
 msgstr "Klahviseos kalkulaatori käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:16
 msgid "Launch settings"
 msgstr "Käivituse sätted"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:17
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:17
 msgid "Binding to launch GNOME settings."
 msgstr "Klahviseos GNOME seadete käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:21
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:21
 msgid "Launch email client"
 msgstr "E-posti kliendi käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:22
 msgid "Binding to launch the email client."
 msgstr "Klahviseos e-posti kliendi käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:26
 msgid "Eject"
 msgstr "Sahtli lahtilükkamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:27
 msgid "Binding to eject an optical disc."
 msgstr "Klahviseos optilise ketta väljastamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:31
 msgid "Launch help browser"
 msgstr "Abiteabe sirvija käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:32
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:32
 msgid "Binding to launch the help browser."
 msgstr "Klahviseos abiteabe sirvija käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:36
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:36
 msgid "Home folder"
 msgstr "Kodukataloog"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:37
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:37
 msgid "Binding to open the Home folder."
 msgstr "Klahviseos kodukataloogi avamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:41
 msgid "Launch media player"
 msgstr "Meediaesitaja käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:42
 msgid "Binding to launch the media player."
 msgstr "Klahviseos meediaesitaja käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:46
 msgid "Next track"
 msgstr "Järgmisele loole hüppamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:47
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:47
 msgid "Binding to skip to next track."
 msgstr "Klahviseos järgmise loo peale hüppamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:51
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:51
 msgid "Pause playback"
 msgstr "Esitamise paus"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:52
 msgid "Binding to pause playback."
 msgstr "Klahviseos meediaesituse pausimiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:56
 msgid "Play (or play/pause)"
 msgstr "Esitamine (või esitamine/paus)"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:57
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:57
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr "Klahviseos esitamise alustamiseks (või esitamiseks/pausimiseks)"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:61
 msgid "Log out"
 msgstr "Väljalogimine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:62
 msgid "Binding to log out."
 msgstr "Klahviseos väljalogimiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:66
 msgid "Previous track"
 msgstr "Eelmisele loole hüppamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:67
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:67
 msgid "Binding to skip to previous track."
 msgstr "Klahviseos eelmise loo peale hüppamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:71
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:71
 msgid "Lock screen"
 msgstr "Ekraani lukustamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:72
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:72
 msgid "Binding to lock the screen."
 msgstr "Klahviseos ekraani lukustamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:76
 msgid "Search"
 msgstr "Otsing"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:77
 msgid "Binding to launch the search tool."
 msgstr "Klahviseos otsinguvahendi käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:81
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:81
 msgid "Stop playback"
 msgstr "Esitamise lõpetamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:82
 msgid "Binding to stop playback."
 msgstr "Klahviseos meediaesituse seiskamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:86
 msgid "Volume down"
 msgstr "Heli vaiksemaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to lower the volume."
 msgstr "Klahviseos helivaljuse vähendamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Volume mute/unmute"
 msgstr "Heli tummaks/kuuldavaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to mute/unmute the volume."
 msgstr "Klahviseos tummaks/kuuldavaks tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Volume up"
 msgstr "Heli valjemaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to raise the volume."
 msgstr "Klahviseos helivaljuse suurendamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Microphone mute/unmute"
 msgstr "Mikrofon tummaks/kuuldavaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to mute/unmute the microphone."
 msgstr "Klahviseos mikrofoni tummaks/kuuldavaks tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Take a screenshot"
 msgstr "Kuvatõmmise tegemine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:107
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:107
 msgid "Binding to take a screenshot."
 msgstr "Klahviseos kuvatõmmise tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:111
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:111
 msgid "Take a screenshot of a window"
 msgstr "Kuvatõmmise tegemine aknast"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:112
 msgid "Binding to take a screenshot of a window."
 msgstr "Klahviseos aknast kuvatõmmise tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:116
 msgid "Take a screenshot of an area"
 msgstr "Kuvatõmmise tegemine alast"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:117
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:117
 msgid "Binding to take a screenshot of an area."
 msgstr "Klahviseos alast kuvatõmmise tegemiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:121
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:121
 msgid "Copy a screenshot to clipboard"
 msgstr "Kuvatõmmise kopeerimine lõikepuhvrisse"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:122
 msgid "Binding to copy a screenshot to clipboard."
 msgstr "Klahviseos kuvatõmmise kopeerimiseks lõikepuhvrisse."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:126
 msgid "Copy a screenshot of a window to clipboard"
 msgstr "Akna kuvatõmmise kopeerimine lõikepuhvrisse"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:127
 msgid "Binding to copy a screenshot of a window to clipboard."
 msgstr "Klahviseos akna kuvatõmmise kopeerimiseks lõikepuhvrisse."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:131
 msgid "Copy a screenshot of an area to clipboard"
 msgstr "Ala kuvatõmmise kopeerimine lõikepuhvrisse"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:132
 msgid "Binding to copy a screenshot of an area to clipboard."
 msgstr "Klahviseos ala kuvatõmmise kopeerimiseks lõikepuhvrisse."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:136
 msgid "Record a short video of the screen"
 msgstr "Salvesta ekraanist lühike video"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:137
 msgid "Binding to record a short video of the screen"
 msgstr "Klahviseos ekraanist lühikese video salvestamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:141
 msgid "Launch web browser"
 msgstr "Veebisirvija käivitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:142
 msgid "Binding to launch the web browser."
 msgstr "Klahviseos veebisirvija käivitamiseks."
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:146
 msgid "Toggle magnifier"
 msgstr "Ekraaniluup sisse/välja"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:147
 msgid "Binding to show the screen magnifier"
 msgstr "Klahviseos ekraaniluubi näitamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:151
 msgid "Toggle screen reader"
 msgstr "Ekraanilugeja sisse/välja"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:152
 msgid "Binding to start the screen reader"
 msgstr "Klahviseos ekraanilugeja käivitamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:156
 msgid "Toggle on-screen keyboard"
 msgstr "Ekraaniklaviatuur sisse/välja"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:157
 msgid "Binding to show the on-screen keyboard"
 msgstr "Klahviseos ekraaniklaviatuuri näitamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:161
 msgid "Increase text size"
 msgstr "Teksti suurendamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:162
 msgid "Binding to increase the text size"
 msgstr "Klahviseos teksti suuruse suurendamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:166
 msgid "Decrease text size"
 msgstr "Teksti vähendamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:167
 msgid "Binding to decrease the text size"
 msgstr "Klahviseos teksti suuruse vähendamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:171
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:171
 msgid "Toggle contrast"
 msgstr "Kontrastsuse lülitamine"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:172
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:172
 msgid "Binding to toggle the interface contrast"
 msgstr "Klahviseos kasutajaliidese kontrastsuse lülitamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:176
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:176
 msgid "Magnifier zoom in"
 msgstr "Luubi suurendus suuremaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:177
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:177
 msgid "Binding for the magnifier to zoom in"
 msgstr "Klahviseos ekraaniluubi suurenduse suurendamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:181
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:181
 msgid "Magnifier zoom out"
 msgstr "Luubi suurendus väiksemaks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:182
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:182
 msgid "Binding for the magnifier to zoom out"
 msgstr "Klahviseos ekraaniluubi suurenduse vähendamiseks"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:194
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:194
 msgid "Name"
 msgstr "Nimi"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:195
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:195
 msgid "Name of the custom binding"
 msgstr "Kohandatud kiirklahvi nimi"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:199
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:199
 msgid "Binding"
 msgstr "Seos"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:200
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:200
 msgid "Binding for the custom binding"
 msgstr "Kohandatud seose klahviseos"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:204
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:204
 msgid "Command"
 msgstr "Käsk"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:205
+#: data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in:205
 msgid "Command to run when the binding is invoked"
 msgstr "Klahvikombinatsiooni vajutamisel käivitatav käsk"
 
-#: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
+#: data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in:41
 msgid "Power button action"
 msgstr "Toitenupu tegevus"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Antialiasing"
 msgstr "Sakisilumine"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:7
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
@@ -734,15 +734,15 @@ msgstr ""
 "halltoonides sakisilumiseks ja „rgba“ alampiksli sakisilumiseks (ainult LCD "
 "ekraanidel)."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Hinting"
 msgstr "Varjundamine"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "RGBA order"
 msgstr "RGBA järjestus"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:17
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
@@ -753,11 +753,11 @@ msgstr ""
 "- punane on vasakul (enimkasutatav), „bgr“ - sinine on vasakul, „vrgb“ - "
 "punane on üleval, „vbgr“ - punane on all."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "List of explicitly disabled GTK+ modules"
 msgstr "Loend selgesõnaliselt keelatud GTK+ moodulitest"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:22
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:22
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
@@ -765,11 +765,11 @@ msgstr ""
 "Sõnede loend GTK+ moodulitest, mida ei laadita, isegi kui need on "
 "seadistuses vaikimisi lubatud."
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "List of explicitly enabled GTK+ modules"
 msgstr "Loend selgesõnaliselt lubatud GTK+ moodulitest"
 
-#: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
+#: data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in:27
 msgid ""
 "A list of strings representing the GTK+ modules that will be loaded, usually "
 "in addition to conditional and forcibly disabled ones."
@@ -1408,11 +1408,11 @@ msgstr "Automaatne talveuni"
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
-#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:21
+#: plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in:21
 msgid "Modify the laptop brightness"
 msgstr "Sülearvuti ekraani heleduse muutmine"
 
-#: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:22
+#: plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in:22
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "Sülearvuti ekraani heleduse muutmiseks on vajalik autentimine"
 
@@ -1676,22 +1676,22 @@ msgstr "Kasutaja ei loginud smartcardiga sisse."
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:20
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:20
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Wacomi digitaallaua LED-tule muutmine"
 
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr "Wacomi digitaallaua LED-tule muutmiseks on vajalik autentimine"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:35
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:35
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Wacomi digitaallaua OLED pildi muutmine"
 
-#: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
+#: plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in:36
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "Wacomi digitaallaua OLED pildi muutmiseks on vajalik autentimine"
 

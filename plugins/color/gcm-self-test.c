@@ -87,7 +87,7 @@ gcm_test_night_light (void)
         gsd_night_light_set_smooth_enabled (nlight, FALSE);
 
         /* switch off */
-        settings = g_settings_new ("org.gnome.settings-daemon.plugins.color");
+        settings = g_settings_new ("io.github.scarecrow.settings-daemon.plugins.color");
         g_settings_set_boolean (settings, "night-light-enabled", FALSE);
         g_settings_set_uint (settings, "night-light-temperature", 4000);
 

@@ -23,29 +23,29 @@
 /* Test with:
  *    gdbus call \
  *        --session \
- *        --dest org.gnome.SettingsDaemon.Rfkill \
- *        --object-path /org/gnome/SettingsDaemon/Rfkill \
+ *        --dest io.github.scarecrow.SettingsDaemon.Rfkill \
+ *        --object-path /io.github.scarecrow.SettingsDaemon/Rfkill \
  *        --method org.freedesktop.DBus.Properties.Set \
- *        "org.gnome.SettingsDaemon.Rfkill" \
+ *        "io.github.scarecrow.SettingsDaemon.Rfkill" \
  *        "AirplaneMode" \
  *        "<true|false>"
  * and
  *    gdbus call \
  *        --session \
- *        --dest org.gnome.SettingsDaemon.Rfkill \
- *        --object-path /org/gnome/SettingsDaemon/Rfkill \
+ *        --dest io.github.scarecrow.SettingsDaemon.Rfkill \
+ *        --object-path /io.github.scarecrow.SettingsDaemon/Rfkill \
  *        --method org.freedesktop.DBus.Properties.Set \
- *        "org.gnome.SettingsDaemon.Rfkill" \
+ *        "io.github.scarecrow.SettingsDaemon.Rfkill" \
  *        "BluetoothAirplaneMode" \
  *        "<true|false>"
  *
  * and
  *    gdbus call \
  *        --session \
- *        --dest org.gnome.SettingsDaemon.Rfkill \
- *        --object-path /org/gnome/SettingsDaemon/Rfkill \
+ *        --dest io.github.scarecrow.SettingsDaemon.Rfkill \
+ *        --object-path /io.github.scarecrow.SettingsDaemon/Rfkill \
  *        --method org.freedesktop.DBus.Properties.Set \
- *        "org.gnome.SettingsDaemon.Rfkill" \
+ *        "io.github.scarecrow.SettingsDaemon.Rfkill" \
  *        "WwanAirplaneMode" \
  *        "<true|false>"
  */
@@ -93,16 +93,16 @@ struct _GsdRfkillManager
         gchar                   *chassis_type;
 };
 
-#define GSD_DBUS_NAME "org.gnome.SettingsDaemon"
-#define GSD_DBUS_PATH "/org/gnome/SettingsDaemon"
-#define GSD_DBUS_BASE_INTERFACE "org.gnome.SettingsDaemon"
+#define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_RFKILL_DBUS_NAME GSD_DBUS_NAME ".Rfkill"
 #define GSD_RFKILL_DBUS_PATH GSD_DBUS_PATH "/Rfkill"
 
 static const gchar introspection_xml[] =
 "<node>"
-"  <interface name='org.gnome.SettingsDaemon.Rfkill'>"
+"  <interface name='io.github.scarecrow.SettingsDaemon.Rfkill'>"
 "    <annotation name='org.freedesktop.DBus.GLib.CSymbol' value='gsd_rfkill_manager'/>"
 "    <property name='AirplaneMode' type='b' access='readwrite'/>"
 "    <property name='HardwareAirplaneMode' type='b' access='read'/>"

@@ -12,7 +12,7 @@
   <vendor_url>http://git.gnome.org/browse/gnome-settings-daemon</vendor_url>
   <icon_name>input-tablet</icon_name>
 
-  <action id="org.gnome.settings-daemon.plugins.wacom.wacom-led-helper">
+  <action id="io.github.scarecrow.settings-daemon.plugins.wacom.wacom-led-helper">
     <!-- SECURITY:
           - A normal active user on the local machine does not need permission
             to change the LED setting for a Wacom tablet
@@ -27,7 +27,7 @@
     <annotate key="org.freedesktop.policykit.exec.path">@libexecdir@/gsd-wacom-led-helper</annotate>
   </action>
 
-  <action id="org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper">
+  <action id="io.github.scarecrow.settings-daemon.plugins.wacom.wacom-oled-helper">
     <!-- SECURITY:
           - A normal active user on the local machine does not need permission
             to change the OLED images for a Wacom tablet

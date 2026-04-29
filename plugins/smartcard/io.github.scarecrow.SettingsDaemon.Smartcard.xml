@@ -23,11 +23,11 @@
 
 <node name="/" xmlns:doc="http://www.freedesktop.org/dbus/1.0/doc.dtd">
         <!--
-        org.gnome.SettingsDaemon.Smartcard.Manager:
+        io.github.scarecrow.SettingsDaemon.Smartcard.Manager:
 
         An interface used for managing smartcard functionality.
         -->
-        <interface name="org.gnome.SettingsDaemon.Smartcard.Manager">
+        <interface name="io.github.scarecrow.SettingsDaemon.Smartcard.Manager">
                 <method name="GetLoginToken">
                         <arg name="token" type="o" direction="out"/>
                 </method>
@@ -38,11 +38,11 @@
         </interface>
 
         <!--
-        org.gnome.SettingsDaemon.Smartcard.Driver:
+        io.github.scarecrow.SettingsDaemon.Smartcard.Driver:
 
         The smartcard driver interface.
         -->
-        <interface name="org.gnome.SettingsDaemon.Smartcard.Driver">
+        <interface name="io.github.scarecrow.SettingsDaemon.Smartcard.Driver">
                 <!--
                 Library:
                 Path to PKCS11 module
@@ -57,11 +57,11 @@
         </interface>
 
         <!--
-        org.gnome.SettingsDaemon.Smartcard.Token:
+        io.github.scarecrow.SettingsDaemon.Smartcard.Token:
 
         The smartcard interface.
         -->
-        <interface name="org.gnome.SettingsDaemon.Smartcard.Token">
+        <interface name="io.github.scarecrow.SettingsDaemon.Smartcard.Token">
                 <!--
                 Name:
                 Name of the token

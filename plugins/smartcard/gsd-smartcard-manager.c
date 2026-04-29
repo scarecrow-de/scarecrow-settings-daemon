@@ -56,7 +56,7 @@ struct _GsdSmartcardManager
         NSSInitContext *nss_context;
 };
 
-#define CONF_SCHEMA "org.gnome.settings-daemon.peripherals.smartcard"
+#define CONF_SCHEMA "io.github.scarecrow.settings-daemon.peripherals.smartcard"
 #define KEY_REMOVE_ACTION "removal-action"
 
 static void     gsd_smartcard_manager_class_init  (GsdSmartcardManagerClass *klass);

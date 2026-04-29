@@ -43,14 +43,14 @@
 
 #define DISK_SPACE_ANALYZER        "baobab"
 
-#define SETTINGS_HOUSEKEEPING_DIR     "org.gnome.settings-daemon.plugins.housekeeping"
+#define SETTINGS_HOUSEKEEPING_DIR     "io.github.scarecrow.settings-daemon.plugins.housekeeping"
 #define SETTINGS_FREE_PC_NOTIFY_KEY   "free-percent-notify"
 #define SETTINGS_FREE_PC_NOTIFY_AGAIN_KEY "free-percent-notify-again"
 #define SETTINGS_FREE_SIZE_NO_NOTIFY  "free-size-gb-no-notify"
 #define SETTINGS_MIN_NOTIFY_PERIOD    "min-notify-period"
 #define SETTINGS_IGNORE_PATHS         "ignore-paths"
 
-#define PRIVACY_SETTINGS              "org.gnome.desktop.privacy"
+#define PRIVACY_SETTINGS              "io.github.scarecrow.desktop.privacy"
 #define SETTINGS_PURGE_TRASH          "remove-old-trash-files"
 #define SETTINGS_PURGE_TEMP_FILES     "remove-old-temp-files"
 #define SETTINGS_PURGE_AFTER          "old-files-age"
@@ -630,7 +630,7 @@ ldsm_notify (const char *summary,
         notify_notification_set_hint (notification, "transient", g_variant_new_boolean (TRUE));
         notify_notification_set_urgency (notification, NOTIFY_URGENCY_CRITICAL);
         notify_notification_set_timeout (notification, NOTIFY_EXPIRES_DEFAULT);
-        notify_notification_set_hint_string (notification, "desktop-entry", "org.gnome.baobab");
+        notify_notification_set_hint_string (notification, "desktop-entry", "io.github.scarecrow.baobab");
 
         program = g_find_program_in_path (DISK_SPACE_ANALYZER);
         has_disk_analyzer = (program != NULL);

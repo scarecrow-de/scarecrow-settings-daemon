@@ -28,8 +28,8 @@
 #error Include PLUGIN_DBUS_NAME in the daemon s CFLAGS
 #endif /* !PLUGIN_DBUS_NAME */
 
-#define GNOME_SESSION_DBUS_NAME                     "org.gnome.SessionManager"
-#define GNOME_SESSION_CLIENT_PRIVATE_DBUS_INTERFACE "org.gnome.SessionManager.ClientPrivate"
+#define GNOME_SESSION_DBUS_NAME                     "io.github.scarecrow.SessionManager"
+#define GNOME_SESSION_CLIENT_PRIVATE_DBUS_INTERFACE "io.github.scarecrow.SessionManager.ClientPrivate"
 
 static MANAGER *manager = NULL;
 static int timeout = -1;

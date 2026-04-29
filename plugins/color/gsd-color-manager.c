@@ -31,9 +31,9 @@
 #include "gsd-color-state.h"
 #include "gsd-night-light.h"
 
-#define GSD_DBUS_NAME "org.gnome.SettingsDaemon"
-#define GSD_DBUS_PATH "/org/gnome/SettingsDaemon"
-#define GSD_DBUS_BASE_INTERFACE "org.gnome.SettingsDaemon"
+#define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_COLOR_DBUS_NAME                     GSD_DBUS_NAME ".Color"
 #define GSD_COLOR_DBUS_PATH                     GSD_DBUS_PATH "/Color"
@@ -41,7 +41,7 @@
 
 static const gchar introspection_xml[] =
 "<node>"
-"  <interface name='org.gnome.SettingsDaemon.Color'>"
+"  <interface name='io.github.scarecrow.SettingsDaemon.Color'>"
 "    <method name='NightLightPreview'>"
 "      <arg type='u' name='duration' direction='in'/>"
 "    </method>"

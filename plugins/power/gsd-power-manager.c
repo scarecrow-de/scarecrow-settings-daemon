@@ -49,9 +49,9 @@
 #include "gsd-enums.h"
 #include "gsd-power-manager.h"
 
-#define GSD_DBUS_NAME "org.gnome.SettingsDaemon"
-#define GSD_DBUS_PATH "/org/gnome/SettingsDaemon"
-#define GSD_DBUS_BASE_INTERFACE "org.gnome.SettingsDaemon"
+#define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define UPOWER_DBUS_NAME                        "org.freedesktop.UPower"
 #define UPOWER_DBUS_PATH                        "/org/freedesktop/UPower"
@@ -59,7 +59,7 @@
 #define UPOWER_DBUS_INTERFACE                   "org.freedesktop.UPower"
 #define UPOWER_DBUS_INTERFACE_KBDBACKLIGHT      "org.freedesktop.UPower.KbdBacklight"
 
-#define GSD_POWER_SETTINGS_SCHEMA               "org.gnome.settings-daemon.plugins.power"
+#define GSD_POWER_SETTINGS_SCHEMA               "io.github.scarecrow.settings-daemon.plugins.power"
 
 #define GSD_POWER_DBUS_NAME                     GSD_DBUS_NAME ".Power"
 #define GSD_POWER_DBUS_PATH                     GSD_DBUS_PATH "/Power"
@@ -89,7 +89,7 @@
 
 static const gchar introspection_xml[] =
 "<node>"
-"  <interface name='org.gnome.SettingsDaemon.Power.Screen'>"
+"  <interface name='io.github.scarecrow.SettingsDaemon.Power.Screen'>"
 "    <property name='Brightness' type='i' access='readwrite'/>"
 "    <method name='StepUp'>"
 "      <arg type='i' name='new_percentage' direction='out'/>"
@@ -104,7 +104,7 @@ static const gchar introspection_xml[] =
 "      <arg type='i' name='output_id' direction='out'/>"
 "    </method>"
 "  </interface>"
-"  <interface name='org.gnome.SettingsDaemon.Power.Keyboard'>"
+"  <interface name='io.github.scarecrow.SettingsDaemon.Power.Keyboard'>"
 "    <property name='Brightness' type='i' access='readwrite'/>"
 "    <method name='StepUp'>"
 "      <arg type='i' name='new_percentage' direction='out'/>"
@@ -2789,8 +2789,8 @@ gsd_power_manager_start (GsdPowerManager *manager,
                                    on_rr_screen_acquired, manager);
 
         manager->settings = g_settings_new (GSD_POWER_SETTINGS_SCHEMA);
-        manager->settings_screensaver = g_settings_new ("org.gnome.desktop.screensaver");
-        manager->settings_bus = g_settings_new ("org.gnome.desktop.session");
+        manager->settings_screensaver = g_settings_new ("io.github.scarecrow.desktop.screensaver");
+        manager->settings_bus = g_settings_new ("io.github.scarecrow.desktop.session");
 
         /* setup ambient light support */
         manager->iio_proxy_watch_id =

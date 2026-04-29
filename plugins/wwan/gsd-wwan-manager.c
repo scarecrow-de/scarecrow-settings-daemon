@@ -69,7 +69,7 @@ enum {
 };
 static GParamSpec *props[PROP_LAST_PROP];
 
-#define GSD_WWAN_SCHEMA_DIR "org.gnome.settings-daemon.plugins.wwan"
+#define GSD_WWAN_SCHEMA_DIR "io.github.scarecrow.settings-daemon.plugins.wwan"
 #define GSD_WWAN_SCHEMA_UNLOCK_SIM "unlock-sim"
 
 G_DEFINE_TYPE (GsdWwanManager, gsd_wwan_manager, G_TYPE_OBJECT)

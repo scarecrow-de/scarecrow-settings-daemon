@@ -59,16 +59,16 @@ struct _GsdSharingManager
         GsdSharingStatus         sharing_status;
 };
 
-#define GSD_DBUS_NAME "org.gnome.SettingsDaemon"
-#define GSD_DBUS_PATH "/org/gnome/SettingsDaemon"
-#define GSD_DBUS_BASE_INTERFACE "org.gnome.SettingsDaemon"
+#define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_SHARING_DBUS_NAME GSD_DBUS_NAME ".Sharing"
 #define GSD_SHARING_DBUS_PATH GSD_DBUS_PATH "/Sharing"
 
 static const gchar introspection_xml[] =
 "<node>"
-"  <interface name='org.gnome.SettingsDaemon.Sharing'>"
+"  <interface name='io.github.scarecrow.SettingsDaemon.Sharing'>"
 "    <annotation name='org.freedesktop.DBus.GLib.CSymbol' value='gsd_sharing_manager'/>"
 "    <property name='CurrentNetwork' type='s' access='read'/>"
 "    <property name='CurrentNetworkName' type='s' access='read'/>"
@@ -662,9 +662,9 @@ nm_client_ready (GObject      *source_object,
 
 #endif /* HAVE_NETWORK_MANAGER */
 
-#define RYGEL_BUS_NAME "org.gnome.Rygel1"
-#define RYGEL_OBJECT_PATH "/org/gnome/Rygel1"
-#define RYGEL_INTERFACE_NAME "org.gnome.Rygel1"
+#define RYGEL_BUS_NAME "io.github.scarecrow.Rygel1"
+#define RYGEL_OBJECT_PATH "/io/github/scarecrow/Rygel1"
+#define RYGEL_INTERFACE_NAME "io.github.scarecrow.Rygel1"
 
 static void
 gsd_sharing_manager_disable_rygel (void)
@@ -787,8 +787,8 @@ gsd_sharing_manager_init (GsdSharingManager *manager)
 
                 service = g_new0 (ServiceInfo, 1);
                 service->name = services[i];
-                path = g_strdup_printf ("/org/gnome/settings-daemon/plugins/sharing/%s/", services[i]);
-                service->settings = g_settings_new_with_path ("org.gnome.settings-daemon.plugins.sharing.service", path);
+                path = g_strdup_printf ("/io/github/scarecrow/settings-daemon/plugins/sharing/%s/", services[i]);
+                service->settings = g_settings_new_with_path ("io.github.scarecrow.settings-daemon.plugins.sharing.service", path);
                 g_free (path);
 
                 g_hash_table_insert (manager->services, (gpointer) services[i], service);

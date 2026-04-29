@@ -25,11 +25,11 @@ msgstr ""
 msgid "GNOME Settings Daemon"
 msgstr "Uslužni program za podešavanje Gnoma"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:1
 msgid "Smartcard removal action"
 msgstr "Radnja pru uklanjanju pametne kartice"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:2
 msgid ""
 "Set this to one of \"none\", \"lock-screen\", or \"force-logout\". The "
 "action will get performed when the smartcard used for log in is removed."
@@ -38,7 +38,7 @@ msgstr ""
 "„force_logout“ (primoraj odjavu). Radnja će biti izvršena kada pametna "
 "kartica korišćena za prijavljivanje bude uklonjena."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:3
 msgid ""
 "Highlights the current location of the pointer when the Control key is "
 "pressed and released."
@@ -46,31 +46,31 @@ msgstr ""
 "Ističe trenutnu poziciju pokazivača kada se pritisne ili otpusti Control "
 "taster."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:4
 msgid "Double click time"
 msgstr "Vrijeme dvostrukog klika"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:5
 msgid "Length of a double click in milliseconds."
 msgstr "Trajanje duplog klika u milisekundama."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:6
 msgid "Drag threshold"
 msgstr "Prag povlačenja"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:7
 msgid "Distance before a drag is started."
 msgstr "Rastojanje prije početka prevlačenja."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:8
 msgid "Whether the tablet's orientation is locked, or rotated automatically."
 msgstr "Da li je orijentacija tableta zaključana ili automatski rotirana."
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:9
 msgid "Device hotplug custom command"
 msgstr "Proizvoljna naredba za vruće priključivanje uređaja"
 
-#: ../data/org.gnome.settings-daemon.peripherals.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.gschema.xml.in.in.h:10
 msgid ""
 "Command to be run when a device is added or removed. An exit value of 1 "
 "means that the device will not be handled further by gnome-settings-daemon."
@@ -78,95 +78,95 @@ msgstr ""
 "Naredba koja će biti pokrenuta kada je dodat ili uklonjen uređaj. Izlazna "
 "vrijednost 1 znači da uređajem neće rukovati gnome-settings-daem."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.datetime.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.orientation.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:1
 msgid "Activation of this plugin"
 msgstr "Aktivacija ovog dodatka"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.datetime.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.orientation.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:2
 msgid "Whether this plugin would be activated by gnome-settings-daemon or not"
 msgstr ""
 "Da li će ovaj dodatak biti aktiviran pozadinskim programom podešavanja gnoma "
 "ili ne"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:5
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:13
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:3
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:5
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.datetime.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow.settings-daemon.plugins.orientation.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:7
 msgid "Priority to use for this plugin"
 msgstr "Prioritet koji će biti korišćen za ovaj dodatak"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.datetime.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:6
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:14
-#: ../data/org.gnome.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
-#: ../data/org.gnome.settings-daemon.plugins.orientation.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.power.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:4
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.datetime.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.plugins.keyboard.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow.settings-daemon.plugins.orientation.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.power.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.print-notifications.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:8
 msgid "Priority to use for this plugin in gnome-settings-daemon startup queue"
 msgstr ""
 "Prioritet koji će biti korišćen za ovaj dodatak u redu za pokretanje u "
 "pozadinskom programu podešavanja gnoma"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:5
 msgid "Wacom stylus absolute mode"
 msgstr "Apsolutni režim Vakom olovke"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:6
 msgid "Enable this to set the tablet to absolute mode."
 msgstr "Omogućite ovo da podesite tablicu za apsolutni režim."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:7
 msgid "Wacom tablet area"
 msgstr "Oblast Wacom tableta"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:8
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
 msgstr "Postavite ovo na x1, y1 i x2, y2 oblasti koju koriste alati."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:9
 msgid "Wacom tablet aspect ratio"
 msgstr "Odnos razmjere Wacom tableta"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:10
 msgid ""
 "Enable this to restrict the Wacom tablet area to match the aspect ratio of "
 "the output."
@@ -174,11 +174,11 @@ msgstr ""
 "Uključite ovo da ograničite oblast Wacom tableta da odgovara odnosu razmjere "
 "izlaza."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:11
 msgid "Wacom tablet rotation"
 msgstr "Rotacija Vakom tableta"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:12
 msgid ""
 "Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, and "
 "'ccw' for 90 degree counterclockwise."
@@ -187,94 +187,94 @@ msgstr ""
 "„half“ — za 180 stepeni i „ccw“ — za 90 stepeni u suprotnom smijeeru "
 "kazaljke na satu."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:13
 msgid "Wacom touch feature"
 msgstr "Funkcija Vakom dodira"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:14
 msgid "Enable this to move the cursor when the user touches the tablet."
 msgstr "Omogućite ovo za pomijeranje kursora kada korisnik dodiruje tablet."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:15
 msgid "Wacom last calibrated resolution"
 msgstr "Wacom posljednja kalibrirana rezolucija"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:16
 msgid ""
 "Holds the last calibrated resolution to help check if calibration is needed."
 msgstr ""
 "Sačuvati posljednju kalibriranu rezoluciju kako bi ste pomogli provjeriti da "
 "li je kalibracija potrebna."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:17
 msgid "Wacom stylus pressure curve"
 msgstr "Kriva pritiska Vakom olovke"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:18
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
 "Postavite ovo na x1, y1 i x2, y2 krive pritiska koja se primjenjuje na "
 "olovku."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:19
 msgid "Wacom stylus button mapping"
 msgstr "Mapiranje dugmeta Vakom olovke"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:20
 msgid "Set this to the logical button mapping."
 msgstr "Postavite ovo za mapiranje logičkog dugmeta."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:21
 msgid "Wacom stylus pressure threshold"
 msgstr "Prag pritiska Vakom olovke"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:22
 msgid ""
 "Set this to the pressure value at which a stylus click event is generated."
 msgstr ""
 "Postavite ovo na vrijednost pritiska pri kojoj će biti generisan događaj "
 "klika olovke."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:23
 msgid "Wacom eraser pressure curve"
 msgstr "Kriva pritiska Vakom brisača"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:24
 msgid ""
 "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
 msgstr ""
 "Postavite ovo na x1, y1 i x2, y2 krive pritiska koja se primjenjuje na "
 "brisač."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:25
 msgid "Wacom eraser button mapping"
 msgstr "Mapiranje dugmeta Vakom brisača"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:26
 msgid "Wacom eraser pressure threshold"
 msgstr "Prag pritiska Vakom brisača"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:27
 msgid ""
 "Set this to the pressure value at which an eraser click event is generated."
 msgstr ""
 "Postavite ovo na vrijednost pritiska pri kojoj će biti generisan događaj "
 "klika brisača."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:28
 msgid "Wacom button action type"
 msgstr "Vrsta radnje dugmeta Wacoma"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:29
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:29
 msgid "The type of action triggered by the button being pressed."
 msgstr "Vrsta radnje koju će izvršavati dugme koje je pritisnuto."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:30
 msgid "Key combination for the custom action"
 msgstr "Kombinacija tastera za proizvoljnu radnju"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:31
 msgid ""
 "The keyboard shortcut generated when the button is pressed for custom "
 "actions."
@@ -282,12 +282,12 @@ msgstr ""
 "Prečica tastature koja će biti prouzrokovana kada je pritisnuto dugme za "
 "proizvoljne radnje."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:32
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr ""
 "Kombinacije ključeva za proizvoljnu radnju dodirnog prstena ili dodirne trake"
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:33
 msgid ""
 "The keyboard shortcuts generated when a touchring or touchstrip is used for "
 "custom actions (up followed by down)."
@@ -297,39 +297,39 @@ msgstr ""
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:36
 msgid "Button label for OLED display."
 msgstr "Oznaka dugmeta za OLED zaslon."
 
-#: ../data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:37
 msgid "Label will be rendered to OLED display belonging to the button"
 msgstr "Oznaka će biti onešena na OLED zaslon koji pripada dugmetu"
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:5
 msgid "The duration a display profile is valid"
 msgstr "Dužina koliko je prikazni profil ispravan."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:6
 msgid ""
 "This is the number of days after which the display color profile is "
 "considered invalid."
 msgstr "Ovo je broj dana nakon koga se profil boja ekrana smatra nevažećim."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:7
 msgid "The duration a printer profile is valid"
 msgstr "Dužina koliko je  profil štampača ispravan."
 
-#: ../data/org.gnome.settings-daemon.plugins.color.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:8
 msgid ""
 "This is the number of days after which the printer color profile is "
 "considered invalid."
 msgstr "Ovo je broj dana nakon koga se profil boja štampača smatra nevažećim."
 
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:1
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:1
 msgid "List of plugins that are allowed to be loaded"
 msgstr "Spisak priključaka koji mogu biti učitani"
 
-#: ../data/org.gnome.settings-daemon.plugins.gschema.xml.in.in.h:2
+#: ../data/io.github.scarecrow.settings-daemon.plugins.gschema.xml.in.in.h:2
 msgid ""
 "A list of strings representing the plugins that are allowed to be loaded "
 "(default: 'all'). The plugins still need to be marked as active to get "
@@ -340,21 +340,21 @@ msgstr ""
 "biti označeni kao aktivni da bi bili učitani. Ovo se samo procjenjuje na "
 "početku."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:3
 msgid "Mount paths to ignore"
 msgstr "Putanje za montiranje koje treba zanemariti"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:4
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr ""
 "Izaberite spisak montiranih putanja koje treba zanemariti ako preostane malo "
 "slobodnog prostora."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:5
 msgid "Free percentage notify threshold"
 msgstr "Prag obavještenja o procentu slobodnog prostora"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:6
 msgid ""
 "Percentage free space threshold for initial warning of low disk space. If "
 "the percentage free space drops below this, a warning will be shown."
@@ -363,11 +363,11 @@ msgstr ""
 "slobodnog prostora na disku. Ukoliko procenat padne ispod ove vrijednosti, "
 "upozorenje će biti prikazano."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:7
 msgid "Subsequent free space percentage notify threshold"
 msgstr "Prag naknadnog obavještenja o procentu slobodnog prostora"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:8
 msgid ""
 "Specify the percentage that the free disk space should reduce by before "
 "issuing a subsequent warning."
@@ -375,11 +375,11 @@ msgstr ""
 "Odredite koliko procenta od slobodnog prostora treba popuniti prije nego što "
 "se ponovo ispiše upozorenje."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:9
 msgid "Free space notify threshold"
 msgstr "Prag obavještenja o slobodnom prostoru"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:10
 msgid ""
 "Specify an amount in GB. If the amount of free space is more than this, no "
 "warning will be shown."
@@ -387,11 +387,11 @@ msgstr ""
 "Odredite veličinu u gigabajtima. Upozorenja se neće prikazivati ukoliko je "
 "slobodan prostor veći od ove vrijednosti."
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:11
 msgid "Minimum notify period for repeated warnings"
 msgstr "Najmanji period obavještavanja za ponovljena upozorenja"
 
-#: ../data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml.in.in.h:12
 msgid ""
 "Specify a time in minutes. Subsequent warnings for a volume will not appear "
 "more often than this period."
@@ -399,311 +399,311 @@ msgstr ""
 "Odredite vrijeme u minutima. Upozorenja za disk se neće ponovo prikazati "
 "prije isteka ovog vremena."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:3
 msgid "Custom keybindings"
 msgstr "Proizvoljne prečice"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:4
 msgid "List of custom keybindings"
 msgstr "Spisak proizvoljnih prečica"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:5
 msgid "Launch calculator"
 msgstr "Pokretanje kalkulatora"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:6
 msgid "Binding to launch the calculator."
 msgstr "Vezujem za pokretanje kalkulatora."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:7
 msgid "Launch settings"
 msgstr "Podešavanja pokretanja"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:8
 msgid "Binding to launch GNOME settings."
 msgstr "Prečica za pokretanje podešavanja Gnoma."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:9
 msgid "Launch email client"
 msgstr "Pokretanje program za e-poštu"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:10
 msgid "Binding to launch the email client."
 msgstr "Vezujem za pokretanje programa za e-poštu."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:11
 msgid "Eject"
 msgstr "Izbaci"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:12
 msgid "Binding to eject an optical disc."
 msgstr "Vezujem za izbacivanje optičkog diska."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:13
 msgid "Launch help browser"
 msgstr "Pokreni preglednik pomoći"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:14
 msgid "Binding to launch the help browser."
 msgstr "Vezujem za pokretanje pregledača pomoći."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:15
 msgid "Home folder"
 msgstr "Početni direktorij"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:16
 msgid "Binding to open the Home folder."
 msgstr "Vezujem za otvaranje lične fascikle."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:17
 msgid "Launch media player"
 msgstr "Pokretanje programa za zvuk i filmove"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:18
 msgid "Binding to launch the media player."
 msgstr "Vezujem za pokretanje programa za zvuk i video."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:19
 msgid "Next track"
 msgstr "Puštanje narednog zvučnog zapisa"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:20
 msgid "Binding to skip to next track."
 msgstr "Vezujem za prelazak na narednu numeru."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:21
 msgid "Pause playback"
 msgstr "Pauziranje reprodukcije"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:22
 msgid "Binding to pause playback."
 msgstr "Vezujem za pauziranje muzike/filma."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:23
 msgid "Play (or play/pause)"
 msgstr "Sviraj (ili sviraj/pauza)"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:24
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr "Vezujem za puštanje muzike/filma (ili puštanje/pauzu)."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:25
 msgid "Log out"
 msgstr "Odjava"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:26
 msgid "Binding to log out."
 msgstr "Vezujem za odjavu sa sistema."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:27
 msgid "Previous track"
 msgstr "Puštanje prethodnog zvučnog zapisa"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:28
 msgid "Binding to skip to previous track."
 msgstr "Vezujem za prelazak na prethodnu numeru."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:31
 msgid "Lock screen"
 msgstr "Zaključaj ekran"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:32
 msgid "Binding to lock the screen."
 msgstr "Vezujem za zaključavanje ekrana."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:33
 msgid "Search"
 msgstr "Traži"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:34
 msgid "Binding to launch the search tool."
 msgstr "Vezujem za pokretanje programa za pretragu."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:35
 msgid "Stop playback"
 msgstr "Zaustavljanje reprodukcije zvuka"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:36
 msgid "Binding to stop playback."
 msgstr "Vezujem za zaustavljanje muzike/filma."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:37
 msgid "Volume down"
 msgstr "Smanji zvuk"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:38
 msgid "Binding to lower the system volume."
 msgstr "Vezujem za utišavanje zvuka."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:39
 msgid "Volume mute"
 msgstr "Uguši zvuk"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:40
 msgid "Binding to mute the system volume."
 msgstr "Vezujem za isključivanje zvuka."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:41
 msgid "Volume up"
 msgstr "Pojačaj zvuk"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:42
 msgid "Binding to raise the system volume."
 msgstr "Vezujem za pojačavanje zvuka."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:43
 msgid "Take a screenshot"
 msgstr "Napravi snimak ekrana"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:44
 msgid "Binding to take a screenshot."
 msgstr "Prečica za snimanje ekrana."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:45
 msgid "Take a screenshot of a window"
 msgstr "Uzmi sliku prozora"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:46
 msgid "Binding to take a screenshot of a window."
 msgstr "Prečica za snimanje prozora."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:47
 msgid "Take a screenshot of an area"
 msgstr "Napravi snimak oblasti"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:48
 msgid "Binding to take a screenshot of an area."
 msgstr "Prečica za snimanje oblasti."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:49
 msgid "Copy a screenshot to clipboard"
 msgstr "Kopiraj snimak u  odlagalište"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:50
 msgid "Binding to copy a screenshot to clipboard."
 msgstr "Prečica za umnožavanje snimka u odlagalište."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:51
 msgid "Copy a screenshot of a window to clipboard"
 msgstr "Kopiraj snimak prozora u  odlagalište"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:52
 msgid "Binding to copy a screenshot of a window to clipboard."
 msgstr "Prečica za umnožavanje snimka prozora u odlagalište."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:53
 msgid "Copy a screenshot of an area to clipboard"
 msgstr "Kopiraj snimak područja u  odlagalište"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:54
 msgid "Binding to copy a screenshot of an area to clipboard."
 msgstr "Prečica za umnožavanje snimka oblasti u odlagalište."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:55
 msgid "Record a short video of the screen"
 msgstr "Snimiti kratki video na ekran"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:56
 msgid "Launch web browser"
 msgstr "Pokreni web preglednik"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:57
 msgid "Binding to launch the web browser."
 msgstr "Vezujem za pokretanje internet preglednika."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:58
 msgid "Toggle magnifier"
 msgstr "Prikaz lupe"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:59
 msgid "Binding to show the screen magnifier"
 msgstr "Prečica za uključivanje lupe."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:60
 msgid "Toggle screen reader"
 msgstr "Prikaz čitača ekrana"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:61
 msgid "Binding to start the screen reader"
 msgstr "Prečica za uključivanje čitača ekrana."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:62
 msgid "Toggle on-screen keyboard"
 msgstr "Prikaz tastature na ekranu"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:63
 msgid "Binding to show the on-screen keyboard"
 msgstr "Prečica za prikazivanje tastature na ekranu."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:64
 msgid "Increase text size"
 msgstr "Povećaj veličinu teksta"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:65
 msgid "Binding to increase the text size"
 msgstr "Prečica za uvećavanje veličine teksta."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:66
 msgid "Decrease text size"
 msgstr "Smanji veličinu teksta"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:67
 msgid "Binding to decrease the text size"
 msgstr "Prečica za smanjivanje veličine teksta."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:68
 msgid "Toggle contrast"
 msgstr "Kontrast"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:69
 msgid "Binding to toggle the interface contrast"
 msgstr "Prečica za uključivanje kontrasta sučelja."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:70
 msgid "Magnifier zoom in"
 msgstr "Lupa bliže"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:71
 msgid "Binding for the magnifier to zoom in"
 msgstr "Prečica za uključivanje lupe."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:72
 msgid "Magnifier zoom out"
 msgstr "Lupa dalje"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:73
 msgid "Binding for the magnifier to zoom out"
 msgstr "Prečica za isključivanje lupe."
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:74
 msgid "Name"
 msgstr "Naziv"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:75
 msgid "Name of the custom binding"
 msgstr "Naziv vlastitog povezivanja"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:76
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:76
 msgid "Binding"
 msgstr "Povezivanje"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:77
 msgid "Binding for the custom binding"
 msgstr "Prečica vlastitog povezivanja"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:78
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:78
 msgid "Command"
 msgstr "Komanda"
 
-#: ../data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:79
+#: ../data/io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml.in.in.h:79
 msgid "Command to run when the binding is invoked"
 msgstr "Naredba koja će biti pokrenuta prilikom pozivanja prečice"
 
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:5
 msgid "On which connections the service is enabled"
 msgstr "Na kojim vezama je ukljčena usluga"
 
-#: ../data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml.in.in.h:6
 msgid ""
 "The list of NetworkManager connections (each one represented with its UUID) "
 "on which this service is enabled and started."
@@ -711,11 +711,11 @@ msgstr ""
 "Spisak veza Upravnika mreže (svaka predstavljena svojim UJIB-om) na kojima "
 "je ova usluga uključena i pokrenuta."
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:3
 msgid "File for default configuration for RandR"
 msgstr "Datoteka za podrazumijevana RandR podešavanja"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:4
 msgid ""
 "The XRandR plugin will look for a default configuration in the file "
 "specified by this key. This is similar to the ~/.config/monitors.xml that "
@@ -728,11 +728,11 @@ msgstr ""
 "ličnom direktorijumu korisnika. Datoteka iz ovog ključa se koristi ukoliko "
 "nema takve datoteke, ili se ona ne poklapa sa podešavanjima ekrana."
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:7
 msgid "Whether to turn off specific monitors after boot"
 msgstr "Da li će isključiti određene monitore nakon pokretanja sistema"
 
-#: ../data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xrandr.gschema.xml.in.in.h:8
 msgid ""
 "'clone' will display the same thing on all monitors, 'dock' will switch off "
 "the internal monitor, 'do-nothing' will use the default Xorg behaviour "
@@ -746,11 +746,11 @@ msgstr ""
 "izabrati između „do-nothing“ i „dock“ u zavisnosti od toga da li je lib "
 "otvoren ili zatvoren."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:3
 msgid "Antialiasing"
 msgstr "Umekšavanje ivica"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:4
 msgid ""
 "The type of antialiasing to use when rendering fonts. Possible values are: "
 "\"none\" for no antialiasing, \"grayscale\" for standard grayscale "
@@ -761,11 +761,11 @@ msgstr ""
 "umekšavanje u sivim tonovima i „rgba„ za dotjerivanje ispod piksela (samo za "
 "LCD ekrane)."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:5
 msgid "Hinting"
 msgstr "Dotjerivanje"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:6
 msgid ""
 "The type of hinting to use when rendering fonts. Possible values are: \"none"
 "\" for no hinting, \"slight\" for basic, \"medium\" for moderate, and \"full"
@@ -776,11 +776,11 @@ msgstr ""
 "„medium“ za srednji nivo dotjerivanja i „full“ za najveće dotjerivanje (može "
 "da napravi izobličenja u formama pisma)."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:9
 msgid "RGBA order"
 msgstr "Redoslijed RGBA"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:10
 msgid ""
 "The order of subpixel elements on an LCD screen; only used when antialiasing "
 "is set to \"rgba\". Possible values are: \"rgb\" for red on left (most "
@@ -792,11 +792,11 @@ msgstr ""
 "„rgb“ za crvenu slijeva (najkorišćenije), „bgr“ za zelenu slijeva, „vrgb“ za "
 "crvenu odozgo i „vbgr“ za crvenu odozdo."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:11
 msgid "List of explicitly disabled GTK+ modules"
 msgstr "Spisak izričito onemogućenih GTK+ modula"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:12
 msgid ""
 "A list of strings representing the GTK+ modules that will not be loaded, "
 "even if enabled by default in their configuration."
@@ -804,11 +804,11 @@ msgstr ""
 "Spisak niski koje predstavljaju GTK+ module koji neće biti učitani, čak i "
 "ako su normalno omogućeni u njihovim podešavanjima."
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:13
 msgid "List of explicitly enabled GTK+ modules"
 msgstr "Spisak izričito omogućenih GTK+ modula"
 
-#: ../data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
+#: ../data/io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml.in.in.h:14
 msgid ""
 "A list of strings representing the GTK+ modules that will be loaded, usually "
 "in addition to conditional and forcibly disabled ones."
@@ -1702,11 +1702,11 @@ msgstr "Automatska hibernacija"
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
 #.
-#: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:5
+#: ../plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in.h:5
 msgid "Modify the laptop brightness"
 msgstr "Promjena osvjetljenja laptopa"
 
-#: ../plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in.h:6
+#: ../plugins/power/io.github.scarecrow.settings-daemon.plugins.power.policy.in.in.h:6
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "Potvrda identiteta je potrebna za promjenu osvjetljenja laptopa"
 
@@ -2201,11 +2201,11 @@ msgstr "Izmijeni"
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
 #.
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:5
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:5
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Izmijeni lampicu LED za Wacom tablet"
 
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:6
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:6
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr "Potvrda je potrebna da izmijenite lampicu LED za Wacom tablet"
 
@@ -2213,11 +2213,11 @@ msgstr "Potvrda je potrebna da izmijenite lampicu LED za Wacom tablet"
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
 #.
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:11
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:11
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Modificiraj OLED sliku za Wacom bilježnik"
 
-#: ../plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in.h:12
+#: ../plugins/wacom/io.github.scarecrow.settings-daemon.plugins.wacom.policy.in.in.h:12
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr ""
 "Autentičnost je potrebna za modificiranje OLED slike za Wacom bilježnik"

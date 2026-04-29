@@ -87,14 +87,14 @@ foreach plugin: all_plugins
     plugin_name = plugin[0]
     plugin_name_case = plugin[1]
     plugin_description = plugin[2]
-    plugin_dbus_name='org.gnome.SettingsDaemon.@0@'.format(plugin_name_case)
+    plugin_dbus_name='io.github.scarecrow.SettingsDaemon.@0@'.format(plugin_name_case)
 
-    desktop = 'org.gnome.SettingsDaemon.@0@.desktop'.format(plugin[1])
+    desktop = 'io.github.scarecrow.SettingsDaemon.@0@.desktop'.format(plugin[1])
 
     if disabled_plugins.contains(plugin_name)
-        desktop_in_file = files('org.gnome.SettingsDaemon.Dummy.desktop.in')
+        desktop_in_file = files('io.github.scarecrow.SettingsDaemon.Dummy.desktop.in')
     else
-        desktop_in_file = files('org.gnome.SettingsDaemon.Real.desktop.in')
+        desktop_in_file = files('io.github.scarecrow.SettingsDaemon.Real.desktop.in')
     endif
 
     cflags = [
@@ -103,7 +103,7 @@ foreach plugin: all_plugins
         '-DPLUGIN_DBUS_NAME="@0@"'.format(plugin_dbus_name),
     ] + plugins_cflags
 
-    desktop = 'org.gnome.SettingsDaemon.@0@.desktop'.format(plugin[1])
+    desktop = 'io.github.scarecrow.SettingsDaemon.@0@.desktop'.format(plugin[1])
     desktop_conf = configuration_data()
     desktop_conf.set('libexecdir', gsd_libexecdir)
     desktop_conf.set('systemd_hidden', enable_systemd ? 'true' : 'false')
@@ -118,8 +118,8 @@ foreach plugin: all_plugins
     )
 
     if not disabled_plugins.contains(plugin_name)
-        user_target = 'org.gnome.SettingsDaemon.@0@.target'.format(plugin[1])
-        user_service = 'org.gnome.SettingsDaemon.@0@.service'.format(plugin[1])
+        user_target = 'io.github.scarecrow.SettingsDaemon.@0@.target'.format(plugin[1])
+        user_service = 'io.github.scarecrow.SettingsDaemon.@0@.service'.format(plugin[1])
 
         unit_conf = configuration_data()
         unit_conf.set('plugin_name', plugin_name)

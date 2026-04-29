@@ -84,8 +84,8 @@ class PowerPluginBase(gsdtestcase.GSDTestCase):
 
         # wait until the daemon is on the bus
         try:
-            self.wait_for_bus_object('org.gnome.SessionManager',
-                                     '/org/gnome/SessionManager')
+            self.wait_for_bus_object('io.github.scarecrow.SessionManager',
+                                     '/io/github/scarecrow/SessionManager')
         except:
             # on failure, print log
             with open(self.session_log_write.name) as f:
@@ -95,24 +95,24 @@ class PowerPluginBase(gsdtestcase.GSDTestCase):
         self.session_log = open(self.session_log_write.name, 'rb', buffering=0)
 
         self.obj_session_mgr = self.session_bus_con.get_object(
-            'org.gnome.SessionManager', '/org/gnome/SessionManager')
+            'io.github.scarecrow.SessionManager', '/io/github/scarecrow/SessionManager')
 
         self.start_mutter()
 
         # Set up the gnome-session presence
         obj_session_presence = self.session_bus_con.get_object(
-            'org.gnome.SessionManager', '/org/gnome/SessionManager/Presence')
+            'io.github.scarecrow.SessionManager', '/io/github/scarecrow/SessionManager/Presence')
         self.obj_session_presence_props = dbus.Interface(obj_session_presence, dbus.PROPERTIES_IFACE)
 
         # ensure that our tests don't lock the screen when the screensaver
         # gets active
-        self.settings_screensaver = Gio.Settings(schema_id='org.gnome.desktop.screensaver')
+        self.settings_screensaver = Gio.Settings(schema_id='io.github.scarecrow.desktop.screensaver')
         self.settings_screensaver['lock-enabled'] = False
 
         # Ensure we set up the external monitor state
         self.set_has_external_monitor(False)
 
-        self.settings_gsd_power = Gio.Settings(schema_id='org.gnome.settings-daemon.plugins.power')
+        self.settings_gsd_power = Gio.Settings(schema_id='io.github.scarecrow.settings-daemon.plugins.power')
 
         Gio.Settings.sync()
         self.plugin_log_write = open(os.path.join(self.workdir, 'plugin_power.log'), 'wb', buffering=0)
@@ -222,7 +222,7 @@ class PowerPluginBase(gsdtestcase.GSDTestCase):
             self.fail('gnome-session is not built with logind support')
 
     def get_status(self):
-        return self.obj_session_presence_props.Get('org.gnome.SessionManager.Presence', 'status')
+        return self.obj_session_presence_props.Get('io.github.scarecrow.SessionManager.Presence', 'status')
 
     def backlight_defaults(self):
         # Hack to modify the brightness defaults before starting gsd-power.
@@ -536,7 +536,7 @@ class PowerPluginTest1(PowerPluginBase):
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
             dbus.UInt32(gsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
-            dbus_interface='org.gnome.SessionManager')
+            dbus_interface='io.github.scarecrow.SessionManager')
 
         self.obj_screensaver.SetActive(True)
         self.assertTrue(self.obj_screensaver.GetActive(), 'screensaver not turned on')
@@ -561,7 +561,7 @@ class PowerPluginTest1(PowerPluginBase):
 
         # Drop inhibitor
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
-                dbus_interface='org.gnome.SessionManager')
+                dbus_interface='io.github.scarecrow.SessionManager')
 
 class PowerPluginTest2(PowerPluginBase):
     def test_screensaver_no_unblank(self):
@@ -581,13 +581,13 @@ class PowerPluginTest2(PowerPluginBase):
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
             dbus.UInt32(gsdpowerenums.GSM_INHIBITOR_FLAG_IDLE | gsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND | gsdpowerenums.GSM_INHIBITOR_FLAG_LOGOUT),
-            dbus_interface='org.gnome.SessionManager')
+            dbus_interface='io.github.scarecrow.SessionManager')
 
         self.check_no_unblank(2)
 
         # Drop inhibitor
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
-                dbus_interface='org.gnome.SessionManager')
+                dbus_interface='io.github.scarecrow.SessionManager')
 
         self.check_no_unblank(2)
 
@@ -687,7 +687,7 @@ class PowerPluginTest3(PowerPluginBase):
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
             dbus.UInt32(gsdpowerenums.GSM_INHIBITOR_FLAG_IDLE | gsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
-            dbus_interface='org.gnome.SessionManager')
+            dbus_interface='io.github.scarecrow.SessionManager')
         self.check_no_suspend(idle_delay + 2)
         self.check_no_dim(0)
 
@@ -695,7 +695,7 @@ class PowerPluginTest3(PowerPluginBase):
         self.assertEqual(self.get_status(), gsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
 
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
-                dbus_interface='org.gnome.SessionManager')
+                dbus_interface='io.github.scarecrow.SessionManager')
 
 class PowerPluginTest4(PowerPluginBase):
     def test_lock_on_lid_close(self):
@@ -707,7 +707,7 @@ class PowerPluginTest4(PowerPluginBase):
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
             dbus.UInt32(gsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
-            dbus_interface='org.gnome.SessionManager')
+            dbus_interface='io.github.scarecrow.SessionManager')
 
         time.sleep (gsdpowerconstants.LID_CLOSE_SAFETY_TIMEOUT)
 
@@ -722,7 +722,7 @@ class PowerPluginTest4(PowerPluginBase):
 
         # Drop the inhibit and see whether we suspend
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
-                dbus_interface='org.gnome.SessionManager')
+                dbus_interface='io.github.scarecrow.SessionManager')
         # At this point logind should suspend for us
         self.settings_screensaver['lock-enabled'] = False
 
@@ -733,7 +733,7 @@ class PowerPluginTest4(PowerPluginBase):
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
             dbus.UInt32(gsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
-            dbus_interface='org.gnome.SessionManager')
+            dbus_interface='io.github.scarecrow.SessionManager')
 
         time.sleep (gsdpowerconstants.LID_CLOSE_SAFETY_TIMEOUT)
 
@@ -746,7 +746,7 @@ class PowerPluginTest4(PowerPluginBase):
 
         # Drop the inhibit and see whether we suspend
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
-                dbus_interface='org.gnome.SessionManager')
+                dbus_interface='io.github.scarecrow.SessionManager')
         # At this point logind should suspend for us
 
     def test_unblank_on_lid_open(self):
@@ -756,7 +756,7 @@ class PowerPluginTest4(PowerPluginBase):
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
             dbus.UInt32(gsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
-            dbus_interface='org.gnome.SessionManager')
+            dbus_interface='io.github.scarecrow.SessionManager')
 
         time.sleep (gsdpowerconstants.LID_CLOSE_SAFETY_TIMEOUT)
 
@@ -776,7 +776,7 @@ class PowerPluginTest4(PowerPluginBase):
 
         # Drop the inhibit
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
-                dbus_interface='org.gnome.SessionManager')
+                dbus_interface='io.github.scarecrow.SessionManager')
 
 class PowerPluginTest5(PowerPluginBase):
     def test_dim(self):
@@ -1119,30 +1119,30 @@ class PowerPluginTest6(PowerPluginBase):
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
             dbus.UInt32(gsdpowerenums.GSM_INHIBITOR_FLAG_LOGOUT),
-            dbus_interface='org.gnome.SessionManager')
+            dbus_interface='io.github.scarecrow.SessionManager')
 
         self.check_no_logout(idle_delay + 3)
 
         # Drop inhibitor
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
-                dbus_interface='org.gnome.SessionManager')
+                dbus_interface='io.github.scarecrow.SessionManager')
 
 class PowerPluginTest7(PowerPluginBase):
     def test_check_missing_kbd_brightness(self):
         ''' https://bugzilla.gnome.org/show_bug.cgi?id=793512 '''
 
         obj_gsd_power_kbd = self.session_bus_con.get_object(
-            'org.gnome.SettingsDaemon.Power', '/org/gnome/SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
         obj_gsd_power_kbd_props = dbus.Interface(obj_gsd_power_kbd, dbus.PROPERTIES_IFACE)
 
         # Will return -1 if gsd-power crashed, and an exception if the code caught the problem
         with self.assertRaises(dbus.DBusException) as exc:
-            kbd_brightness = obj_gsd_power_kbd_props.Get('org.gnome.SettingsDaemon.Power.Keyboard', 'Brightness')
+            kbd_brightness = obj_gsd_power_kbd_props.Get('io.github.scarecrow.SettingsDaemon.Power.Keyboard', 'Brightness')
 
             # We should not have arrived here, if we did then the test failed, let's print this to help debugging
             print('Got keyboard brightness: {}'.format(kbd_brightness))
 
-        self.assertEqual(exc.exception.get_dbus_message(), 'Failed to get property Brightness on interface org.gnome.SettingsDaemon.Power.Keyboard')
+        self.assertEqual(exc.exception.get_dbus_message(), 'Failed to get property Brightness on interface io.github.scarecrow.SettingsDaemon.Power.Keyboard')
 
     def test_inhibitor_idletime(self):
         ''' https://bugzilla.gnome.org/show_bug.cgi?id=705942 '''
@@ -1157,7 +1157,7 @@ class PowerPluginTest7(PowerPluginBase):
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
             dbus.UInt32(gsdpowerenums.GSM_INHIBITOR_FLAG_IDLE),
-            dbus_interface='org.gnome.SessionManager')
+            dbus_interface='io.github.scarecrow.SessionManager')
         self.check_no_suspend(idle_delay + 2)
         self.check_no_dim(0)
 
@@ -1165,7 +1165,7 @@ class PowerPluginTest7(PowerPluginBase):
         self.assertEqual(self.get_status(), gsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
 
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
-                dbus_interface='org.gnome.SessionManager')
+                dbus_interface='io.github.scarecrow.SessionManager')
 
         self.check_no_suspend(2)
         self.check_no_dim(0)
@@ -1209,8 +1209,8 @@ class PowerPluginTest8(PowerPluginBase):
             self.skipTest("sysfs backlight support required for test")
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'org.gnome.SettingsDaemon.Power', '/org/gnome/SettingsDaemon/Power')
-        obj_gsd_power_screen_iface = dbus.Interface(obj_gsd_power, 'org.gnome.SettingsDaemon.Power.Screen')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
+        obj_gsd_power_screen_iface = dbus.Interface(obj_gsd_power, 'io.github.scarecrow.SettingsDaemon.Power.Screen')
 
         # Each of the step calls will only return when the value was written
         start = time.time()
@@ -1275,12 +1275,12 @@ class PowerPluginTest8(PowerPluginBase):
         # async dbus calls similar to the stepping code
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'org.gnome.SettingsDaemon.Power', '/org/gnome/SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
         obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
         # Quickly ramp the brightness up
         for brightness in range(70, 91):
-            obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', brightness)
+            obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', brightness)
 
         # The brightness of 80 should be in effect after slightly more than
         # 0.4 seconds. If compression does not work as expected, this would take
@@ -1293,10 +1293,10 @@ class PowerPluginTest8(PowerPluginBase):
             self.skipTest("sysfs backlight support required for test")
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'org.gnome.SettingsDaemon.Power', '/org/gnome/SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
         obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
-        brightness = obj_gsd_power_prop_iface.Get('org.gnome.SettingsDaemon.Power.Screen', 'Brightness')
+        brightness = obj_gsd_power_prop_iface.Get('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness')
         self.assertEqual(50, brightness)
 
         # Check that the brightness is updated if it was changed through some
@@ -1308,7 +1308,7 @@ class PowerPluginTest8(PowerPluginBase):
         self.check_plugin_log('GsdBacklight: Got uevent', 1, 'gsd-power did not process uevent')
         time.sleep(0.2)
 
-        brightness = obj_gsd_power_prop_iface.Get('org.gnome.SettingsDaemon.Power.Screen', 'Brightness')
+        brightness = obj_gsd_power_prop_iface.Get('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness')
         self.assertEqual(80, brightness)
 
     def test_brightness_step(self):
@@ -1334,34 +1334,34 @@ class PowerPluginTest8(PowerPluginBase):
             self.skipTest("sysfs backlight support required for test")
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'org.gnome.SettingsDaemon.Power', '/org/gnome/SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
         obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 0)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 0)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 0)
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 10)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 10)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 2)
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 20)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 20)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 3)
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 25)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 25)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 4)
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 49)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 49)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 7)
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 50)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 50)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 8)
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 56)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 56)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 8)
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 57)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 57)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 9)
-        obj_gsd_power_prop_iface.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 98)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 98)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 15)
 
@@ -1369,17 +1369,17 @@ class PowerPluginTest8(PowerPluginBase):
         '''Check that backlight brightness DBus api without a backlight'''
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'org.gnome.SettingsDaemon.Power', '/org/gnome/SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
         obj_gsd_power_props = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
-        obj_gsd_power_screen = dbus.Interface(obj_gsd_power, 'org.gnome.SettingsDaemon.Power.Screen')
+        obj_gsd_power_screen = dbus.Interface(obj_gsd_power, 'io.github.scarecrow.SettingsDaemon.Power.Screen')
 
         # We expect -1 to be returned
-        brightness = obj_gsd_power_props.Get('org.gnome.SettingsDaemon.Power.Screen', 'Brightness')
+        brightness = obj_gsd_power_props.Get('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness')
         self.assertEqual(brightness, -1)
 
         # Trying to set the brightness
         with self.assertRaises(dbus.DBusException) as exc:
-            obj_gsd_power_props.Set('org.gnome.SettingsDaemon.Power.Screen', 'Brightness', 1)
+            obj_gsd_power_props.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 1)
 
         self.assertEqual(exc.exception.get_dbus_message(), 'No usable backlight could be found!')
 

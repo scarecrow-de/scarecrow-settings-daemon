@@ -1,19 +1,19 @@
 data_inc = include_directories('.')
 
 schemas = [
-  'org.gnome.settings-daemon.peripherals.gschema.xml',
-  'org.gnome.settings-daemon.peripherals.wacom.gschema.xml',
-  'org.gnome.settings-daemon.plugins.gschema.xml',
-  'org.gnome.settings-daemon.plugins.color.gschema.xml',
-  'org.gnome.settings-daemon.plugins.housekeeping.gschema.xml',
-  'org.gnome.settings-daemon.plugins.media-keys.gschema.xml',
-  'org.gnome.settings-daemon.plugins.power.gschema.xml',
-  'org.gnome.settings-daemon.plugins.sharing.gschema.xml',
-  'org.gnome.settings-daemon.plugins.xsettings.gschema.xml'
+  'io.github.scarecrow.settings-daemon.peripherals.gschema.xml',
+  'io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml',
+  'io.github.scarecrow.settings-daemon.plugins.gschema.xml',
+  'io.github.scarecrow.settings-daemon.plugins.color.gschema.xml',
+  'io.github.scarecrow.settings-daemon.plugins.housekeeping.gschema.xml',
+  'io.github.scarecrow.settings-daemon.plugins.media-keys.gschema.xml',
+  'io.github.scarecrow.settings-daemon.plugins.power.gschema.xml',
+  'io.github.scarecrow.settings-daemon.plugins.sharing.gschema.xml',
+  'io.github.scarecrow.settings-daemon.plugins.xsettings.gschema.xml'
 ]
 
 if enable_wwan
-  schemas += 'org.gnome.settings-daemon.plugins.wwan.gschema.xml'
+  schemas += 'io.github.scarecrow.settings-daemon.plugins.wwan.gschema.xml'
 endif
 
 schema_conf = configuration_data()
@@ -33,11 +33,11 @@ endforeach
 enums_header = files('gsd-enums.h')
 
 mkenums = gnome.mkenums(
-  'org.gnome.settings-daemon.enums.xml',
+  'io.github.scarecrow.settings-daemon.enums.xml',
   sources: enums_header,
   comments: '<!-- @comment@ -->',
   fhead: '<schemalist>',
-  vhead: '  <@type@ id="org.gnome.settings-daemon.@EnumName@">',
+  vhead: '  <@type@ id="io.github.scarecrow.settings-daemon.@EnumName@">',
   vprod: '    <value nick="@valuenick@" value="@valuenum@"/>',
   vtail: '  </@type@>',
   ftail: '</schemalist>',

@@ -104,7 +104,7 @@ flush_cache (void)
 
         pa_proplist_sets (pl, PA_PROP_APPLICATION_NAME, PACKAGE_NAME);
         pa_proplist_sets (pl, PA_PROP_APPLICATION_VERSION, PACKAGE_VERSION);
-        pa_proplist_sets (pl, PA_PROP_APPLICATION_ID, "org.gnome.SettingsDaemon.Sound");
+        pa_proplist_sets (pl, PA_PROP_APPLICATION_ID, "io.github.scarecrow.SettingsDaemon.Sound");
 
         if (!(c = pa_context_new_with_proplist (pa_mainloop_get_api (ml), PACKAGE_NAME, pl))) {
                 g_debug ("Failed to allocate pa_context");
@@ -206,7 +206,7 @@ settings_changed_cb (GSettings       *settings,
 static void
 register_config_callback (GsdSoundManager *manager)
 {
-	manager->settings = g_settings_new ("org.gnome.desktop.sound");
+	manager->settings = g_settings_new ("io.github.scarecrow.desktop.sound");
 	g_signal_connect (G_OBJECT (manager->settings), "changed",
 			  G_CALLBACK (settings_changed_cb), manager);
 }

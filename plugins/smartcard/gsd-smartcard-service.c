@@ -21,7 +21,7 @@
 #include "config.h"
 
 #include "gsd-smartcard-service.h"
-#include "org.gnome.SettingsDaemon.Smartcard.h"
+#include "io.github.scarecrow.SettingsDaemon.Smartcard.h"
 #include "gsd-smartcard-manager.h"
 #include "gsd-smartcard-enum-types.h"
 #include "gsd-smartcard-utils.h"
@@ -44,9 +44,9 @@ struct _GsdSmartcardService
         guint name_id;
 };
 
-#define GSD_DBUS_NAME "org.gnome.SettingsDaemon"
-#define GSD_DBUS_PATH "/org/gnome/SettingsDaemon"
-#define GSD_DBUS_BASE_INTERFACE "org.gnome.SettingsDaemon"
+#define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_SMARTCARD_DBUS_NAME GSD_DBUS_NAME ".Smartcard"
 #define GSD_SMARTCARD_DBUS_PATH GSD_DBUS_PATH "/Smartcard"
