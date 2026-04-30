@@ -240,7 +240,7 @@ po_dir = join_paths(meson.source_root(), 'po')
 
 top_inc = include_directories('.')
 
-subdir('gnome-settings-daemon')
+subdir('scarecrow-settings-daemon')
 subdir('data')
 subdir('plugins')
 subdir('po')

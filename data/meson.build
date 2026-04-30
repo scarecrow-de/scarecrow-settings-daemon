@@ -51,7 +51,7 @@ install_data(
 )
 
 install_data(
-  'gnome-settings-daemon.convert',
+  'scarecrow-settings-daemon.convert',
   install_dir: join_paths(gsd_datadir, 'GConf', 'gsettings')
 )
 
