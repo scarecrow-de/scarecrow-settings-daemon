@@ -43,7 +43,6 @@ scarecrow-settings-daemon/gsd-shell-glue.c
 scarecrow-settings-daemon/gsd-shell-glue.h
 data/*.pc
 data/*.xml
-data/*.xml.in
 data/*.valid
 data/scarecrow-settings-daemon.desktop
 data/scarecrow-settings-daemon.desktop.in
