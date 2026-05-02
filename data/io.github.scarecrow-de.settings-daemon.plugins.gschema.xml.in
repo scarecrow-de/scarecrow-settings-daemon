@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins" path="/io.github.scarecrow-de.de/settings-daemon/plugins/">
+    <key name="whitelisted-plugins" type="as">
+      <default>['all']</default>
+      <summary>List of plugins that are allowed to be loaded</summary>
+      <description>
+        A list of strings representing the plugins that are allowed to be loaded (default: “all”).
+        This is only evaluated on startup.
+      </description>
+    </key>
+    <child name="color" schema="io.github.scarecrow-de.settings-daemon.plugins.color"/>
+    <child name="housekeeping" schema="io.github.scarecrow-de.settings-daemon.plugins.housekeeping"/>
+    <child name="media-keys" schema="io.github.scarecrow-de.settings-daemon.plugins.media-keys"/>
+    <child name="power" schema="io.github.scarecrow-de.settings-daemon.plugins.power"/>
+    <child name="xsettings" schema="io.github.scarecrow-de.settings-daemon.plugins.xsettings"/>
+  </schema>
+</schemalist>

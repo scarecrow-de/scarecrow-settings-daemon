@@ -55,11 +55,11 @@ static GDBusNodeInfo *pdi_introspection_data = NULL;
 #define DBUS_INSTALL_TIMEOUT 3600000
 
 #define GNOME_SESSION_DBUS_NAME                 "io.github.scarecrow.SessionManager"
-#define GNOME_SESSION_DBUS_PATH                 "/io/github/scarecrow/SessionManager"
+#define GNOME_SESSION_DBUS_PATH                 "/io/github/scarecrow-de/SessionManager"
 #define GNOME_SESSION_DBUS_IFACE                "io.github.scarecrow.SessionManager"
 #define GNOME_SESSION_CLIENT_PRIVATE_DBUS_IFACE "io.github.scarecrow.SessionManager.ClientPrivate"
 
-#define GNOME_SESSION_PRESENCE_DBUS_PATH  "/io/github/scarecrow/SessionManager/Presence"
+#define GNOME_SESSION_PRESENCE_DBUS_PATH  "/io/github/scarecrow-de/SessionManager/Presence"
 #define GNOME_SESSION_PRESENCE_DBUS_IFACE "io.github.scarecrow.SessionManager.Presence"
 
 #if (CUPS_VERSION_MAJOR > 1) || (CUPS_VERSION_MINOR > 5)

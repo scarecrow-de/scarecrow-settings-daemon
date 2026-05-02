@@ -85,7 +85,7 @@ class PowerPluginBase(gsdtestcase.GSDTestCase):
         # wait until the daemon is on the bus
         try:
             self.wait_for_bus_object('io.github.scarecrow.SessionManager',
-                                     '/io/github/scarecrow/SessionManager')
+                                     '/io/github/scarecrow-de/SessionManager')
         except:
             # on failure, print log
             with open(self.session_log_write.name) as f:
@@ -95,13 +95,13 @@ class PowerPluginBase(gsdtestcase.GSDTestCase):
         self.session_log = open(self.session_log_write.name, 'rb', buffering=0)
 
         self.obj_session_mgr = self.session_bus_con.get_object(
-            'io.github.scarecrow.SessionManager', '/io/github/scarecrow/SessionManager')
+            'io.github.scarecrow.SessionManager', '/io/github/scarecrow-de/SessionManager')
 
         self.start_mutter()
 
         # Set up the gnome-session presence
         obj_session_presence = self.session_bus_con.get_object(
-            'io.github.scarecrow.SessionManager', '/io/github/scarecrow/SessionManager/Presence')
+            'io.github.scarecrow.SessionManager', '/io/github/scarecrow-de/SessionManager/Presence')
         self.obj_session_presence_props = dbus.Interface(obj_session_presence, dbus.PROPERTIES_IFACE)
 
         # ensure that our tests don't lock the screen when the screensaver
@@ -1132,7 +1132,7 @@ class PowerPluginTest7(PowerPluginBase):
         ''' https://bugzilla.gnome.org/show_bug.cgi?id=793512 '''
 
         obj_gsd_power_kbd = self.session_bus_con.get_object(
-            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io/github/scarecrow-de/SettingsDaemon/Power')
         obj_gsd_power_kbd_props = dbus.Interface(obj_gsd_power_kbd, dbus.PROPERTIES_IFACE)
 
         # Will return -1 if gsd-power crashed, and an exception if the code caught the problem
@@ -1209,7 +1209,7 @@ class PowerPluginTest8(PowerPluginBase):
             self.skipTest("sysfs backlight support required for test")
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io/github/scarecrow-de/SettingsDaemon/Power')
         obj_gsd_power_screen_iface = dbus.Interface(obj_gsd_power, 'io.github.scarecrow.SettingsDaemon.Power.Screen')
 
         # Each of the step calls will only return when the value was written
@@ -1275,7 +1275,7 @@ class PowerPluginTest8(PowerPluginBase):
         # async dbus calls similar to the stepping code
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io/github/scarecrow-de/SettingsDaemon/Power')
         obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
         # Quickly ramp the brightness up
@@ -1293,7 +1293,7 @@ class PowerPluginTest8(PowerPluginBase):
             self.skipTest("sysfs backlight support required for test")
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io/github/scarecrow-de/SettingsDaemon/Power')
         obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
         brightness = obj_gsd_power_prop_iface.Get('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness')
@@ -1334,7 +1334,7 @@ class PowerPluginTest8(PowerPluginBase):
             self.skipTest("sysfs backlight support required for test")
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io/github/scarecrow-de/SettingsDaemon/Power')
         obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
         obj_gsd_power_prop_iface.Set('io.github.scarecrow.SettingsDaemon.Power.Screen', 'Brightness', 0)
@@ -1369,7 +1369,7 @@ class PowerPluginTest8(PowerPluginBase):
         '''Check that backlight brightness DBus api without a backlight'''
 
         obj_gsd_power = self.session_bus_con.get_object(
-            'io.github.scarecrow.SettingsDaemon.Power', '/io.github.scarecrow.SettingsDaemon/Power')
+            'io.github.scarecrow.SettingsDaemon.Power', '/io/github/scarecrow-de/SettingsDaemon/Power')
         obj_gsd_power_props = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
         obj_gsd_power_screen = dbus.Interface(obj_gsd_power, 'io.github.scarecrow.SettingsDaemon.Power.Screen')
 

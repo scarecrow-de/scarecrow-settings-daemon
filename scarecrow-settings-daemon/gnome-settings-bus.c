@@ -34,13 +34,13 @@
 #include "gnome-settings-bus.h"
 
 #define GNOME_SESSION_DBUS_NAME      "org.gnome.SessionManager"
-#define GNOME_SESSION_DBUS_OBJECT    "/org/gnome/SessionManager"
+#define GNOME_SESSION_DBUS_OBJECT    "/io/github/scarecrow-de/SessionManager"
 
 #define GNOME_SCREENSAVER_DBUS_NAME      "org.gnome.ScreenSaver"
-#define GNOME_SCREENSAVER_DBUS_OBJECT    "/org/gnome/ScreenSaver"
+#define GNOME_SCREENSAVER_DBUS_OBJECT    "/io/github/scarecrow-de/ScreenSaver"
 
 #define GNOME_SHELL_DBUS_NAME      "org.gnome.Shell"
-#define GNOME_SHELL_DBUS_OBJECT    "/org/gnome/Shell"
+#define GNOME_SHELL_DBUS_OBJECT    "/io/github/scarecrow-de/Shell"
 
 GsdSessionManager *
 gnome_settings_bus_get_session_proxy (void)

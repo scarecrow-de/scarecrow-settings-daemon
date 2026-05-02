@@ -60,7 +60,7 @@ struct _GsdSharingManager
 };
 
 #define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
-#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io/github/scarecrow-de/SettingsDaemon"
 #define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_SHARING_DBUS_NAME GSD_DBUS_NAME ".Sharing"
@@ -663,7 +663,7 @@ nm_client_ready (GObject      *source_object,
 #endif /* HAVE_NETWORK_MANAGER */
 
 #define RYGEL_BUS_NAME "io.github.scarecrow.Rygel1"
-#define RYGEL_OBJECT_PATH "/io/github/scarecrow/Rygel1"
+#define RYGEL_OBJECT_PATH "/io/github/scarecrow-de/Rygel1"
 #define RYGEL_INTERFACE_NAME "io.github.scarecrow.Rygel1"
 
 static void
@@ -787,7 +787,7 @@ gsd_sharing_manager_init (GsdSharingManager *manager)
 
                 service = g_new0 (ServiceInfo, 1);
                 service->name = services[i];
-                path = g_strdup_printf ("/io/github/scarecrow/settings-daemon/plugins/sharing/%s/", services[i]);
+                path = g_strdup_printf ("/io/github/scarecrow-de/settings-daemon/plugins/sharing/%s/", services[i]);
                 service->settings = g_settings_new_with_path ("io.github.scarecrow.settings-daemon.plugins.sharing.service", path);
                 g_free (path);
 

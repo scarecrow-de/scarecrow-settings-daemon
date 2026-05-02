@@ -24,7 +24,7 @@
  *    gdbus call \
  *        --session \
  *        --dest io.github.scarecrow.SettingsDaemon.Rfkill \
- *        --object-path /io.github.scarecrow.SettingsDaemon/Rfkill \
+ *        --object-path /io/github/scarecrow-de/SettingsDaemon/Rfkill \
  *        --method org.freedesktop.DBus.Properties.Set \
  *        "io.github.scarecrow.SettingsDaemon.Rfkill" \
  *        "AirplaneMode" \
@@ -33,7 +33,7 @@
  *    gdbus call \
  *        --session \
  *        --dest io.github.scarecrow.SettingsDaemon.Rfkill \
- *        --object-path /io.github.scarecrow.SettingsDaemon/Rfkill \
+ *        --object-path /io/github/scarecrow-de/SettingsDaemon/Rfkill \
  *        --method org.freedesktop.DBus.Properties.Set \
  *        "io.github.scarecrow.SettingsDaemon.Rfkill" \
  *        "BluetoothAirplaneMode" \
@@ -43,7 +43,7 @@
  *    gdbus call \
  *        --session \
  *        --dest io.github.scarecrow.SettingsDaemon.Rfkill \
- *        --object-path /io.github.scarecrow.SettingsDaemon/Rfkill \
+ *        --object-path /io/github/scarecrow-de/SettingsDaemon/Rfkill \
  *        --method org.freedesktop.DBus.Properties.Set \
  *        "io.github.scarecrow.SettingsDaemon.Rfkill" \
  *        "WwanAirplaneMode" \
@@ -94,7 +94,7 @@ struct _GsdRfkillManager
 };
 
 #define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
-#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io/github/scarecrow-de/SettingsDaemon"
 #define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_RFKILL_DBUS_NAME GSD_DBUS_NAME ".Rfkill"

@@ -696,9 +696,9 @@ migrate_keyboard_settings (void)
         };
 
         gsd_settings_migrate_check ("io.github.scarecrow.settings-daemon.peripherals.keyboard.deprecated",
-                                    "/io/github/scarecrow/settings-daemon/peripherals/keyboard/",
+                                    "/io/github/scarecrow-de/settings-daemon/peripherals/keyboard/",
                                     "org.gnome.desktop.peripherals.keyboard",
-                                    "/org/gnome/desktop/peripherals/keyboard/",
+                                    "/io/github/scarecrow-de/desktop/peripherals/keyboard/",
                                     entries, G_N_ELEMENTS (entries));
 }
 

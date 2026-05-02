@@ -68,7 +68,7 @@
 #include "gvc-mixer-control.h"
 #include "gvc-mixer-sink.h"
 
-#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io/github/scarecrow-de/SettingsDaemon"
 #define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
 #define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
@@ -76,11 +76,11 @@
 #define GSD_MEDIA_KEYS_DBUS_NAME GSD_DBUS_NAME ".MediaKeys"
 
 #define GNOME_KEYRING_DBUS_NAME "io.github.scarecrow.keyring"
-#define GNOME_KEYRING_DBUS_PATH "/io/github/scarecrow/keyring/daemon"
+#define GNOME_KEYRING_DBUS_PATH "/io/github/scarecrow-de/keyring/daemon"
 #define GNOME_KEYRING_DBUS_INTERFACE "io.github.scarecrow.keyring.Daemon"
 
 #define SHELL_DBUS_NAME "io.github.scarecrow.Shell"
-#define SHELL_DBUS_PATH "/io/github/scarecrow/Shell"
+#define SHELL_DBUS_PATH "/io/github/scarecrow-de/Shell"
 
 #define CUSTOM_BINDING_SCHEMA SETTINGS_BINDING_DIR ".custom-keybinding"
 
@@ -95,7 +95,7 @@
 #define GSD_REENABLE_POWER_BUTTON_DELAY                 3000 /* ms */
 
 static const gchar introspection_xml[] =
-"<node name='/io.github.scarecrow.SettingsDaemon/MediaKeys'>"
+"<node name='/io/github/scarecrow-de/SettingsDaemon/MediaKeys'>"
 "  <interface name='io.github.scarecrow.SettingsDaemon.MediaKeys'>"
 "    <annotation name='org.freedesktop.DBus.GLib.CSymbol' value='gsd_media_keys_manager'/>"
 "    <method name='GrabMediaPlayerKeys'>"
@@ -128,7 +128,7 @@ static const gchar introspection_xml[] =
 #define SYSTEMD_DBUS_INTERFACE                  "org.freedesktop.login1.Manager"
 
 #define AUDIO_SELECTION_DBUS_NAME               "io.github.scarecrow.Shell.AudioDeviceSelection"
-#define AUDIO_SELECTION_DBUS_PATH               "/io/github/scarecrow/Shell/AudioDeviceSelection"
+#define AUDIO_SELECTION_DBUS_PATH               "/io/github/scarecrow-de/Shell/AudioDeviceSelection"
 #define AUDIO_SELECTION_DBUS_INTERFACE          "io.github.scarecrow.Shell.AudioDeviceSelection"
 
 #define GSD_MEDIA_KEYS_MANAGER_GET_PRIVATE(o) (gsd_media_keys_manager_get_instance_private (o))
@@ -3143,7 +3143,7 @@ rfkill_appeared_cb (GDBusConnection *connection,
         g_dbus_proxy_new_for_bus (G_BUS_TYPE_SESSION,
                                   0, NULL,
                                   "io.github.scarecrow.SettingsDaemon.Rfkill",
-                                  "/io.github.scarecrow.SettingsDaemon/Rfkill",
+                                  "/io/github/scarecrow-de/SettingsDaemon/Rfkill",
                                   "io.github.scarecrow.SettingsDaemon.Rfkill",
                                   priv->rfkill_cancellable,
                                   on_rfkill_proxy_ready, manager);
@@ -3319,9 +3319,9 @@ migrate_keybinding_settings (void)
         };
 
         gsd_settings_migrate_check ("io.github.scarecrow.settings-daemon.plugins.media-keys.deprecated",
-                                    "/io/github/scarecrow/settings-daemon/plugins/media-keys/",
+                                    "/io/github/scarecrow-de/settings-daemon/plugins/media-keys/",
                                     "io.github.scarecrow.settings-daemon.plugins.media-keys",
-                                    "/io/github/scarecrow/settings-daemon/plugins/media-keys/",
+                                    "/io/github/scarecrow-de/settings-daemon/plugins/media-keys/",
                                     binding_entries, G_N_ELEMENTS (binding_entries));
 }
 

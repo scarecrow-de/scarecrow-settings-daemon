@@ -129,7 +129,7 @@ G_DEFINE_TYPE (GsdUsbProtectionManager, gsd_usb_protection_manager, G_TYPE_OBJEC
 static gpointer manager_object = NULL;
 
 #define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
-#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io/github/scarecrow-de/SettingsDaemon"
 #define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 #define GSD_USB_PROTECTION_DBUS_NAME GSD_DBUS_NAME ".UsbProtection"

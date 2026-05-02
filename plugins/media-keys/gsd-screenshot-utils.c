@@ -33,7 +33,7 @@
 #include "gsd-screenshot-utils.h"
 
 #define SHELL_SCREENSHOT_BUS_NAME "io.github.scarecrow.Shell"
-#define SHELL_SCREENSHOT_BUS_PATH "/io/github/scarecrow/Shell/Screenshot"
+#define SHELL_SCREENSHOT_BUS_PATH "/io/github/scarecrow-de/Shell/Screenshot"
 #define SHELL_SCREENSHOT_BUS_IFACE "io.github.scarecrow.Shell.Screenshot"
 
 typedef enum {

@@ -22,7 +22,7 @@
 #include <gtk/gtk.h>
 
 #define AUDIO_SELECTION_DBUS_NAME               "io.github.scarecrow.Shell.AudioDeviceSelection"
-#define AUDIO_SELECTION_DBUS_PATH               "/io/github/scarecrow/Shell/AudioDeviceSelection"
+#define AUDIO_SELECTION_DBUS_PATH               "/io/github/scarecrow-de/Shell/AudioDeviceSelection"
 #define AUDIO_SELECTION_DBUS_INTERFACE          "io.github.scarecrow.Shell.AudioDeviceSelection"
 
 static guint audio_selection_watch_id;

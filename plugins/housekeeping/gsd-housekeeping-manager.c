@@ -38,7 +38,7 @@
 #define THUMB_AGE_KEY "maximum-age"
 #define THUMB_SIZE_KEY "maximum-size"
 
-#define GSD_HOUSEKEEPING_DBUS_PATH "/io.github.scarecrow.SettingsDaemon/Housekeeping"
+#define GSD_HOUSEKEEPING_DBUS_PATH "/io/github/scarecrow-de/SettingsDaemon/Housekeeping"
 
 static const gchar introspection_xml[] =
 "<node>"

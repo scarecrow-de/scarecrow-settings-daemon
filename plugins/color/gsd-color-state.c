@@ -41,7 +41,7 @@
 #include "gcm-edid.h"
 
 #define GSD_DBUS_NAME "io.github.scarecrow.SettingsDaemon"
-#define GSD_DBUS_PATH "/io.github.scarecrow.SettingsDaemon"
+#define GSD_DBUS_PATH "/io/github/scarecrow-de/SettingsDaemon"
 #define GSD_DBUS_BASE_INTERFACE "io.github.scarecrow.SettingsDaemon"
 
 static void gcm_session_set_gamma_for_all_devices (GsdColorState *state);

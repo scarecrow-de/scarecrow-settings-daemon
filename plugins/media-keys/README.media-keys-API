@@ -10,7 +10,7 @@ The D-Bus API is described in gsd-media-keys-manager.c (look for
 introspection_xml), but a small explanation follows here.
 
 1. Create yourself a proxy object for the remote interface:
-Object path: /io.github.scarecrow.SettingsDaemon/MediaKeys
+Object path: /io/github/scarecrow-de/SettingsDaemon/MediaKeys
 D-Bus name: io.github.scarecrow.SettingsDaemon.MediaKeys
 Interface name: io.github.scarecrow.SettingsDaemon.MediaKeys
 
