@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins.housekeeping" path="/io.github.scarecrow-de.de/settings-daemon/plugins/housekeeping/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins.housekeeping" path="/io/github/scarecrow-de/settings-daemon/plugins/housekeeping/">
     <key name="ignore-paths" type="as">
       <default>[]</default>
       <summary>Mount paths to ignore</summary>

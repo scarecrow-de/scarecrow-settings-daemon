@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins" path="/io.github.scarecrow-de.de/settings-daemon/plugins/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins" path="/io/github/scarecrow-de/settings-daemon/plugins/">
     <key name="whitelisted-plugins" type="as">
       <default>['all']</default>
       <summary>List of plugins that are allowed to be loaded</summary>

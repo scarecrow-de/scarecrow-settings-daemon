@@ -178,7 +178,7 @@
     </key>
   </schema>
 
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins.media-keys" path="/io.github.scarecrow-de.de/settings-daemon/plugins/media-keys/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins.media-keys" path="/io/github/scarecrow-de/settings-daemon/plugins/media-keys/">
     <key name="custom-keybindings" type="as">
       <default>[]</default>
       <summary>Custom keybindings</summary>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins.power" path="/io.github.scarecrow-de.de/settings-daemon/plugins/power/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins.power" path="/io/github/scarecrow-de/settings-daemon/plugins/power/">
     <key name="idle-brightness" type="i">
       <default>30</default>
       <summary>The brightness of the screen when idle</summary>

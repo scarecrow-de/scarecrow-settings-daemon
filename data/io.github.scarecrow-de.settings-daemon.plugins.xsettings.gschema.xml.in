@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <schemalist>
-  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins.xsettings" path="/io.github.scarecrow-de.de/settings-daemon/plugins/xsettings/">
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="io.github.scarecrow-de.settings-daemon.plugins.xsettings" path="/io/github/scarecrow-de/settings-daemon/plugins/xsettings/">
     <key name="antialiasing" enum="io.github.scarecrow-de.settings-daemon.GsdFontAntialiasingMode">
       <default>'grayscale'</default>
       <summary>Antialiasing</summary>
