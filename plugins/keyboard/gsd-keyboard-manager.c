@@ -55,13 +55,13 @@
 #define KEY_BELL_MODE      "bell-mode"
 #define KEY_BELL_CUSTOM_FILE "bell-custom-file"
 
-#define GNOME_DESKTOP_INTERFACE_DIR "io.github.scarecrow_de.desktop.interface"
+#define GNOME_DESKTOP_INTERFACE_DIR "org.gnome.desktop.interface"
 
 #define KEY_GTK_IM_MODULE    "gtk-im-module"
 #define GTK_IM_MODULE_SIMPLE "gtk-im-context-simple"
 #define GTK_IM_MODULE_IBUS   "ibus"
 
-#define GNOME_DESKTOP_INPUT_SOURCES_DIR "io.github.scarecrow_de.desktop.input-sources"
+#define GNOME_DESKTOP_INPUT_SOURCES_DIR "org.gnome.desktop.input-sources"
 
 #define KEY_INPUT_SOURCES        "sources"
 #define KEY_KEYBOARD_OPTIONS     "xkb-options"
@@ -71,7 +71,7 @@
 
 #define DEFAULT_LAYOUT "us"
 
-#define GNOME_A11Y_APPLICATIONS_INTERFACE_DIR "io.github.scarecrow_de.desktop.a11y.applications"
+#define GNOME_A11Y_APPLICATIONS_INTERFACE_DIR "org.gnome.desktop.a11y.applications"
 #define KEY_OSK_ENABLED "screen-keyboard-enabled"
 
 struct _GsdKeyboardManager
@@ -697,8 +697,8 @@ migrate_keyboard_settings (void)
 
         gsd_settings_migrate_check ("io.github.scarecrow_de.settings-daemon.peripherals.keyboard.deprecated",
                                     "/io/github/scarecrow_de/settings-daemon/peripherals/keyboard/",
-                                    "io.github.scarecrow_de.desktop.peripherals.keyboard",
-                                    "/io/github/scarecrow_de/desktop/peripherals/keyboard/",
+                                    "org.gnome.desktop.peripherals.keyboard",
+                                    "/org/gnome/desktop/peripherals/keyboard/",
                                     entries, G_N_ELEMENTS (entries));
 }
 

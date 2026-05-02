@@ -50,7 +50,7 @@
 #define SETTINGS_MIN_NOTIFY_PERIOD    "min-notify-period"
 #define SETTINGS_IGNORE_PATHS         "ignore-paths"
 
-#define PRIVACY_SETTINGS              "io.github.scarecrow_de.desktop.privacy"
+#define PRIVACY_SETTINGS              "org.gnome.desktop.privacy"
 #define SETTINGS_PURGE_TRASH          "remove-old-trash-files"
 #define SETTINGS_PURGE_TEMP_FILES     "remove-old-temp-files"
 #define SETTINGS_PURGE_AFTER          "old-files-age"

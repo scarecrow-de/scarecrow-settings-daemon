@@ -106,7 +106,7 @@ class PowerPluginBase(gsdtestcase.GSDTestCase):
 
         # ensure that our tests don't lock the screen when the screensaver
         # gets active
-        self.settings_screensaver = Gio.Settings(schema_id='io.github.scarecrow_de.desktop.screensaver')
+        self.settings_screensaver = Gio.Settings(schema_id='org.gnome.desktop.screensaver')
         self.settings_screensaver['lock-enabled'] = False
 
         # Ensure we set up the external monitor state

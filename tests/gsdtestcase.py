@@ -95,7 +95,7 @@ class GSDTestCase(X11SessionTestCase):
         klass.start_session()
         klass.start_monitor()
 
-        klass.settings_session = Gio.Settings(schema_id='io.github.scarecrow_de.desktop.session')
+        klass.settings_session = Gio.Settings(schema_id='org.gnome.desktop.session')
 
     @classmethod
     def tearDownClass(klass):

@@ -142,12 +142,12 @@ migrate_tablet_settings (GsdWacomManager *manager,
 
         old_path = g_strdup_printf ("/io/github/scarecrow_de/settings-daemon/peripherals/wacom/%s-usb:%s:%s/",
                                     manager->machine_id, vendor, product);
-        new_path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/tablets/%s:%s/",
+        new_path = g_strdup_printf ("/org/gnome/desktop/peripherals/tablets/%s:%s/",
                                     vendor, product);
 
         gsd_settings_migrate_check ("io.github.scarecrow_de.settings-daemon.peripherals.wacom.deprecated",
                                     old_path,
-                                    "io.github.scarecrow_de.desktop.peripherals.tablet",
+                                    "org.gnome.desktop.peripherals.tablet",
                                     new_path,
                                     tablet_settings, G_N_ELEMENTS (tablet_settings));
 
@@ -159,9 +159,9 @@ migrate_tablet_settings (GsdWacomManager *manager,
                         { "display", "output", NULL },
                 };
 
-                gsd_settings_migrate_check ("io.github.scarecrow_de.desktop.peripherals.tablet.deprecated",
+                gsd_settings_migrate_check ("org.gnome.desktop.peripherals.tablet.deprecated",
                                             new_path,
-                                            "io.github.scarecrow_de.desktop.peripherals.tablet",
+                                            "org.gnome.desktop.peripherals.tablet",
                                             new_path,
                                             display_setting, G_N_ELEMENTS (display_setting));
         }
@@ -246,10 +246,10 @@ device_get_settings (GdkDevice *device)
         GSettings *settings;
         gchar *path;
 
-        path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/tablets/%s:%s/",
+        path = g_strdup_printf ("/org/gnome/desktop/peripherals/tablets/%s:%s/",
                                 gdk_device_get_vendor_id (device),
                                 gdk_device_get_product_id (device));
-        settings = g_settings_new_with_path ("io.github.scarecrow_de.desktop.peripherals.tablet",
+        settings = g_settings_new_with_path ("org.gnome.desktop.peripherals.tablet",
                                              path);
         g_free (path);
 

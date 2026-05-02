@@ -33,7 +33,7 @@
 #include "gsd-enums.h"
 #include "gsd-usb-protection-manager.h"
 
-#define PRIVACY_SETTINGS "io.github.scarecrow_de.desktop.privacy"
+#define PRIVACY_SETTINGS "org.gnome.desktop.privacy"
 #define USB_PROTECTION "usb-protection"
 #define USB_PROTECTION_LEVEL "usb-protection-level"
 

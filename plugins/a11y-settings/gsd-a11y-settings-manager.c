@@ -87,8 +87,8 @@ gsd_a11y_settings_manager_start (GsdA11ySettingsManager *manager,
         g_debug ("Starting a11y_settings manager");
         gnome_settings_profile_start (NULL);
 
-	manager->interface_settings = g_settings_new ("io.github.scarecrow_de.desktop.interface");
-	manager->a11y_apps_settings = g_settings_new ("io.github.scarecrow_de.desktop.a11y.applications");
+	manager->interface_settings = g_settings_new ("org.gnome.desktop.interface");
+	manager->a11y_apps_settings = g_settings_new ("org.gnome.desktop.a11y.applications");
 
 	g_signal_connect (G_OBJECT (manager->a11y_apps_settings), "changed",
 			  G_CALLBACK (apps_settings_changed), manager);

@@ -48,12 +48,12 @@
 #include "wm-button-layout-translation.h"
 
 #define MOUSE_SETTINGS_SCHEMA     "io.github.scarecrow_de.settings-daemon.peripherals.mouse"
-#define BACKGROUND_SETTINGS_SCHEMA "io.github.scarecrow_de.desktop.background"
-#define INTERFACE_SETTINGS_SCHEMA "io.github.scarecrow_de.desktop.interface"
-#define SOUND_SETTINGS_SCHEMA     "io.github.scarecrow_de.desktop.sound"
-#define PRIVACY_SETTINGS_SCHEMA     "io.github.scarecrow_de.desktop.privacy"
-#define WM_SETTINGS_SCHEMA        "io.github.scarecrow_de.desktop.wm.preferences"
-#define A11Y_SCHEMA               "io.github.scarecrow_de.desktop.a11y"
+#define BACKGROUND_SETTINGS_SCHEMA "org.gnome.desktop.background"
+#define INTERFACE_SETTINGS_SCHEMA "org.gnome.desktop.interface"
+#define SOUND_SETTINGS_SCHEMA     "org.gnome.desktop.sound"
+#define PRIVACY_SETTINGS_SCHEMA     "org.gnome.desktop.privacy"
+#define WM_SETTINGS_SCHEMA        "org.gnome.desktop.wm.preferences"
+#define A11Y_SCHEMA               "org.gnome.desktop.a11y"
 #define CLASSIC_WM_SETTINGS_SCHEMA "io.github.scarecrow_de.shell.extensions.classic-overrides"
 
 #define XSETTINGS_PLUGIN_SCHEMA "io.github.scarecrow_de.settings-daemon.plugins.xsettings"
@@ -468,32 +468,32 @@ static TranslationEntry translations [] = {
         { "io.github.scarecrow_de.settings-daemon.peripherals.mouse", "double-click",   "Net/DoubleClickTime",  translate_int_int },
         { "io.github.scarecrow_de.settings-daemon.peripherals.mouse", "drag-threshold", "Net/DndDragThreshold", translate_int_int },
 
-        { "io.github.scarecrow_de.desktop.background", "show-desktop-icons",    "Gtk/ShellShowsDesktop",   translate_bool_int },
+        { "org.gnome.desktop.background", "show-desktop-icons",    "Gtk/ShellShowsDesktop",   translate_bool_int },
 
-        { "io.github.scarecrow_de.desktop.interface", "font-name",              "Gtk/FontName",            translate_string_string },
-        { "io.github.scarecrow_de.desktop.interface", "gtk-key-theme",          "Gtk/KeyThemeName",        translate_string_string },
-        { "io.github.scarecrow_de.desktop.interface", "cursor-blink",           "Net/CursorBlink",         translate_bool_int },
-        { "io.github.scarecrow_de.desktop.interface", "cursor-blink-time",      "Net/CursorBlinkTime",     translate_int_int },
-        { "io.github.scarecrow_de.desktop.interface", "cursor-blink-timeout",   "Gtk/CursorBlinkTimeout",  translate_int_int },
-        { "io.github.scarecrow_de.desktop.interface", "gtk-theme",              "Net/ThemeName",           translate_string_string },
-        { "io.github.scarecrow_de.desktop.interface", "gtk-im-module",          "Gtk/IMModule",            translate_string_string },
-        { "io.github.scarecrow_de.desktop.interface", "icon-theme",             "Net/IconThemeName",       translate_string_string },
-        { "io.github.scarecrow_de.desktop.interface", "cursor-theme",           "Gtk/CursorThemeName",     translate_string_string },
-        { "io.github.scarecrow_de.desktop.interface", "gtk-enable-primary-paste", "Gtk/EnablePrimaryPaste", translate_bool_int },
-        { "io.github.scarecrow_de.desktop.interface", "overlay-scrolling",      "Gtk/OverlayScrolling",    translate_bool_int },
+        { "org.gnome.desktop.interface", "font-name",              "Gtk/FontName",            translate_string_string },
+        { "org.gnome.desktop.interface", "gtk-key-theme",          "Gtk/KeyThemeName",        translate_string_string },
+        { "org.gnome.desktop.interface", "cursor-blink",           "Net/CursorBlink",         translate_bool_int },
+        { "org.gnome.desktop.interface", "cursor-blink-time",      "Net/CursorBlinkTime",     translate_int_int },
+        { "org.gnome.desktop.interface", "cursor-blink-timeout",   "Gtk/CursorBlinkTimeout",  translate_int_int },
+        { "org.gnome.desktop.interface", "gtk-theme",              "Net/ThemeName",           translate_string_string },
+        { "org.gnome.desktop.interface", "gtk-im-module",          "Gtk/IMModule",            translate_string_string },
+        { "org.gnome.desktop.interface", "icon-theme",             "Net/IconThemeName",       translate_string_string },
+        { "org.gnome.desktop.interface", "cursor-theme",           "Gtk/CursorThemeName",     translate_string_string },
+        { "org.gnome.desktop.interface", "gtk-enable-primary-paste", "Gtk/EnablePrimaryPaste", translate_bool_int },
+        { "org.gnome.desktop.interface", "overlay-scrolling",      "Gtk/OverlayScrolling",    translate_bool_int },
         /* cursor-size is handled via the Xft side as it needs the scaling factor */
 
-        { "io.github.scarecrow_de.desktop.sound", "theme-name",                 "Net/SoundThemeName",            translate_string_string },
-        { "io.github.scarecrow_de.desktop.sound", "event-sounds",               "Net/EnableEventSounds" ,        translate_bool_int },
-        { "io.github.scarecrow_de.desktop.sound", "input-feedback-sounds",      "Net/EnableInputFeedbackSounds", translate_bool_int },
+        { "org.gnome.desktop.sound", "theme-name",                 "Net/SoundThemeName",            translate_string_string },
+        { "org.gnome.desktop.sound", "event-sounds",               "Net/EnableEventSounds" ,        translate_bool_int },
+        { "org.gnome.desktop.sound", "input-feedback-sounds",      "Net/EnableInputFeedbackSounds", translate_bool_int },
 
-        { "io.github.scarecrow_de.desktop.privacy", "recent-files-max-age",      "Gtk/RecentFilesMaxAge", translate_int_int },
-        { "io.github.scarecrow_de.desktop.privacy", "remember-recent-files",    "Gtk/RecentFilesEnabled", translate_bool_int },
-        { "io.github.scarecrow_de.desktop.wm.preferences", "button-layout",     "Gtk/DecorationLayout", translate_button_layout },
-        { "io.github.scarecrow_de.desktop.wm.preferences", "action-double-click-titlebar",  "Gtk/TitlebarDoubleClick",     translate_string_string },
-        { "io.github.scarecrow_de.desktop.wm.preferences", "action-middle-click-titlebar",  "Gtk/TitlebarMiddleClick",     translate_string_string },
-        { "io.github.scarecrow_de.desktop.wm.preferences", "action-right-click-titlebar",  "Gtk/TitlebarRightClick",     translate_string_string },
-        { "io.github.scarecrow_de.desktop.a11y", "always-show-text-caret",       "Gtk/KeynavUseCaret",         translate_bool_int }
+        { "org.gnome.desktop.privacy", "recent-files-max-age",      "Gtk/RecentFilesMaxAge", translate_int_int },
+        { "org.gnome.desktop.privacy", "remember-recent-files",    "Gtk/RecentFilesEnabled", translate_bool_int },
+        { "org.gnome.desktop.wm.preferences", "button-layout",     "Gtk/DecorationLayout", translate_button_layout },
+        { "org.gnome.desktop.wm.preferences", "action-double-click-titlebar",  "Gtk/TitlebarDoubleClick",     translate_string_string },
+        { "org.gnome.desktop.wm.preferences", "action-middle-click-titlebar",  "Gtk/TitlebarMiddleClick",     translate_string_string },
+        { "org.gnome.desktop.wm.preferences", "action-right-click-titlebar",  "Gtk/TitlebarRightClick",     translate_string_string },
+        { "org.gnome.desktop.a11y", "always-show-text-caret",       "Gtk/KeynavUseCaret",         translate_bool_int }
 };
 
 static gboolean

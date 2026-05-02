@@ -206,7 +206,7 @@ settings_changed_cb (GSettings       *settings,
 static void
 register_config_callback (GsdSoundManager *manager)
 {
-	manager->settings = g_settings_new ("io.github.scarecrow_de.desktop.sound");
+	manager->settings = g_settings_new ("org.gnome.desktop.sound");
 	g_signal_connect (G_OBJECT (manager->settings), "changed",
 			  G_CALLBACK (settings_changed_cb), manager);
 }

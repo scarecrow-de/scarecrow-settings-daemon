@@ -2789,8 +2789,8 @@ gsd_power_manager_start (GsdPowerManager *manager,
                                    on_rr_screen_acquired, manager);
 
         manager->settings = g_settings_new (GSD_POWER_SETTINGS_SCHEMA);
-        manager->settings_screensaver = g_settings_new ("io.github.scarecrow_de.desktop.screensaver");
-        manager->settings_bus = g_settings_new ("io.github.scarecrow_de.desktop.session");
+        manager->settings_screensaver = g_settings_new ("org.gnome.desktop.screensaver");
+        manager->settings_bus = g_settings_new ("org.gnome.desktop.session");
 
         /* setup ambient light support */
         manager->iio_proxy_watch_id =

@@ -84,7 +84,7 @@
 
 #define CUSTOM_BINDING_SCHEMA SETTINGS_BINDING_DIR ".custom-keybinding"
 
-#define SETTINGS_SOUND_DIR "io.github.scarecrow_de.desktop.sound"
+#define SETTINGS_SOUND_DIR "org.gnome.desktop.sound"
 #define ALLOW_VOLUME_ABOVE_100_PERCENT_KEY "allow-volume-above-100-percent"
 
 #define SHELL_GRABBER_CALL_TIMEOUT G_MAXINT
@@ -112,10 +112,10 @@ static const gchar introspection_xml[] =
 "  </interface>"
 "</node>";
 
-#define SETTINGS_INTERFACE_DIR "io.github.scarecrow_de.desktop.interface"
+#define SETTINGS_INTERFACE_DIR "org.gnome.desktop.interface"
 #define SETTINGS_POWER_DIR "io.github.scarecrow_de.settings-daemon.plugins.power"
 #define SETTINGS_XSETTINGS_DIR "io.github.scarecrow_de.settings-daemon.plugins.xsettings"
-#define SETTINGS_TOUCHPAD_DIR "io.github.scarecrow_de.desktop.peripherals.touchpad"
+#define SETTINGS_TOUCHPAD_DIR "org.gnome.desktop.peripherals.touchpad"
 #define TOUCHPAD_ENABLED_KEY "send-events"
 #define HIGH_CONTRAST "HighContrast"
 
@@ -2061,7 +2061,7 @@ do_toggle_accessibility_key (const char *key)
         GSettings *settings;
         gboolean state;
 
-        settings = g_settings_new ("io.github.scarecrow_de.desktop.a11y.applications");
+        settings = g_settings_new ("org.gnome.desktop.a11y.applications");
         state = g_settings_get_boolean (settings, key);
         g_settings_set_boolean (settings, key, !state);
         g_object_unref (settings);
@@ -2135,7 +2135,7 @@ do_magnifier_zoom_action (GsdMediaKeysManager *manager,
 	else
 		offset = -1.0;
 
-	settings = g_settings_new ("io.github.scarecrow_de.desktop.a11y.magnifier");
+	settings = g_settings_new ("org.gnome.desktop.a11y.magnifier");
 	value = g_settings_get_double (settings, "mag-factor");
 	value += offset;
 	value = roundl (value);
