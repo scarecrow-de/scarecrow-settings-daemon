@@ -3205,7 +3205,7 @@ msgstr[1] "Le quedan %u intentos"
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "Comando que ejecutar cuando se añade o se quita un dispositivo. Un valor "

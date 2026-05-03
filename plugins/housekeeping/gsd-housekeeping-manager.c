@@ -23,7 +23,7 @@
 #include <string.h>
 #include <libnotify/notify.h>
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-housekeeping-manager.h"
 #include "gsd-disk-space.h"
 

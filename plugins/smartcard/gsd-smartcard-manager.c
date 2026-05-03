@@ -23,8 +23,8 @@
 #include <glib.h>
 #include <gio/gio.h>
 
-#include "gnome-settings-profile.h"
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-profile.h"
+#include "scarecrow-settings-bus.h"
 #include "gsd-smartcard-manager.h"
 #include "gsd-smartcard-service.h"
 #include "gsd-smartcard-enum-types.h"

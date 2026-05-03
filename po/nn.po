@@ -750,12 +750,12 @@ msgid "Exit after a time - for debugging"
 msgstr "Avslutt etter ei tid - for feilsøkjing"
 
 #
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "Tastatur for tilgjenge"
 
 #
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility keyboard plugin"
 msgstr "Tillegg for tastatur for tilgjenge"
 
@@ -906,42 +906,42 @@ msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
 msgstr "_Trykk inn tastatursnarvegar ein tast om gongen (seige tastar)"
 
 #
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:1
 msgid "Background"
 msgstr "Bakgrunn"
 
 #
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:2
 msgid "Background plugin"
 msgstr "Tillegg for bakgrunn"
 
 #
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:1
 msgid "Clipboard"
 msgstr "Utklippstavle"
 
 #
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard plugin"
 msgstr "Tillegg for utklippstavle"
 
 #
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr "Dummy"
 
 #
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr "Dummy-tillegg"
 
 #
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:1
 msgid "Font"
 msgstr "Skrift"
 
 #
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:2
 msgid "Font plugin"
 msgstr "Tillegg for skrift"
 
@@ -1082,21 +1082,21 @@ msgstr ""
 "som er bunde til tasten «%s»"
 
 #
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:1
 msgid "Keybindings"
 msgstr "Snøggtastar"
 
 #
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:2
 msgid "Keybindings plugin"
 msgstr "Tillegg for snøggtastar"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "Tastatur"
 
 #
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Keyboard plugin"
 msgstr "Tillegg for tastatur"
 
@@ -1244,12 +1244,12 @@ msgid "System Sounds"
 msgstr "Systemlydar"
 
 #
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:1
 msgid "Media keys"
 msgstr "Mediatastar"
 
 #
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys plugin"
 msgstr "Tillegg for medietastar"
 
@@ -1269,31 +1269,31 @@ msgstr "Tilgjenge for mus krev at mousetweaks er installert på systemet."
 msgid "Mouse Preferences"
 msgstr "Eigenskapar for mus"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "Mus"
 
 #
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr "Tillegg for mus"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:1
 msgid "Typing Break"
 msgstr "Skrivepause"
 
 #
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:2
 msgid "Typing break plugin"
 msgstr "Tillegg for skrivepause"
 
 #
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "Set up screen size and rotation settings"
 msgstr "Rediger innstillingar for skjermstørrelse og rotasjon"
 
 #
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "XRandR"
 msgstr "XRandR"
 
@@ -1390,12 +1390,12 @@ msgid "Cannot determine user's home directory"
 msgstr "Klarte ikkje avgjera heimekatalogen til brukaren"
 
 #
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:1
 msgid "Manage the X resource database"
 msgstr "Handter X-ressursdatabasen"
 
 #
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:2
 msgid "X Resource Database"
 msgstr "X-ressursdatabase"
 
@@ -1405,12 +1405,12 @@ msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr "GConf-nøkkelen «%s» er sett til type «%s», men den venta typen er «%s»\n"
 
 #
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 msgid "Manage X Settings"
 msgstr "Handter innstillingar for X"
 
 #
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 msgid "X Settings"
 msgstr "Innstillingar for X"
 

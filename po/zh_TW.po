@@ -2889,7 +2889,7 @@ msgstr "錯誤 PIN 碼"
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "當加入或移除裝置時要執行的指令。結束值若為 1 則表示這個裝置未來不會被 "

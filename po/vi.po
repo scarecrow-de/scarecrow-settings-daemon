@@ -800,11 +800,11 @@ msgstr "Thay thế dịch vụ hiện tại"
 msgid "Exit after a time (for debugging)"
 msgstr "Thoát sau một khoảng thời gian (để tìm lỗi)"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "Bàn phím khả năng truy cập"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility keyboard plugin"
 msgstr "Phần mở rộng bàn phím khả năng truy cập"
 
@@ -874,29 +874,29 @@ msgstr ""
 "Bạn vừa mới ấn hai phím đồng thời, hoặc ấn phím Shift 5 lần liên tiếp. Phím "
 "tắt này tắt tính năng Phím Dính, mà nó ảnh hưởng đến hoạt động của bàn phím"
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility settings"
 msgstr "Cài đặt khả năng truy cập"
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility settings plugin"
 msgstr "Phần mở rộng cài đặt khả năng truy cập"
 
 #. Priority=100
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard"
 msgstr "Clipboard"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:3
 msgid "Clipboard plugin"
 msgstr "Phần mở rộng Clipboard"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:1
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
 #: ../plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
 msgstr "Màu"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:2
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:2
 msgid "Color plugin"
 msgstr "Phần mở rộng màu"
 
@@ -938,11 +938,11 @@ msgid "Color calibration device removed"
 msgstr "Đã loại bỏ thiết bị cân chỉnh màu"
 
 #. Priority=100
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:2
 msgid "Date and Time"
 msgstr "Ngày và Giờ"
 
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:3
 msgid "Automatically update timezone"
 msgstr "Tự động cập nhật múi giờ"
 
@@ -965,11 +965,11 @@ msgstr "Cài đặt"
 msgid "Date & Time Settings"
 msgstr "Cài đặt ngày giờ"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr "Giả"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr "Phần mở rộng giả"
 
@@ -1026,11 +1026,11 @@ msgstr ""
 msgid "This computer has only %s disk space remaining."
 msgstr "Máy tính này chỉ còn lại %s đĩa trống."
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:1
 msgid "Housekeeping"
 msgstr "Dọn dẹp"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:2
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
@@ -1038,11 +1038,11 @@ msgstr ""
 "Tự động xén bộ nhớ đệm ảnh nhỏ đại diện và các tập tin tạm khác, và cảnh báo "
 "về đĩa sắp đầy"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "Bàn phím"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Keyboard plugin"
 msgstr "Phần mở rộng bàn phím"
 
@@ -1113,11 +1113,11 @@ msgid "System Sounds"
 msgstr "Âm thanh hệ thống"
 
 #. Priority=100
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys"
 msgstr "Phím nhạc/phim"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:3
 msgid "Media keys plugin"
 msgstr "Phần mở rộng phím nhạc/phim"
 
@@ -1240,20 +1240,20 @@ msgstr "Bật/Tắt chế độ máy bay"
 msgid "Toggle Bluetooth"
 msgstr "Bật/Tắt Bluetooth"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "Chuột"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr "Phần mở rộng chuột"
 
 #. Priority=100
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:2
 msgid "Orientation"
 msgstr "Hướng"
 
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:3
 msgid "Orientation plugin"
 msgstr "Phần mở rộng hướng"
 
@@ -1298,7 +1298,7 @@ msgstr "Pin sắp hết điện"
 
 #. TRANSLATORS: this is the notification application name
 #: ../plugins/power/gsd-power-manager.c:319
-#: ../plugins/power/power.gnome-settings-plugin.in.h:1
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "Nguồn điện"
 
@@ -1622,7 +1622,7 @@ msgstr "Điều chỉnh độ sáng máy tính xách tay"
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "Cần xác thực để điều chỉnh độ sáng máy tính xách tay"
 
-#: ../plugins/power/power.gnome-settings-plugin.in.h:2
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:2
 msgid "Power plugin"
 msgstr "Phần bổ sung năng lượng"
 
@@ -1867,28 +1867,28 @@ msgid "Printer '%s': '%s'."
 msgstr "Máy in “%s”: “%s”."
 
 #. Priority=100
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:2
 msgid "Print-notifications"
 msgstr "Thông báo in"
 
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:3
 msgid "Print-notifications plugin"
 msgstr "Phần mở rộng thông báo in"
 
 #. Priority=100
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:2
 msgid "Rfkill"
 msgstr "Rfkill"
 
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:3
 msgid "Rfkill plugin"
 msgstr "Phần bổ xung Rfkill"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
 msgstr "Ủy nhiệm trình bảo vệ màn hình"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
 msgstr "Ủy thác cấm trình bảo vệ màn hình FreeDesktop cho gnome-session"
 
@@ -1896,19 +1896,19 @@ msgstr "Ủy thác cấm trình bảo vệ màn hình FreeDesktop cho gnome-sess
 msgid "User was not logged in with smartcard."
 msgstr "Người dùng không đăng nhập bằng thẻ thông minh."
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:1
 msgid "Smartcard"
 msgstr "Thẻ thông minh"
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:2
 msgid "Smartcard plugin"
 msgstr "Phần mở rộng Thẻ thông minh"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "Âm thanh"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 msgid "Sound Sample Cache plugin"
 msgstr "Phần mở rộng Lưu Tạm Mẫu Âm Thanh"
 
@@ -2113,11 +2113,11 @@ msgstr "Điều chỉnh hình ảnh OLED cho bảng vẽ Wacom"
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "Cần xác thực để điều chỉnh hình ảnh OLED cho bảng vẽ Wacom"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:1
 msgid "Wacom"
 msgstr "Wacom"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:2
 msgid "Wacom plugin"
 msgstr "Phần mở rộng Wacom"
 
@@ -2126,19 +2126,19 @@ msgstr "Phần mở rộng Wacom"
 msgid "Could not refresh the screen information: %s"
 msgstr "Không thể cập nhật thông tin màn hình: %s"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "XRandR"
 msgstr "XRandR"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "Set up screen size and rotation settings"
 msgstr "Cài đặt kích cỡ màn hình và chức năng xoay"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 msgid "X Settings"
 msgstr "Cài đặt X"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "Quản lý cài đặt X"
 
@@ -2147,7 +2147,7 @@ msgstr "Quản lý cài đặt X"
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "Lệnh dùng để chạy khi thiết bị được thêm vào hay rút ra. Một giá trị chỗ "

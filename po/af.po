@@ -412,11 +412,11 @@ msgstr ""
 msgid "GConf prefix from which to load plugin settings"
 msgstr ""
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "Toeganklikheidsleutelbord"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility keyboard plugin"
 msgstr "Inprop vir toeganklikheidsleutelbord"
 
@@ -561,35 +561,35 @@ msgstr "_Ignoreer duplikaat sleuteldrukke (bonssleutels)"
 msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
 msgstr "_Druk sleutelbordkortpaaie een sleutel op 'n slag (Taai-sleutels)"
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:1
 msgid "Background"
 msgstr "Agtergrond"
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:2
 msgid "Background plugin"
 msgstr "Agtergrond-inprop"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:1
 msgid "Clipboard"
 msgstr "Knipbord"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard plugin"
 msgstr "Inprop vir knipbord"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr ""
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:1
 msgid "Font"
 msgstr "Lettertipe"
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:2
 msgid "Font plugin"
 msgstr "Inprop vir lettertipes"
 
@@ -630,19 +630,19 @@ msgstr ""
 "Fout terwyl probeer is om (%s)\n"
 " te laat loopwat gekoppel is aan sleutel (%s)"
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:1
 msgid "Keybindings"
 msgstr "Sleutelbindings"
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:2
 msgid "Keybindings plugin"
 msgstr "Inprop vir sleutelbindings"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "Sleutelbord"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Keyboard plugin"
 msgstr "Inprop vir die sleutelbord"
 
@@ -693,11 +693,11 @@ msgstr ""
 "Kon nie die masjien in slaap stel nie.\n"
 "Verifieer dat die masjien korrek gekonfigureer is."
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:1
 msgid "Media keys"
 msgstr "Mediasleutels"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys plugin"
 msgstr "Inprop vir mediasleutels"
 
@@ -716,11 +716,11 @@ msgstr ""
 msgid "Mouse Preferences"
 msgstr "Muisvoorkeure"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "Muis"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr "Inprop vir die muis"
 
@@ -743,11 +743,11 @@ msgstr ""
 msgid "_Do not show this message again"
 msgstr "_Moenie weer hierdie boodskap wys nie"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:1
 msgid "Screensaver"
 msgstr ""
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:2
 msgid "Screensaver plugin"
 msgstr ""
 
@@ -818,27 +818,27 @@ msgstr "Kies klanklêer..."
 msgid "System Sounds"
 msgstr "Stelselklanke"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "Klank"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 msgid "Sound plugin"
 msgstr "Inprop vir klank"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:1
 msgid "Typing Break"
 msgstr "Tikonderbreking"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:2
 msgid "Typing break plugin"
 msgstr "Inprop vir tikonderbreking"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "Set up screen size and rotation settings"
 msgstr "Instellings vir skermgrootte en -rotasie"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "XRandR"
 msgstr "XRandR"
 
@@ -884,11 +884,11 @@ msgstr "Opstelling van visuele vertoon"
 msgid "Cannot determine user's home directory"
 msgstr "Kan nie gebruiker se tuisgids vasstel nie"
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:1
 msgid "Manage the X resource database"
 msgstr "Bestuur die X-hulpbrondatabasis"
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:2
 msgid "X Resource Database"
 msgstr "X-hulpbrondatabasis"
 
@@ -897,11 +897,11 @@ msgstr "X-hulpbrondatabasis"
 msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr "GConf-sleutel %s is ingestel na tipe %s maar sy verwagte tipe was %s\n"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 msgid "Manage X Settings"
 msgstr "Bestuur X-instellings"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 msgid "X Settings"
 msgstr "X-instellings"
 

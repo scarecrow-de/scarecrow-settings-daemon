@@ -826,11 +826,11 @@ msgstr "取代現有的伺服程式"
 msgid "Exit after a time (for debugging)"
 msgstr "一段時間後離開（偵錯用）"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "鍵盤可存取性"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility keyboard plugin"
 msgstr "鍵盤可存取性外掛程式"
 
@@ -894,29 +894,29 @@ msgid ""
 "keyboard works."
 msgstr "你同時按下兩個鍵，或是連續按下5次 Shift 鍵。這會停用黏性特殊鍵功能，那會影響鍵盤的操作方式。"
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility settings"
 msgstr "無障礙設定值"
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility settings plugin"
 msgstr "無障礙設定值外掛程式"
 
 #. Priority=100
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard"
 msgstr "剪貼簿"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:3
 msgid "Clipboard plugin"
 msgstr "剪貼簿外掛程式"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:1
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
 #: ../plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
 msgstr "顏色"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:2
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:2
 msgid "Color plugin"
 msgstr "顏色外掛程式"
 
@@ -958,20 +958,20 @@ msgid "Color calibration device removed"
 msgstr "移除的顏色校正裝置"
 
 #. Priority=100
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:2
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:2
 msgid "Cursor"
 msgstr "游標"
 
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:3
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:3
 msgid "Show/hide cursor on tablet devices"
 msgstr "顯示/隱藏平板裝置上的游標"
 
 #. Priority=100
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:2
 msgid "Date and Time"
 msgstr "日期與時刻"
 
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:3
 msgid "Automatically update timezone and display notifications"
 msgstr "自動更新時區並顯示通知"
 
@@ -994,11 +994,11 @@ msgstr "日期 & 時刻設定值"
 msgid "Settings"
 msgstr "設定值"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr "偽裝"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr "偽裝外掛程式"
 
@@ -1093,21 +1093,21 @@ msgstr "你可以藉由移除未使用的程式或檔案，或將檔案移至外
 msgid "Examine…"
 msgstr "檢查…"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:1
 msgid "Housekeeping"
 msgstr "管家"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:2
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
 msgstr "自動清除縮圖快取與其他暫時檔案，並且警告磁碟空間不足"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "鍵盤"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Keyboard plugin"
 msgstr "鍵盤外掛程式"
 
@@ -1158,11 +1158,11 @@ msgid "System Sounds"
 msgstr "系統音效"
 
 #. Priority=100
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys"
 msgstr "多媒體按鍵"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:3
 msgid "Media keys plugin"
 msgstr "多媒體按鍵外掛程式"
 
@@ -1276,20 +1276,20 @@ msgstr "鍵盤亮度切換"
 msgid "Battery Status"
 msgstr "電池狀態"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "滑鼠"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr "滑鼠外掛程式"
 
 #. Priority=100
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:2
 msgid "Orientation"
 msgstr "方向"
 
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:3
 msgid "Orientation plugin"
 msgstr "方向外掛程式"
 
@@ -1353,7 +1353,7 @@ msgstr "剩下的 UPS 備援電力不明"
 #: ../plugins/power/gsd-power-manager.c:649
 #: ../plugins/power/gsd-power-manager.c:757
 #: ../plugins/power/gsd-power-manager.c:1950
-#: ../plugins/power/power.gnome-settings-plugin.in.h:1
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "電源"
 
@@ -1652,7 +1652,7 @@ msgstr "修改手提電腦亮度"
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "修改手提電腦亮度需要核對"
 
-#: ../plugins/power/power.gnome-settings-plugin.in.h:2
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:2
 msgid "Power plugin"
 msgstr "電源外掛程式"
 
@@ -1902,28 +1902,28 @@ msgid "Printer '%s': '%s'."
 msgstr "打印機「%s」：「%s」。"
 
 #. Priority=100
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:2
 msgid "Print-notifications"
 msgstr "列印通知"
 
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:3
 msgid "Print-notifications plugin"
 msgstr "列印通知外掛程式"
 
 #. Priority=100
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:2
 msgid "Rfkill"
 msgstr "Rfkill"
 
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:3
 msgid "Rfkill plugin"
 msgstr "Rfkill 外掛程式"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
 msgstr "螢幕保護程式代理"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
 msgstr "代理 FreeDesktop 螢幕保護程式禁止 gnome-session"
 
@@ -1931,19 +1931,19 @@ msgstr "代理 FreeDesktop 螢幕保護程式禁止 gnome-session"
 msgid "User was not logged in with smartcard."
 msgstr "使用者並非以智慧卡登入。"
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:1
 msgid "Smartcard"
 msgstr "智慧卡"
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:2
 msgid "Smartcard plugin"
 msgstr "智慧卡外掛程式"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "音效"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 msgid "Sound Sample Cache plugin"
 msgstr "音效取樣快取外掛程式"
 
@@ -2162,11 +2162,11 @@ msgstr "修改 Wacom 繪圖板的 OLED 影像"
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "修改 Wacom 繪圖板的 OLED 影像需要核對"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:1
 msgid "Wacom"
 msgstr "Wacom"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:2
 msgid "Wacom plugin"
 msgstr "Wacom 外掛程式"
 
@@ -2175,19 +2175,19 @@ msgstr "Wacom 外掛程式"
 msgid "Could not refresh the screen information: %s"
 msgstr "無法重新整理螢幕的資訊：%s"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "XRandR"
 msgstr "XRandR"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "Set up screen size and rotation settings"
 msgstr "設定螢幕大小與旋轉設定值"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 msgid "X Settings"
 msgstr "X 設定值"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "管理 X 設定值"
 

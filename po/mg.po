@@ -401,12 +401,12 @@ msgstr ""
 msgid "GConf prefix from which to load plugin settings"
 msgstr ""
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Accessibility Keyboard"
 msgstr "_Fahafahana mampiasa"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Accessibility keyboard plugin"
 msgstr "_Fahafahana mampiasa"
@@ -488,37 +488,37 @@ msgstr ""
 msgid "Sticky Keys Alert"
 msgstr "Fampilazan'ny kitendry miraikidraikitra"
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Background"
 msgstr "Ampiharo ilay _afara"
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Background plugin"
 msgstr "Raiketo ilay sarin'ny _afara"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:1
 msgid "Clipboard"
 msgstr ""
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard plugin"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr ""
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:1
 msgid "Font"
 msgstr "Endri-tsoratra"
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:2
 msgid "Font plugin"
 msgstr ""
 
@@ -579,19 +579,19 @@ msgstr ""
 "Nisy olana teo am-panandramana mandefa ny (%s)\n"
 "izay mifanaraka amin'ny kitendry (%s)"
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:1
 msgid "Keybindings"
 msgstr ""
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:2
 msgid "Keybindings plugin"
 msgstr ""
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "Fafan-teny"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Keyboard plugin"
 msgstr "Safidin'ny fafan-teny"
@@ -647,12 +647,12 @@ msgstr ""
 "Tsy afaka nampiato ny solosaina.\n"
 "Amarino hoe voakirakira araka ny tokony ho izy ilay solosaina."
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Media keys"
 msgstr "Kitendrin'ny totozy"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys plugin"
 msgstr ""
 
@@ -671,11 +671,11 @@ msgstr ""
 msgid "Mouse Preferences"
 msgstr "Safidy manokan'ny totozy"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "Totozy"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr ""
 
@@ -697,12 +697,12 @@ msgstr ""
 msgid "_Do not show this message again"
 msgstr "_Aza aseho intsony ity filazana ity"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Screensaver"
 msgstr "Alefaso ny sary mitsitsy"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Screensaver plugin"
 msgstr "Alefaso eny am-pidirana ny sary mitsitsy"
@@ -775,29 +775,29 @@ msgstr "Hisafidy raki-peo"
 msgid "System Sounds"
 msgstr "Feon'ny rafitra"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "Feo"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Sound plugin"
 msgstr "Ampaham-peo:"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:1
 msgid "Typing Break"
 msgstr "Fiatoan'ny fanoratana"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Typing break plugin"
 msgstr "Fiatoan'ny fanoratana"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "Set up screen size and rotation settings"
 msgstr ""
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "XRandR"
 msgstr ""
 
@@ -806,11 +806,11 @@ msgstr ""
 msgid "Cannot determine user's home directory"
 msgstr "Tsy afaka namaritra ny laha-tahiry fandraisan'ny mpampiasa"
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:1
 msgid "Manage the X resource database"
 msgstr ""
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:2
 msgid "X Resource Database"
 msgstr ""
 
@@ -821,12 +821,12 @@ msgstr ""
 "Voafarirtra manaraka ny karazana %s ny famaha GConf %s, nefa ny karazany "
 "nampoizina dia %s\n"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Manage X Settings"
 msgstr "Ampiasao ny fandrindran'ny X"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "X Settings"
 msgstr "Ampiasao ny fandrindran'ny X"

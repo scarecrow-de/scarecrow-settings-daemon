@@ -403,12 +403,12 @@ msgstr ""
 msgid "GConf prefix from which to load plugin settings"
 msgstr ""
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Accessibility Keyboard"
 msgstr "_Go tsenega"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Accessibility keyboard plugin"
 msgstr "_Go tsenega"
@@ -491,36 +491,36 @@ msgstr ""
 msgid "Sticky Keys Alert"
 msgstr "Temošo ya Dinotlelo tše Kgomarelago"
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Background"
 msgstr "Diriša _Bokamorago"
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:2
 msgid "Background plugin"
 msgstr ""
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:1
 msgid "Clipboard"
 msgstr ""
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard plugin"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr ""
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:1
 msgid "Font"
 msgstr "Fonto"
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:2
 msgid "Font plugin"
 msgstr ""
 
@@ -586,19 +586,19 @@ msgstr ""
 "Phošo ya ge go lekwa go dirišwa (%s)\n"
 "yeo e kgokagantšwego le senotlelo sa (%s)"
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:1
 msgid "Keybindings"
 msgstr ""
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:2
 msgid "Keybindings plugin"
 msgstr ""
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "Boroto ya dinotlelo"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Keyboard plugin"
 msgstr "Dikgaoletšo tša Boroto ya Dinotlelo"
@@ -657,12 +657,12 @@ msgstr ""
 "E ka se kgone go robatša motšhene.\n"
 "Tiišetša gore motšhene o fetotšwe sebopego ka mo go nepagetšego."
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Media keys"
 msgstr "Dinotlelo tša Legotlwana"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys plugin"
 msgstr ""
 
@@ -681,11 +681,11 @@ msgstr ""
 msgid "Mouse Preferences"
 msgstr "Tše Ratwago tša Legotlwana"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "Legotlwana"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr ""
 
@@ -708,12 +708,12 @@ msgstr ""
 msgid "_Do not show this message again"
 msgstr "_O seke wa bontšha molaetša wo gape"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Screensaver"
 msgstr "Thoma Seboloki sa Sekirini sa X"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Screensaver plugin"
 msgstr "Diriša Seboloki sa Sekirini sa X ge o tsena"
@@ -793,29 +793,29 @@ msgstr "Kgetha Faele ya Modumo"
 msgid "System Sounds"
 msgstr "metsotswana"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "Modumo"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Sound plugin"
 msgstr "Faele ya Modumo"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:1
 msgid "Typing Break"
 msgstr "Go Khutša ga go Tlanya"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Typing break plugin"
 msgstr "Go Khutša ga go Tlanya"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "Set up screen size and rotation settings"
 msgstr ""
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "XRandR"
 msgstr ""
 
@@ -824,11 +824,11 @@ msgstr ""
 msgid "Cannot determine user's home directory"
 msgstr "E ka se lemoge tšhupetšo ya gae ya modiriši"
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:1
 msgid "Manage the X resource database"
 msgstr ""
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:2
 msgid "X Resource Database"
 msgstr ""
 
@@ -839,12 +839,12 @@ msgstr ""
 "Senotlelo sa GConf sa %s se beakantšwe go mohuta wa %s eupša mohuta wa sona "
 "o letetšwego e be e le %s\n"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Manage X Settings"
 msgstr "Diriša dipeakanyo tša X"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "X Settings"
 msgstr "Diriša dipeakanyo tša X"

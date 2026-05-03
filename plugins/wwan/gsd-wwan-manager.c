@@ -33,7 +33,7 @@
 #define GCR_API_SUBJECT_TO_CHANGE
 #include <gcr/gcr-base.h>
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 #include "cc-wwan-device.h"
 #include "cc-wwan-errors-private.h"
 #include "gsd-wwan-manager.h"

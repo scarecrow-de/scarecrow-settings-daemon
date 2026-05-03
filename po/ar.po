@@ -948,11 +948,11 @@ msgstr ""
 msgid "Exit after a time (for debugging)"
 msgstr "اخرج بعد مدة (للتنقيح)"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "إتاحة لوحة المفاتيح"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility keyboard plugin"
 msgstr "ملحق إتاحة لوحة المفاتيح"
 
@@ -1022,29 +1022,29 @@ msgstr ""
 "لقد ضغطت على مفتاحان في آن واحد أو نقرت مفتاح Shift خمس مرّات متتالية. يعطّل "
 "هذا ميزة المفاتيح اللاصقة المؤثّر على طريقة عمل لوحة مفاتيحك."
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility settings"
 msgstr "إعدادات الإتاحة"
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility settings plugin"
 msgstr "ملحقة إعدادات الإتاحة"
 
 #. Priority=100
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard"
 msgstr "الحافظة"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:3
 msgid "Clipboard plugin"
 msgstr "ملحق الحافظة"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:1
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
 #: ../plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
 msgstr "الألوان"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:2
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:2
 msgid "Color plugin"
 msgstr "ملحق الألوان"
 
@@ -1086,20 +1086,20 @@ msgid "Color calibration device removed"
 msgstr "أزيل جهاز معايرة الألوان"
 
 #. Priority=100
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:2
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:2
 msgid "Cursor"
 msgstr "مؤشّر"
 
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:3
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:3
 msgid "Show/hide cursor on tablet devices"
 msgstr "أظهر\\أخف المؤشر على الأجهزة اللوحية"
 
 #. Priority=100
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:2
 msgid "Date and Time"
 msgstr "التاريخ و الوقت"
 
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:3
 msgid "Automatically update timezone and display notifications"
 msgstr "حدّث المنطقة الزمنية تلقائيا و اعرض التنبيهات"
 
@@ -1122,11 +1122,11 @@ msgstr "إعدادات الوقت و التّاريخ"
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr "لا شيء"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr "ملحق لا شيء"
 
@@ -1233,11 +1233,11 @@ msgstr ""
 msgid "Examine…"
 msgstr "افحص…"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:1
 msgid "Housekeeping"
 msgstr "التنظيف"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:2
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
@@ -1245,11 +1245,11 @@ msgstr ""
 "ينظف خبيئة المصغّرات و الملفات المؤقتة الأخرى تلقائيا، و يحذّر من انخفاض "
 "المساحة الخالية على القرص."
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "لوحة مفاتيح"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Keyboard plugin"
 msgstr "ملحق لوحة المفاتيح"
 
@@ -1311,11 +1311,11 @@ msgid "System Sounds"
 msgstr "أصوات النظام"
 
 #. Priority=100
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys"
 msgstr "مفاتيح الوسائط"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:3
 msgid "Media keys plugin"
 msgstr "ملحق مفاتيح الوسائط"
 
@@ -1436,21 +1436,21 @@ msgstr "لوحة المفاتيح مشحونة"
 msgid "Battery Status"
 msgstr "حالة البطارية"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "فأرة"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr "ملحق الفأرة"
 
 #. Priority=100
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Orientation"
 msgstr "تنبيهات الطباعة"
 
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:3
 #, fuzzy
 msgid "Orientation plugin"
 msgstr "ملحقة تنبيهات الطباعة"
@@ -1535,7 +1535,7 @@ msgstr "باقي قدر غير معلوم من طاقة مزود الطاقة ا
 #: ../plugins/power/gsd-power-manager.c:653
 #: ../plugins/power/gsd-power-manager.c:761
 #: ../plugins/power/gsd-power-manager.c:1954
-#: ../plugins/power/power.gnome-settings-plugin.in.h:1
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "الطاقة"
 
@@ -1836,7 +1836,7 @@ msgstr "غيّر سطوع الحاسوب"
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "الاستيثاق مطلوب لتغيير سطوع الحاسوب"
 
-#: ../plugins/power/power.gnome-settings-plugin.in.h:2
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:2
 msgid "Power plugin"
 msgstr "ملحق الطاقة"
 
@@ -2086,29 +2086,29 @@ msgid "Printer '%s': '%s'."
 msgstr "الطابعة '%s': ‏'%s'."
 
 #. Priority=100
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:2
 msgid "Print-notifications"
 msgstr "تنبيهات الطباعة"
 
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:3
 msgid "Print-notifications plugin"
 msgstr "ملحقة تنبيهات الطباعة"
 
 #. Priority=100
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:2
 msgid "Rfkill"
 msgstr ""
 
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:3
 #, fuzzy
 msgid "Rfkill plugin"
 msgstr "ملحق الألوان"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
 msgstr ""
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
 msgstr ""
 
@@ -2116,21 +2116,21 @@ msgstr ""
 msgid "User was not logged in with smartcard."
 msgstr ""
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Smartcard"
 msgstr "مشغل البطاقة الذكية"
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Smartcard plugin"
 msgstr "ملحق الخلفية"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr ""
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 msgid "Sound Sample Cache plugin"
 msgstr ""
 
@@ -2330,7 +2330,7 @@ msgstr[5] "يوجد تحديثات"
 
 #. TRANSLATORS: the updates mechanism
 #: ../plugins/updates/gsd-updates-manager.c:663
-#: ../plugins/updates/updates.gnome-settings-plugin.in.h:1
+#: ../plugins/updates/updates.scarecrow-settings-plugin.in.h:1
 msgid "Updates"
 msgstr "تحديثات"
 
@@ -2397,7 +2397,7 @@ msgstr "اعرض التفاصيل"
 msgid "OK"
 msgstr "حسنا"
 
-#: ../plugins/updates/updates.gnome-settings-plugin.in.h:2
+#: ../plugins/updates/updates.scarecrow-settings-plugin.in.h:2
 msgid "Updates plugin"
 msgstr "ملحق التحديثات"
 
@@ -2620,11 +2620,11 @@ msgstr ""
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "الاستيثاق مطلوب لتغيير سطوع الحاسوب"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:1
 msgid "Wacom"
 msgstr ""
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Wacom plugin"
 msgstr "ملحق الخلفية"
@@ -2634,19 +2634,19 @@ msgstr "ملحق الخلفية"
 msgid "Could not refresh the screen information: %s"
 msgstr "تعذّر تحديث معلومات الشاشة: %s"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "XRandR"
 msgstr "XRandR"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "Set up screen size and rotation settings"
 msgstr "اختر إعدادات حجم الشاشة والدوران"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 msgid "X Settings"
 msgstr "إعدادات X"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "أدِر إعدادات X"
 

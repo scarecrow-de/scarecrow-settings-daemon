@@ -51,8 +51,8 @@
 #include "gsd-settings-migrate.h"
 
 #include "mpris-controller.h"
-#include "gnome-settings-bus.h"
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-bus.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-marshal.h"
 #include "gsd-media-keys-manager.h"
 
@@ -3183,7 +3183,7 @@ start_media_keys_idle_cb (GsdMediaKeysManager *manager)
         priv->power_settings = g_settings_new (SETTINGS_POWER_DIR);
         priv->chassis_type = gnome_settings_get_chassis_type ();
 
-        /* Logic from http://git.gnome.org/browse/gnome-shell/tree/js/ui/status/accessibility.js#n163 */
+        /* Logic from http://git.gnome.org/browse/scarecrow-shell/tree/js/ui/status/accessibility.js#n163 */
         priv->interface_settings = g_settings_new (SETTINGS_INTERFACE_DIR);
         g_signal_connect (G_OBJECT (priv->interface_settings), "changed::gtk-theme",
 			  G_CALLBACK (update_theme_settings), manager);

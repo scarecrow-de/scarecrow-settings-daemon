@@ -2769,11 +2769,11 @@ msgstr[2] "Preostalo vam je %u pokušaja"
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "Naredba koja će se pokrenuti kada je uređaj dodan ili uklonjen. Izlazna "
-#~ "vrijednost 1 znači da uređajem ubuduće neće rukovati gnome-settings-"
+#~ "vrijednost 1 znači da uređajem ubuduće neće rukovati scarecrow-settings-"
 #~ "daemon."
 
 #~ msgid ""

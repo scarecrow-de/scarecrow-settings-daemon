@@ -31,7 +31,7 @@
 #include <wayland-client.h>
 #endif
 
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-bus.h"
 
 #define GNOME_SESSION_DBUS_NAME      "io.github.scarecrow_de.SessionManager"
 #define GNOME_SESSION_DBUS_OBJECT    "/io/github/scarecrow_de/SessionManager"

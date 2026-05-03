@@ -31,9 +31,9 @@ po/.intltool-merge-cache
 stamp-h1
 .deps
 .libs
-scarecrow-settings-daemon/gnome-settings-client.h
+scarecrow-settings-daemon/scarecrow-settings-client.h
 scarecrow-settings-daemon/scarecrow-settings-daemon
-scarecrow-settings-daemon/gnome-settings-manager-glue.h
+scarecrow-settings-daemon/scarecrow-settings-manager-glue.h
 scarecrow-settings-daemon/scarecrow-settings-daemon-localeexec
 scarecrow-settings-daemon/gsd-screen-saver-glue.c
 scarecrow-settings-daemon/gsd-screen-saver-glue.h
@@ -48,7 +48,7 @@ data/scarecrow-settings-daemon.desktop
 data/scarecrow-settings-daemon.desktop.in
 data/50-accessibility.xml
 data/io.github.scarecrow_de.SettingsDaemon.service
-*.gnome-settings-plugin
+*.scarecrow-settings-plugin
 plugins/a11y-keyboard/test-a11y-preferences-dialog
 plugins/a11y-keyboard/gsd-test-a11y-keyboard
 plugins/a11y-settings/gsd-test-a11y-settings

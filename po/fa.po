@@ -3653,7 +3653,7 @@ msgstr "رمز پین اشتباه"
 #~ msgid "No Wallpaper"
 #~ msgstr "کاغذدیواری"
 
-# ../capplets/background/gnome-wp-item.c:289:
+# ../capplets/background/scarecrow-wp-item.c:289:
 #~ msgid "pixel"
 #~ msgid_plural "pixels"
 #~ msgstr[0] "نقطه"
@@ -4128,7 +4128,7 @@ msgstr "رمز پین اشتباه"
 #~ msgid "Action"
 #~ msgstr "کنش"
 
-# ../capplets/keybindings/gnome-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
+# ../capplets/keybindings/scarecrow-keybinding-properties.c:873gnome-control-center.gnome-2-10.fa.po:609:2: parse error
 #~ msgid "Shortcut"
 #~ msgstr "میان‌بر"
 

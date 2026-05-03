@@ -32,7 +32,7 @@
 #include <glib.h>
 #include <gio/gio.h>
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-a11y-settings-manager.h"
 
 struct _GsdA11ySettingsManager

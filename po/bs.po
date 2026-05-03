@@ -76,7 +76,7 @@ msgid ""
 "means that the device will not be handled further by scarecrow-settings-daemon."
 msgstr ""
 "Naredba koja će biti pokrenuta kada je dodat ili uklonjen uređaj. Izlazna "
-"vrijednost 1 znači da uređajem neće rukovati gnome-settings-daem."
+"vrijednost 1 znači da uređajem neće rukovati scarecrow-settings-daem."
 
 #: ../data/io.github.scarecrow.settings-daemon.peripherals.wacom.gschema.xml.in.in.h:1
 #: ../data/io.github.scarecrow.settings-daemon.plugins.color.gschema.xml.in.in.h:1
@@ -828,11 +828,11 @@ msgstr "Zamjenjuje postojeći pozadinski program"
 msgid "Exit after a time (for debugging)"
 msgstr "Izađi nakon određenog vremena (za traženje grešaka)"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "Pristupačnost tastature"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility keyboard plugin"
 msgstr "Dodatak za pristupačnost tastature"
 
@@ -903,29 +903,29 @@ msgstr ""
 "5 puta za redom. Ovo isključuje osobinu ljepljive tipke koja utječe na rad "
 "vaše tastature."
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility settings"
 msgstr "Podešavanja pristupačnosti"
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility settings plugin"
 msgstr "Dodatak podešavanja pristupačnosti"
 
 #. Priority=100
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard"
 msgstr "Spisak isječaka"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:3
 msgid "Clipboard plugin"
 msgstr "Dodatak za spisak isječaka"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:1
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
 #: ../plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
 msgstr "Boja"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:2
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:2
 msgid "Color plugin"
 msgstr "Priključak boje"
 
@@ -967,20 +967,20 @@ msgid "Color calibration device removed"
 msgstr "Uklonjen uređaj za kalibraciju boja"
 
 #. Priority=100
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:2
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:2
 msgid "Cursor"
 msgstr "Kurzor"
 
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:3
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:3
 msgid "Show/hide cursor on tablet devices"
 msgstr "Prikazuje/skriva kursor na tabličnim uređajima"
 
 #. Priority=100
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:2
 msgid "Date and Time"
 msgstr "Datum i vrijeme"
 
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:3
 msgid "Automatically update timezone and display notifications"
 msgstr "Automatski ažuriraj vremensku zonu i notifikacije zaslona"
 
@@ -1003,11 +1003,11 @@ msgstr "Postavke"
 msgid "Date & Time Settings"
 msgstr "Postavke datuma i vremena"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr "Lažnjak"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr "Dodatak za lažnjaka"
 
@@ -1119,11 +1119,11 @@ msgstr ""
 msgid "Examine…"
 msgstr "Ispitaj…"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:1
 msgid "Housekeeping"
 msgstr "Održavanje"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:2
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
@@ -1131,11 +1131,11 @@ msgstr ""
 "Automatski čisti ostave minijatura i ostalih prelaznih datoteka, i upozorava "
 "o nedostatku prostora na disku"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "Tastatura"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Keyboard plugin"
 msgstr "Dodatak za tastaturu"
 
@@ -1190,11 +1190,11 @@ msgid "System Sounds"
 msgstr "Sistemski zvuci"
 
 #. Priority=100
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys"
 msgstr "Multimedijalni tasteri"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:3
 msgid "Media keys plugin"
 msgstr "Dodatak za multimedijalne tastere"
 
@@ -1304,20 +1304,20 @@ msgstr "Okidač osvjetljaja tastature"
 msgid "Battery Status"
 msgstr "Stanje baterije"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "Miš"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr "Dodatak za miša"
 
 #. Priority=100
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:2
 msgid "Orientation"
 msgstr "Orijentacija"
 
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:3
 msgid "Orientation plugin"
 msgstr "Priključak usmjerenja"
 
@@ -1389,7 +1389,7 @@ msgstr "Preostala je nepoznata količina rezervnog napajanja"
 #: ../plugins/power/gsd-power-manager.c:654
 #: ../plugins/power/gsd-power-manager.c:762
 #: ../plugins/power/gsd-power-manager.c:2022
-#: ../plugins/power/power.gnome-settings-plugin.in.h:1
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "Uključi"
 
@@ -1710,7 +1710,7 @@ msgstr "Promjena osvjetljenja laptopa"
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "Potvrda identiteta je potrebna za promjenu osvjetljenja laptopa"
 
-#: ../plugins/power/power.gnome-settings-plugin.in.h:2
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:2
 msgid "Power plugin"
 msgstr "Priključak za napajanje"
 
@@ -1960,28 +1960,28 @@ msgid "Printer '%s': '%s'."
 msgstr "Štampač „%s“: „%s“."
 
 #. Priority=100
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:2
 msgid "Print-notifications"
 msgstr "Obavještenja o štampanju"
 
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:3
 msgid "Print-notifications plugin"
 msgstr "Dodatak obavještenja o štampanju"
 
 #. Priority=100
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:2
 msgid "Rfkill"
 msgstr "Rfkill"
 
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:3
 msgid "Rfkill plugin"
 msgstr "Rfkill dodatak"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
 msgstr "Posrednik čuvara ekrana"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
 msgstr ""
 "Sprečavanje posrednika čuvara ekrana slobodne radne površi za gnomovu sesiju"
@@ -1990,19 +1990,19 @@ msgstr ""
 msgid "User was not logged in with smartcard."
 msgstr "Korisnik nije bio prijavljen preko smart-kartice."
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:1
 msgid "Smartcard"
 msgstr "Pametna kartica"
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:2
 msgid "Smartcard plugin"
 msgstr "Priključak pametne kartice"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "Zvuk"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 msgid "Sound Sample Cache plugin"
 msgstr "Priključak ostave uzorka zvuka"
 
@@ -2222,11 +2222,11 @@ msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr ""
 "Autentičnost je potrebna za modificiranje OLED slike za Wacom bilježnik"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:1
 msgid "Wacom"
 msgstr "Wacom"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:2
 msgid "Wacom plugin"
 msgstr "Priključak za Wacom"
 
@@ -2235,18 +2235,18 @@ msgstr "Priključak za Wacom"
 msgid "Could not refresh the screen information: %s"
 msgstr "Ne mogu da osvježim podatke o ekranu: %s"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "XRandR"
 msgstr "XRandR"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "Set up screen size and rotation settings"
 msgstr "Podešavanje veličine i rotacije ekrana"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 msgid "X Settings"
 msgstr "Podešavanja Iksa"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "Uredi podešavanja Iksa"

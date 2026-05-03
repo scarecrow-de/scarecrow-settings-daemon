@@ -44,8 +44,8 @@
 #include "gsm-manager-logout-mode.h"
 #include "gpm-common.h"
 #include "gsd-backlight.h"
-#include "gnome-settings-profile.h"
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-profile.h"
+#include "scarecrow-settings-bus.h"
 #include "gsd-enums.h"
 #include "gsd-power-manager.h"
 

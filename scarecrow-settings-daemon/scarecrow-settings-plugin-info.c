@@ -25,10 +25,10 @@
 #include <gmodule.h>
 #include <gio/gio.h>
 
-#include "gnome-settings-plugin-info.h"
-#include "gnome-settings-module.h"
-#include "gnome-settings-plugin.h"
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-plugin-info.h"
+#include "scarecrow-settings-module.h"
+#include "scarecrow-settings-plugin.h"
+#include "scarecrow-settings-profile.h"
 
 #define PLUGIN_GROUP "GNOME Settings Plugin"
 

@@ -55,10 +55,10 @@
 #include <gio/gio.h>
 #include <string.h>
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-rfkill-manager.h"
 #include "rfkill-glib.h"
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-bus.h"
 
 struct _GsdRfkillManager
 {

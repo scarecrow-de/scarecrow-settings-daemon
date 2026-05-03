@@ -406,12 +406,12 @@ msgstr ""
 msgid "GConf prefix from which to load plugin settings"
 msgstr ""
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Accessibility Keyboard"
 msgstr "འཛུལ་སྤྱོད"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Accessibility keyboard plugin"
 msgstr "འཛུལ་སྤྱོད"
@@ -490,37 +490,37 @@ msgstr ""
 msgid "Sticky Keys Alert"
 msgstr "སྦྱར་རྩི་ཅན་གྱི་ལྡེ་མིག་དྲན་བརྡ།"
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:1
 msgid "Background"
 msgstr "རྒྱབ་གཞི་"
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Background plugin"
 msgstr "རྒྱབ་གཞི་"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:1
 msgid "Clipboard"
 msgstr ""
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard plugin"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr ""
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Font"
 msgstr "ཡིག་གཟུགས་ཚུ"
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:2
 msgid "Font plugin"
 msgstr ""
 
@@ -581,19 +581,19 @@ msgstr ""
 "ལྡེ་མིག་(%s)ལུ་འབྲེལ་མཐུད་ཡོད་མི་\n"
 "(%s)གཡོག་བཀོལ་ནིའི་ འབད་རྩོལ་བསྐྱེདཔ་ད་ འཛོལ་བ་ཅིག་བྱུང་ནུག"
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:1
 msgid "Keybindings"
 msgstr ""
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:2
 msgid "Keybindings plugin"
 msgstr ""
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "ལྡེ་སྒྲོམ།"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Keyboard plugin"
 msgstr "ལྡེ་སྒྲོམ་གྱི་གདམ་ཁ།"
@@ -651,12 +651,12 @@ msgstr ""
 "གློག་འཕྲུལ་དེ་ གཉིད་ནང་བཙུགས་མ་ཚུགས།\n"
 "གློག་འཕྲུལ་དེ་ངེས་བདེན་སྦེ་ རིམ་སྒྲིག་འབད་མ་འབད་ བདེན་སྦྱོར་འབད།"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Media keys"
 msgstr "བརྡ་བརྒྱུད་གཏང་འཕྲུལ"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys plugin"
 msgstr ""
 
@@ -675,11 +675,11 @@ msgstr ""
 msgid "Mouse Preferences"
 msgstr "མཱའུསི་གི་དགའ་གདམ་ཚུ།"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "མཱའུསི།"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr ""
 
@@ -702,12 +702,12 @@ msgstr ""
 msgid "_Do not show this message again"
 msgstr "འཕྲིན་དོན་འདི་ ལོག་སྟེ་མ་སྟོན།(_D)"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Screensaver"
 msgstr "གསལ་གཞི་ཉེན་སྲུང་འགོ་བཙུགས།"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Screensaver plugin"
 msgstr "ནང་བསྐྱོད་ཀྱི་སྐབས་ལུ་ གསལ་གཞི་ཉེན་སྲུང་ གཡོག་བཀོལ།"
@@ -779,29 +779,29 @@ msgstr "སྒྲ་སྐད་ཡིག་སྣོད་སེལ་འཐུ
 msgid "System Sounds"
 msgstr "རིམ་ལུགས་སྒྲ་སྐད།"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "སྒྲ་སྐད།"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Sound plugin"
 msgstr "སྒྲ་སྐད་ཡིག་སྣོད།"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:1
 msgid "Typing Break"
 msgstr "ཡིག་དཔར་བརྐྱབ་ནིའི་བར་མཚམས།"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Typing break plugin"
 msgstr "ཡིག་དཔར་བརྐྱབ་ནིའི་བར་མཚམས།"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "Set up screen size and rotation settings"
 msgstr ""
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "XRandR"
 msgstr ""
 
@@ -810,11 +810,11 @@ msgstr ""
 msgid "Cannot determine user's home directory"
 msgstr "ལག་ལེན་པའི་ ཁྱིམ་གྱི་སྣོད་ཐོ་ ངོས་འཛིན་འབད་མི་ཚུགས་པས།"
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:1
 msgid "Manage the X resource database"
 msgstr ""
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:2
 msgid "X Resource Database"
 msgstr ""
 
@@ -824,12 +824,12 @@ msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr ""
 "ཇི་ཀཱོནཕི་ལྡེ་མིག་%sདེ་ དབྱེ་བ་%sལུ་ གཞི་སྒྲིག་འབད་ནུག དེ་འབདཝ་ད་ རེ་བ་བསྐྱེད་མི་དབྱེ་བ་དེ་%sཨིན་པས།\n"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Manage X Settings"
 msgstr "ཨེགསི་གཞི་སྒྲིག་ཚུ་ ལག་ལེན་འཐབ།"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "X Settings"
 msgstr "ཨེགསི་གཞི་སྒྲིག་ཚུ་ ལག་ལེན་འཐབ།"

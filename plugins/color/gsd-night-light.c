@@ -23,7 +23,7 @@
 #include <geoclue.h>
 
 #define GNOME_DESKTOP_USE_UNSTABLE_API
-#include "gnome-datetime-source.h"
+#include "scarecrow-datetime-source.h"
 
 #include "gsd-color-state.h"
 

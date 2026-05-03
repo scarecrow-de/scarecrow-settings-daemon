@@ -420,13 +420,13 @@ msgid "GConf prefix from which to load plugin settings"
 msgstr ""
 
 # offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_GENERAL_OPTIONS.13.text
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Accessibility Keyboard"
 msgstr "Ubushobozi bwo gukoreshwa"
 
 # offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_GENERAL_OPTIONS.13.text
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Accessibility keyboard plugin"
 msgstr "Ubushobozi bwo gukoreshwa"
@@ -511,35 +511,35 @@ msgstr ""
 msgid "Sticky Keys Alert"
 msgstr ""
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:1
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:1
 msgid "Background"
 msgstr ""
 
-#: ../plugins/background/background.gnome-settings-plugin.in.h:2
+#: ../plugins/background/background.scarecrow-settings-plugin.in.h:2
 msgid "Background plugin"
 msgstr ""
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:1
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:1
 msgid "Clipboard"
 msgstr ""
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard plugin"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr ""
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr ""
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:1
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:1
 msgid "Font"
 msgstr "Intego-nyuguti"
 
-#: ../plugins/font/font.gnome-settings-plugin.in.h:2
+#: ../plugins/font/font.scarecrow-settings-plugin.in.h:2
 msgid "Font plugin"
 msgstr ""
 
@@ -594,11 +594,11 @@ msgid ""
 "which is linked to the key (%s)"
 msgstr "Kuri Gukoresha ni Kuri i Urufunguzo"
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:1
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:1
 msgid "Keybindings"
 msgstr ""
 
-#: ../plugins/keybindings/keybindings.gnome-settings-plugin.in.h:2
+#: ../plugins/keybindings/keybindings.scarecrow-settings-plugin.in.h:2
 msgid "Keybindings plugin"
 msgstr ""
 
@@ -606,11 +606,11 @@ msgstr ""
 # sfx2/source\accel\accel.src:STR_ACCEL_CFGITEM.text
 # #-#-#-#-#  sfx2.pot (PACKAGE VERSION)  #-#-#-#-#
 # sfx2/source\dialog\cfg.src:DLG_CONFIG.1.TP_CONFIG_ACCEL.text
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Keyboard"
 msgstr "Mwandikisho"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Keyboard plugin"
 msgstr "Amahitamo"
@@ -670,11 +670,11 @@ msgid ""
 "Verify that the machine is correctly configured."
 msgstr "Gushyira i Kuri i ni"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:1
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:1
 msgid "Media keys"
 msgstr ""
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys plugin"
 msgstr ""
 
@@ -694,11 +694,11 @@ msgid "Mouse Preferences"
 msgstr ""
 
 # offmgr/source\offapp\dialog\optgdlg.src:OFA_TP_VIEW.FL_MOUSE.text
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 msgid "Mouse"
 msgstr "Imbeba"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr ""
 
@@ -717,12 +717,12 @@ msgstr "Ikosa Hejuru i OYA Akazi in iyi Umukoro"
 msgid "_Do not show this message again"
 msgstr "OYA Garagaza iyi Ubutumwa"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Screensaver"
 msgstr "Gutangira"
 
-#: ../plugins/screensaver/screensaver.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver/screensaver.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Screensaver plugin"
 msgstr "ku Ifashayinjira"
@@ -804,28 +804,28 @@ msgstr "Idosiye"
 msgid "System Sounds"
 msgstr "amasogonda"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "Ijwi"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "Sound plugin"
 msgstr "Idosiye"
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:1
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:1
 msgid "Typing Break"
 msgstr ""
 
-#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
+#: ../plugins/typing-break/typing-break.scarecrow-settings-plugin.in.h:2
 msgid "Typing break plugin"
 msgstr ""
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "Set up screen size and rotation settings"
 msgstr ""
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "XRandR"
 msgstr ""
 
@@ -835,11 +835,11 @@ msgstr ""
 msgid "Cannot determine user's home directory"
 msgstr "Ku Ntangiriro bushyinguro"
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:1
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:1
 msgid "Manage the X resource database"
 msgstr ""
 
-#: ../plugins/xrdb/xrdb.gnome-settings-plugin.in.h:2
+#: ../plugins/xrdb/xrdb.scarecrow-settings-plugin.in.h:2
 msgid "X Resource Database"
 msgstr ""
 
@@ -848,12 +848,12 @@ msgstr ""
 msgid "GConf key %s set to type %s but its expected type was %s\n"
 msgstr "Urufunguzo Gushyiraho Kuri Ubwoko Ikitezwe: Ubwoko"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 #, fuzzy
 msgid "Manage X Settings"
 msgstr "Amagenamiterere"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 #, fuzzy
 msgid "X Settings"
 msgstr "Amagenamiterere"

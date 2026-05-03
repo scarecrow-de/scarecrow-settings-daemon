@@ -23,4 +23,4 @@ BusName=@plugin_dbus_name@
 TimeoutStopSec=5
 # We cannot use OnFailure as e.g. dependency failures are normal
 # https://github.com/systemd/systemd/issues/12352
-ExecStopPost=@libexecdir@/gnome-session-ctl --exec-stop-check
+ExecStopPost=@libexecdir@/scarecrow-session-ctl --exec-stop-check

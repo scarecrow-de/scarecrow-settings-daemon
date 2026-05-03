@@ -2420,7 +2420,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "Ordre a executar quan s'adjunti o s'extregui un dispositiu. Un valor de "

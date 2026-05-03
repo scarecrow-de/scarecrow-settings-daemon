@@ -44,8 +44,8 @@
 #endif
 
 #include "gsd-enums.h"
-#include "gnome-settings-profile.h"
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-profile.h"
+#include "scarecrow-settings-bus.h"
 #include "gsd-wacom-manager.h"
 #include "gsd-wacom-oled.h"
 #include "gsd-settings-migrate.h"

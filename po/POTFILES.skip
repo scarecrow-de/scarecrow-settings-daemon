@@ -1,6 +1,6 @@
 # Files with translatable strings to skip.
 # Please keep this file in alphabetical order.
-plugins/automount/gnome-fallback-mount-helper.desktop.in
+plugins/automount/scarecrow-fallback-mount-helper.desktop.in
 plugins/power/io.github.scarecrow_de.settings-daemon.plugins.power.policy.in
 plugins/usb-protection/io.github.scarecrow_de.SettingsDaemon.UsbProtection.desktop.in
 plugins/wacom/io.github.scarecrow_de.settings-daemon.plugins.wacom.policy.in

@@ -2737,7 +2737,7 @@ msgstr[0] "あと %u 回入力できます"
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "デバイスの接続または取り外し時に実行するコマンドです。終了ステータスが 1 "

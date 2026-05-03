@@ -24,7 +24,7 @@
 #include <gdk/gdk.h>
 #include <gtk/gtk.h>
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-color-calibrate.h"
 #include "gsd-color-manager.h"
 #include "gsd-color-profiles.h"

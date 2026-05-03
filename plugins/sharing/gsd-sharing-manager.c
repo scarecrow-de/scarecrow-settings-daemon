@@ -29,7 +29,7 @@
 #include <NetworkManager.h>
 #endif /* HAVE_NETWORK_MANAGER */
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-sharing-manager.h"
 #include "gsd-sharing-enums.h"
 

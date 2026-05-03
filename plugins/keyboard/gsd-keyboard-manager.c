@@ -37,8 +37,8 @@
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
 
-#include "gnome-settings-bus.h"
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-bus.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-keyboard-manager.h"
 #include "gsd-input-helper.h"
 #include "gsd-enums.h"

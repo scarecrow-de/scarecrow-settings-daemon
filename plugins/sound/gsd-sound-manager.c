@@ -35,7 +35,7 @@
 #include <pulse/pulseaudio.h>
 
 #include "gsd-sound-manager.h"
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 
 struct _GsdSoundManager
 {

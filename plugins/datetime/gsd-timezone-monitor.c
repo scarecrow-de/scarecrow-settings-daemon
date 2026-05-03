@@ -29,7 +29,7 @@
 #include <geocode-glib/geocode-glib.h>
 #include <polkit/polkit.h>
 
-#define DESKTOP_ID "gnome-datetime-panel"
+#define DESKTOP_ID "scarecrow-datetime-panel"
 #define SET_TIMEZONE_PERMISSION "org.freedesktop.timedate1.set-timezone"
 
 enum {

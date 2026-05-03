@@ -37,7 +37,7 @@
 #include <cups/ppd.h>
 #include <libnotify/notify.h>
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-print-notifications-manager.h"
 
 #define CUPS_DBUS_NAME      "org.cups.cupsd.Notifier"
@@ -467,7 +467,7 @@ authenticate_cb (NotifyNotification *notification,
         if (g_strcmp0 (action, "default") == 0) {
                 notify_notification_close (notification, NULL);
 
-                commandline = g_strdup_printf (BINDIR "/gnome-control-center printers show-jobs %s", printer_name);
+                commandline = g_strdup_printf (BINDIR "/scarecrow-control-center printers show-jobs %s", printer_name);
                 app_info = g_app_info_create_from_commandline (commandline,
                                                                "gnome-control-center",
                                                                G_APP_INFO_CREATE_SUPPORTS_STARTUP_NOTIFICATION,

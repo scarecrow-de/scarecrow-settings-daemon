@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Gnome Nepali Translation Project\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-settings-"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=scarecrow-settings-"
 "daemon&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-08-02 19:47+0000\n"
 "PO-Revision-Date: 2017-08-21 05:28+0545\n"

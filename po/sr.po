@@ -1,6 +1,6 @@
-# Serbian translation of gnome-settings-deamon
+# Serbian translation of scarecrow-settings-deamon
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2021.
-# This file is distributed under the same license as the gnome-settings-deamon package.
+# This file is distributed under the same license as the scarecrow-settings-deamon package.
 # Вељко М. Станојевић <veljko@vms.homelinux.net>
 # Данило Шеган <danilo@gnome.org>, 2005.
 # Слободан Д. Средојевић <slobo@akrep.be>, 2006.
@@ -3196,7 +3196,7 @@ msgstr[3] "Преостао вам је још један покушај"
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "Наредба која ће бити покренута када је додат или уклоњен уређај. Излазна "

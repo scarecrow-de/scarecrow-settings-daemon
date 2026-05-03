@@ -914,11 +914,11 @@ msgstr "मौजूदा डेमन बदलें"
 msgid "Exit after a time (for debugging)"
 msgstr "एक समय के बाद बाहर - डिबगिंग के लिए"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "पहुंच कुंजीपट"
 
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility keyboard plugin"
 msgstr "पहुंच कुंजीपट प्लगिन"
 
@@ -991,29 +991,29 @@ msgstr ""
 "स्टिकी कुंजी "
 "सुविधा बंद करता है, जो आपके कुंजीपटल के कार्य को प्रभावित करता है."
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility settings"
 msgstr "पहुँच सेटिंग"
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility settings plugin"
 msgstr "पहुँच सेटिंग प्लगिन"
 
 #. Priority=100
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard"
 msgstr "क्लिपबोर्ड"
 
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:3
 msgid "Clipboard plugin"
 msgstr "क्लिपबोर्ड प्लगिन"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:1
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
 #: ../plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
 msgstr "रंग"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:2
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:2
 msgid "Color plugin"
 msgstr "रंग प्लगिन"
 
@@ -1055,20 +1055,20 @@ msgid "Color calibration device removed"
 msgstr "रंग कैलिब्रेशन युक्ति हटाया गया"
 
 #. Priority=100
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:2
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:2
 msgid "Cursor"
 msgstr "संकेतक"
 
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:3
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:3
 msgid "Show/hide cursor on tablet devices"
 msgstr "टैबलेट उपकरणों पर संकेतक दिखाएँ/छुपाएँ"
 
 #. Priority=100
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:2
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:2
 msgid "Date and Time"
 msgstr "तिथि और समय"
 
-#: ../plugins/datetime/datetime.gnome-settings-plugin.in.h:3
+#: ../plugins/datetime/datetime.scarecrow-settings-plugin.in.h:3
 #| msgid ""
 #| "Automatically download updates in the background without confirmation"
 msgid "Automatically update timezone and display notifications"
@@ -1095,11 +1095,11 @@ msgstr "तारीख़ तथा समय का विन्यास"
 msgid "Settings"
 msgstr "जमावट"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr "डमी"
 
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr "डमी प्लगिन"
 
@@ -1212,11 +1212,11 @@ msgstr ""
 msgid "Examine…"
 msgstr "जाँचें..."
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:1
 msgid "Housekeeping"
 msgstr "देख-रेख"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:2
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
@@ -1225,13 +1225,13 @@ msgstr ""
 "लिए सावधान "
 "करता है"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 #| msgid "Keyboard"
 #| msgid_plural "Keyboards"
 msgid "Keyboard"
 msgstr "कुंजीपटल"
 
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Keyboard plugin"
 msgstr "कुंजीपटल प्लगिन"
 
@@ -1286,11 +1286,11 @@ msgid "System Sounds"
 msgstr "सिस्टम ध्वनि"
 
 #. Priority=100
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys"
 msgstr "मीडिया कुंजी"
 
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:3
 msgid "Media keys plugin"
 msgstr "मीडिया कुंजी प्लगिन"
 
@@ -1414,23 +1414,23 @@ msgstr "कुंजीपटल चमकीलापन टॉगल करे
 msgid "Battery Status"
 msgstr "बैटरी स्थिति"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 #| msgid "Mouse"
 #| msgid_plural "Mice"
 msgid "Mouse"
 msgstr "माउस"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr "माउस प्लगिन"
 
 #. Priority=100
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:2
 #| msgid "Print-notifications"
 msgid "Orientation"
 msgstr "ओरियंटेशन"
 
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:3
 #| msgid "Print-notifications plugin"
 msgid "Orientation plugin"
 msgstr "ओरियंटेशन प्लगइन"
@@ -1500,7 +1500,7 @@ msgstr "यूपीएस बैकअप पावर अज्ञात म�
 #: ../plugins/power/gsd-power-manager.c:649
 #: ../plugins/power/gsd-power-manager.c:757
 #: ../plugins/power/gsd-power-manager.c:1950
-#: ../plugins/power/power.gnome-settings-plugin.in.h:1
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "पावर"
 
@@ -1828,7 +1828,7 @@ msgstr "लैपटॉप ब्राइटनेस को संशोधि
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "लैपटॉप चमक को संशोधित करने के लिए सत्यापन जरूरी है"
 
-#: ../plugins/power/power.gnome-settings-plugin.in.h:2
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:2
 msgid "Power plugin"
 msgstr "पॉवर प्लगिन"
 
@@ -2078,29 +2078,29 @@ msgid "Printer '%s': '%s'."
 msgstr "मुद्रक '%s': '%s'."
 
 #. Priority=100
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:2
 msgid "Print-notifications"
 msgstr "छपाई अधिसूचना"
 
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:3
 msgid "Print-notifications plugin"
 msgstr "छपाई अधिसूचना प्लगइन"
 
 #. Priority=100
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:2
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:2
 msgid "Rfkill"
 msgstr "Rfkill"
 
-#: ../plugins/rfkill/rfkill.gnome-settings-plugin.in.h:3
+#: ../plugins/rfkill/rfkill.scarecrow-settings-plugin.in.h:3
 #| msgid "Color plugin"
 msgid "Rfkill plugin"
 msgstr "Rfkill प्लगइन"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
 msgstr "स्क्रीनसेवर प्रॉक्सी"
 
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
 msgstr "गनोम-सत्र से प्रॉक्सी फ्रीडेस्कटॉप स्क्रीनसेवर रुकावट"
 
@@ -2108,20 +2108,20 @@ msgstr "गनोम-सत्र से प्रॉक्सी फ्री�
 msgid "User was not logged in with smartcard."
 msgstr "उपयोक्ता स्मार्टकार्ड से लॉगइन नहीं है."
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:1
 msgid "Smartcard"
 msgstr "स्मार्टकार्ड"
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:2
 #| msgid "Background plugin"
 msgid "Smartcard plugin"
 msgstr "स्मार्टकार्ड प्लगइन"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "ध्वनि"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 msgid "Sound Sample Cache plugin"
 msgstr "ध्वनि नमूना कैश प्लगइन"
 
@@ -2353,11 +2353,11 @@ msgstr "वेकोम टेबलेट का ओएलईडी छवि �
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "वेकोम टेबलेट का ओएलईडी छवि संशोधित करने के लिए सत्यापन जरूरी है"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:1
 msgid "Wacom"
 msgstr "वेकोम"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:2
 #| msgid "Background plugin"
 msgid "Wacom plugin"
 msgstr "वेकोम प्लगइन"
@@ -2367,19 +2367,19 @@ msgstr "वेकोम प्लगइन"
 msgid "Could not refresh the screen information: %s"
 msgstr "स्क्रीन सूचना ताज़ा नहीं कर सका: %s"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "XRandR"
 msgstr "XRandR"
 
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "Set up screen size and rotation settings"
 msgstr "स्क्रीन आकार और चक्रीय सेटिंग सेट अप करें"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 msgid "X Settings"
 msgstr "X सेटिंग"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "X सेटिंग प्रबंधित करें"
 

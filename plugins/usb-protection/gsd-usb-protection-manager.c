@@ -28,8 +28,8 @@
 
 #include <gdesktop-enums.h>
 
-#include "gnome-settings-bus.h"
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-bus.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-enums.h"
 #include "gsd-usb-protection-manager.h"
 

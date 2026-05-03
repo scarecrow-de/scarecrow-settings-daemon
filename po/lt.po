@@ -3127,11 +3127,11 @@ msgstr[2] "Jums liko %1$u bandymų"
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "Komanda, įvykdoma kai įrenginys yra pridedamas arba pašalinamas. Išėjimo "
-#~ "vertė 1 reiškia, kad įrenginys daugiau nebus apdorojamas gnome-settings-"
+#~ "vertė 1 reiškia, kad įrenginys daugiau nebus apdorojamas scarecrow-settings-"
 #~ "daemon."
 
 #~ msgid ""

@@ -74,7 +74,7 @@ gcm_session_exec_control_center (GsdColorCalibrate *calibrate)
 
         /* setup the launch context so the startup notification is correct */
         launch_context = gdk_display_get_app_launch_context (gdk_display_get_default ());
-        app_info = g_app_info_create_from_commandline (BINDIR "/gnome-control-center color",
+        app_info = g_app_info_create_from_commandline (BINDIR "/scarecrow-control-center color",
                                                        "gnome-control-center",
                                                        G_APP_INFO_CREATE_SUPPORTS_STARTUP_NOTIFICATION,
                                                        &error);

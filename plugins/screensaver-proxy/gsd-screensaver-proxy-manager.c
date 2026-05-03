@@ -32,8 +32,8 @@
 #include <glib/gi18n.h>
 #include <gio/gio.h>
 
-#include "gnome-settings-bus.h"
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-bus.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-screensaver-proxy-manager.h"
 
 /* As available in:

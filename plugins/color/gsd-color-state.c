@@ -34,7 +34,7 @@
 #include <gdk/gdkx.h>
 #endif
 
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-bus.h"
 
 #include "gsd-color-manager.h"
 #include "gsd-color-state.h"

@@ -25,7 +25,7 @@
 
 #include "gsd-datetime-manager.h"
 #include "gsd-timezone-monitor.h"
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 
 #define DATETIME_SCHEMA "io.github.scarecrow_de.desktop.datetime"
 #define AUTO_TIMEZONE_KEY "automatic-timezone"
@@ -116,7 +116,7 @@ timezone_changed_cb (GsdTimezoneMonitor *timezone_monitor,
         g_free (notification_summary);
 
         notify_notification_set_app_name (self->notification, _("Date & Time Settings"));
-        notify_notification_set_hint_string (self->notification, "desktop-entry", "gnome-datetime-panel");
+        notify_notification_set_hint_string (self->notification, "desktop-entry", "scarecrow-datetime-panel");
         notify_notification_set_urgency (self->notification, NOTIFY_URGENCY_NORMAL);
         notify_notification_set_timeout (self->notification, NOTIFY_EXPIRES_NEVER);
 

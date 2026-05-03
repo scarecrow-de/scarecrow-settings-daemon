@@ -3030,7 +3030,7 @@ msgstr[0] "您还有 %u 次尝试机会"
 
 #~ msgid ""
 #~ "Command to be run when a device is added or removed. An exit value of 1 "
-#~ "means that the device will not be handled further by gnome-settings-"
+#~ "means that the device will not be handled further by scarecrow-settings-"
 #~ "daemon."
 #~ msgstr ""
 #~ "要在添加或移除设备时运行的命令。退出代码 1 表示设备之后将不交给 gnome-"

@@ -18,7 +18,7 @@
 #include <glib-unix.h>
 #include <glib/gi18n.h>
 
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-bus.h"
 
 #ifndef PLUGIN_NAME
 #error Include PLUGIN_CFLAGS in the daemon s CFLAGS

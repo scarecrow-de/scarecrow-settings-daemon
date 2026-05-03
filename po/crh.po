@@ -1272,12 +1272,12 @@ msgid "Exit after a time (for debugging)"
 msgstr "Bir aradan soñra çıq (illetsizlendirmek içün)"
 
 # tr
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility Keyboard"
 msgstr "İrişilebilirlik Klavyesi"
 
 # tr
-#: ../plugins/a11y-keyboard/a11y-keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-keyboard/a11y-keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility keyboard plugin"
 msgstr "İrişilebilirlik klavyesi plagini"
 
@@ -1354,31 +1354,31 @@ msgstr ""
 "Aynı anda iki tuşa bastınız veya Shift tuşuna ard arda 5 kere bastınız.  Bu "
 "klavyenizin çalışma biçimini etkileyecek Yapışkan Tuşlar özelliğini kapatır."
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:1
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:1
 msgid "Accessibility settings"
 msgstr "İrişilebilirlik ayarları"
 
-#: ../plugins/a11y-settings/a11y-settings.gnome-settings-plugin.in.h:2
+#: ../plugins/a11y-settings/a11y-settings.scarecrow-settings-plugin.in.h:2
 msgid "Accessibility settings plugin"
 msgstr "İrişilebilirlik ayarları plagini"
 
 # tr
 #. Priority=100
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:2
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:2
 msgid "Clipboard"
 msgstr "Pano"
 
 # tr
-#: ../plugins/clipboard/clipboard.gnome-settings-plugin.in.h:3
+#: ../plugins/clipboard/clipboard.scarecrow-settings-plugin.in.h:3
 msgid "Clipboard plugin"
 msgstr "Pano eklentisi"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:1
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
 #: ../plugins/color/gsd-color-manager.c:1664
 msgid "Color"
 msgstr "Tüs"
 
-#: ../plugins/color/color.gnome-settings-plugin.in.h:2
+#: ../plugins/color/color.scarecrow-settings-plugin.in.h:2
 msgid "Color plugin"
 msgstr "Renk plagini"
 
@@ -1427,21 +1427,21 @@ msgid "Color calibration device removed"
 msgstr "Renk düzeltme aygıtı kaldırıldı"
 
 #. Priority=100
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:2
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:2
 msgid "Cursor"
 msgstr "İmleç"
 
-#: ../plugins/cursor/cursor.gnome-settings-plugin.in.h:3
+#: ../plugins/cursor/cursor.scarecrow-settings-plugin.in.h:3
 msgid "Show/hide cursor on tablet devices"
 msgstr "Tablet cihazları üzerinde imlaçni köster/gizle"
 
 # tr
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:1
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:1
 msgid "Dummy"
 msgstr "Aptal"
 
 # tr
-#: ../plugins/dummy/dummy.gnome-settings-plugin.in.h:2
+#: ../plugins/dummy/dummy.scarecrow-settings-plugin.in.h:2
 msgid "Dummy plugin"
 msgstr "Aptal eklentisi"
 
@@ -1561,11 +1561,11 @@ msgstr ""
 msgid "Examine…"
 msgstr "İmtihan Et…"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:1
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:1
 msgid "Housekeeping"
 msgstr "Ev temizligi"
 
-#: ../plugins/housekeeping/housekeeping.gnome-settings-plugin.in.h:2
+#: ../plugins/housekeeping/housekeeping.scarecrow-settings-plugin.in.h:2
 msgid ""
 "Automatically prunes thumbnail caches and other transient files, and warns "
 "about low disk space"
@@ -1575,14 +1575,14 @@ msgstr ""
 
 # tüklü: plural
 #. TRANSLATORS: wireless keyboard with internal battery
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:1
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:1
 #: ../plugins/power/gpm-common.c:611
 msgid "Keyboard"
 msgid_plural "Keyboards"
 msgstr[0] "Klavye(ler)"
 
 # tr
-#: ../plugins/keyboard/keyboard.gnome-settings-plugin.in.h:2
+#: ../plugins/keyboard/keyboard.scarecrow-settings-plugin.in.h:2
 msgid "Keyboard plugin"
 msgstr "Klavye plagini"
 
@@ -1607,12 +1607,12 @@ msgstr "%s menbalı ekran körüntisi"
 
 # tr
 #. Priority=100
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:2
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:2
 msgid "Media keys"
 msgstr "Ortam tuşları"
 
 # tr
-#: ../plugins/media-keys/media-keys.gnome-settings-plugin.in.h:3
+#: ../plugins/media-keys/media-keys.scarecrow-settings-plugin.in.h:3
 msgid "Media keys plugin"
 msgstr "Ortam tuşları eklentisi"
 
@@ -1734,22 +1734,22 @@ msgstr ""
 
 # tüklü: plural
 #. TRANSLATORS: wireless mice with internal batteries
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:1
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:1
 #: ../plugins/power/gpm-common.c:607
 msgid "Mouse"
 msgid_plural "Mice"
 msgstr[0] "Sıçan(lar)"
 
-#: ../plugins/mouse/mouse.gnome-settings-plugin.in.h:2
+#: ../plugins/mouse/mouse.scarecrow-settings-plugin.in.h:2
 msgid "Mouse plugin"
 msgstr "Sıçan plagini"
 
 #. Priority=100
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:2
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:2
 msgid "Orientation"
 msgstr "Yöneldirim"
 
-#: ../plugins/orientation/orientation.gnome-settings-plugin.in.h:3
+#: ../plugins/orientation/orientation.scarecrow-settings-plugin.in.h:3
 msgid "Orientation plugin"
 msgstr "Yöneldirim plagini"
 
@@ -2341,7 +2341,7 @@ msgstr "UPS yedek gücü %s kaldı"
 #: ../plugins/power/gsd-power-manager.c:1611
 #: ../plugins/power/gsd-power-manager.c:1749
 #: ../plugins/power/gsd-power-manager.c:3088
-#: ../plugins/power/power.gnome-settings-plugin.in.h:1
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "Qudret"
 
@@ -2720,7 +2720,7 @@ msgstr "Dizüstü bilgisayar ekran parlaklığını değiştir"
 msgid "Authentication is required to modify the laptop brightness"
 msgstr "Dizüstü parlaklığını değştirmek için yetkinleştirme gerekli"
 
-#: ../plugins/power/power.gnome-settings-plugin.in.h:2
+#: ../plugins/power/power.scarecrow-settings-plugin.in.h:2
 msgid "Power plugin"
 msgstr "Qudret plagini"
 
@@ -2995,30 +2995,30 @@ msgstr "Yazıcı '%s': '%s'."
 
 # tr
 #. Priority=100
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:2
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:2
 msgid "Print-notifications"
 msgstr "Yazdırma-uyarıları"
 
 # tr
-#: ../plugins/print-notifications/print-notifications.gnome-settings-plugin.in.h:3
+#: ../plugins/print-notifications/print-notifications.scarecrow-settings-plugin.in.h:3
 msgid "Print-notifications plugin"
 msgstr "Yazdırma-uyarıları eklentisi"
 
-#: ../plugins/remote-display/remote-display.gnome-settings-plugin.in.h:1
+#: ../plugins/remote-display/remote-display.scarecrow-settings-plugin.in.h:1
 msgid "Remote Display"
 msgstr "Uzaqtaki Kösterim"
 
-#: ../plugins/remote-display/remote-display.gnome-settings-plugin.in.h:2
+#: ../plugins/remote-display/remote-display.scarecrow-settings-plugin.in.h:2
 msgid "Disable animations on remote displays"
 msgstr "Uzaqtaki kösterimlerde canlandırmalarnı ğayrıqabilleştir"
 
 # tr
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:1
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:1
 msgid "Screensaver Proxy"
 msgstr "Ekran Qoruyıcı Proksisi"
 
 # tüklü
-#: ../plugins/screensaver-proxy/screensaver-proxy.gnome-settings-plugin.in.h:2
+#: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
 msgstr "FreeDesktop ekran qoruyıcısı manialamasını gnome-session'ğa proksile"
 
@@ -3052,19 +3052,19 @@ msgstr "kelici kart vaqiaları içün seyretilamadı - %s"
 msgid "encountered unexpected error while waiting for smartcard events"
 msgstr "aqıllı-kart vaqialarını beklegende beklenmegen hata rastkeldi"
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:1
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:1
 msgid "Smartcard"
 msgstr "Aqıllı-kart"
 
-#: ../plugins/smartcard/smartcard.gnome-settings-plugin.in.h:2
+#: ../plugins/smartcard/smartcard.scarecrow-settings-plugin.in.h:2
 msgid "Smartcard plugin"
 msgstr "Aqıllı-kart plagini"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:1
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:1
 msgid "Sound"
 msgstr "Davuş"
 
-#: ../plugins/sound/sound.gnome-settings-plugin.in.h:2
+#: ../plugins/sound/sound.scarecrow-settings-plugin.in.h:2
 msgid "Sound Sample Cache plugin"
 msgstr "Davuş Nümunesi Zulası plagini"
 
@@ -3239,7 +3239,7 @@ msgstr[0] "Yazılım yañartması (yañartmaları) faydalanışlıdır."
 
 #. TRANSLATORS: the updates mechanism
 #: ../plugins/updates/gsd-updates-manager.c:581
-#: ../plugins/updates/updates.gnome-settings-plugin.in.h:1
+#: ../plugins/updates/updates.scarecrow-settings-plugin.in.h:1
 msgid "Updates"
 msgstr "Yañartmalar"
 
@@ -3301,7 +3301,7 @@ msgid "OK"
 msgstr "Tamam"
 
 # tr
-#: ../plugins/updates/updates.gnome-settings-plugin.in.h:2
+#: ../plugins/updates/updates.scarecrow-settings-plugin.in.h:2
 msgid "Updates plugin"
 msgstr "Yañartmalar plagini"
 
@@ -3439,12 +3439,12 @@ msgstr ""
 "Bir Wacom tableti içün ışıqlı Işıq-Saçqan Diodnı (LED; ISD) başqalaştırmaq "
 "içün sahihlenim şarttır"
 
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:1
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:1
 msgid "Wacom"
 msgstr "Wacom"
 
 # tr
-#: ../plugins/wacom/wacom.gnome-settings-plugin.in.h:2
+#: ../plugins/wacom/wacom.scarecrow-settings-plugin.in.h:2
 msgid "Wacom plugin"
 msgstr "Wacom plagini"
 
@@ -3508,20 +3508,20 @@ msgid "Could not apply the stored configuration for monitors"
 msgstr "Ekranlar için kayıtlı yapılandırma uygulanamadı"
 
 # tr
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:1
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:1
 msgid "XRandR"
 msgstr "XRandR"
 
 # tr
-#: ../plugins/xrandr/xrandr.gnome-settings-plugin.in.h:2
+#: ../plugins/xrandr/xrandr.scarecrow-settings-plugin.in.h:2
 msgid "Set up screen size and rotation settings"
 msgstr "Ekran boyutu ve döndürme çevirimi ayarlarını ata"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:1
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:1
 msgid "X Settings"
 msgstr "X Ayarları"
 
-#: ../plugins/xsettings/xsettings.gnome-settings-plugin.in.h:2
+#: ../plugins/xsettings/xsettings.scarecrow-settings-plugin.in.h:2
 msgid "Manage X Settings"
 msgstr "X Ayarlarını İdare Et"
 

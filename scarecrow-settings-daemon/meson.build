@@ -1,6 +1,6 @@
 sources = files(
-  'gnome-settings-bus.c',
-  'gnome-settings-profile.c'
+  'scarecrow-settings-bus.c',
+  'scarecrow-settings-profile.c'
 )
 
 dbus_ifaces = [

@@ -37,11 +37,11 @@
 #include <gdk/gdkx.h>
 #include <gtk/gtk.h>
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 #include "gsd-enums.h"
 #include "gsd-xsettings-manager.h"
 #include "gsd-xsettings-gtk.h"
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-bus.h"
 #include "xsettings-manager.h"
 #include "fc-monitor.h"
 #include "gsd-remote-display-manager.h"

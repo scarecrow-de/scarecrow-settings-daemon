@@ -31,7 +31,7 @@
 #include <glib.h>
 #include <glib/gstdio.h>
 
-#include "gnome-settings-profile.h"
+#include "scarecrow-settings-profile.h"
 
 void
 _gnome_settings_profile_log (const char *func,

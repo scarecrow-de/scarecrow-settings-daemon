@@ -34,7 +34,7 @@
 #define GNOME_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-rr.h>
 
-#include "gnome-settings-bus.h"
+#include "scarecrow-settings-bus.h"
 #include "gpm-common.h"
 #include "gsd-power-constants.h"
 #include "gsd-power-manager.h"
@@ -220,7 +220,7 @@ out:
    heinousness.)
 
    This code was originally part of gnome-screensaver, see
-   http://git.gnome.org/browse/gnome-screensaver/tree/src/gs-watcher-x11.c?id=fec00b12ec46c86334cfd36b37771cc4632f0d4d#n530
+   http://git.gnome.org/browse/scarecrow-screensaver/tree/src/gs-watcher-x11.c?id=fec00b12ec46c86334cfd36b37771cc4632f0d4d#n530
  */
 static gboolean
 disable_builtin_screensaver (gpointer unused)

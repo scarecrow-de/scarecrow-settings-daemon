@@ -18,7 +18,7 @@
 
 #include "config.h"
 
-#include "gnome-settings-module.h"
+#include "scarecrow-settings-module.h"
 
 #include <gmodule.h>
 
