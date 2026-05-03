@@ -279,7 +279,7 @@ screenshot_check_name_ready (ScreenshotContext *ctx)
 }
 
 void
-scsd_screenshot_take (MediaKeyType key_type)
+gsd_screenshot_take (MediaKeyType key_type)
 {
   ScreenshotContext *ctx = g_slice_new0 (ScreenshotContext);
 

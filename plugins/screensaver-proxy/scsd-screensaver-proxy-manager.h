@@ -24,14 +24,14 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_SCREENSAVER_PROXY_MANAGER         (scsd_screensaver_proxy_manager_get_type ())
+#define GSD_TYPE_SCREENSAVER_PROXY_MANAGER         (gsd_screensaver_proxy_manager_get_type ())
 
-G_DECLARE_FINAL_TYPE (GsdScreensaverProxyManager, scsd_screensaver_proxy_manager, GSD, SCREENSAVER_PROXY_MANAGER, GObject)
+G_DECLARE_FINAL_TYPE (GsdScreensaverProxyManager, gsd_screensaver_proxy_manager, GSD, SCREENSAVER_PROXY_MANAGER, GObject)
 
-GsdScreensaverProxyManager *scsd_screensaver_proxy_manager_new                 (void);
-gboolean                    scsd_screensaver_proxy_manager_start               (GsdScreensaverProxyManager  *manager,
+GsdScreensaverProxyManager *gsd_screensaver_proxy_manager_new                 (void);
+gboolean                    gsd_screensaver_proxy_manager_start               (GsdScreensaverProxyManager  *manager,
                                                                                GError                     **error);
-void                        scsd_screensaver_proxy_manager_stop                (GsdScreensaverProxyManager  *manager);
+void                        gsd_screensaver_proxy_manager_stop                (GsdScreensaverProxyManager  *manager);
 
 G_END_DECLS
 

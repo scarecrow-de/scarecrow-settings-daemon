@@ -63,7 +63,7 @@ gcm_test_night_light (void)
         g_autoptr(GsdNightLight) nlight = NULL;
         g_autoptr(GSettings) settings = NULL;
 
-        nlight = scsd_night_light_new ();
+        nlight = gsd_night_light_new ();
         g_assert (GSD_IS_NIGHT_LIGHT (nlight));
         g_signal_connect (nlight, "notify::active",
                           G_CALLBACK (on_notify), &active_cnt);
@@ -78,13 +78,13 @@ gcm_test_night_light (void)
 
         /* hardcode a specific date and time */
         datetime_override = g_date_time_new_utc (2017, 2, 8, 20, 0, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
 
         /* do not start geoclue */
-        scsd_night_light_set_geoclue_enabled (nlight, FALSE);
+        gsd_night_light_set_geoclue_enabled (nlight, FALSE);
 
         /* do not smooth the transition */
-        scsd_night_light_set_smooth_enabled (nlight, FALSE);
+        gsd_night_light_set_smooth_enabled (nlight, FALSE);
 
         /* switch off */
         settings = g_settings_new ("io.github.scarecrow_de.settings-daemon.plugins.color");
@@ -92,17 +92,17 @@ gcm_test_night_light (void)
         g_settings_set_uint (settings, "night-light-temperature", 4000);
 
         /* check default values */
-        g_assert (!scsd_night_light_get_active (nlight));
-        g_assert_cmpint ((gint) scsd_night_light_get_sunrise (nlight), ==, -1);
-        g_assert_cmpint ((gint) scsd_night_light_get_sunset (nlight), ==, -1);
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
-        g_assert (!scsd_night_light_get_disabled_until_tmw (nlight));
+        g_assert (!gsd_night_light_get_active (nlight));
+        g_assert_cmpint ((gint) gsd_night_light_get_sunrise (nlight), ==, -1);
+        g_assert_cmpint ((gint) gsd_night_light_get_sunset (nlight), ==, -1);
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
+        g_assert (!gsd_night_light_get_disabled_until_tmw (nlight));
 
         /* start module, disabled */
-        ret = scsd_night_light_start (nlight, &error);
+        ret = gsd_night_light_start (nlight, &error);
         g_assert_no_error (error);
         g_assert (ret);
-        g_assert (!scsd_night_light_get_active (nlight));
+        g_assert (!gsd_night_light_get_active (nlight));
         g_assert_cmpint (active_cnt, ==, 0);
         g_assert_cmpint (sunset_cnt, ==, 0);
         g_assert_cmpint (sunrise_cnt, ==, 0);
@@ -114,31 +114,31 @@ gcm_test_night_light (void)
                               g_variant_new ("(dd)", 51.5, -0.1278));
         g_settings_set_boolean (settings, "night-light-schedule-automatic", TRUE);
         g_settings_set_boolean (settings, "night-light-enabled", TRUE);
-        g_assert (scsd_night_light_get_active (nlight));
+        g_assert (gsd_night_light_get_active (nlight));
         g_assert_cmpint (active_cnt, ==, 1);
         g_assert_cmpint (sunset_cnt, ==, 1);
         g_assert_cmpint (sunrise_cnt, ==, 1);
         g_assert_cmpint (temperature_cnt, ==, 1);
         g_assert_cmpint (disabled_until_tmw_cnt, ==, 0);
-        g_assert_cmpint ((gint) scsd_night_light_get_sunrise (nlight), ==, 7);
-        g_assert_cmpint ((gint) scsd_night_light_get_sunset (nlight), ==, 17);
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, 4000);
-        g_assert (!scsd_night_light_get_disabled_until_tmw (nlight));
+        g_assert_cmpint ((gint) gsd_night_light_get_sunrise (nlight), ==, 7);
+        g_assert_cmpint ((gint) gsd_night_light_get_sunset (nlight), ==, 17);
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, 4000);
+        g_assert (!gsd_night_light_get_disabled_until_tmw (nlight));
 
         /* disable for one day */
-        scsd_night_light_set_disabled_until_tmw (nlight, TRUE);
-        scsd_night_light_set_disabled_until_tmw (nlight, TRUE);
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
-        g_assert (scsd_night_light_get_active (nlight));
-        g_assert (scsd_night_light_get_disabled_until_tmw (nlight));
+        gsd_night_light_set_disabled_until_tmw (nlight, TRUE);
+        gsd_night_light_set_disabled_until_tmw (nlight, TRUE);
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
+        g_assert (gsd_night_light_get_active (nlight));
+        g_assert (gsd_night_light_get_disabled_until_tmw (nlight));
         g_assert_cmpint (temperature_cnt, ==, 2);
         g_assert_cmpint (disabled_until_tmw_cnt, ==, 1);
 
         /* change our mind */
-        scsd_night_light_set_disabled_until_tmw (nlight, FALSE);
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, 4000);
-        g_assert (scsd_night_light_get_active (nlight));
-        g_assert (!scsd_night_light_get_disabled_until_tmw (nlight));
+        gsd_night_light_set_disabled_until_tmw (nlight, FALSE);
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, 4000);
+        g_assert (gsd_night_light_get_active (nlight));
+        g_assert (!gsd_night_light_get_disabled_until_tmw (nlight));
         g_assert_cmpint (active_cnt, ==, 1);
         g_assert_cmpint (temperature_cnt, ==, 3);
         g_assert_cmpint (disabled_until_tmw_cnt, ==, 2);
@@ -152,15 +152,15 @@ gcm_test_night_light (void)
         g_assert_cmpint (sunrise_cnt, ==, 1);
         g_assert_cmpint (temperature_cnt, ==, 4);
         g_assert_cmpint (disabled_until_tmw_cnt, ==, 2);
-        g_assert (!scsd_night_light_get_active (nlight));
-        g_assert_cmpint ((gint) scsd_night_light_get_sunrise (nlight), ==, 7);
-        g_assert_cmpint ((gint) scsd_night_light_get_sunset (nlight), ==, 17);
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
-        g_assert (!scsd_night_light_get_disabled_until_tmw (nlight));
+        g_assert (!gsd_night_light_get_active (nlight));
+        g_assert_cmpint ((gint) gsd_night_light_get_sunrise (nlight), ==, 7);
+        g_assert_cmpint ((gint) gsd_night_light_get_sunset (nlight), ==, 17);
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
+        g_assert (!gsd_night_light_get_disabled_until_tmw (nlight));
 
         /* disable, with no changes */
         g_settings_set_boolean (settings, "night-light-enabled", FALSE);
-        g_assert (!scsd_night_light_get_active (nlight));
+        g_assert (!gsd_night_light_get_active (nlight));
         g_assert_cmpint (active_cnt, ==, 2);
         g_assert_cmpint (sunset_cnt, ==, 1);
         g_assert_cmpint (sunrise_cnt, ==, 1);
@@ -169,75 +169,75 @@ gcm_test_night_light (void)
 
 
         /* Finally, check that cancelling a smooth transition works */
-        scsd_night_light_set_smooth_enabled (nlight, TRUE);
+        gsd_night_light_set_smooth_enabled (nlight, TRUE);
         /* Enable night light and automatic scheduling */
         g_settings_set_boolean (settings, "night-light-schedule-automatic", TRUE);
         g_settings_set_boolean (settings, "night-light-enabled", TRUE);
         /* It should be active again, and a smooth transition is being done,
          * so the color temperature is still the default at this point. */
-        g_assert (scsd_night_light_get_active (nlight));
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
+        g_assert (gsd_night_light_get_active (nlight));
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
 
         /* Turn off immediately, before the first timeout event is fired. */
         g_settings_set_boolean (settings, "night-light-schedule-automatic", FALSE);
         g_settings_set_boolean (settings, "night-light-enabled", FALSE);
-        g_assert (!scsd_night_light_get_active (nlight));
+        g_assert (!gsd_night_light_get_active (nlight));
 
         /* Now, sleep for a bit (the smooth transition time is 5 seconds) */
         g_timeout_add (5000, quit_mainloop, NULL);
         g_main_loop_run (mainloop);
 
         /* Ensure that the color temperature is still the default one.*/
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
 
 
         /* Check that disabled until tomorrow resets again correctly. */
         g_settings_set_double (settings, "night-light-schedule-from", 17.0);
         g_settings_set_double (settings, "night-light-schedule-to", 7.f);
         g_settings_set_boolean (settings, "night-light-enabled", TRUE);
-        scsd_night_light_set_disabled_until_tmw (nlight, TRUE);
+        gsd_night_light_set_disabled_until_tmw (nlight, TRUE);
 
         /* Move time past midnight */
         g_clear_pointer (&datetime_override, g_date_time_unref);
         datetime_override = g_date_time_new_utc (2017, 2, 9, 1, 0, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert_true (scsd_night_light_get_disabled_until_tmw (nlight));
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert_true (gsd_night_light_get_disabled_until_tmw (nlight));
 
         /* Move past sunrise */
         g_clear_pointer (&datetime_override, g_date_time_unref);
         datetime_override = g_date_time_new_utc (2017, 2, 9, 8, 0, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert_false (scsd_night_light_get_disabled_until_tmw (nlight));
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert_false (gsd_night_light_get_disabled_until_tmw (nlight));
 
-        scsd_night_light_set_disabled_until_tmw (nlight, TRUE);
+        gsd_night_light_set_disabled_until_tmw (nlight, TRUE);
 
         /* Move into night more than 24h in the future */
         g_clear_pointer (&datetime_override, g_date_time_unref);
         datetime_override = g_date_time_new_utc (2017, 2, 10, 20, 0, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert_false (scsd_night_light_get_disabled_until_tmw (nlight));
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert_false (gsd_night_light_get_disabled_until_tmw (nlight));
 
 
         /* Check that we are always in night mode if from/to are equal. */
-        scsd_night_light_set_smooth_enabled (nlight, FALSE);
+        gsd_night_light_set_smooth_enabled (nlight, FALSE);
         g_settings_set_double (settings, "night-light-schedule-from", 6.0);
         g_settings_set_double (settings, "night-light-schedule-to", 6.0);
         g_settings_set_boolean (settings, "night-light-enabled", TRUE);
 
         datetime_override = g_date_time_new_utc (2017, 2, 10, 5, 50, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert (scsd_night_light_get_active (nlight));
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, 4000);
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert (gsd_night_light_get_active (nlight));
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, 4000);
 
         datetime_override = g_date_time_new_utc (2017, 2, 10, 6, 0, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert (scsd_night_light_get_active (nlight));
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, 4000);
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert (gsd_night_light_get_active (nlight));
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, 4000);
 
         datetime_override = g_date_time_new_utc (2017, 2, 10, 6, 10, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert (scsd_night_light_get_active (nlight));
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, 4000);
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert (gsd_night_light_get_active (nlight));
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, 4000);
 
 
         /* Check that the smearing time is lowered correctly when the times are close. */
@@ -246,31 +246,31 @@ gcm_test_night_light (void)
 
         /* Not enabled 10 minutes before sunset */
         datetime_override = g_date_time_new_utc (2017, 2, 10, 5, 50, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert_false (scsd_night_light_get_active (nlight));
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert_false (gsd_night_light_get_active (nlight));
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
 
         /* Not enabled >10 minutes after sunrise */
         datetime_override = g_date_time_new_utc (2017, 2, 10, 6, 20, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert_false (scsd_night_light_get_active (nlight));
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert_false (gsd_night_light_get_active (nlight));
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), ==, GSD_COLOR_TEMPERATURE_DEFAULT);
 
         /* ~50% smeared 3 min before sunrise (sunrise at 6 past) */
         datetime_override = g_date_time_new_utc (2017, 2, 10, 6, 3, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert_true (scsd_night_light_get_active (nlight));
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), <=, (GSD_COLOR_TEMPERATURE_DEFAULT + 4000) / 2 + 20);
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), >=, (GSD_COLOR_TEMPERATURE_DEFAULT + 4000) / 2 - 20);
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert_true (gsd_night_light_get_active (nlight));
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), <=, (GSD_COLOR_TEMPERATURE_DEFAULT + 4000) / 2 + 20);
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), >=, (GSD_COLOR_TEMPERATURE_DEFAULT + 4000) / 2 - 20);
 
         /* ~50% smeared 3 min before sunset (sunset at 6 past) */
         g_settings_set_double (settings, "night-light-schedule-from", 6.1);
         g_settings_set_double (settings, "night-light-schedule-to", 6.0);
         datetime_override = g_date_time_new_utc (2017, 2, 10, 6, 3, 0);
-        scsd_night_light_set_date_time_now (nlight, datetime_override);
-        g_assert_true (scsd_night_light_get_active (nlight));
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), <=, (GSD_COLOR_TEMPERATURE_DEFAULT + 4000) / 2 + 20);
-        g_assert_cmpint (scsd_night_light_get_temperature (nlight), >=, (GSD_COLOR_TEMPERATURE_DEFAULT + 4000) / 2 - 20);
+        gsd_night_light_set_date_time_now (nlight, datetime_override);
+        g_assert_true (gsd_night_light_get_active (nlight));
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), <=, (GSD_COLOR_TEMPERATURE_DEFAULT + 4000) / 2 + 20);
+        g_assert_cmpint (gsd_night_light_get_temperature (nlight), >=, (GSD_COLOR_TEMPERATURE_DEFAULT + 4000) / 2 - 20);
 }
 
 static const gboolean
@@ -352,7 +352,7 @@ gcm_test_sunset_sunrise (void)
         g_autoptr(GDateTime) dt = g_date_time_new_utc (2007, 2, 1, 0, 0, 0);
 
         /* get for London, today */
-        scsd_night_light_get_sunrise_sunset (dt, 51.5, -0.1278, &sunrise, &sunset);
+        gsd_night_light_get_sunrise_sunset (dt, 51.5, -0.1278, &sunrise, &sunset);
         g_assert_cmpfloat (sunrise, <, sunrise_actual + 0.1);
         g_assert_cmpfloat (sunrise, >, sunrise_actual - 0.1);
         g_assert_cmpfloat (sunset, <, sunset_actual + 0.1);
@@ -373,7 +373,7 @@ gcm_test_sunset_sunrise_fractional_timezone (void)
         dt = g_date_time_new (tz, 2007, 2, 1, 0, 0, 0);
 
         /* get for our made up timezone, today */
-        scsd_night_light_get_sunrise_sunset (dt, 51.5, -0.1278, &sunrise, &sunset);
+        gsd_night_light_get_sunrise_sunset (dt, 51.5, -0.1278, &sunrise, &sunset);
         g_assert_cmpfloat (sunrise, <, sunrise_actual + 0.1);
         g_assert_cmpfloat (sunrise, >, sunrise_actual - 0.1);
         g_assert_cmpfloat (sunset, <, sunset_actual + 0.1);
@@ -388,26 +388,26 @@ gcm_test_frac_day (void)
         gdouble fd_actual = 12.99;
 
         /* test for 12:59:59 */
-        fd = scsd_night_light_frac_day_from_dt (dt);
+        fd = gsd_night_light_frac_day_from_dt (dt);
         g_assert_cmpfloat (fd, >, fd_actual - 0.01);
         g_assert_cmpfloat (fd, <, fd_actual + 0.01);
 
         /* test same day */
-        g_assert_true (scsd_night_light_frac_day_is_between (12, 6, 20));
-        g_assert_false (scsd_night_light_frac_day_is_between (5, 6, 20));
-        g_assert_true (scsd_night_light_frac_day_is_between (12, 0, 24));
-        g_assert_true (scsd_night_light_frac_day_is_between (12, -1, 25));
+        g_assert_true (gsd_night_light_frac_day_is_between (12, 6, 20));
+        g_assert_false (gsd_night_light_frac_day_is_between (5, 6, 20));
+        g_assert_true (gsd_night_light_frac_day_is_between (12, 0, 24));
+        g_assert_true (gsd_night_light_frac_day_is_between (12, -1, 25));
 
         /* test rollover to next day */
-        g_assert_true (scsd_night_light_frac_day_is_between (23, 20, 6));
-        g_assert_false (scsd_night_light_frac_day_is_between (12, 20, 6));
+        g_assert_true (gsd_night_light_frac_day_is_between (23, 20, 6));
+        g_assert_false (gsd_night_light_frac_day_is_between (12, 20, 6));
 
         /* test rollover to the previous day */
-        g_assert_true (scsd_night_light_frac_day_is_between (5, 16, 8));
+        g_assert_true (gsd_night_light_frac_day_is_between (5, 16, 8));
 
         /* test equality */
-        g_assert_true (scsd_night_light_frac_day_is_between (12, 0.5, 24.5));
-        g_assert_true (scsd_night_light_frac_day_is_between (0.5, 0.5, 0.5));
+        g_assert_true (gsd_night_light_frac_day_is_between (12, 0.5, 24.5));
+        g_assert_true (gsd_night_light_frac_day_is_between (0.5, 0.5, 0.5));
 }
 
 int

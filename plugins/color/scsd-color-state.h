@@ -25,22 +25,22 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_COLOR_STATE         (scsd_color_state_get_type ())
+#define GSD_TYPE_COLOR_STATE         (gsd_color_state_get_type ())
 
-G_DECLARE_FINAL_TYPE (GsdColorState, scsd_color_state, GSD, COLOR_STATE, GObject)
+G_DECLARE_FINAL_TYPE (GsdColorState, gsd_color_state, GSD, COLOR_STATE, GObject)
 
 #define GSD_COLOR_TEMPERATURE_MIN               1000    /* Kelvin */
 #define GSD_COLOR_TEMPERATURE_DEFAULT           6500    /* Kelvin, is RGB [1.0,1.0,1.0] */
 #define GSD_COLOR_TEMPERATURE_MAX               10000   /* Kelvin */
 
-GQuark                  scsd_color_state_error_quark     (void);
+GQuark                  gsd_color_state_error_quark     (void);
 
-GsdColorState *         scsd_color_state_new             (void);
-void                    scsd_color_state_start           (GsdColorState *state);
-void                    scsd_color_state_stop            (GsdColorState *state);
-void                    scsd_color_state_set_temperature (GsdColorState *state,
+GsdColorState *         gsd_color_state_new             (void);
+void                    gsd_color_state_start           (GsdColorState *state);
+void                    gsd_color_state_stop            (GsdColorState *state);
+void                    gsd_color_state_set_temperature (GsdColorState *state,
                                                          guint temperature);
-guint                   scsd_color_state_get_temperature (GsdColorState *state);
+guint                   gsd_color_state_get_temperature (GsdColorState *state);
 
 G_END_DECLS
 

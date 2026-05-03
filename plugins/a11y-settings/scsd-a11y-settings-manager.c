@@ -47,11 +47,11 @@ enum {
         PROP_0,
 };
 
-static void     scsd_a11y_settings_manager_class_init  (GsdA11ySettingsManagerClass *klass);
-static void     scsd_a11y_settings_manager_init        (GsdA11ySettingsManager      *a11y_settings_manager);
-static void     scsd_a11y_settings_manager_finalize    (GObject                     *object);
+static void     gsd_a11y_settings_manager_class_init  (GsdA11ySettingsManagerClass *klass);
+static void     gsd_a11y_settings_manager_init        (GsdA11ySettingsManager      *a11y_settings_manager);
+static void     gsd_a11y_settings_manager_finalize    (GObject                     *object);
 
-G_DEFINE_TYPE (GsdA11ySettingsManager, scsd_a11y_settings_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdA11ySettingsManager, gsd_a11y_settings_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
@@ -81,7 +81,7 @@ apps_settings_changed (GSettings              *settings,
 }
 
 gboolean
-scsd_a11y_settings_manager_start (GsdA11ySettingsManager *manager,
+gsd_a11y_settings_manager_start (GsdA11ySettingsManager *manager,
                                  GError                **error)
 {
         g_debug ("Starting a11y_settings manager");
@@ -106,7 +106,7 @@ scsd_a11y_settings_manager_start (GsdA11ySettingsManager *manager,
 }
 
 void
-scsd_a11y_settings_manager_stop (GsdA11ySettingsManager *manager)
+gsd_a11y_settings_manager_stop (GsdA11ySettingsManager *manager)
 {
 	if (manager->interface_settings) {
 		g_object_unref (manager->interface_settings);
@@ -120,20 +120,20 @@ scsd_a11y_settings_manager_stop (GsdA11ySettingsManager *manager)
 }
 
 static void
-scsd_a11y_settings_manager_class_init (GsdA11ySettingsManagerClass *klass)
+gsd_a11y_settings_manager_class_init (GsdA11ySettingsManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_a11y_settings_manager_finalize;
+        object_class->finalize = gsd_a11y_settings_manager_finalize;
 }
 
 static void
-scsd_a11y_settings_manager_init (GsdA11ySettingsManager *manager)
+gsd_a11y_settings_manager_init (GsdA11ySettingsManager *manager)
 {
 }
 
 static void
-scsd_a11y_settings_manager_finalize (GObject *object)
+gsd_a11y_settings_manager_finalize (GObject *object)
 {
         GsdA11ySettingsManager *a11y_settings_manager;
 
@@ -142,13 +142,13 @@ scsd_a11y_settings_manager_finalize (GObject *object)
 
         a11y_settings_manager = GSD_A11Y_SETTINGS_MANAGER (object);
 
-        scsd_a11y_settings_manager_stop (a11y_settings_manager);
+        gsd_a11y_settings_manager_stop (a11y_settings_manager);
 
-        G_OBJECT_CLASS (scsd_a11y_settings_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_a11y_settings_manager_parent_class)->finalize (object);
 }
 
 GsdA11ySettingsManager *
-scsd_a11y_settings_manager_new (void)
+gsd_a11y_settings_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

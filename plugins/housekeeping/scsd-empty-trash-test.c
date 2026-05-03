@@ -34,7 +34,7 @@ main (int    argc,
 
         loop = g_main_loop_new (NULL, FALSE);
 
-        scsd_ldsm_show_empty_trash ();
+        gsd_ldsm_show_empty_trash ();
         g_main_loop_run (loop);
 
         g_main_loop_unref (loop);

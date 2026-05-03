@@ -25,13 +25,13 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_SOUND_MANAGER         (scsd_sound_manager_get_type ())
+#define GSD_TYPE_SOUND_MANAGER         (gsd_sound_manager_get_type ())
 
-G_DECLARE_FINAL_TYPE (GsdSoundManager, scsd_sound_manager, GSD, SOUND_MANAGER, GObject)
+G_DECLARE_FINAL_TYPE (GsdSoundManager, gsd_sound_manager, GSD, SOUND_MANAGER, GObject)
 
-GsdSoundManager *scsd_sound_manager_new (void);
-gboolean scsd_sound_manager_start (GsdSoundManager *manager, GError **error);
-void scsd_sound_manager_stop (GsdSoundManager *manager);
+GsdSoundManager *gsd_sound_manager_new (void);
+gboolean gsd_sound_manager_start (GsdSoundManager *manager, GError **error);
+void gsd_sound_manager_stop (GsdSoundManager *manager);
 
 G_END_DECLS
 

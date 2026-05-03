@@ -47,7 +47,7 @@ rad2deg (gdouble radians)
  * a sunrise at all.
  */
 gboolean
-scsd_night_light_get_sunrise_sunset (GDateTime *dt,
+gsd_night_light_get_sunrise_sunset (GDateTime *dt,
                                     gdouble pos_lat, gdouble pos_long,
                                     gdouble *sunrise, gdouble *sunset)
 {
@@ -107,7 +107,7 @@ scsd_night_light_get_sunrise_sunset (GDateTime *dt,
 }
 
 gdouble
-scsd_night_light_frac_day_from_dt (GDateTime *dt)
+gsd_night_light_frac_day_from_dt (GDateTime *dt)
 {
         return g_date_time_get_hour (dt) +
                 (gdouble) g_date_time_get_minute (dt) / 60.f +
@@ -115,7 +115,7 @@ scsd_night_light_frac_day_from_dt (GDateTime *dt)
 }
 
 gboolean
-scsd_night_light_frac_day_is_between (gdouble  value,
+gsd_night_light_frac_day_is_between (gdouble  value,
                                      gdouble  start,
                                      gdouble  end)
 {

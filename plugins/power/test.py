@@ -112,7 +112,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
         # Ensure we set up the external monitor state
         self.set_has_external_monitor(False)
 
-        self.settings_scsd_power = Gio.Settings(schema_id='io.github.scarecrow_de.settings-daemon.plugins.power')
+        self.settings_gsd_power = Gio.Settings(schema_id='io.github.scarecrow_de.settings-daemon.plugins.power')
 
         Gio.Settings.sync()
         self.plugin_log_write = open(os.path.join(self.workdir, 'plugin_power.log'), 'wb', buffering=0)
@@ -175,7 +175,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
 
         # reset all changed gsettings, so that tests are independent from each
         # other
-        for schema in [self.settings_scsd_power, self.settings_session, self.settings_screensaver]:
+        for schema in [self.settings_gsd_power, self.settings_session, self.settings_screensaver]:
             for k in schema.list_keys():
                 schema.reset(k)
         Gio.Settings.sync()
@@ -648,8 +648,8 @@ class PowerPluginTest3(PowerPluginBase):
         '''sleep-inactive-battery-timeout'''
 
         self.settings_session['idle-delay'] = 2
-        self.settings_scsd_power['sleep-inactive-battery-timeout'] = 5
-        self.settings_scsd_power['sleep-inactive-battery-type'] = 'suspend'
+        self.settings_gsd_power['sleep-inactive-battery-timeout'] = 5
+        self.settings_gsd_power['sleep-inactive-battery-type'] = 'suspend'
 
         # wait for idle delay; should not yet suspend
         self.check_no_suspend(2)
@@ -662,10 +662,10 @@ class PowerPluginTest3(PowerPluginBase):
         '''suspend-no-hibernate'''
 
         self.settings_session['idle-delay'] = 2
-        self.settings_scsd_power['sleep-inactive-battery-timeout'] = 5
+        self.settings_gsd_power['sleep-inactive-battery-timeout'] = 5
         # Hibernate isn't possible, so it should end up suspending
         # FIXME
-        self.settings_scsd_power['critical-battery-action'] = 'hibernate'
+        self.settings_gsd_power['critical-battery-action'] = 'hibernate'
 
         # wait for idle delay; should not yet hibernate
         self.check_no_suspend(2)
@@ -680,8 +680,8 @@ class PowerPluginTest3(PowerPluginBase):
         idle_delay = round(scsdpowerconstants.MINIMUM_IDLE_DIM_DELAY / scsdpowerconstants.IDLE_DELAY_TO_IDLE_DIM_MULTIPLIER)
 
         self.settings_session['idle-delay'] = idle_delay
-        self.settings_scsd_power['sleep-inactive-battery-timeout'] = 5
-        self.settings_scsd_power['sleep-inactive-battery-type'] = 'suspend'
+        self.settings_gsd_power['sleep-inactive-battery-timeout'] = 5
+        self.settings_gsd_power['sleep-inactive-battery-type'] = 'suspend'
 
         # create inhibitor
         inhibit_id = self.obj_session_mgr.Inhibit(
@@ -790,10 +790,10 @@ class PowerPluginTest5(PowerPluginBase):
         self.reset_idle_timer()
 
         self.settings_session['idle-delay'] = idle_delay
-        self.settings_scsd_power['sleep-inactive-battery-timeout'] = idle_delay + 1
-        self.settings_scsd_power['sleep-inactive-battery-type'] = 'suspend'
+        self.settings_gsd_power['sleep-inactive-battery-timeout'] = idle_delay + 1
+        self.settings_gsd_power['sleep-inactive-battery-type'] = 'suspend'
         # This is an absolute percentage, and our brightness is 0..100
-        dim_level = self.settings_scsd_power['idle-brightness'];
+        dim_level = self.settings_gsd_power['idle-brightness'];
 
         # Check that we're not idle
         self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
@@ -1097,8 +1097,8 @@ class PowerPluginTest6(PowerPluginBase):
         idle_delay = round(scsdpowerconstants.MINIMUM_IDLE_DIM_DELAY / scsdpowerconstants.IDLE_DELAY_TO_IDLE_DIM_MULTIPLIER)
 
         self.settings_session['idle-delay'] = idle_delay
-        self.settings_scsd_power['sleep-inactive-battery-timeout'] = idle_delay + 1
-        self.settings_scsd_power['sleep-inactive-battery-type'] = 'logout'
+        self.settings_gsd_power['sleep-inactive-battery-timeout'] = idle_delay + 1
+        self.settings_gsd_power['sleep-inactive-battery-type'] = 'logout'
 
         self.check_for_logout(idle_delay + 2)
 
@@ -1112,8 +1112,8 @@ class PowerPluginTest6(PowerPluginBase):
         idle_delay = round(scsdpowerconstants.MINIMUM_IDLE_DIM_DELAY / scsdpowerconstants.IDLE_DELAY_TO_IDLE_DIM_MULTIPLIER)
 
         self.settings_session['idle-delay'] = idle_delay
-        self.settings_scsd_power['sleep-inactive-battery-timeout'] = idle_delay + 1
-        self.settings_scsd_power['sleep-inactive-battery-type'] = 'logout'
+        self.settings_gsd_power['sleep-inactive-battery-timeout'] = idle_delay + 1
+        self.settings_gsd_power['sleep-inactive-battery-type'] = 'logout'
 
         # create suspend inhibitor which should stop us logging out
         inhibit_id = self.obj_session_mgr.Inhibit(
@@ -1131,13 +1131,13 @@ class PowerPluginTest7(PowerPluginBase):
     def test_check_missing_kbd_brightness(self):
         ''' https://bugzilla.gnome.org/show_bug.cgi?id=793512 '''
 
-        obj_scsd_power_kbd = self.session_bus_con.get_object(
+        obj_gsd_power_kbd = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SettingsDaemon.Power', '/io/github/scarecrow_de/SettingsDaemon/Power')
-        obj_scsd_power_kbd_props = dbus.Interface(obj_scsd_power_kbd, dbus.PROPERTIES_IFACE)
+        obj_gsd_power_kbd_props = dbus.Interface(obj_gsd_power_kbd, dbus.PROPERTIES_IFACE)
 
         # Will return -1 if scsd-power crashed, and an exception if the code caught the problem
         with self.assertRaises(dbus.DBusException) as exc:
-            kbd_brightness = obj_scsd_power_kbd_props.Get('io.github.scarecrow_de.SettingsDaemon.Power.Keyboard', 'Brightness')
+            kbd_brightness = obj_gsd_power_kbd_props.Get('io.github.scarecrow_de.SettingsDaemon.Power.Keyboard', 'Brightness')
 
             # We should not have arrived here, if we did then the test failed, let's print this to help debugging
             print('Got keyboard brightness: {}'.format(kbd_brightness))
@@ -1150,8 +1150,8 @@ class PowerPluginTest7(PowerPluginBase):
         idle_delay = round(scsdpowerconstants.MINIMUM_IDLE_DIM_DELAY / scsdpowerconstants.IDLE_DELAY_TO_IDLE_DIM_MULTIPLIER)
 
         self.settings_session['idle-delay'] = idle_delay
-        self.settings_scsd_power['sleep-inactive-battery-timeout'] = 5
-        self.settings_scsd_power['sleep-inactive-battery-type'] = 'suspend'
+        self.settings_gsd_power['sleep-inactive-battery-timeout'] = 5
+        self.settings_gsd_power['sleep-inactive-battery-type'] = 'suspend'
 
         # create inhibitor
         inhibit_id = self.obj_session_mgr.Inhibit(
@@ -1208,20 +1208,20 @@ class PowerPluginTest8(PowerPluginBase):
         if self.skip_sysfs_backlight:
             self.skipTest("sysfs backlight support required for test")
 
-        obj_scsd_power = self.session_bus_con.get_object(
+        obj_gsd_power = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SettingsDaemon.Power', '/io/github/scarecrow_de/SettingsDaemon/Power')
-        obj_scsd_power_screen_iface = dbus.Interface(obj_scsd_power, 'io.github.scarecrow_de.SettingsDaemon.Power.Screen')
+        obj_gsd_power_screen_iface = dbus.Interface(obj_gsd_power, 'io.github.scarecrow_de.SettingsDaemon.Power.Screen')
 
         # Each of the step calls will only return when the value was written
         start = time.time()
         # We start at 50% and step by 5% each time
-        obj_scsd_power_screen_iface.StepUp()
+        obj_gsd_power_screen_iface.StepUp()
         self.assertEqual(self.get_brightness(), 55)
-        obj_scsd_power_screen_iface.StepUp()
+        obj_gsd_power_screen_iface.StepUp()
         self.assertEqual(self.get_brightness(), 60)
-        obj_scsd_power_screen_iface.StepUp()
+        obj_gsd_power_screen_iface.StepUp()
         self.assertEqual(self.get_brightness(), 65)
-        obj_scsd_power_screen_iface.StepUp()
+        obj_gsd_power_screen_iface.StepUp()
         self.assertEqual(self.get_brightness(), 70)
         stop = time.time()
         # This needs to take more than 0.8 seconds as each write is delayed by
@@ -1245,10 +1245,10 @@ class PowerPluginTest8(PowerPluginBase):
             loop.quit()
 
         start = time.time()
-        obj_scsd_power_screen_iface.StepDown(reply_handler=handle_reply, error_handler=error_handler)
-        obj_scsd_power_screen_iface.StepDown(reply_handler=handle_reply, error_handler=error_handler)
-        obj_scsd_power_screen_iface.StepDown(reply_handler=handle_reply, error_handler=error_handler)
-        obj_scsd_power_screen_iface.StepDown(reply_handler=last_reply, error_handler=error_handler)
+        obj_gsd_power_screen_iface.StepDown(reply_handler=handle_reply, error_handler=error_handler)
+        obj_gsd_power_screen_iface.StepDown(reply_handler=handle_reply, error_handler=error_handler)
+        obj_gsd_power_screen_iface.StepDown(reply_handler=handle_reply, error_handler=error_handler)
+        obj_gsd_power_screen_iface.StepDown(reply_handler=last_reply, error_handler=error_handler)
         loop = GLib.MainLoop()
         loop.run()
         stop = time.time()
@@ -1274,13 +1274,13 @@ class PowerPluginTest8(PowerPluginBase):
         # Should this ever be fixed, then this will need to be changed to use
         # async dbus calls similar to the stepping code
 
-        obj_scsd_power = self.session_bus_con.get_object(
+        obj_gsd_power = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SettingsDaemon.Power', '/io/github/scarecrow_de/SettingsDaemon/Power')
-        obj_scsd_power_prop_iface = dbus.Interface(obj_scsd_power, dbus.PROPERTIES_IFACE)
+        obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
         # Quickly ramp the brightness up
         for brightness in range(70, 91):
-            obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', brightness)
+            obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', brightness)
 
         # The brightness of 80 should be in effect after slightly more than
         # 0.4 seconds. If compression does not work as expected, this would take
@@ -1292,11 +1292,11 @@ class PowerPluginTest8(PowerPluginBase):
         if self.skip_sysfs_backlight:
             self.skipTest("sysfs backlight support required for test")
 
-        obj_scsd_power = self.session_bus_con.get_object(
+        obj_gsd_power = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SettingsDaemon.Power', '/io/github/scarecrow_de/SettingsDaemon/Power')
-        obj_scsd_power_prop_iface = dbus.Interface(obj_scsd_power, dbus.PROPERTIES_IFACE)
+        obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
-        brightness = obj_scsd_power_prop_iface.Get('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness')
+        brightness = obj_gsd_power_prop_iface.Get('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness')
         self.assertEqual(50, brightness)
 
         # Check that the brightness is updated if it was changed through some
@@ -1308,7 +1308,7 @@ class PowerPluginTest8(PowerPluginBase):
         self.check_plugin_log('GsdBacklight: Got uevent', 1, 'scsd-power did not process uevent')
         time.sleep(0.2)
 
-        brightness = obj_scsd_power_prop_iface.Get('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness')
+        brightness = obj_gsd_power_prop_iface.Get('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness')
         self.assertEqual(80, brightness)
 
     def test_brightness_step(self):
@@ -1333,63 +1333,63 @@ class PowerPluginTest8(PowerPluginBase):
         if self.skip_sysfs_backlight:
             self.skipTest("sysfs backlight support required for test")
 
-        obj_scsd_power = self.session_bus_con.get_object(
+        obj_gsd_power = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SettingsDaemon.Power', '/io/github/scarecrow_de/SettingsDaemon/Power')
-        obj_scsd_power_prop_iface = dbus.Interface(obj_scsd_power, dbus.PROPERTIES_IFACE)
+        obj_gsd_power_prop_iface = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
 
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 0)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 0)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 0)
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 10)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 10)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 2)
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 20)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 20)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 3)
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 25)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 25)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 4)
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 49)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 49)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 7)
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 50)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 50)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 8)
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 56)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 56)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 8)
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 57)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 57)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 9)
-        obj_scsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 98)
+        obj_gsd_power_prop_iface.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 98)
         time.sleep(0.4)
         self.assertEqual(self.get_brightness(), 15)
 
     def test_no_backlight(self):
         '''Check that backlight brightness DBus api without a backlight'''
 
-        obj_scsd_power = self.session_bus_con.get_object(
+        obj_gsd_power = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SettingsDaemon.Power', '/io/github/scarecrow_de/SettingsDaemon/Power')
-        obj_scsd_power_props = dbus.Interface(obj_scsd_power, dbus.PROPERTIES_IFACE)
-        obj_scsd_power_screen = dbus.Interface(obj_scsd_power, 'io.github.scarecrow_de.SettingsDaemon.Power.Screen')
+        obj_gsd_power_props = dbus.Interface(obj_gsd_power, dbus.PROPERTIES_IFACE)
+        obj_gsd_power_screen = dbus.Interface(obj_gsd_power, 'io.github.scarecrow_de.SettingsDaemon.Power.Screen')
 
         # We expect -1 to be returned
-        brightness = obj_scsd_power_props.Get('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness')
+        brightness = obj_gsd_power_props.Get('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness')
         self.assertEqual(brightness, -1)
 
         # Trying to set the brightness
         with self.assertRaises(dbus.DBusException) as exc:
-            obj_scsd_power_props.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 1)
+            obj_gsd_power_props.Set('io.github.scarecrow_de.SettingsDaemon.Power.Screen', 'Brightness', 1)
 
         self.assertEqual(exc.exception.get_dbus_message(), 'No usable backlight could be found!')
 
         with self.assertRaises(dbus.DBusException) as exc:
-            obj_scsd_power_screen.StepUp()
+            obj_gsd_power_screen.StepUp()
 
         self.assertEqual(exc.exception.get_dbus_message(), 'No usable backlight could be found!')
 
         with self.assertRaises(dbus.DBusException) as exc:
-            obj_scsd_power_screen.StepDown()
+            obj_gsd_power_screen.StepDown()
 
         self.assertEqual(exc.exception.get_dbus_message(), 'No usable backlight could be found!')
 

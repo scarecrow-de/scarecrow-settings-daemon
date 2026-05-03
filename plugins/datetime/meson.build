@@ -1,6 +1,6 @@
 install_data(
   'backward',
-  install_dir: join_paths(scsd_pkgdatadir, 'datetime')
+  install_dir: join_paths(gsd_pkgdatadir, 'datetime')
 )
 
 sources = files(
@@ -26,7 +26,7 @@ deps = plugins_deps + [
   polkit_gobject_dep
 ]
 
-cflags += ['-DGNOMECC_DATA_DIR="@0@"'.format(scsd_pkgdatadir)]
+cflags += ['-DGNOMECC_DATA_DIR="@0@"'.format(gsd_pkgdatadir)]
 
 executable(
   'scsd-' + plugin_name,
@@ -35,6 +35,6 @@ executable(
   dependencies: deps,
   c_args: cflags,
   install: true,
-  install_rpath: scsd_pkglibdir,
-  install_dir: scsd_libexecdir
+  install_rpath: gsd_pkglibdir,
+  install_dir: gsd_libexecdir
 )

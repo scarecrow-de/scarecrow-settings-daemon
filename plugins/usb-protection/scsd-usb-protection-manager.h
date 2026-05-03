@@ -24,20 +24,20 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_USB_PROTECTION_MANAGER         (scsd_usb_protection_manager_get_type ())
-G_DECLARE_FINAL_TYPE (GsdUsbProtectionManager, scsd_usb_protection_manager, GSD, USB_PROTECTION_MANAGER, GObject);
+#define GSD_TYPE_USB_PROTECTION_MANAGER         (gsd_usb_protection_manager_get_type ())
+G_DECLARE_FINAL_TYPE (GsdUsbProtectionManager, gsd_usb_protection_manager, GSD, USB_PROTECTION_MANAGER, GObject);
 
 typedef struct
 {
         GObjectClass   parent_class;
 } _GsdUsbProtectionManagerClass;
 
-GType                       scsd_usb_protection_manager_get_type        (void);
+GType                       gsd_usb_protection_manager_get_type        (void);
 
-GsdUsbProtectionManager *   scsd_usb_protection_manager_new             (void);
-gboolean                    scsd_usb_protection_manager_start           (GsdUsbProtectionManager *manager,
+GsdUsbProtectionManager *   gsd_usb_protection_manager_new             (void);
+gboolean                    gsd_usb_protection_manager_start           (GsdUsbProtectionManager *manager,
                                                                         GError                 **error);
-void                        scsd_usb_protection_manager_stop            (GsdUsbProtectionManager *manager);
+void                        gsd_usb_protection_manager_stop            (GsdUsbProtectionManager *manager);
 
 G_END_DECLS
 

@@ -7,37 +7,37 @@ project(
 
 meson.add_dist_script('fix_dist.sh')
 
-scsd_version = meson.project_version()
-version_array = scsd_version.split('.')
-scsd_major_version = version_array[0].to_int()
+gsd_version = meson.project_version()
+version_array = gsd_version.split('.')
+gsd_major_version = version_array[0].to_int()
 
-scsd_api_version_minor = 0
-scsd_api_version = '@0@.@1@'.format(scsd_major_version, scsd_api_version_minor)
-scsd_api_name = '@0@-@1@'.format(meson.project_name(), scsd_api_version)
+gsd_api_version_minor = 0
+gsd_api_version = '@0@.@1@'.format(gsd_major_version, gsd_api_version_minor)
+gsd_api_name = '@0@-@1@'.format(meson.project_name(), gsd_api_version)
 
 glib_min_version = '2.58'
 
 glib_version_def = 'GLIB_VERSION_@0@_@1@'.format(
     glib_min_version.split('.')[0], glib_min_version.split('.')[1])
 
-scsd_prefix = get_option('prefix')
-scsd_bindir = join_paths(scsd_prefix, get_option('bindir'))
-scsd_datadir = join_paths(scsd_prefix, get_option('datadir'))
-scsd_includedir = join_paths(scsd_prefix, get_option('includedir'))
-scsd_libdir = join_paths(scsd_prefix, get_option('libdir'))
-scsd_libexecdir = join_paths(scsd_prefix, get_option('libexecdir'))
-scsd_localedir = join_paths(scsd_prefix, get_option('localedir'))
-scsd_sysconfdir = join_paths(scsd_prefix, get_option('sysconfdir'))
+gsd_prefix = get_option('prefix')
+gsd_bindir = join_paths(gsd_prefix, get_option('bindir'))
+gsd_datadir = join_paths(gsd_prefix, get_option('datadir'))
+gsd_includedir = join_paths(gsd_prefix, get_option('includedir'))
+gsd_libdir = join_paths(gsd_prefix, get_option('libdir'))
+gsd_libexecdir = join_paths(gsd_prefix, get_option('libexecdir'))
+gsd_localedir = join_paths(gsd_prefix, get_option('localedir'))
+gsd_sysconfdir = join_paths(gsd_prefix, get_option('sysconfdir'))
 
-scsd_pkgdatadir = join_paths(scsd_datadir, meson.project_name())
-scsd_pkgincludedir = join_paths(scsd_includedir, scsd_api_name)
-scsd_pkglibdir = join_paths(scsd_libdir, scsd_api_name)
+gsd_pkgdatadir = join_paths(gsd_datadir, meson.project_name())
+gsd_pkgincludedir = join_paths(gsd_includedir, gsd_api_name)
+gsd_pkglibdir = join_paths(gsd_libdir, gsd_api_name)
 
-scsd_schemadir = join_paths(scsd_datadir, 'glib-2.0', 'schemas')
+gsd_schemadir = join_paths(gsd_datadir, 'glib-2.0', 'schemas')
 
-scsd_xdg_autostart = join_paths(scsd_sysconfdir, 'xdg', 'autostart')
+gsd_xdg_autostart = join_paths(gsd_sysconfdir, 'xdg', 'autostart')
 
-scsd_buildtype = get_option('buildtype')
+gsd_buildtype = get_option('buildtype')
 
 host_is_darwin = host_machine.system().contains('darwin')
 host_is_linux = host_machine.system().contains('linux')
@@ -50,7 +50,7 @@ config_h = configuration_data()
 # defines
 set_defines = [
   ['PACKAGE_NAME', meson.project_name()],
-  ['PACKAGE_VERSION', scsd_version],
+  ['PACKAGE_VERSION', gsd_version],
   # i18n
   ['GETTEXT_PACKAGE', meson.project_name()]
 ]
@@ -63,7 +63,7 @@ endforeach
 common_flags = ['-DHAVE_CONFIG_H']
 compiler_flags = []
 
-if scsd_buildtype.contains('debug')
+if gsd_buildtype.contains('debug')
   common_flags += ['-DG_ENABLE_DEBUG']
 
   test_cflags = [
@@ -79,7 +79,7 @@ if scsd_buildtype.contains('debug')
   ]
 
   compiler_flags = cc.get_supported_arguments(test_cflags)
-elif scsd_buildtype.contains('release')
+elif gsd_buildtype.contains('release')
   common_flags += ['-DG_DISABLE_CAST_CHECKS']
 endif
 
@@ -116,7 +116,7 @@ if enable_systemd
   assert(systemd_dep.found(), 'Systemd support explicitly required, but systemd not found')
 
    systemd_userunitdir = systemd_dep.get_pkgconfig_variable('systemduserunitdir',
-                                                            define_variable: ['prefix', scsd_prefix])
+                                                            define_variable: ['prefix', gsd_prefix])
 endif
 
 m_dep = cc.find_library('m')
@@ -171,7 +171,7 @@ if enable_smartcard
 
   system_nssdb_dir = get_option('nssdb_dir')
   if system_nssdb_dir == ''
-    system_nssdb_dir = join_paths(scsd_sysconfdir, 'pki', 'nssdb')
+    system_nssdb_dir = join_paths(gsd_sysconfdir, 'pki', 'nssdb')
   endif
 endif
 
@@ -252,18 +252,18 @@ configure_file(
 
 meson.add_install_script(
   'meson_post_install.py',
-  scsd_datadir
+  gsd_datadir
 )
 
 output = '\n        ' + meson.project_name() + ' ' + meson.project_version() +'\n'
 output += '        =============================\n\n'
-output += '        prefix:                   ' + scsd_prefix + '\n'
-output += '        exec_prefix:              ' + scsd_prefix + '\n'
-output += '        libdir:                   ' + scsd_libdir + '\n'
-output += '        libexecdir:               ' + scsd_libexecdir + '\n'
-output += '        bindir:                   ' + scsd_bindir + '\n'
-output += '        sysconfdir:               ' + scsd_sysconfdir + '\n'
-output += '        datadir:                  ' + scsd_datadir + '\n\n'
+output += '        prefix:                   ' + gsd_prefix + '\n'
+output += '        exec_prefix:              ' + gsd_prefix + '\n'
+output += '        libdir:                   ' + gsd_libdir + '\n'
+output += '        libexecdir:               ' + gsd_libexecdir + '\n'
+output += '        bindir:                   ' + gsd_bindir + '\n'
+output += '        sysconfdir:               ' + gsd_sysconfdir + '\n'
+output += '        datadir:                  ' + gsd_datadir + '\n\n'
 output += '        source code location:     ' + meson.source_root() + '\n'
 output += '        compiler:                 ' + cc.get_id() + '\n'
 output += '        cflags:                   ' + ' '.join(compiler_flags) + '\n\n'

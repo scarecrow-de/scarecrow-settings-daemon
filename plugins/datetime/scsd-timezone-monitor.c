@@ -54,7 +54,7 @@ typedef struct
         GSettings *location_settings;
 } GsdTimezoneMonitorPrivate;
 
-G_DEFINE_TYPE_WITH_PRIVATE (GsdTimezoneMonitor, scsd_timezone_monitor, G_TYPE_OBJECT)
+G_DEFINE_TYPE_WITH_PRIVATE (GsdTimezoneMonitor, gsd_timezone_monitor, G_TYPE_OBJECT)
 
 static void
 set_timezone_cb (GObject      *source,
@@ -73,7 +73,7 @@ set_timezone_cb (GObject      *source,
                 return;
         }
 
-        priv = scsd_timezone_monitor_get_instance_private (user_data);
+        priv = gsd_timezone_monitor_get_instance_private (user_data);
         g_signal_emit (G_OBJECT (user_data),
                        signals[TIMEZONE_CHANGED],
                        0, priv->current_timezone);
@@ -86,7 +86,7 @@ static void
 queue_set_timezone (GsdTimezoneMonitor *self,
                     const gchar        *new_timezone)
 {
-        GsdTimezoneMonitorPrivate *priv = scsd_timezone_monitor_get_instance_private (self);
+        GsdTimezoneMonitorPrivate *priv = gsd_timezone_monitor_get_instance_private (self);
 
         g_debug ("Changing timezone to '%s'", new_timezone);
 
@@ -219,7 +219,7 @@ process_location (GsdTimezoneMonitor *self,
                   GeocodePlace       *place)
 {
         GeocodeLocation *location;
-        GsdTimezoneMonitorPrivate *priv = scsd_timezone_monitor_get_instance_private (self);
+        GsdTimezoneMonitorPrivate *priv = gsd_timezone_monitor_get_instance_private (self);
         const gchar *country_code;
         g_autofree gchar *new_timezone = NULL;
 
@@ -269,7 +269,7 @@ start_reverse_geocoding (GsdTimezoneMonitor *self,
 {
         GeocodeLocation *location;
         GeocodeReverse *reverse;
-        GsdTimezoneMonitorPrivate *priv = scsd_timezone_monitor_get_instance_private (self);
+        GsdTimezoneMonitorPrivate *priv = gsd_timezone_monitor_get_instance_private (self);
 
         location = geocode_location_new (latitude,
                                          longitude,
@@ -323,7 +323,7 @@ on_geoclue_simple_ready (GObject      *source_object,
 
         g_debug ("Geoclue now available");
 
-        priv = scsd_timezone_monitor_get_instance_private (user_data);
+        priv = gsd_timezone_monitor_get_instance_private (user_data);
         priv->geoclue_simple = geoclue_simple;
         priv->geoclue_client = gclue_simple_get_client (priv->geoclue_simple);
         gclue_client_set_distance_threshold (priv->geoclue_client,
@@ -338,7 +338,7 @@ on_geoclue_simple_ready (GObject      *source_object,
 static void
 start_geoclue (GsdTimezoneMonitor *self)
 {
-        GsdTimezoneMonitorPrivate *priv = scsd_timezone_monitor_get_instance_private (self);
+        GsdTimezoneMonitorPrivate *priv = gsd_timezone_monitor_get_instance_private (self);
 
         g_debug ("Timezone monitor enabled, starting geoclue");
 
@@ -354,7 +354,7 @@ start_geoclue (GsdTimezoneMonitor *self)
 static void
 stop_geoclue (GsdTimezoneMonitor *self)
 {
-        GsdTimezoneMonitorPrivate *priv = scsd_timezone_monitor_get_instance_private (self);
+        GsdTimezoneMonitorPrivate *priv = gsd_timezone_monitor_get_instance_private (self);
 
         g_debug ("Timezone monitor disabled, stopping geoclue");
 
@@ -370,16 +370,16 @@ stop_geoclue (GsdTimezoneMonitor *self)
 }
 
 GsdTimezoneMonitor *
-scsd_timezone_monitor_new (void)
+gsd_timezone_monitor_new (void)
 {
         return g_object_new (GSD_TYPE_TIMEZONE_MONITOR, NULL);
 }
 
 static void
-scsd_timezone_monitor_finalize (GObject *obj)
+gsd_timezone_monitor_finalize (GObject *obj)
 {
         GsdTimezoneMonitor *monitor = GSD_TIMEZONE_MONITOR (obj);
-        GsdTimezoneMonitorPrivate *priv = scsd_timezone_monitor_get_instance_private (monitor);
+        GsdTimezoneMonitorPrivate *priv = gsd_timezone_monitor_get_instance_private (monitor);
 
         g_debug ("Stopping timezone monitor");
 
@@ -396,15 +396,15 @@ scsd_timezone_monitor_finalize (GObject *obj)
 
         g_clear_object (&priv->location_settings);
 
-        G_OBJECT_CLASS (scsd_timezone_monitor_parent_class)->finalize (obj);
+        G_OBJECT_CLASS (gsd_timezone_monitor_parent_class)->finalize (obj);
 }
 
 static void
-scsd_timezone_monitor_class_init (GsdTimezoneMonitorClass *klass)
+gsd_timezone_monitor_class_init (GsdTimezoneMonitorClass *klass)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_timezone_monitor_finalize;
+        object_class->finalize = gsd_timezone_monitor_finalize;
 
         signals[TIMEZONE_CHANGED] =
                 g_signal_new ("timezone-changed",
@@ -419,7 +419,7 @@ scsd_timezone_monitor_class_init (GsdTimezoneMonitorClass *klass)
 static void
 check_location_settings (GsdTimezoneMonitor *self)
 {
-        GsdTimezoneMonitorPrivate *priv = scsd_timezone_monitor_get_instance_private (self);
+        GsdTimezoneMonitorPrivate *priv = gsd_timezone_monitor_get_instance_private (self);
         if (g_settings_get_boolean (priv->location_settings, "enabled"))
                 start_geoclue (self);
         else
@@ -427,10 +427,10 @@ check_location_settings (GsdTimezoneMonitor *self)
 }
 
 static void
-scsd_timezone_monitor_init (GsdTimezoneMonitor *self)
+gsd_timezone_monitor_init (GsdTimezoneMonitor *self)
 {
         GError *error = NULL;
-        GsdTimezoneMonitorPrivate *priv = scsd_timezone_monitor_get_instance_private (self);
+        GsdTimezoneMonitorPrivate *priv = gsd_timezone_monitor_get_instance_private (self);
 
         g_debug ("Starting timezone monitor");
 

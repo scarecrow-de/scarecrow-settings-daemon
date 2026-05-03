@@ -24,7 +24,7 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_TIMEZONE_MONITOR                  (scsd_timezone_monitor_get_type ())
+#define GSD_TYPE_TIMEZONE_MONITOR                  (gsd_timezone_monitor_get_type ())
 #define GSD_TIMEZONE_MONITOR(obj)                  (G_TYPE_CHECK_INSTANCE_CAST ((obj), GSD_TYPE_TIMEZONE_MONITOR, GsdTimezoneMonitor))
 #define GSD_IS_TIMEZONE_MONITOR(obj)               (G_TYPE_CHECK_INSTANCE_TYPE ((obj), GSD_TYPE_TIMEZONE_MONITOR))
 #define GSD_TIMEZONE_MONITOR_CLASS(klass)          (G_TYPE_CHECK_CLASS_CAST ((klass), GSD_TYPE_TIMEZONE_MONITOR, GsdTimezoneMonitorClass))
@@ -46,9 +46,9 @@ struct _GsdTimezoneMonitorClass
 	void (*timezone_changed) (GsdTimezoneMonitor *monitor, gchar *timezone_id);
 };
 
-GType scsd_timezone_monitor_get_type (void) G_GNUC_CONST;
+GType gsd_timezone_monitor_get_type (void) G_GNUC_CONST;
 
-GsdTimezoneMonitor *scsd_timezone_monitor_new (void);
+GsdTimezoneMonitor *gsd_timezone_monitor_new (void);
 
 G_END_DECLS
 

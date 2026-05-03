@@ -39,11 +39,11 @@ struct _GsdDatetimeManager
         NotifyNotification *notification;
 };
 
-static void scsd_datetime_manager_class_init (GsdDatetimeManagerClass *klass);
-static void scsd_datetime_manager_init (GsdDatetimeManager *manager);
-static void scsd_datetime_manager_finalize (GObject *object);
+static void gsd_datetime_manager_class_init (GsdDatetimeManagerClass *klass);
+static void gsd_datetime_manager_init (GsdDatetimeManager *manager);
+static void gsd_datetime_manager_finalize (GObject *object);
 
-G_DEFINE_TYPE (GsdDatetimeManager, scsd_datetime_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdDatetimeManager, gsd_datetime_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
@@ -135,7 +135,7 @@ auto_timezone_settings_changed_cb (GSettings          *settings,
         enabled = g_settings_get_boolean (settings, key);
         if (enabled && self->timezone_monitor == NULL) {
                 g_debug ("Automatic timezone enabled");
-                self->timezone_monitor = scsd_timezone_monitor_new ();
+                self->timezone_monitor = gsd_timezone_monitor_new ();
 
                 g_signal_connect (self->timezone_monitor, "timezone-changed",
                                   G_CALLBACK (timezone_changed_cb), self);
@@ -146,7 +146,7 @@ auto_timezone_settings_changed_cb (GSettings          *settings,
 }
 
 gboolean
-scsd_datetime_manager_start (GsdDatetimeManager *self,
+gsd_datetime_manager_start (GsdDatetimeManager *self,
                             GError            **error)
 {
         g_debug ("Starting datetime manager");
@@ -164,7 +164,7 @@ scsd_datetime_manager_start (GsdDatetimeManager *self,
 }
 
 void
-scsd_datetime_manager_stop (GsdDatetimeManager *self)
+gsd_datetime_manager_stop (GsdDatetimeManager *self)
 {
         g_debug ("Stopping datetime manager");
 
@@ -180,22 +180,22 @@ scsd_datetime_manager_stop (GsdDatetimeManager *self)
 }
 
 static void
-scsd_datetime_manager_class_init (GsdDatetimeManagerClass *klass)
+gsd_datetime_manager_class_init (GsdDatetimeManagerClass *klass)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_datetime_manager_finalize;
+        object_class->finalize = gsd_datetime_manager_finalize;
 
         notify_init ("scarecrow-settings-daemon");
 }
 
 static void
-scsd_datetime_manager_init (GsdDatetimeManager *manager)
+gsd_datetime_manager_init (GsdDatetimeManager *manager)
 {
 }
 
 static void
-scsd_datetime_manager_finalize (GObject *object)
+gsd_datetime_manager_finalize (GObject *object)
 {
         GsdDatetimeManager *manager;
 
@@ -206,13 +206,13 @@ scsd_datetime_manager_finalize (GObject *object)
 
         g_return_if_fail (manager != NULL);
 
-        scsd_datetime_manager_stop (manager);
+        gsd_datetime_manager_stop (manager);
 
-        G_OBJECT_CLASS (scsd_datetime_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_datetime_manager_parent_class)->finalize (object);
 }
 
 GsdDatetimeManager *
-scsd_datetime_manager_new (void)
+gsd_datetime_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

@@ -482,7 +482,7 @@ delete_recursively_by_age (DeleteData *data)
 }
 
 void
-scsd_ldsm_purge_trash (GDateTime *old)
+gsd_ldsm_purge_trash (GDateTime *old)
 {
         GFile *file;
         DeleteData *data;
@@ -495,7 +495,7 @@ scsd_ldsm_purge_trash (GDateTime *old)
 }
 
 void
-scsd_ldsm_purge_temp_files (GDateTime *old)
+gsd_ldsm_purge_temp_files (GDateTime *old)
 {
         DeleteData *data;
         GFile *file;
@@ -545,7 +545,7 @@ scsd_ldsm_purge_temp_files (GDateTime *old)
 }
 
 void
-scsd_ldsm_show_empty_trash (void)
+gsd_ldsm_show_empty_trash (void)
 {
         GFile *file;
         GDateTime *old;
@@ -571,11 +571,11 @@ ldsm_purge_trash_and_temp (gpointer data)
 
         if (purge_trash) {
                 g_debug ("housekeeping: purge trash older than %u days", purge_after);
-                scsd_ldsm_purge_trash (old);
+                gsd_ldsm_purge_trash (old);
         }
         if (purge_temp_files) {
                 g_debug ("housekeeping: purge temp files older than %u days", purge_after);
-                scsd_ldsm_purge_temp_files (old);
+                gsd_ldsm_purge_temp_files (old);
         }
 
         g_date_time_unref (old);
@@ -594,7 +594,7 @@ empty_trash_callback (NotifyNotification *n,
         g_assert (strcmp (action, "empty-trash") == 0);
 
         old = g_date_time_new_now_local ();
-        scsd_ldsm_purge_trash (old);
+        gsd_ldsm_purge_trash (old);
         g_date_time_unref (old);
 
         notify_notification_close (n, NULL);
@@ -884,7 +884,7 @@ ldsm_check_all_mounts (gpointer data)
                         continue;
                 }
 
-                if (scsd_should_ignore_unix_mount (mount)) {
+                if (gsd_should_ignore_unix_mount (mount)) {
                         ldsm_free_mount_info (mount_info);
                         continue;
                 }
@@ -979,7 +979,7 @@ ldsm_is_hash_item_in_ignore_paths (gpointer key,
 }
 
 static void
-scsd_ldsm_get_config (void)
+gsd_ldsm_get_config (void)
 {
         gchar **settings_list;
 
@@ -1014,15 +1014,15 @@ scsd_ldsm_get_config (void)
 }
 
 static void
-scsd_ldsm_update_config (GSettings *settings,
+gsd_ldsm_update_config (GSettings *settings,
                         const gchar *key,
                         gpointer user_data)
 {
-        scsd_ldsm_get_config ();
+        gsd_ldsm_get_config ();
 }
 
 void
-scsd_ldsm_setup (gboolean check_now)
+gsd_ldsm_setup (gboolean check_now)
 {
         if (ldsm_notified_hash || ldsm_timeout_id || ldsm_monitor) {
                 g_warning ("Low disk space monitor already initialized.");
@@ -1035,9 +1035,9 @@ scsd_ldsm_setup (gboolean check_now)
 
         settings = g_settings_new (SETTINGS_HOUSEKEEPING_DIR);
         privacy_settings = g_settings_new (PRIVACY_SETTINGS);
-        scsd_ldsm_get_config ();
+        gsd_ldsm_get_config ();
         g_signal_connect (G_OBJECT (settings), "changed",
-                          G_CALLBACK (scsd_ldsm_update_config), NULL);
+                          G_CALLBACK (gsd_ldsm_update_config), NULL);
 
         ldsm_monitor = g_unix_mount_monitor_get ();
         g_signal_connect (ldsm_monitor, "mounts-changed",
@@ -1055,7 +1055,7 @@ scsd_ldsm_setup (gboolean check_now)
 }
 
 void
-scsd_ldsm_clean (void)
+gsd_ldsm_clean (void)
 {
         if (purge_trash_id)
                 g_source_remove (purge_trash_id);

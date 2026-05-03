@@ -61,10 +61,10 @@ struct _GsdHousekeepingManager {
         guint            name_id;
 };
 
-static void     scsd_housekeeping_manager_class_init  (GsdHousekeepingManagerClass *klass);
-static void     scsd_housekeeping_manager_init        (GsdHousekeepingManager      *housekeeping_manager);
+static void     gsd_housekeeping_manager_class_init  (GsdHousekeepingManagerClass *klass);
+static void     gsd_housekeeping_manager_init        (GsdHousekeepingManager      *housekeeping_manager);
 
-G_DEFINE_TYPE (GsdHousekeepingManager, scsd_housekeeping_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdHousekeepingManager, gsd_housekeeping_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
@@ -329,11 +329,11 @@ handle_method_call (GDBusConnection       *connection,
         GDateTime *now;
         now = g_date_time_new_now_local ();
         if (g_strcmp0 (method_name, "EmptyTrash") == 0) {
-                scsd_ldsm_purge_trash (now);
+                gsd_ldsm_purge_trash (now);
                 g_dbus_method_invocation_return_value (invocation, NULL);
         }
         else if (g_strcmp0 (method_name, "RemoveTempFiles") == 0) {
-                scsd_ldsm_purge_temp_files (now);
+                gsd_ldsm_purge_temp_files (now);
                 g_dbus_method_invocation_return_value (invocation, NULL);
         }
         g_date_time_unref (now);
@@ -399,7 +399,7 @@ register_manager_dbus (GsdHousekeepingManager *manager)
 }
 
 gboolean
-scsd_housekeeping_manager_start (GsdHousekeepingManager *manager,
+gsd_housekeeping_manager_start (GsdHousekeepingManager *manager,
                                 GError                **error)
 {
         gchar *dir;
@@ -416,7 +416,7 @@ scsd_housekeeping_manager_start (GsdHousekeepingManager *manager,
         (void) g_mkdir (dir, 0700);
         g_free (dir);
 
-        scsd_ldsm_setup (FALSE);
+        gsd_ldsm_setup (FALSE);
 
         manager->settings = g_settings_new (THUMB_PREFIX);
         g_signal_connect (G_OBJECT (manager->settings), "changed",
@@ -437,7 +437,7 @@ scsd_housekeeping_manager_start (GsdHousekeepingManager *manager,
 }
 
 void
-scsd_housekeeping_manager_stop (GsdHousekeepingManager *manager)
+gsd_housekeeping_manager_stop (GsdHousekeepingManager *manager)
 {
         g_debug ("Stopping housekeeping manager");
 
@@ -469,34 +469,34 @@ scsd_housekeeping_manager_stop (GsdHousekeepingManager *manager)
         }
 
         g_clear_object (&manager->settings);
-        scsd_ldsm_clean ();
+        gsd_ldsm_clean ();
 }
 
 static void
-scsd_housekeeping_manager_finalize (GObject *object)
+gsd_housekeeping_manager_finalize (GObject *object)
 {
-        scsd_housekeeping_manager_stop (GSD_HOUSEKEEPING_MANAGER (object));
+        gsd_housekeeping_manager_stop (GSD_HOUSEKEEPING_MANAGER (object));
 
-        G_OBJECT_CLASS (scsd_housekeeping_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_housekeeping_manager_parent_class)->finalize (object);
 }
 
 static void
-scsd_housekeeping_manager_class_init (GsdHousekeepingManagerClass *klass)
+gsd_housekeeping_manager_class_init (GsdHousekeepingManagerClass *klass)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_housekeeping_manager_finalize;
+        object_class->finalize = gsd_housekeeping_manager_finalize;
 
         notify_init ("scarecrow-settings-daemon");
 }
 
 static void
-scsd_housekeeping_manager_init (GsdHousekeepingManager *manager)
+gsd_housekeeping_manager_init (GsdHousekeepingManager *manager)
 {
 }
 
 GsdHousekeepingManager *
-scsd_housekeeping_manager_new (void)
+gsd_housekeeping_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

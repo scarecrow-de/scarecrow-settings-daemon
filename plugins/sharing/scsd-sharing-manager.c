@@ -69,7 +69,7 @@ struct _GsdSharingManager
 static const gchar introspection_xml[] =
 "<node>"
 "  <interface name='io.github.scarecrow_de.SettingsDaemon.Sharing'>"
-"    <annotation name='org.freedesktop.DBus.GLib.CSymbol' value='scsd_sharing_manager'/>"
+"    <annotation name='org.freedesktop.DBus.GLib.CSymbol' value='gsd_sharing_manager'/>"
 "    <property name='CurrentNetwork' type='s' access='read'/>"
 "    <property name='CurrentNetworkName' type='s' access='read'/>"
 "    <property name='CarrierType' type='s' access='read'/>"
@@ -88,11 +88,11 @@ static const gchar introspection_xml[] =
 "  </interface>"
 "</node>";
 
-static void     scsd_sharing_manager_class_init  (GsdSharingManagerClass *klass);
-static void     scsd_sharing_manager_init        (GsdSharingManager      *manager);
-static void     scsd_sharing_manager_finalize    (GObject                *object);
+static void     gsd_sharing_manager_class_init  (GsdSharingManagerClass *klass);
+static void     gsd_sharing_manager_init        (GsdSharingManager      *manager);
+static void     gsd_sharing_manager_finalize    (GObject                *object);
 
-G_DEFINE_TYPE (GsdSharingManager, scsd_sharing_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdSharingManager, gsd_sharing_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
@@ -128,7 +128,7 @@ handle_unit_cb (GObject      *source_object,
 }
 
 static void
-scsd_sharing_manager_handle_service (GsdSharingManager   *manager,
+gsd_sharing_manager_handle_service (GsdSharingManager   *manager,
                                     const char          *method,
                                     ServiceInfo         *service)
 {
@@ -151,7 +151,7 @@ scsd_sharing_manager_handle_service (GsdSharingManager   *manager,
 }
 
 static void
-scsd_sharing_manager_start_service (GsdSharingManager *manager,
+gsd_sharing_manager_start_service (GsdSharingManager *manager,
                                    ServiceInfo       *service)
 {
         g_debug ("About to start %s", service->name);
@@ -159,16 +159,16 @@ scsd_sharing_manager_start_service (GsdSharingManager *manager,
         /* We use StartUnit, not StartUnitReplace, since the latter would
          * cancel any pending start we already have going from an
          * earlier _start_service() call */
-        scsd_sharing_manager_handle_service (manager, "StartUnit", service);
+        gsd_sharing_manager_handle_service (manager, "StartUnit", service);
 }
 
 static void
-scsd_sharing_manager_stop_service (GsdSharingManager *manager,
+gsd_sharing_manager_stop_service (GsdSharingManager *manager,
                                   ServiceInfo       *service)
 {
         g_debug ("About to stop %s", service->name);
 
-        scsd_sharing_manager_handle_service (manager, "StopUnit", service);
+        gsd_sharing_manager_handle_service (manager, "StopUnit", service);
 }
 
 #if HAVE_NETWORK_MANAGER
@@ -201,7 +201,7 @@ service_is_enabled_on_current_connection (GsdSharingManager *manager,
 #endif /* HAVE_NETWORK_MANAGER */
 
 static void
-scsd_sharing_manager_sync_services (GsdSharingManager *manager)
+gsd_sharing_manager_sync_services (GsdSharingManager *manager)
 {
         GList *services, *l;
 
@@ -216,9 +216,9 @@ scsd_sharing_manager_sync_services (GsdSharingManager *manager)
                         should_be_started = TRUE;
 
                 if (should_be_started)
-                        scsd_sharing_manager_start_service (manager, service);
+                        gsd_sharing_manager_start_service (manager, service);
                 else
-                        scsd_sharing_manager_stop_service (manager, service);
+                        gsd_sharing_manager_stop_service (manager, service);
         }
         g_list_free (services);
 }
@@ -290,7 +290,7 @@ check_service (GsdSharingManager  *manager,
 }
 
 static gboolean
-scsd_sharing_manager_enable_service (GsdSharingManager  *manager,
+gsd_sharing_manager_enable_service (GsdSharingManager  *manager,
                                     const char         *service_name,
                                     GError            **error)
 {
@@ -323,7 +323,7 @@ scsd_sharing_manager_enable_service (GsdSharingManager  *manager,
 
 bail:
 
-        scsd_sharing_manager_start_service (manager, service);
+        gsd_sharing_manager_start_service (manager, service);
 
         g_ptr_array_unref (array);
         g_strfreev (connections);
@@ -332,7 +332,7 @@ bail:
 }
 
 static gboolean
-scsd_sharing_manager_disable_service (GsdSharingManager  *manager,
+gsd_sharing_manager_disable_service (GsdSharingManager  *manager,
                                      const char         *service_name,
                                      const char         *network_name,
                                      GError            **error)
@@ -359,7 +359,7 @@ scsd_sharing_manager_disable_service (GsdSharingManager  *manager,
         g_strfreev (connections);
 
         if (g_str_equal (network_name, manager->current_network))
-                scsd_sharing_manager_stop_service (manager, service);
+                gsd_sharing_manager_stop_service (manager, service);
 
         return TRUE;
 }
@@ -415,7 +415,7 @@ connection_is_low_security (GsdSharingManager *manager,
 #endif /* HAVE_NETWORK_MANAGER */
 
 static GVariant *
-scsd_sharing_manager_list_networks (GsdSharingManager  *manager,
+gsd_sharing_manager_list_networks (GsdSharingManager  *manager,
                                    const char         *service_name,
                                    GError            **error)
 {
@@ -513,7 +513,7 @@ handle_method_call (GDBusConnection       *connection,
                 GError *error = NULL;
 
                 g_variant_get (parameters, "(&s)", &service);
-                if (!scsd_sharing_manager_enable_service (manager, service, &error))
+                if (!gsd_sharing_manager_enable_service (manager, service, &error))
                         g_dbus_method_invocation_take_error (invocation, error);
                 else
                         g_dbus_method_invocation_return_value (invocation, NULL);
@@ -523,7 +523,7 @@ handle_method_call (GDBusConnection       *connection,
                 GError *error = NULL;
 
                 g_variant_get (parameters, "(&s&s)", &service, &network_name);
-                if (!scsd_sharing_manager_disable_service (manager, service, network_name, &error))
+                if (!gsd_sharing_manager_disable_service (manager, service, network_name, &error))
                         g_dbus_method_invocation_take_error (invocation, error);
                 else
                         g_dbus_method_invocation_return_value (invocation, NULL);
@@ -533,7 +533,7 @@ handle_method_call (GDBusConnection       *connection,
                 GVariant *variant;
 
                 g_variant_get (parameters, "(&s)", &service);
-                variant = scsd_sharing_manager_list_networks (manager, service, &error);
+                variant = gsd_sharing_manager_list_networks (manager, service, &error);
                 if (!variant)
                         g_dbus_method_invocation_take_error (invocation, error);
                 else
@@ -633,7 +633,7 @@ primary_connection_changed (GObject    *gobject,
         g_debug ("status: %d", manager->sharing_status);
 
         properties_changed (manager);
-        scsd_sharing_manager_sync_services (manager);
+        gsd_sharing_manager_sync_services (manager);
 }
 
 static void
@@ -667,7 +667,7 @@ nm_client_ready (GObject      *source_object,
 #define RYGEL_INTERFACE_NAME "io.github.scarecrow_de.Rygel1"
 
 static void
-scsd_sharing_manager_disable_rygel (void)
+gsd_sharing_manager_disable_rygel (void)
 {
 	GDBusConnection *connection;
 	gchar *path;
@@ -692,7 +692,7 @@ scsd_sharing_manager_disable_rygel (void)
 }
 
 gboolean
-scsd_sharing_manager_start (GsdSharingManager *manager,
+gsd_sharing_manager_start (GsdSharingManager *manager,
                            GError           **error)
 {
         g_debug ("Starting sharing manager");
@@ -701,7 +701,7 @@ scsd_sharing_manager_start (GsdSharingManager *manager,
         manager->introspection_data = g_dbus_node_info_new_for_xml (introspection_xml, NULL);
         g_assert (manager->introspection_data != NULL);
 
-        scsd_sharing_manager_disable_rygel ();
+        gsd_sharing_manager_disable_rygel ();
 
         manager->cancellable = g_cancellable_new ();
 #if HAVE_NETWORK_MANAGER
@@ -719,14 +719,14 @@ scsd_sharing_manager_start (GsdSharingManager *manager,
 }
 
 void
-scsd_sharing_manager_stop (GsdSharingManager *manager)
+gsd_sharing_manager_stop (GsdSharingManager *manager)
 {
         g_debug ("Stopping sharing manager");
 
         if (manager->sharing_status == GSD_SHARING_STATUS_AVAILABLE &&
             manager->connection != NULL) {
                 manager->sharing_status = GSD_SHARING_STATUS_OFFLINE;
-                scsd_sharing_manager_sync_services (manager);
+                gsd_sharing_manager_sync_services (manager);
         }
 
         if (manager->cancellable) {
@@ -752,11 +752,11 @@ scsd_sharing_manager_stop (GsdSharingManager *manager)
 }
 
 static void
-scsd_sharing_manager_class_init (GsdSharingManagerClass *klass)
+gsd_sharing_manager_class_init (GsdSharingManagerClass *klass)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_sharing_manager_finalize;
+        object_class->finalize = gsd_sharing_manager_finalize;
 }
 
 static void
@@ -769,7 +769,7 @@ service_free (gpointer pointer)
 }
 
 static void
-scsd_sharing_manager_init (GsdSharingManager *manager)
+gsd_sharing_manager_init (GsdSharingManager *manager)
 {
         guint i;
 
@@ -796,7 +796,7 @@ scsd_sharing_manager_init (GsdSharingManager *manager)
 }
 
 static void
-scsd_sharing_manager_finalize (GObject *object)
+gsd_sharing_manager_finalize (GObject *object)
 {
         GsdSharingManager *manager;
 
@@ -807,15 +807,15 @@ scsd_sharing_manager_finalize (GObject *object)
 
         g_return_if_fail (manager != NULL);
 
-        scsd_sharing_manager_stop (manager);
+        gsd_sharing_manager_stop (manager);
 
         g_hash_table_unref (manager->services);
 
-        G_OBJECT_CLASS (scsd_sharing_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_sharing_manager_parent_class)->finalize (object);
 }
 
 GsdSharingManager *
-scsd_sharing_manager_new (void)
+gsd_sharing_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

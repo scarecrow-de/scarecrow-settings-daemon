@@ -34,18 +34,18 @@ struct _GsdColorProfiles
         CdIccStore      *icc_store;
 };
 
-static void     scsd_color_profiles_class_init  (GsdColorProfilesClass *klass);
-static void     scsd_color_profiles_init        (GsdColorProfiles      *color_profiles);
-static void     scsd_color_profiles_finalize    (GObject             *object);
+static void     gsd_color_profiles_class_init  (GsdColorProfilesClass *klass);
+static void     gsd_color_profiles_init        (GsdColorProfiles      *color_profiles);
+static void     gsd_color_profiles_finalize    (GObject             *object);
 
-G_DEFINE_TYPE (GsdColorProfiles, scsd_color_profiles, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdColorProfiles, gsd_color_profiles, G_TYPE_OBJECT)
 
 static void
-scsd_color_profiles_class_init (GsdColorProfilesClass *klass)
+gsd_color_profiles_class_init (GsdColorProfilesClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_color_profiles_finalize;
+        object_class->finalize = gsd_color_profiles_finalize;
 }
 
 static void
@@ -88,7 +88,7 @@ gcm_session_client_connect_cb (GObject *source_object,
 }
 
 gboolean
-scsd_color_profiles_start (GsdColorProfiles *profiles,
+gsd_color_profiles_start (GsdColorProfiles *profiles,
                           GError          **error)
 {
         /* use a fresh cancellable for each start->stop operation */
@@ -105,7 +105,7 @@ scsd_color_profiles_start (GsdColorProfiles *profiles,
 }
 
 void
-scsd_color_profiles_stop (GsdColorProfiles *profiles)
+gsd_color_profiles_stop (GsdColorProfiles *profiles)
 {
         g_cancellable_cancel (profiles->cancellable);
 }
@@ -204,7 +204,7 @@ gcm_session_icc_store_removed_cb (CdIccStore *icc_store,
 }
 
 static void
-scsd_color_profiles_init (GsdColorProfiles *profiles)
+gsd_color_profiles_init (GsdColorProfiles *profiles)
 {
         /* have access to all user profiles */
         profiles->client = cd_client_new ();
@@ -220,7 +220,7 @@ scsd_color_profiles_init (GsdColorProfiles *profiles)
 }
 
 static void
-scsd_color_profiles_finalize (GObject *object)
+gsd_color_profiles_finalize (GObject *object)
 {
         GsdColorProfiles *profiles;
 
@@ -234,11 +234,11 @@ scsd_color_profiles_finalize (GObject *object)
         g_clear_object (&profiles->icc_store);
         g_clear_object (&profiles->client);
 
-        G_OBJECT_CLASS (scsd_color_profiles_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_color_profiles_parent_class)->finalize (object);
 }
 
 GsdColorProfiles *
-scsd_color_profiles_new (void)
+gsd_color_profiles_new (void)
 {
         GsdColorProfiles *profiles;
         profiles = g_object_new (GSD_TYPE_COLOR_PROFILES, NULL);

@@ -24,10 +24,10 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_POWER_MANAGER         (scsd_power_manager_get_type ())
-#define GSD_POWER_MANAGER_ERROR        (scsd_power_manager_error_quark ())
+#define GSD_TYPE_POWER_MANAGER         (gsd_power_manager_get_type ())
+#define GSD_POWER_MANAGER_ERROR        (gsd_power_manager_error_quark ())
 
-G_DECLARE_FINAL_TYPE (GsdPowerManager, scsd_power_manager, GSD, POWER_MANAGER, GObject)
+G_DECLARE_FINAL_TYPE (GsdPowerManager, gsd_power_manager, GSD, POWER_MANAGER, GObject)
 
 enum
 {
@@ -35,12 +35,12 @@ enum
         GSD_POWER_MANAGER_ERROR_NO_BACKLIGHT,
 };
 
-GQuark                  scsd_power_manager_error_quark         (void);
+GQuark                  gsd_power_manager_error_quark         (void);
 
-GsdPowerManager *       scsd_power_manager_new                 (void);
-gboolean                scsd_power_manager_start               (GsdPowerManager *manager,
+GsdPowerManager *       gsd_power_manager_new                 (void);
+gboolean                gsd_power_manager_start               (GsdPowerManager *manager,
                                                                GError         **error);
-void                    scsd_power_manager_stop                (GsdPowerManager *manager);
+void                    gsd_power_manager_stop                (GsdPowerManager *manager);
 
 G_END_DECLS
 

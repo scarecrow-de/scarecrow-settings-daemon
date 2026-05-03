@@ -60,7 +60,7 @@ shell_show_osd_with_max_level (GsdShell    *shell,
                 g_variant_builder_add (&builder, "{sv}",
                                        "connector", g_variant_new_string (connector));
 
-	scsd_shell_call_show_osd (shell,
+	gsd_shell_call_show_osd (shell,
 				 g_variant_builder_end (&builder),
 				 NULL, NULL, NULL);
 }

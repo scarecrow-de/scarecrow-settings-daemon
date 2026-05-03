@@ -30,7 +30,7 @@
 #include "scsd-disk-space-helper.h"
 
 gboolean
-scsd_should_ignore_unix_mount (GUnixMountEntry *mount)
+gsd_should_ignore_unix_mount (GUnixMountEntry *mount)
 {
         const char *fs, *device;
         g_autofree char *label = NULL;
@@ -140,7 +140,7 @@ scsd_should_ignore_unix_mount (GUnixMountEntry *mount)
 
 /* Used in gnome-control-center's info panel */
 gboolean
-scsd_is_removable_mount (GUnixMountEntry *mount)
+gsd_is_removable_mount (GUnixMountEntry *mount)
 {
         const char *mount_path;
         char *path;

@@ -20,8 +20,8 @@
  *	Bastien Nocera <hadess@hadess.net>
  */
 
-#ifndef __scsd_enums_h__
-#define __scsd_enums_h__
+#ifndef __gsd_enums_h__
+#define __gsd_enums_h__
 
 typedef enum
 {
@@ -124,4 +124,4 @@ typedef enum
   GSD_NUM_LOCK_STATE_OFF
 } GsdNumLockState;
 
-#endif /* __scsd_enums_h__ */
+#endif /* __gsd_enums_h__ */

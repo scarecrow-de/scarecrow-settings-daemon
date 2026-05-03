@@ -9,7 +9,7 @@ gtk_modules_callback (GsdXSettingsGtk       *gtk,
 {
 	const char *modules;
 
-	modules = scsd_xsettings_gtk_get_modules (gtk);
+	modules = gsd_xsettings_gtk_get_modules (gtk);
 	g_message ("GTK+ modules list changed to: %s", modules ? modules : "(empty)");
 }
 
@@ -18,7 +18,7 @@ int main (int argc, char **argv)
 	GMainLoop *loop;
 	GsdXSettingsGtk *gtk;
 
-	gtk = scsd_xsettings_gtk_new ();
+	gtk = gsd_xsettings_gtk_new ();
         g_signal_connect (G_OBJECT (gtk), "notify::gtk-modules",
 			  G_CALLBACK (gtk_modules_callback), NULL);
 

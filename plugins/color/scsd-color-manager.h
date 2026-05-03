@@ -25,21 +25,21 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_COLOR_MANAGER         (scsd_color_manager_get_type ())
-#define GSD_COLOR_MANAGER_ERROR        (scsd_color_manager_error_quark ())
-G_DECLARE_FINAL_TYPE (GsdColorManager, scsd_color_manager, GSD, COLOR_MANAGER, GObject)
+#define GSD_TYPE_COLOR_MANAGER         (gsd_color_manager_get_type ())
+#define GSD_COLOR_MANAGER_ERROR        (gsd_color_manager_error_quark ())
+G_DECLARE_FINAL_TYPE (GsdColorManager, gsd_color_manager, GSD, COLOR_MANAGER, GObject)
 
 enum
 {
         GSD_COLOR_MANAGER_ERROR_FAILED
 };
 
-GQuark                  scsd_color_manager_error_quark         (void);
+GQuark                  gsd_color_manager_error_quark         (void);
 
-GsdColorManager *       scsd_color_manager_new                 (void);
-gboolean                scsd_color_manager_start               (GsdColorManager *manager,
+GsdColorManager *       gsd_color_manager_new                 (void);
+gboolean                gsd_color_manager_start               (GsdColorManager *manager,
                                                                GError         **error);
-void                    scsd_color_manager_stop                (GsdColorManager *manager);
+void                    gsd_color_manager_stop                (GsdColorManager *manager);
 
 G_END_DECLS
 

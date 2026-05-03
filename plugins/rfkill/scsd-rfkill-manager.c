@@ -103,7 +103,7 @@ struct _GsdRfkillManager
 static const gchar introspection_xml[] =
 "<node>"
 "  <interface name='io.github.scarecrow_de.SettingsDaemon.Rfkill'>"
-"    <annotation name='org.freedesktop.DBus.GLib.CSymbol' value='scsd_rfkill_manager'/>"
+"    <annotation name='org.freedesktop.DBus.GLib.CSymbol' value='gsd_rfkill_manager'/>"
 "    <property name='AirplaneMode' type='b' access='readwrite'/>"
 "    <property name='HardwareAirplaneMode' type='b' access='read'/>"
 "    <property name='HasAirplaneMode' type='b' access='read'/>"
@@ -117,24 +117,24 @@ static const gchar introspection_xml[] =
 "  </interface>"
 "</node>";
 
-static void     scsd_rfkill_manager_class_init  (GsdRfkillManagerClass *klass);
-static void     scsd_rfkill_manager_init        (GsdRfkillManager      *rfkill_manager);
-static void     scsd_rfkill_manager_finalize    (GObject                    *object);
+static void     gsd_rfkill_manager_class_init  (GsdRfkillManagerClass *klass);
+static void     gsd_rfkill_manager_init        (GsdRfkillManager      *rfkill_manager);
+static void     gsd_rfkill_manager_finalize    (GObject                    *object);
 
-G_DEFINE_TYPE (GsdRfkillManager, scsd_rfkill_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdRfkillManager, gsd_rfkill_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
 static void
-scsd_rfkill_manager_class_init (GsdRfkillManagerClass *klass)
+gsd_rfkill_manager_class_init (GsdRfkillManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_rfkill_manager_finalize;
+        object_class->finalize = gsd_rfkill_manager_finalize;
 }
 
 static void
-scsd_rfkill_manager_init (GsdRfkillManager *manager)
+gsd_rfkill_manager_init (GsdRfkillManager *manager)
 {
 }
 
@@ -784,7 +784,7 @@ on_mm_proxy_gotten (GObject      *source,
 }
 
 gboolean
-scsd_rfkill_manager_start (GsdRfkillManager *manager,
+gsd_rfkill_manager_start (GsdRfkillManager *manager,
                          GError         **error)
 {
         g_autoptr(GError) local_error = NULL;
@@ -839,7 +839,7 @@ scsd_rfkill_manager_start (GsdRfkillManager *manager,
 }
 
 void
-scsd_rfkill_manager_stop (GsdRfkillManager *manager)
+gsd_rfkill_manager_stop (GsdRfkillManager *manager)
 {
         g_debug ("Stopping rfkill manager");
 
@@ -871,7 +871,7 @@ scsd_rfkill_manager_stop (GsdRfkillManager *manager)
 }
 
 static void
-scsd_rfkill_manager_finalize (GObject *object)
+gsd_rfkill_manager_finalize (GObject *object)
 {
         GsdRfkillManager *manager;
 
@@ -882,13 +882,13 @@ scsd_rfkill_manager_finalize (GObject *object)
 
         g_return_if_fail (manager != NULL);
 
-        scsd_rfkill_manager_stop (manager);
+        gsd_rfkill_manager_stop (manager);
 
-        G_OBJECT_CLASS (scsd_rfkill_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_rfkill_manager_parent_class)->finalize (object);
 }
 
 GsdRfkillManager *
-scsd_rfkill_manager_new (void)
+gsd_rfkill_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

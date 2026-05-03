@@ -72,7 +72,7 @@ static GParamSpec *props[PROP_LAST_PROP];
 #define GSD_WWAN_SCHEMA_DIR "io.github.scarecrow_de.settings-daemon.plugins.wwan"
 #define GSD_WWAN_SCHEMA_UNLOCK_SIM "unlock-sim"
 
-G_DEFINE_TYPE (GsdWwanManager, scsd_wwan_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdWwanManager, gsd_wwan_manager, G_TYPE_OBJECT)
 
 /* The plugin's manager object */
 static gpointer manager_object = NULL;
@@ -503,7 +503,7 @@ wwan_manager_ensure_unlocking (GsdWwanManager *self)
 }
 
 static void
-scsd_wwan_manager_cache_mm_object (GsdWwanManager *self, MMObject *obj)
+gsd_wwan_manager_cache_mm_object (GsdWwanManager *self, MMObject *obj)
 {
         const gchar *modem_object_path;
         CcWwanDevice *wwan_device;
@@ -540,7 +540,7 @@ object_added_cb (GsdWwanManager *self, GDBusObject *object, GDBusObjectManager *
         g_return_if_fail (GSD_IS_WWAN_MANAGER (self));
         g_return_if_fail (G_IS_DBUS_OBJECT_MANAGER (obj_manager));
 
-        scsd_wwan_manager_cache_mm_object (self, MM_OBJECT(object));
+        gsd_wwan_manager_cache_mm_object (self, MM_OBJECT(object));
 }
 
 
@@ -600,7 +600,7 @@ get_all_modems (GsdWwanManager *self)
 
         list = g_dbus_object_manager_get_objects (G_DBUS_OBJECT_MANAGER (self->mm1));
         for (l = list; l != NULL; l = l->next)
-                scsd_wwan_manager_cache_mm_object (self, MM_OBJECT(l->data));
+                gsd_wwan_manager_cache_mm_object (self, MM_OBJECT(l->data));
         g_list_free_full (list, g_object_unref);
 }
 
@@ -677,7 +677,7 @@ start_wwan_idle_cb (GsdWwanManager *self)
 }
 
 gboolean
-scsd_wwan_manager_start (GsdWwanManager *self,
+gsd_wwan_manager_start (GsdWwanManager *self,
                         GError        **error)
 {
         g_debug ("Starting wwan manager");
@@ -692,14 +692,14 @@ scsd_wwan_manager_start (GsdWwanManager *self,
 }
 
 void
-scsd_wwan_manager_stop (GsdWwanManager *self)
+gsd_wwan_manager_stop (GsdWwanManager *self)
 {
         g_debug ("Stopping wwan manager");
 }
 
 
 static void
-scsd_wwan_manager_set_unlock_sim (GsdWwanManager *self, gboolean unlock)
+gsd_wwan_manager_set_unlock_sim (GsdWwanManager *self, gboolean unlock)
 {
         if (self->unlock == unlock)
                 return;
@@ -723,7 +723,7 @@ scsd_wwan_manager_set_unlock_sim (GsdWwanManager *self, gboolean unlock)
 
 
 static void
-scsd_wwan_manager_set_property (GObject        *object,
+gsd_wwan_manager_set_property (GObject        *object,
                                guint           prop_id,
                                const GValue   *value,
                                GParamSpec     *pspec)
@@ -732,7 +732,7 @@ scsd_wwan_manager_set_property (GObject        *object,
 
         switch (prop_id) {
         case PROP_UNLOCK_SIM:
-                scsd_wwan_manager_set_unlock_sim (self, g_value_get_boolean (value));
+                gsd_wwan_manager_set_unlock_sim (self, g_value_get_boolean (value));
                 break;
         default:
                 G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
@@ -741,7 +741,7 @@ scsd_wwan_manager_set_property (GObject        *object,
 }
 
 static void
-scsd_wwan_manager_get_property (GObject        *object,
+gsd_wwan_manager_get_property (GObject        *object,
                                guint           prop_id,
                                GValue         *value,
                                GParamSpec     *pspec)
@@ -759,7 +759,7 @@ scsd_wwan_manager_get_property (GObject        *object,
 }
 
 static void
-scsd_wwan_manager_dispose (GObject *object)
+gsd_wwan_manager_dispose (GObject *object)
 {
         GsdWwanManager *self = GSD_WWAN_MANAGER (object);
 
@@ -780,17 +780,17 @@ scsd_wwan_manager_dispose (GObject *object)
         g_clear_pointer (&self->devices_to_unlock, g_ptr_array_unref);
         g_clear_object (&self->settings);
 
-        G_OBJECT_CLASS (scsd_wwan_manager_parent_class)->dispose (object);
+        G_OBJECT_CLASS (gsd_wwan_manager_parent_class)->dispose (object);
 }
 
 static void
-scsd_wwan_manager_class_init (GsdWwanManagerClass *klass)
+gsd_wwan_manager_class_init (GsdWwanManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->get_property = scsd_wwan_manager_get_property;
-        object_class->set_property = scsd_wwan_manager_set_property;
-        object_class->dispose = scsd_wwan_manager_dispose;
+        object_class->get_property = gsd_wwan_manager_get_property;
+        object_class->set_property = gsd_wwan_manager_set_property;
+        object_class->dispose = gsd_wwan_manager_dispose;
 
         props[PROP_UNLOCK_SIM] =
                 g_param_spec_boolean ("unlock-sim",
@@ -804,7 +804,7 @@ scsd_wwan_manager_class_init (GsdWwanManagerClass *klass)
 }
 
 static void
-scsd_wwan_manager_init (GsdWwanManager *self)
+gsd_wwan_manager_init (GsdWwanManager *self)
 {
         self->devices = g_ptr_array_new_with_free_func ((GDestroyNotify) g_object_unref);
         self->devices_to_unlock = g_ptr_array_new_with_free_func ((GDestroyNotify) g_object_unref);
@@ -812,7 +812,7 @@ scsd_wwan_manager_init (GsdWwanManager *self)
 
 
 GsdWwanManager *
-scsd_wwan_manager_new (void)
+gsd_wwan_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

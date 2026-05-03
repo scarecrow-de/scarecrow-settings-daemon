@@ -116,7 +116,7 @@ oled_bt_scramble_icon (guchar *input_image)
 }
 
 static void
-scsd_wacom_oled_convert_1_bit (guchar *image)
+gsd_wacom_oled_convert_1_bit (guchar *image)
 {
 	guchar buf[BT_BUF_LEN];
 	guchar b0, b1, b2, b3, b4, b5, b6, b7;
@@ -138,7 +138,7 @@ scsd_wacom_oled_convert_1_bit (guchar *image)
 }
 
 static int
-scsd_wacom_oled_prepare_buf (guchar *image, GsdWacomOledType type)
+gsd_wacom_oled_prepare_buf (guchar *image, GsdWacomOledType type)
 {
 	int len = 0;
 
@@ -150,12 +150,12 @@ scsd_wacom_oled_prepare_buf (guchar *image, GsdWacomOledType type)
 		break;
 	case GSD_WACOM_OLED_TYPE_BLUETOOTH:
 		/* ... but for bluetooth it has to be converted to 1 bit colour instead of scrambling */
-		scsd_wacom_oled_convert_1_bit (image);
+		gsd_wacom_oled_convert_1_bit (image);
 		len = BT_BUF_LEN;
 		break;
 	case GSD_WACOM_OLED_TYPE_RAW_BLUETOOTH:
 		/* Image has also to be scrambled for devices connected over BT using the raw API ... */
-		scsd_wacom_oled_convert_1_bit (image);
+		gsd_wacom_oled_convert_1_bit (image);
 		len = BT_BUF_LEN;
 		oled_bt_scramble_icon (image);
 		break;
@@ -167,7 +167,7 @@ scsd_wacom_oled_prepare_buf (guchar *image, GsdWacomOledType type)
 }
 
 static gboolean
-scsd_wacom_oled_helper_write (const gchar *filename, gchar *buffer, GsdWacomOledType type, GError **error)
+gsd_wacom_oled_helper_write (const gchar *filename, gchar *buffer, GsdWacomOledType type, GError **error)
 {
 	guchar *image;
 	gint retval;
@@ -194,7 +194,7 @@ scsd_wacom_oled_helper_write (const gchar *filename, gchar *buffer, GsdWacomOled
 		goto out;
 	}
 
-	length = scsd_wacom_oled_prepare_buf (image, type);
+	length = gsd_wacom_oled_prepare_buf (image, type);
 	if (!length) {
 		ret = FALSE;
 		g_set_error (error, 1, 0, "Invalid image buffer length");
@@ -399,7 +399,7 @@ int main (int argc, char **argv)
 	if (!filename)
 		goto out;
 
-	if (scsd_wacom_oled_helper_write (filename, buffer, type, &error) == FALSE) {
+	if (gsd_wacom_oled_helper_write (filename, buffer, type, &error) == FALSE) {
 		g_critical ("Could not set OLED icon for '%s': %s", path, error->message);
 		g_error_free (error);
 		g_free (filename);

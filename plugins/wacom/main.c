@@ -1,6 +1,6 @@
-#define NEW scsd_wacom_manager_new
-#define START scsd_wacom_manager_start
-#define STOP scsd_wacom_manager_stop
+#define NEW gsd_wacom_manager_new
+#define START gsd_wacom_manager_start
+#define STOP gsd_wacom_manager_stop
 #define MANAGER GsdWacomManager
 #include "scsd-wacom-manager.h"
 

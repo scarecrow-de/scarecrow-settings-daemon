@@ -33,7 +33,7 @@ struct _GsdSettingsMigrateEntry
         GsdSettingsMigrateFunc func;
 };
 
-void scsd_settings_migrate_check (const gchar             *origin_schema,
+void gsd_settings_migrate_check (const gchar             *origin_schema,
                                  const gchar             *origin_path,
                                  const gchar             *dest_schema,
                                  const gchar             *dest_path,

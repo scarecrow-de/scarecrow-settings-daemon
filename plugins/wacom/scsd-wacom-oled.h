@@ -27,7 +27,7 @@
 G_BEGIN_DECLS
 
 gboolean set_oled (const gchar *device_path, gboolean left_handed, guint button, char *label, GError **error);
-char *scsd_wacom_oled_gdkpixbuf_to_base64 (GdkPixbuf *pixbuf);
+char *gsd_wacom_oled_gdkpixbuf_to_base64 (GdkPixbuf *pixbuf);
 
 G_END_DECLS
 

@@ -163,7 +163,7 @@ oled_render_text (char             *label,
 }
 
 char *
-scsd_wacom_oled_gdkpixbuf_to_base64 (GdkPixbuf *pixbuf)
+gsd_wacom_oled_gdkpixbuf_to_base64 (GdkPixbuf *pixbuf)
 {
 	int i, x, y, ch, rs;
 	guchar *pix, *p;

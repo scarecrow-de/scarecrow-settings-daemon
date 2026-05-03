@@ -294,24 +294,24 @@ struct _GsdXSettingsManager
         guint              gtk_settings_name_id;
 };
 
-#define GSD_XSETTINGS_ERROR scsd_xsettings_error_quark ()
+#define GSD_XSETTINGS_ERROR gsd_xsettings_error_quark ()
 
 enum {
         GSD_XSETTINGS_ERROR_INIT
 };
 
-static void     scsd_xsettings_manager_class_init  (GsdXSettingsManagerClass *klass);
-static void     scsd_xsettings_manager_init        (GsdXSettingsManager      *xsettings_manager);
-static void     scsd_xsettings_manager_finalize    (GObject                  *object);
+static void     gsd_xsettings_manager_class_init  (GsdXSettingsManagerClass *klass);
+static void     gsd_xsettings_manager_init        (GsdXSettingsManager      *xsettings_manager);
+static void     gsd_xsettings_manager_finalize    (GObject                  *object);
 
 static void     register_manager_dbus             (GsdXSettingsManager *manager);
 
-G_DEFINE_TYPE (GsdXSettingsManager, scsd_xsettings_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdXSettingsManager, gsd_xsettings_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
 static GQuark
-scsd_xsettings_error_quark (void)
+gsd_xsettings_error_quark (void)
 {
         return g_quark_from_static_string ("scsd-xsettings-error-quark");
 }
@@ -538,7 +538,7 @@ send_dbus_event (GsdXSettingsManager *manager,
         }
 
         if (mask & GTK_SETTINGS_MODULES) {
-                const char *modules = scsd_xsettings_gtk_get_modules (manager->gtk);
+                const char *modules = gsd_xsettings_gtk_get_modules (manager->gtk);
                 g_variant_builder_add (&props_builder, "{sv}", "Modules",
                                        g_variant_new_string (modules ? modules : ""));
         }
@@ -906,7 +906,7 @@ gtk_modules_callback (GsdXSettingsGtk     *gtk,
                       GParamSpec          *spec,
                       GsdXSettingsManager *manager)
 {
-        const char *modules = scsd_xsettings_gtk_get_modules (manager->gtk);
+        const char *modules = gsd_xsettings_gtk_get_modules (manager->gtk);
 
         if (modules == NULL) {
                 xsettings_manager_delete_setting (manager->manager, "Gtk/Modules");
@@ -1263,7 +1263,7 @@ launch_xwayland_services (void)
 }
 
 gboolean
-scsd_xsettings_manager_start (GsdXSettingsManager *manager,
+gsd_xsettings_manager_start (GsdXSettingsManager *manager,
                              GError             **error)
 {
         GVariant    *overrides;
@@ -1385,7 +1385,7 @@ scsd_xsettings_manager_start (GsdXSettingsManager *manager,
         manager->plugin_settings = g_settings_new (XSETTINGS_PLUGIN_SCHEMA);
         g_signal_connect_object (manager->plugin_settings, "changed", G_CALLBACK (plugin_callback), manager, 0);
 
-        manager->gtk = scsd_xsettings_gtk_new ();
+        manager->gtk = gsd_xsettings_gtk_new ();
         g_signal_connect (G_OBJECT (manager->gtk), "notify::gtk-modules",
                           G_CALLBACK (gtk_modules_callback), manager);
         gtk_modules_callback (manager->gtk, NULL, manager);
@@ -1413,7 +1413,7 @@ scsd_xsettings_manager_start (GsdXSettingsManager *manager,
 }
 
 void
-scsd_xsettings_manager_stop (GsdXSettingsManager *manager)
+gsd_xsettings_manager_stop (GsdXSettingsManager *manager)
 {
         g_debug ("Stopping xsettings manager");
 
@@ -1479,15 +1479,15 @@ scsd_xsettings_manager_stop (GsdXSettingsManager *manager)
 }
 
 static void
-scsd_xsettings_manager_class_init (GsdXSettingsManagerClass *klass)
+gsd_xsettings_manager_class_init (GsdXSettingsManagerClass *klass)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_xsettings_manager_finalize;
+        object_class->finalize = gsd_xsettings_manager_finalize;
 }
 
 static void
-scsd_xsettings_manager_init (GsdXSettingsManager *manager)
+gsd_xsettings_manager_init (GsdXSettingsManager *manager)
 {
         GError *error = NULL;
 
@@ -1498,7 +1498,7 @@ scsd_xsettings_manager_init (GsdXSettingsManager *manager)
 }
 
 static void
-scsd_xsettings_manager_finalize (GObject *object)
+gsd_xsettings_manager_finalize (GObject *object)
 {
         GsdXSettingsManager *xsettings_manager;
 
@@ -1509,14 +1509,14 @@ scsd_xsettings_manager_finalize (GObject *object)
 
         g_return_if_fail (xsettings_manager != NULL);
 
-        scsd_xsettings_manager_stop (xsettings_manager);
+        gsd_xsettings_manager_stop (xsettings_manager);
 
         if (xsettings_manager->start_idle_id != 0)
                 g_source_remove (xsettings_manager->start_idle_id);
 
         g_clear_object (&xsettings_manager->dbus_connection);
 
-        G_OBJECT_CLASS (scsd_xsettings_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_xsettings_manager_parent_class)->finalize (object);
 }
 
 static GVariant *
@@ -1533,7 +1533,7 @@ handle_get_property (GDBusConnection *connection,
         if (g_strcmp0 (property_name, "FontconfigTimestamp") == 0) {
                 return g_variant_new_int64 (manager->fontconfig_timestamp);
         } else if (g_strcmp0 (property_name, "Modules") == 0) {
-                const char *modules = scsd_xsettings_gtk_get_modules (manager->gtk);
+                const char *modules = gsd_xsettings_gtk_get_modules (manager->gtk);
                 return g_variant_new_string (modules ? modules : "");
         } else if (g_strcmp0 (property_name, "EnableAnimations") == 0) {
                 return g_variant_new_boolean (manager->enable_animations);
@@ -1574,7 +1574,7 @@ register_manager_dbus (GsdXSettingsManager *manager)
 }
 
 GsdXSettingsManager *
-scsd_xsettings_manager_new (void)
+gsd_xsettings_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

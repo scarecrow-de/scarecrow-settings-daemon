@@ -9,8 +9,8 @@ deps = plugins_deps + [
   libnotify_dep
 ]
 
-cflags += ['-DLIBEXECDIR="@0@"'.format(scsd_libexecdir)]
-cflags += ['-DBINDIR="@0@"'.format(scsd_bindir)]
+cflags += ['-DLIBEXECDIR="@0@"'.format(gsd_libexecdir)]
+cflags += ['-DBINDIR="@0@"'.format(gsd_bindir)]
 
 executable(
   'scsd-' + plugin_name,
@@ -19,8 +19,8 @@ executable(
   dependencies: deps,
   c_args: cflags,
   install: true,
-  install_rpath: scsd_pkglibdir,
-  install_dir: scsd_libexecdir
+  install_rpath: gsd_pkglibdir,
+  install_dir: gsd_libexecdir
 )
 
 program = 'scsd-printer'
@@ -30,8 +30,8 @@ executable(
   program + '.c',
   include_directories: top_inc,
   dependencies: deps,
-  c_args: '-DGNOME_SETTINGS_LOCALEDIR="@0@"'.format(scsd_localedir),
+  c_args: '-DGNOME_SETTINGS_LOCALEDIR="@0@"'.format(gsd_localedir),
   install: true,
-  install_rpath: scsd_pkglibdir,
-  install_dir: scsd_libexecdir
+  install_rpath: gsd_pkglibdir,
+  install_dir: gsd_libexecdir
 )

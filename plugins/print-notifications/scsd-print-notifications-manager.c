@@ -95,13 +95,13 @@ struct _GsdPrintNotificationsManager
         GList                        *held_jobs;
 };
 
-static void     scsd_print_notifications_manager_class_init  (GsdPrintNotificationsManagerClass *klass);
-static void     scsd_print_notifications_manager_init        (GsdPrintNotificationsManager      *print_notifications_manager);
-static void     scsd_print_notifications_manager_finalize    (GObject                           *object);
+static void     gsd_print_notifications_manager_class_init  (GsdPrintNotificationsManagerClass *klass);
+static void     gsd_print_notifications_manager_init        (GsdPrintNotificationsManager      *print_notifications_manager);
+static void     gsd_print_notifications_manager_finalize    (GObject                           *object);
 static gboolean cups_connection_test                        (gpointer                           user_data);
 static gboolean process_new_notifications                   (gpointer                           user_data);
 
-G_DEFINE_TYPE (GsdPrintNotificationsManager, scsd_print_notifications_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdPrintNotificationsManager, gsd_print_notifications_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
@@ -1516,7 +1516,7 @@ cups_connection_test (gpointer user_data)
 }
 
 static void
-scsd_print_notifications_manager_got_dbus_connection (GObject      *source_object,
+gsd_print_notifications_manager_got_dbus_connection (GObject      *source_object,
                                                      GAsyncResult *res,
                                                      gpointer      user_data)
 {
@@ -1544,7 +1544,7 @@ scsd_print_notifications_manager_got_dbus_connection (GObject      *source_objec
 }
 
 static gboolean
-scsd_print_notifications_manager_start_idle (gpointer data)
+gsd_print_notifications_manager_start_idle (gpointer data)
 {
         GsdPrintNotificationsManager *manager = data;
 
@@ -1566,7 +1566,7 @@ scsd_print_notifications_manager_start_idle (gpointer data)
 
                 g_bus_get (G_BUS_TYPE_SYSTEM,
                            NULL,
-                           scsd_print_notifications_manager_got_dbus_connection,
+                           gsd_print_notifications_manager_got_dbus_connection,
                            data);
         } else {
                 cups_connection_test (manager);
@@ -1581,7 +1581,7 @@ scsd_print_notifications_manager_start_idle (gpointer data)
 }
 
 gboolean
-scsd_print_notifications_manager_start (GsdPrintNotificationsManager *manager,
+gsd_print_notifications_manager_start (GsdPrintNotificationsManager *manager,
                                        GError                      **error)
 {
         g_debug ("Starting print-notifications manager");
@@ -1600,8 +1600,8 @@ scsd_print_notifications_manager_start (GsdPrintNotificationsManager *manager,
         manager->last_notify_sequence_number = -1;
         manager->held_jobs = NULL;
 
-        manager->start_idle_id = g_idle_add (scsd_print_notifications_manager_start_idle, manager);
-        g_source_set_name_by_id (manager->start_idle_id, "[scarecrow-settings-daemon] scsd_print_notifications_manager_start_idle");
+        manager->start_idle_id = g_idle_add (gsd_print_notifications_manager_start_idle, manager);
+        g_source_set_name_by_id (manager->start_idle_id, "[scarecrow-settings-daemon] gsd_print_notifications_manager_start_idle");
 
         gnome_settings_profile_end (NULL);
 
@@ -1609,7 +1609,7 @@ scsd_print_notifications_manager_start (GsdPrintNotificationsManager *manager,
 }
 
 void
-scsd_print_notifications_manager_stop (GsdPrintNotificationsManager *manager)
+gsd_print_notifications_manager_stop (GsdPrintNotificationsManager *manager)
 {
         TimeoutData *data;
         ReasonData  *reason_data;
@@ -1676,22 +1676,22 @@ scsd_print_notifications_manager_stop (GsdPrintNotificationsManager *manager)
 }
 
 static void
-scsd_print_notifications_manager_class_init (GsdPrintNotificationsManagerClass *klass)
+gsd_print_notifications_manager_class_init (GsdPrintNotificationsManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_print_notifications_manager_finalize;
+        object_class->finalize = gsd_print_notifications_manager_finalize;
 
         notify_init ("scarecrow-settings-daemon");
 }
 
 static void
-scsd_print_notifications_manager_init (GsdPrintNotificationsManager *manager)
+gsd_print_notifications_manager_init (GsdPrintNotificationsManager *manager)
 {
 }
 
 static void
-scsd_print_notifications_manager_finalize (GObject *object)
+gsd_print_notifications_manager_finalize (GObject *object)
 {
         GsdPrintNotificationsManager *manager;
 
@@ -1702,16 +1702,16 @@ scsd_print_notifications_manager_finalize (GObject *object)
 
         g_return_if_fail (manager != NULL);
 
-        scsd_print_notifications_manager_stop (manager);
+        gsd_print_notifications_manager_stop (manager);
 
         if (manager->start_idle_id != 0)
                 g_source_remove (manager->start_idle_id);
 
-        G_OBJECT_CLASS (scsd_print_notifications_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_print_notifications_manager_parent_class)->finalize (object);
 }
 
 GsdPrintNotificationsManager *
-scsd_print_notifications_manager_new (void)
+gsd_print_notifications_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

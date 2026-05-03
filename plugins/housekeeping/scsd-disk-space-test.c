@@ -36,11 +36,11 @@ main (int    argc,
 
         loop = g_main_loop_new (NULL, FALSE);
 
-        scsd_ldsm_setup (TRUE);
+        gsd_ldsm_setup (TRUE);
 
         g_main_loop_run (loop);
 
-        scsd_ldsm_clean ();
+        gsd_ldsm_clean ();
         g_main_loop_unref (loop);
 
         return 0;

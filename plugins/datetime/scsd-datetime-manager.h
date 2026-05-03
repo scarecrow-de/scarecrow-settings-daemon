@@ -25,12 +25,12 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_DATETIME_MANAGER         (scsd_datetime_manager_get_type ())
-G_DECLARE_FINAL_TYPE (GsdDatetimeManager, scsd_datetime_manager, GSD, DATETIME_MANAGER, GObject)
+#define GSD_TYPE_DATETIME_MANAGER         (gsd_datetime_manager_get_type ())
+G_DECLARE_FINAL_TYPE (GsdDatetimeManager, gsd_datetime_manager, GSD, DATETIME_MANAGER, GObject)
 
-GsdDatetimeManager *scsd_datetime_manager_new (void);
-gboolean scsd_datetime_manager_start (GsdDatetimeManager *manager, GError **error);
-void scsd_datetime_manager_stop (GsdDatetimeManager *manager);
+GsdDatetimeManager *gsd_datetime_manager_new (void);
+gboolean gsd_datetime_manager_start (GsdDatetimeManager *manager, GError **error);
+void gsd_datetime_manager_stop (GsdDatetimeManager *manager);
 
 G_END_DECLS
 

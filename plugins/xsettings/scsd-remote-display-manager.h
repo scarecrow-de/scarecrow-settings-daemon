@@ -21,8 +21,8 @@
 
 #include <glib-object.h>
 
-#define GSD_TYPE_REMOTE_DISPLAY_MANAGER            (scsd_remote_display_manager_get_type ())
+#define GSD_TYPE_REMOTE_DISPLAY_MANAGER            (gsd_remote_display_manager_get_type ())
 
-G_DECLARE_FINAL_TYPE (GsdRemoteDisplayManager, scsd_remote_display_manager, GSD, REMOTE_DISPLAY_MANAGER, GObject)
+G_DECLARE_FINAL_TYPE (GsdRemoteDisplayManager, gsd_remote_display_manager, GSD, REMOTE_DISPLAY_MANAGER, GObject)
 
-GsdRemoteDisplayManager * scsd_remote_display_manager_new (void);
+GsdRemoteDisplayManager * gsd_remote_display_manager_new (void);

@@ -24,14 +24,14 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_XSETTINGS_MANAGER         (scsd_xsettings_manager_get_type ())
+#define GSD_TYPE_XSETTINGS_MANAGER         (gsd_xsettings_manager_get_type ())
 
-G_DECLARE_FINAL_TYPE (GsdXSettingsManager, scsd_xsettings_manager, GSD, XSETTINGS_MANAGER, GObject)
+G_DECLARE_FINAL_TYPE (GsdXSettingsManager, gsd_xsettings_manager, GSD, XSETTINGS_MANAGER, GObject)
 
-GsdXSettingsManager   * scsd_xsettings_manager_new                 (void);
-gboolean                scsd_xsettings_manager_start               (GsdXSettingsManager *manager,
+GsdXSettingsManager   * gsd_xsettings_manager_new                 (void);
+gboolean                gsd_xsettings_manager_start               (GsdXSettingsManager *manager,
                                                                    GError             **error);
-void                    scsd_xsettings_manager_stop                (GsdXSettingsManager *manager);
+void                    gsd_xsettings_manager_stop                (GsdXSettingsManager *manager);
 
 G_END_DECLS
 

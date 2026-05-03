@@ -60,21 +60,21 @@ enum {
         PROP_BUS_CONNECTION
 };
 
-static void scsd_smartcard_service_set_property (GObject *object,
+static void gsd_smartcard_service_set_property (GObject *object,
                                                 guint property_id,
                                                 const GValue *value,
                                                 GParamSpec *param_spec);
-static void scsd_smartcard_service_get_property (GObject *object,
+static void gsd_smartcard_service_get_property (GObject *object,
                                                 guint property_id,
                                                 GValue *value,
                                                 GParamSpec *param_spec);
 static void async_initable_interface_init (GAsyncInitableIface *interface);
 static void smartcard_service_manager_interface_init (GsdSmartcardServiceManagerIface *interface);
 
-G_LOCK_DEFINE_STATIC (scsd_smartcard_tokens);
+G_LOCK_DEFINE_STATIC (gsd_smartcard_tokens);
 
 G_DEFINE_TYPE_WITH_CODE (GsdSmartcardService,
-                         scsd_smartcard_service,
+                         gsd_smartcard_service,
                          GSD_SMARTCARD_SERVICE_TYPE_MANAGER_SKELETON,
                          G_IMPLEMENT_INTERFACE (G_TYPE_ASYNC_INITABLE,
                                                 async_initable_interface_init)
@@ -99,8 +99,8 @@ register_object_manager (GsdSmartcardService *self)
 
         self->object_manager_server = g_dbus_object_manager_server_new (GSD_SMARTCARD_DBUS_PATH);
 
-        object = scsd_smartcard_service_object_skeleton_new (GSD_SMARTCARD_MANAGER_DBUS_PATH);
-        scsd_smartcard_service_object_skeleton_set_manager (object,
+        object = gsd_smartcard_service_object_skeleton_new (GSD_SMARTCARD_MANAGER_DBUS_PATH);
+        gsd_smartcard_service_object_skeleton_set_manager (object,
                                                            GSD_SMARTCARD_SERVICE_MANAGER (self));
 
         g_dbus_object_manager_server_export (self->object_manager_server,
@@ -131,8 +131,8 @@ register_login_token_alias (GsdSmartcardService *self)
                 return;
 
         object_path = get_login_token_object_path (self);
-        object = G_DBUS_OBJECT_SKELETON (scsd_smartcard_service_object_skeleton_new (object_path));
-        interface = G_DBUS_INTERFACE_SKELETON (scsd_smartcard_service_token_skeleton_new ());
+        object = G_DBUS_OBJECT_SKELETON (gsd_smartcard_service_object_skeleton_new (object_path));
+        interface = G_DBUS_INTERFACE_SKELETON (gsd_smartcard_service_token_skeleton_new ());
 
         g_dbus_object_skeleton_add_interface (object, interface);
         g_object_unref (interface);
@@ -146,9 +146,9 @@ register_login_token_alias (GsdSmartcardService *self)
         g_dbus_object_manager_server_export (self->object_manager_server,
                                              object);
 
-        G_LOCK (scsd_smartcard_tokens);
+        G_LOCK (gsd_smartcard_tokens);
         g_hash_table_insert (self->tokens, g_strdup (object_path), interface);
-        G_UNLOCK (scsd_smartcard_tokens);
+        G_UNLOCK (gsd_smartcard_tokens);
 }
 
 static void
@@ -193,7 +193,7 @@ out:
 }
 
 static gboolean
-scsd_smartcard_service_initable_init_finish (GAsyncInitable  *initable,
+gsd_smartcard_service_initable_init_finish (GAsyncInitable  *initable,
                                             GAsyncResult    *result,
                                             GError         **error)
 {
@@ -205,7 +205,7 @@ scsd_smartcard_service_initable_init_finish (GAsyncInitable  *initable,
 }
 
 static void
-scsd_smartcard_service_initable_init_async (GAsyncInitable      *initable,
+gsd_smartcard_service_initable_init_async (GAsyncInitable      *initable,
                                            int                  io_priority,
                                            GCancellable        *cancellable,
                                            GAsyncReadyCallback  callback,
@@ -223,8 +223,8 @@ scsd_smartcard_service_initable_init_async (GAsyncInitable      *initable,
 static void
 async_initable_interface_init (GAsyncInitableIface *interface)
 {
-        interface->init_async = scsd_smartcard_service_initable_init_async;
-        interface->init_finish = scsd_smartcard_service_initable_init_finish;
+        interface->init_async = gsd_smartcard_service_initable_init_async;
+        interface->init_finish = gsd_smartcard_service_initable_init_finish;
 }
 
 static char *
@@ -239,7 +239,7 @@ get_object_path_for_token (GsdSmartcardService *self,
         driver = PK11_GetModule (card_slot);
         slot_id = PK11_GetSlotID (card_slot);
 
-        escaped_library_path = scsd_smartcard_utils_escape_object_path (driver->dllName);
+        escaped_library_path = gsd_smartcard_utils_escape_object_path (driver->dllName);
 
         object_path = g_strdup_printf ("%s/token_from_%s_slot_%lu",
                                        GSD_SMARTCARD_MANAGER_TOKENS_DBUS_PATH,
@@ -251,14 +251,14 @@ get_object_path_for_token (GsdSmartcardService *self,
 }
 
 static gboolean
-scsd_smartcard_service_handle_get_login_token (GsdSmartcardServiceManager *manager,
+gsd_smartcard_service_handle_get_login_token (GsdSmartcardServiceManager *manager,
                                               GDBusMethodInvocation      *invocation)
 {
         GsdSmartcardService *self = GSD_SMARTCARD_SERVICE (manager);
         PK11SlotInfo *card_slot;
         char *object_path;
 
-        card_slot = scsd_smartcard_manager_get_login_token (self->smartcard_manager);
+        card_slot = gsd_smartcard_manager_get_login_token (self->smartcard_manager);
 
         if (card_slot == NULL) {
                 const char *login_token_object_path;
@@ -270,7 +270,7 @@ scsd_smartcard_service_handle_get_login_token (GsdSmartcardServiceManager *manag
                 login_token_object_path = get_login_token_object_path (self);
 
                 if (g_hash_table_contains (self->tokens, login_token_object_path)) {
-                        scsd_smartcard_service_manager_complete_get_login_token (manager,
+                        gsd_smartcard_service_manager_complete_get_login_token (manager,
                                                                                 invocation,
                                                                                 login_token_object_path);
                         return TRUE;
@@ -285,7 +285,7 @@ scsd_smartcard_service_handle_get_login_token (GsdSmartcardServiceManager *manag
         }
 
         object_path = get_object_path_for_token (self, card_slot);
-        scsd_smartcard_service_manager_complete_get_login_token (manager,
+        gsd_smartcard_service_manager_complete_get_login_token (manager,
                                                                 invocation,
                                                                 object_path);
         g_free (object_path);
@@ -294,14 +294,14 @@ scsd_smartcard_service_handle_get_login_token (GsdSmartcardServiceManager *manag
 }
 
 static gboolean
-scsd_smartcard_service_handle_get_inserted_tokens (GsdSmartcardServiceManager *manager,
+gsd_smartcard_service_handle_get_inserted_tokens (GsdSmartcardServiceManager *manager,
                                                   GDBusMethodInvocation      *invocation)
 {
         GsdSmartcardService *self = GSD_SMARTCARD_SERVICE (manager);
         GList *inserted_tokens, *node;
         GPtrArray *object_paths;
 
-        inserted_tokens = scsd_smartcard_manager_get_inserted_tokens (self->smartcard_manager,
+        inserted_tokens = gsd_smartcard_manager_get_inserted_tokens (self->smartcard_manager,
                                                                      NULL);
 
         object_paths = g_ptr_array_new ();
@@ -315,7 +315,7 @@ scsd_smartcard_service_handle_get_inserted_tokens (GsdSmartcardServiceManager *m
         g_ptr_array_add (object_paths, NULL);
         g_list_free (inserted_tokens);
 
-        scsd_smartcard_service_manager_complete_get_inserted_tokens (manager,
+        gsd_smartcard_service_manager_complete_get_inserted_tokens (manager,
                                                                     invocation,
                                                                     (const char * const *) object_paths->pdata);
 
@@ -327,12 +327,12 @@ scsd_smartcard_service_handle_get_inserted_tokens (GsdSmartcardServiceManager *m
 static void
 smartcard_service_manager_interface_init (GsdSmartcardServiceManagerIface *interface)
 {
-        interface->handle_get_login_token = scsd_smartcard_service_handle_get_login_token;
-        interface->handle_get_inserted_tokens = scsd_smartcard_service_handle_get_inserted_tokens;
+        interface->handle_get_login_token = gsd_smartcard_service_handle_get_login_token;
+        interface->handle_get_inserted_tokens = gsd_smartcard_service_handle_get_inserted_tokens;
 }
 
 static void
-scsd_smartcard_service_init (GsdSmartcardService *self)
+gsd_smartcard_service_init (GsdSmartcardService *self)
 {
         self->tokens = g_hash_table_new_full (g_str_hash,
                                               g_str_equal,
@@ -341,7 +341,7 @@ scsd_smartcard_service_init (GsdSmartcardService *self)
 }
 
 static void
-scsd_smartcard_service_dispose (GObject *object)
+gsd_smartcard_service_dispose (GObject *object)
 {
         GsdSmartcardService *self = GSD_SMARTCARD_SERVICE (object);
 
@@ -353,11 +353,11 @@ scsd_smartcard_service_dispose (GObject *object)
         g_clear_object (&self->cancellable);
         g_clear_pointer (&self->tokens, g_hash_table_unref);
 
-        G_OBJECT_CLASS (scsd_smartcard_service_parent_class)->dispose (object);
+        G_OBJECT_CLASS (gsd_smartcard_service_parent_class)->dispose (object);
 }
 
 static void
-scsd_smartcard_service_set_property (GObject      *object,
+gsd_smartcard_service_set_property (GObject      *object,
                                     guint         property_id,
                                     const GValue *value,
                                     GParamSpec   *param_spec)
@@ -375,7 +375,7 @@ scsd_smartcard_service_set_property (GObject      *object,
 }
 
 static void
-scsd_smartcard_service_get_property (GObject    *object,
+gsd_smartcard_service_get_property (GObject    *object,
                                     guint       property_id,
                                     GValue     *value,
                                     GParamSpec *param_spec)
@@ -396,14 +396,14 @@ scsd_smartcard_service_get_property (GObject    *object,
 }
 
 static void
-scsd_smartcard_service_class_init (GsdSmartcardServiceClass *service_class)
+gsd_smartcard_service_class_init (GsdSmartcardServiceClass *service_class)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (service_class);
         GParamSpec *param_spec;
 
-        object_class->dispose = scsd_smartcard_service_dispose;
-        object_class->set_property = scsd_smartcard_service_set_property;
-        object_class->get_property = scsd_smartcard_service_get_property;
+        object_class->dispose = gsd_smartcard_service_dispose;
+        object_class->set_property = gsd_smartcard_service_set_property;
+        object_class->get_property = gsd_smartcard_service_get_property;
 
         param_spec = g_param_spec_object ("manager",
                                           "Smartcard Manager",
@@ -445,7 +445,7 @@ out:
 }
 
 void
-scsd_smartcard_service_new_async (GsdSmartcardManager *manager,
+gsd_smartcard_service_new_async (GsdSmartcardManager *manager,
                                  GCancellable        *cancellable,
                                  GAsyncReadyCallback  callback,
                                  gpointer             user_data)
@@ -464,7 +464,7 @@ scsd_smartcard_service_new_async (GsdSmartcardManager *manager,
 }
 
 GsdSmartcardService *
-scsd_smartcard_service_new_finish (GAsyncResult  *result,
+gsd_smartcard_service_new_finish (GAsyncResult  *result,
                                   GError       **error)
 {
         GTask *task;
@@ -487,7 +487,7 @@ get_object_path_for_driver (GsdSmartcardService *self,
         char *object_path;
         char *escaped_library_path;
 
-        escaped_library_path = scsd_smartcard_utils_escape_object_path (driver->dllName);
+        escaped_library_path = gsd_smartcard_utils_escape_object_path (driver->dllName);
 
         object_path = g_build_path ("/",
                                     GSD_SMARTCARD_MANAGER_DRIVERS_DBUS_PATH,
@@ -498,7 +498,7 @@ get_object_path_for_driver (GsdSmartcardService *self,
 }
 
 void
-scsd_smartcard_service_register_driver (GsdSmartcardService  *self,
+gsd_smartcard_service_register_driver (GsdSmartcardService  *self,
                                        SECMODModule         *driver)
 {
         char *object_path;
@@ -506,10 +506,10 @@ scsd_smartcard_service_register_driver (GsdSmartcardService  *self,
         GDBusInterfaceSkeleton *interface;
 
         object_path = get_object_path_for_driver (self, driver);
-        object = G_DBUS_OBJECT_SKELETON (scsd_smartcard_service_object_skeleton_new (object_path));
+        object = G_DBUS_OBJECT_SKELETON (gsd_smartcard_service_object_skeleton_new (object_path));
         g_free (object_path);
 
-        interface = G_DBUS_INTERFACE_SKELETON (scsd_smartcard_service_driver_skeleton_new ());
+        interface = G_DBUS_INTERFACE_SKELETON (gsd_smartcard_service_driver_skeleton_new ());
         g_dbus_object_skeleton_add_interface (object, interface);
         g_object_unref (interface);
 
@@ -533,7 +533,7 @@ synchronize_token_now (GsdSmartcardService *self,
 
         object_path = get_object_path_for_token (self, card_slot);
 
-        G_LOCK (scsd_smartcard_tokens);
+        G_LOCK (gsd_smartcard_tokens);
         interface = g_hash_table_lookup (self->tokens, object_path);
         g_free (object_path);
 
@@ -562,7 +562,7 @@ synchronize_token_now (GsdSmartcardService *self,
                               NULL);
 
                 if (was_present)
-                        scsd_smartcard_manager_do_remove_action (self->smartcard_manager);
+                        gsd_smartcard_manager_do_remove_action (self->smartcard_manager);
         }
 
         g_object_set (G_OBJECT (interface),
@@ -593,7 +593,7 @@ synchronize_token_now (GsdSmartcardService *self,
         }
 
 out:
-        G_UNLOCK (scsd_smartcard_tokens);
+        G_UNLOCK (gsd_smartcard_tokens);
 }
 
 typedef struct
@@ -629,8 +629,8 @@ on_main_thread_to_register_new_token (GTask *task)
         operation = g_task_get_task_data (task);
         operation->main_thread_source = NULL;
 
-        object = G_DBUS_OBJECT_SKELETON (scsd_smartcard_service_object_skeleton_new (operation->object_path));
-        interface = G_DBUS_INTERFACE_SKELETON (scsd_smartcard_service_token_skeleton_new ());
+        object = G_DBUS_OBJECT_SKELETON (gsd_smartcard_service_object_skeleton_new (operation->object_path));
+        interface = G_DBUS_INTERFACE_SKELETON (gsd_smartcard_service_token_skeleton_new ());
 
         g_dbus_object_skeleton_add_interface (object, interface);
         g_object_unref (interface);
@@ -649,9 +649,9 @@ on_main_thread_to_register_new_token (GTask *task)
         g_dbus_object_manager_server_export (self->object_manager_server,
                                              object);
 
-        G_LOCK (scsd_smartcard_tokens);
+        G_LOCK (gsd_smartcard_tokens);
         g_hash_table_insert (self->tokens, g_strdup (operation->object_path), interface);
-        G_UNLOCK (scsd_smartcard_tokens);
+        G_UNLOCK (gsd_smartcard_tokens);
 
         g_task_return_boolean (task, TRUE);
         g_object_unref (task);
@@ -815,7 +815,7 @@ on_token_synchronized (GsdSmartcardService *self,
 }
 
 void
-scsd_smartcard_service_sync_token (GsdSmartcardService *self,
+gsd_smartcard_service_sync_token (GsdSmartcardService *self,
                                   PK11SlotInfo        *card_slot,
                                   GCancellable        *cancellable)
 {
@@ -824,9 +824,9 @@ scsd_smartcard_service_sync_token (GsdSmartcardService *self,
 
         object_path = get_object_path_for_token (self, card_slot);
 
-        G_LOCK (scsd_smartcard_tokens);
+        G_LOCK (gsd_smartcard_tokens);
         interface = g_hash_table_lookup (self->tokens, object_path);
-        G_UNLOCK (scsd_smartcard_tokens);
+        G_UNLOCK (gsd_smartcard_tokens);
 
         if (interface == NULL)
                 register_new_token_in_main_thread (self,

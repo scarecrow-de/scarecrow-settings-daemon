@@ -25,12 +25,12 @@
 
 G_BEGIN_DECLS
 
-#define GSD_TYPE_WWAN_MANAGER (scsd_wwan_manager_get_type())
-G_DECLARE_FINAL_TYPE (GsdWwanManager, scsd_wwan_manager, GSD, WWAN_MANAGER, GObject)
+#define GSD_TYPE_WWAN_MANAGER (gsd_wwan_manager_get_type())
+G_DECLARE_FINAL_TYPE (GsdWwanManager, gsd_wwan_manager, GSD, WWAN_MANAGER, GObject)
 
-GsdWwanManager *        scsd_wwan_manager_new                 (void);
-gboolean                scsd_wwan_manager_start               (GsdWwanManager *manager,
+GsdWwanManager *        gsd_wwan_manager_new                 (void);
+gboolean                gsd_wwan_manager_start               (GsdWwanManager *manager,
                                                               GError        **error);
-void                    scsd_wwan_manager_stop                (GsdWwanManager *manager);
+void                    gsd_wwan_manager_stop                (GsdWwanManager *manager);
 
 G_END_DECLS

@@ -31,8 +31,8 @@ G_BEGIN_DECLS
 gchar           *gpm_get_timestring                     (guint           time);
 
 /* Power helpers */
-gboolean         scsd_power_is_hardware_a_vm             (void);
-guint            scsd_power_enable_screensaver_watchdog  (void);
+gboolean         gsd_power_is_hardware_a_vm             (void);
+guint            gsd_power_enable_screensaver_watchdog  (void);
 void             reset_idletime                         (void);
 
 /* Backlight helpers */
@@ -40,11 +40,11 @@ void             reset_idletime                         (void);
 /* on ACPI machines we have 4-16 levels, on others it's ~150 */
 #define BRIGHTNESS_STEP_AMOUNT(max) ((max) < 20 ? 1 : (max) / 20)
 
-#define ABS_TO_PERCENTAGE(min, max, value) scsd_power_backlight_abs_to_percentage(min, max, value)
-#define PERCENTAGE_TO_ABS(min, max, value) scsd_power_backlight_percentage_to_abs(min, max, value)
+#define ABS_TO_PERCENTAGE(min, max, value) gsd_power_backlight_abs_to_percentage(min, max, value)
+#define PERCENTAGE_TO_ABS(min, max, value) gsd_power_backlight_percentage_to_abs(min, max, value)
 
-int              scsd_power_backlight_abs_to_percentage  (int min, int max, int value);
-int              scsd_power_backlight_percentage_to_abs  (int min, int max, int value);
+int              gsd_power_backlight_abs_to_percentage  (int min, int max, int value);
+int              gsd_power_backlight_percentage_to_abs  (int min, int max, int value);
 
 /* RandR helpers */
 void             watch_external_monitor                 (GnomeRRScreen *screen);

@@ -29,7 +29,7 @@
 
 G_BEGIN_DECLS
 
-void scsd_screenshot_take (MediaKeyType key_type);
+void gsd_screenshot_take (MediaKeyType key_type);
 
 G_END_DECLS
 

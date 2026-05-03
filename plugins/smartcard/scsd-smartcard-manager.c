@@ -59,17 +59,17 @@ struct _GsdSmartcardManager
 #define CONF_SCHEMA "io.github.scarecrow_de.settings-daemon.peripherals.smartcard"
 #define KEY_REMOVE_ACTION "removal-action"
 
-static void     scsd_smartcard_manager_class_init  (GsdSmartcardManagerClass *klass);
-static void     scsd_smartcard_manager_init        (GsdSmartcardManager      *self);
-static void     scsd_smartcard_manager_finalize    (GObject                  *object);
+static void     gsd_smartcard_manager_class_init  (GsdSmartcardManagerClass *klass);
+static void     gsd_smartcard_manager_init        (GsdSmartcardManager      *self);
+static void     gsd_smartcard_manager_finalize    (GObject                  *object);
 static void     lock_screen                       (GsdSmartcardManager *self);
 static void     log_out                           (GsdSmartcardManager *self);
 static void     on_smartcards_from_driver_watched (GsdSmartcardManager *self,
                                                    GAsyncResult        *result,
                                                    GTask               *task);
-G_DEFINE_TYPE (GsdSmartcardManager, scsd_smartcard_manager, G_TYPE_OBJECT)
-G_DEFINE_QUARK (scsd-smartcard-manager-error, scsd_smartcard_manager_error)
-G_LOCK_DEFINE_STATIC (scsd_smartcards_watch_tasks);
+G_DEFINE_TYPE (GsdSmartcardManager, gsd_smartcard_manager, G_TYPE_OBJECT)
+G_DEFINE_QUARK (scsd-smartcard-manager-error, gsd_smartcard_manager_error)
+G_LOCK_DEFINE_STATIC (gsd_smartcards_watch_tasks);
 
 typedef struct {
         SECMODModule *driver;
@@ -80,18 +80,18 @@ typedef struct {
 static gpointer manager_object = NULL;
 
 static void
-scsd_smartcard_manager_class_init (GsdSmartcardManagerClass *klass)
+gsd_smartcard_manager_class_init (GsdSmartcardManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_smartcard_manager_finalize;
+        object_class->finalize = gsd_smartcard_manager_finalize;
 
-        scsd_smartcard_utils_register_error_domain (GSD_SMARTCARD_MANAGER_ERROR,
+        gsd_smartcard_utils_register_error_domain (GSD_SMARTCARD_MANAGER_ERROR,
                                                    GSD_TYPE_SMARTCARD_MANAGER_ERROR);
 }
 
 static void
-scsd_smartcard_manager_init (GsdSmartcardManager *self)
+gsd_smartcard_manager_init (GsdSmartcardManager *self)
 {
 }
 
@@ -255,7 +255,7 @@ watch_one_event_from_driver (GsdSmartcardManager       *self,
                          * exported state to track the implicit missed
                          * removal
                          */
-                        scsd_smartcard_service_sync_token (self->service, old_card, cancellable);
+                        gsd_smartcard_service_sync_token (self->service, old_card, cancellable);
                 }
 
                 g_hash_table_remove (operation->smartcards, GINT_TO_POINTER ((int) slot_id));
@@ -268,7 +268,7 @@ watch_one_event_from_driver (GsdSmartcardManager       *self,
                                       GINT_TO_POINTER ((int) slot_id),
                                       PK11_ReferenceSlot (card));
 
-                scsd_smartcard_service_sync_token (self->service, card, cancellable);
+                gsd_smartcard_service_sync_token (self->service, card, cancellable);
         } else if (old_card == NULL) {
                 /* If the just removed smartcard is not known to us then
                  * ignore the removal event. NSS sends a synthentic removal
@@ -283,7 +283,7 @@ watch_one_event_from_driver (GsdSmartcardManager       *self,
                  * removal
                  */
                 if (old_slot_series == slot_series)
-                        scsd_smartcard_service_sync_token (self->service, card, cancellable);
+                        gsd_smartcard_service_sync_token (self->service, card, cancellable);
         }
 
         PK11_FreeSlot (card);
@@ -327,10 +327,10 @@ static void
 on_smartcards_watch_task_destroyed (GsdSmartcardManager *self,
                                     GTask               *freed_task)
 {
-        G_LOCK (scsd_smartcards_watch_tasks);
+        G_LOCK (gsd_smartcards_watch_tasks);
         self->smartcards_watch_tasks = g_list_remove (self->smartcards_watch_tasks,
                                                       freed_task);
-        G_UNLOCK (scsd_smartcards_watch_tasks);
+        G_UNLOCK (gsd_smartcards_watch_tasks);
 }
 
 static void
@@ -355,7 +355,7 @@ sync_initial_tokens_from_driver (GsdSmartcardManager *self,
                         g_hash_table_replace (smartcards,
                                               GINT_TO_POINTER ((int) slot_id),
                                               PK11_ReferenceSlot (card));
-                        scsd_smartcard_service_sync_token (self->service, card, cancellable);
+                        gsd_smartcard_service_sync_token (self->service, card, cancellable);
                 }
         }
 }
@@ -383,13 +383,13 @@ watch_smartcards_from_driver_async (GsdSmartcardManager *self,
                               operation,
                               (GDestroyNotify) destroy_watch_smartcards_operation);
 
-        G_LOCK (scsd_smartcards_watch_tasks);
+        G_LOCK (gsd_smartcards_watch_tasks);
         self->smartcards_watch_tasks = g_list_prepend (self->smartcards_watch_tasks,
                                                        task);
         g_object_weak_ref (G_OBJECT (task),
                            (GWeakNotify) on_smartcards_watch_task_destroyed,
                            self);
-        G_UNLOCK (scsd_smartcards_watch_tasks);
+        G_UNLOCK (gsd_smartcards_watch_tasks);
 
         sync_initial_tokens_from_driver (self, driver, operation->smartcards, cancellable);
 
@@ -469,7 +469,7 @@ on_main_thread_to_register_driver (GTask *task)
         self = g_task_get_source_object (task);
         operation = g_task_get_task_data (task);
 
-        scsd_smartcard_service_register_driver (self->service,
+        gsd_smartcard_service_register_driver (self->service,
                                                operation->driver);
 
         source = g_idle_source_new ();
@@ -647,14 +647,14 @@ on_all_drivers_activated (GsdSmartcardManager *self,
                 return;
         }
 
-        login_token = scsd_smartcard_manager_get_login_token (self);
+        login_token = gsd_smartcard_manager_get_login_token (self);
 
         if (login_token || g_getenv ("PKCS11_LOGIN_TOKEN_NAME") != NULL) {
                 /* The card used to log in was removed before login completed.
                  * Do removal action immediately
                  */
                 if (!login_token || !PK11_IsPresent (login_token))
-                        scsd_smartcard_manager_do_remove_action (self);
+                        gsd_smartcard_manager_do_remove_action (self);
         }
 
         g_task_return_boolean (task, TRUE);
@@ -728,7 +728,7 @@ on_service_created (GObject             *source_object,
         GsdSmartcardService *service;
         GError *error = NULL;
 
-        service = scsd_smartcard_service_new_finish (result, &error);
+        service = gsd_smartcard_service_new_finish (result, &error);
 
         if (service == NULL) {
                 g_warning("Couldn't create session bus service: %s", error->message);
@@ -746,7 +746,7 @@ on_service_created (GObject             *source_object,
 }
 
 static gboolean
-scsd_smartcard_manager_idle_cb (GsdSmartcardManager *self)
+gsd_smartcard_manager_idle_cb (GsdSmartcardManager *self)
 {
         gnome_settings_profile_start (NULL);
 
@@ -755,7 +755,7 @@ scsd_smartcard_manager_idle_cb (GsdSmartcardManager *self)
 
         load_nss (self);
 
-        scsd_smartcard_service_new_async (self,
+        gsd_smartcard_service_new_async (self,
                                          self->cancellable,
                                          (GAsyncReadyCallback) on_service_created,
                                          self);
@@ -767,13 +767,13 @@ scsd_smartcard_manager_idle_cb (GsdSmartcardManager *self)
 }
 
 gboolean
-scsd_smartcard_manager_start (GsdSmartcardManager  *self,
+gsd_smartcard_manager_start (GsdSmartcardManager  *self,
                              GError              **error)
 {
         gnome_settings_profile_start (NULL);
 
-        self->start_idle_id = g_idle_add ((GSourceFunc) scsd_smartcard_manager_idle_cb, self);
-        g_source_set_name_by_id (self->start_idle_id, "[scarecrow-settings-daemon] scsd_smartcard_manager_idle_cb");
+        self->start_idle_id = g_idle_add ((GSourceFunc) gsd_smartcard_manager_idle_cb, self);
+        g_source_set_name_by_id (self->start_idle_id, "[scarecrow-settings-daemon] gsd_smartcard_manager_idle_cb");
 
         gnome_settings_profile_end (NULL);
 
@@ -781,7 +781,7 @@ scsd_smartcard_manager_start (GsdSmartcardManager  *self,
 }
 
 void
-scsd_smartcard_manager_stop (GsdSmartcardManager *self)
+gsd_smartcard_manager_stop (GsdSmartcardManager *self)
 {
         g_debug ("Stopping smartcard manager");
 
@@ -803,7 +803,7 @@ on_screen_locked (GsdScreenSaver      *screen_saver,
         gboolean is_locked;
         GError *error = NULL;
 
-        is_locked = scsd_screen_saver_call_lock_finish (screen_saver, result, &error);
+        is_locked = gsd_screen_saver_call_lock_finish (screen_saver, result, &error);
 
         if (!is_locked) {
                 g_warning ("Couldn't lock screen: %s", error->message);
@@ -818,7 +818,7 @@ lock_screen (GsdSmartcardManager *self)
         if (self->screen_saver == NULL)
                 self->screen_saver = gnome_settings_bus_get_screen_saver_proxy ();
 
-        scsd_screen_saver_call_lock (self->screen_saver,
+        gsd_screen_saver_call_lock (self->screen_saver,
                                     self->cancellable,
                                     (GAsyncReadyCallback) on_screen_locked,
                                     self);
@@ -832,7 +832,7 @@ on_logged_out (GsdSessionManager   *session_manager,
         gboolean is_logged_out;
         GError *error = NULL;
 
-        is_logged_out = scsd_session_manager_call_logout_finish (session_manager, result, &error);
+        is_logged_out = gsd_session_manager_call_logout_finish (session_manager, result, &error);
 
         if (!is_logged_out) {
                 g_warning ("Couldn't log out: %s", error->message);
@@ -847,7 +847,7 @@ log_out (GsdSmartcardManager *self)
         if (self->session_manager == NULL)
                 self->session_manager = gnome_settings_bus_get_session_proxy ();
 
-        scsd_session_manager_call_logout (self->session_manager,
+        gsd_session_manager_call_logout (self->session_manager,
                                          GSD_SESSION_MANAGER_LOGOUT_MODE_FORCE,
                                          self->cancellable,
                                          (GAsyncReadyCallback) on_logged_out,
@@ -855,7 +855,7 @@ log_out (GsdSmartcardManager *self)
 }
 
 void
-scsd_smartcard_manager_do_remove_action (GsdSmartcardManager *self)
+gsd_smartcard_manager_do_remove_action (GsdSmartcardManager *self)
 {
         char *remove_action;
 
@@ -890,12 +890,12 @@ get_login_token_for_operation (GsdSmartcardManager      *self,
 }
 
 PK11SlotInfo *
-scsd_smartcard_manager_get_login_token (GsdSmartcardManager *self)
+gsd_smartcard_manager_get_login_token (GsdSmartcardManager *self)
 {
         PK11SlotInfo *card_slot = NULL;
         GList *node;
 
-        G_LOCK (scsd_smartcards_watch_tasks);
+        G_LOCK (gsd_smartcards_watch_tasks);
         node = self->smartcards_watch_tasks;
         while (node != NULL) {
                 GTask *task = node->data;
@@ -908,7 +908,7 @@ scsd_smartcard_manager_get_login_token (GsdSmartcardManager *self)
 
                 node = node->next;
         }
-        G_UNLOCK (scsd_smartcards_watch_tasks);
+        G_UNLOCK (gsd_smartcards_watch_tasks);
 
         return card_slot;
 }
@@ -935,12 +935,12 @@ get_inserted_tokens_for_operation (GsdSmartcardManager      *self,
 }
 
 GList *
-scsd_smartcard_manager_get_inserted_tokens (GsdSmartcardManager *self,
+gsd_smartcard_manager_get_inserted_tokens (GsdSmartcardManager *self,
                                            gsize               *num_tokens)
 {
         GList *inserted_tokens = NULL, *node;
 
-        G_LOCK (scsd_smartcards_watch_tasks);
+        G_LOCK (gsd_smartcards_watch_tasks);
         for (node = self->smartcards_watch_tasks; node != NULL; node = node->next) {
                 GTask *task = node->data;
                 WatchSmartcardsOperation *operation = g_task_get_task_data (task);
@@ -950,7 +950,7 @@ scsd_smartcard_manager_get_inserted_tokens (GsdSmartcardManager *self,
 
                 inserted_tokens = g_list_concat (inserted_tokens, operation_inserted_tokens);
         }
-        G_UNLOCK (scsd_smartcards_watch_tasks);
+        G_UNLOCK (gsd_smartcards_watch_tasks);
 
         if (num_tokens != NULL)
                 *num_tokens = g_list_length (inserted_tokens);
@@ -959,7 +959,7 @@ scsd_smartcard_manager_get_inserted_tokens (GsdSmartcardManager *self,
 }
 
 static void
-scsd_smartcard_manager_finalize (GObject *object)
+gsd_smartcard_manager_finalize (GObject *object)
 {
         GsdSmartcardManager *self;
 
@@ -973,13 +973,13 @@ scsd_smartcard_manager_finalize (GObject *object)
         if (self->start_idle_id != 0)
                 g_source_remove (self->start_idle_id);
 
-        scsd_smartcard_manager_stop (self);
+        gsd_smartcard_manager_stop (self);
 
-        G_OBJECT_CLASS (scsd_smartcard_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_smartcard_manager_parent_class)->finalize (object);
 }
 
 GsdSmartcardManager *
-scsd_smartcard_manager_new (void)
+gsd_smartcard_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

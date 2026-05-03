@@ -97,14 +97,14 @@ struct _GsdWacomManager
         guint            name_id;
 };
 
-static void     scsd_wacom_manager_class_init  (GsdWacomManagerClass *klass);
-static void     scsd_wacom_manager_init        (GsdWacomManager      *wacom_manager);
-static void     scsd_wacom_manager_finalize    (GObject              *object);
+static void     gsd_wacom_manager_class_init  (GsdWacomManagerClass *klass);
+static void     gsd_wacom_manager_init        (GsdWacomManager      *wacom_manager);
+static void     gsd_wacom_manager_finalize    (GObject              *object);
 
 static gboolean is_opaque_tablet (GsdWacomManager *manager,
                                   GdkDevice       *device);
 
-G_DEFINE_TYPE (GsdWacomManager, scsd_wacom_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdWacomManager, gsd_wacom_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
@@ -145,7 +145,7 @@ migrate_tablet_settings (GsdWacomManager *manager,
         new_path = g_strdup_printf ("/io/github/scarecrow_de/desktop/peripherals/tablets/%s:%s/",
                                     vendor, product);
 
-        scsd_settings_migrate_check ("io.github.scarecrow_de.settings-daemon.peripherals.wacom.deprecated",
+        gsd_settings_migrate_check ("io.github.scarecrow_de.settings-daemon.peripherals.wacom.deprecated",
                                     old_path,
                                     "io.github.scarecrow_de.desktop.peripherals.tablet",
                                     new_path,
@@ -159,7 +159,7 @@ migrate_tablet_settings (GsdWacomManager *manager,
                         { "display", "output", NULL },
                 };
 
-                scsd_settings_migrate_check ("io.github.scarecrow_de.desktop.peripherals.tablet.deprecated",
+                gsd_settings_migrate_check ("io.github.scarecrow_de.desktop.peripherals.tablet.deprecated",
                                             new_path,
                                             "io.github.scarecrow_de.desktop.peripherals.tablet",
                                             new_path,
@@ -171,11 +171,11 @@ migrate_tablet_settings (GsdWacomManager *manager,
 }
 
 static void
-scsd_wacom_manager_class_init (GsdWacomManagerClass *klass)
+gsd_wacom_manager_class_init (GsdWacomManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_wacom_manager_finalize;
+        object_class->finalize = gsd_wacom_manager_finalize;
 }
 
 static gchar *
@@ -347,7 +347,7 @@ set_devicepresence_handler (GsdWacomManager *manager)
 }
 
 static void
-scsd_wacom_manager_init (GsdWacomManager *manager)
+gsd_wacom_manager_init (GsdWacomManager *manager)
 {
 #if HAVE_WACOM
         manager->wacom_db = libwacom_database_new ();
@@ -355,7 +355,7 @@ scsd_wacom_manager_init (GsdWacomManager *manager)
 }
 
 static gboolean
-scsd_wacom_manager_idle_cb (GsdWacomManager *manager)
+gsd_wacom_manager_idle_cb (GsdWacomManager *manager)
 {
         gnome_settings_profile_start (NULL);
 
@@ -446,7 +446,7 @@ get_machine_id (void)
 }
 
 gboolean
-scsd_wacom_manager_start (GsdWacomManager *manager,
+gsd_wacom_manager_start (GsdWacomManager *manager,
                          GError         **error)
 {
         gnome_settings_profile_start (NULL);
@@ -455,8 +455,8 @@ scsd_wacom_manager_start (GsdWacomManager *manager,
 
         manager->machine_id = get_machine_id ();
 
-        manager->start_idle_id = g_idle_add ((GSourceFunc) scsd_wacom_manager_idle_cb, manager);
-        g_source_set_name_by_id (manager->start_idle_id, "[scarecrow-settings-daemon] scsd_wacom_manager_idle_cb");
+        manager->start_idle_id = g_idle_add ((GSourceFunc) gsd_wacom_manager_idle_cb, manager);
+        g_source_set_name_by_id (manager->start_idle_id, "[scarecrow-settings-daemon] gsd_wacom_manager_idle_cb");
 
         gnome_settings_profile_end (NULL);
 
@@ -464,7 +464,7 @@ scsd_wacom_manager_start (GsdWacomManager *manager,
 }
 
 void
-scsd_wacom_manager_stop (GsdWacomManager *manager)
+gsd_wacom_manager_stop (GsdWacomManager *manager)
 {
         g_debug ("Stopping wacom manager");
 
@@ -488,7 +488,7 @@ scsd_wacom_manager_stop (GsdWacomManager *manager)
 }
 
 static void
-scsd_wacom_manager_finalize (GObject *object)
+gsd_wacom_manager_finalize (GObject *object)
 {
         GsdWacomManager *wacom_manager;
 
@@ -499,7 +499,7 @@ scsd_wacom_manager_finalize (GObject *object)
 
         g_return_if_fail (wacom_manager != NULL);
 
-        scsd_wacom_manager_stop (wacom_manager);
+        gsd_wacom_manager_stop (wacom_manager);
 
         if (wacom_manager->start_idle_id != 0)
                 g_source_remove (wacom_manager->start_idle_id);
@@ -510,11 +510,11 @@ scsd_wacom_manager_finalize (GObject *object)
         libwacom_database_destroy (wacom_manager->wacom_db);
 #endif
 
-        G_OBJECT_CLASS (scsd_wacom_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_wacom_manager_parent_class)->finalize (object);
 }
 
 GsdWacomManager *
-scsd_wacom_manager_new (void)
+gsd_wacom_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

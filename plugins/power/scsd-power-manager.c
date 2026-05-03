@@ -216,8 +216,8 @@ enum {
         PROP_0,
 };
 
-static void     scsd_power_manager_class_init  (GsdPowerManagerClass *klass);
-static void     scsd_power_manager_init        (GsdPowerManager      *power_manager);
+static void     gsd_power_manager_class_init  (GsdPowerManagerClass *klass);
+static void     gsd_power_manager_init        (GsdPowerManager      *power_manager);
 
 static void      engine_device_warning_changed_cb (UpDevice *device, GParamSpec *pspec, GsdPowerManager *manager);
 static void      do_power_action_type (GsdPowerManager *manager, GsdPowerActionType action_type);
@@ -231,16 +231,16 @@ static void      idle_became_active_cb (GnomeIdleMonitor *monitor, guint watch_i
 static void      iio_proxy_changed (GsdPowerManager *manager);
 static void      iio_proxy_changed_cb (GDBusProxy *proxy, GVariant *changed_properties, GStrv invalidated_properties, gpointer user_data);
 
-G_DEFINE_TYPE (GsdPowerManager, scsd_power_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdPowerManager, gsd_power_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
 GQuark
-scsd_power_manager_error_quark (void)
+gsd_power_manager_error_quark (void)
 {
         static GQuark quark = 0;
         if (!quark)
-                quark = g_quark_from_static_string ("scsd_power_manager_error");
+                quark = g_quark_from_static_string ("gsd_power_manager_error");
         return quark;
 }
 
@@ -1515,7 +1515,7 @@ static void
 backlight_notify_brightness_cb (GsdPowerManager *manager, GParamSpec *pspec, GsdBacklight *backlight)
 {
         backlight_iface_emit_changed (manager, GSD_POWER_DBUS_INTERFACE_SCREEN,
-                                      scsd_backlight_get_brightness (backlight, NULL), NULL);
+                                      gsd_backlight_get_brightness (backlight, NULL), NULL);
 }
 
 static void
@@ -1529,12 +1529,12 @@ display_backlight_dim (GsdPowerManager *manager,
 
         /* Fetch the current target brightness (not the actual display brightness)
          * and return if it is already lower than the idle percentage. */
-        scsd_backlight_get_brightness (manager->backlight, &brightness);
+        gsd_backlight_get_brightness (manager->backlight, &brightness);
         if (brightness < idle_percentage)
                 return;
 
         manager->pre_dim_brightness = brightness;
-        scsd_backlight_set_brightness_async (manager->backlight, idle_percentage, NULL, NULL, NULL);
+        gsd_backlight_set_brightness_async (manager->backlight, idle_percentage, NULL, NULL, NULL);
 }
 
 static gboolean
@@ -1703,7 +1703,7 @@ idle_set_mode (GsdPowerManager *manager, GsdPowerIdleMode mode)
 
                 /* reset brightness if we dimmed */
                 if (manager->backlight && manager->pre_dim_brightness >= 0) {
-                        scsd_backlight_set_brightness_async (manager->backlight,
+                        gsd_backlight_set_brightness_async (manager->backlight,
                                                             manager->pre_dim_brightness,
                                                             NULL, NULL, NULL);
                         /* XXX: Ideally we would do this from the async callback. */
@@ -2003,7 +2003,7 @@ up_client_on_battery_cb (UpClient *client,
 }
 
 static void
-scsd_power_manager_finalize (GObject *object)
+gsd_power_manager_finalize (GObject *object)
 {
         GsdPowerManager *manager;
 
@@ -2014,7 +2014,7 @@ scsd_power_manager_finalize (GObject *object)
 
         g_return_if_fail (manager != NULL);
 
-        scsd_power_manager_stop (manager);
+        gsd_power_manager_stop (manager);
 
         g_clear_object (&manager->connection);
 
@@ -2025,15 +2025,15 @@ scsd_power_manager_finalize (GObject *object)
                 g_bus_unwatch_name (manager->iio_proxy_watch_id);
         manager->iio_proxy_watch_id = 0;
 
-        G_OBJECT_CLASS (scsd_power_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_power_manager_parent_class)->finalize (object);
 }
 
 static void
-scsd_power_manager_class_init (GsdPowerManagerClass *klass)
+gsd_power_manager_class_init (GsdPowerManagerClass *klass)
 {
         GObjectClass *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_power_manager_finalize;
+        object_class->finalize = gsd_power_manager_finalize;
 
         notify_init ("scarecrow-settings-daemon");
 }
@@ -2548,7 +2548,7 @@ on_rr_screen_acquired (GObject      *object,
         }
 
         /* Resolve screen backlight */
-        manager->backlight = scsd_backlight_new (manager->rr_screen, NULL);
+        manager->backlight = gsd_backlight_new (manager->rr_screen, NULL);
 
         if (manager->backlight)
                 g_signal_connect_object (manager->backlight,
@@ -2629,16 +2629,16 @@ on_rr_screen_acquired (GObject      *object,
         backlight_enable (manager);
 
         if (!gnome_settings_is_wayland ())
-                manager->xscreensaver_watchdog_timer_id = scsd_power_enable_screensaver_watchdog ();
+                manager->xscreensaver_watchdog_timer_id = gsd_power_enable_screensaver_watchdog ();
 
         /* don't blank inside a VM */
-        manager->is_virtual_machine = scsd_power_is_hardware_a_vm ();
+        manager->is_virtual_machine = gsd_power_is_hardware_a_vm ();
 
         /* queue a signal in case the proxy from gnome-shell was created before we got here
            (likely, considering that to get here we need a reply from gnome-shell)
         */
         if (manager->backlight) {
-                manager->ambient_percentage_old = scsd_backlight_get_brightness (manager->backlight, NULL);
+                manager->ambient_percentage_old = gsd_backlight_get_brightness (manager->backlight, NULL);
                 backlight_iface_emit_changed (manager, GSD_POWER_DBUS_INTERFACE_SCREEN,
                                               manager->ambient_percentage_old, NULL);
         } else {
@@ -2710,7 +2710,7 @@ iio_proxy_changed (GsdPowerManager *manager)
         pc = manager->ambient_accumulator;
 
         if (manager->backlight)
-                scsd_backlight_set_brightness_async (manager->backlight, pc, NULL, NULL, NULL);
+                gsd_backlight_set_brightness_async (manager->backlight, pc, NULL, NULL, NULL);
 
         /* Assume setting worked. */
         manager->ambient_percentage_old = pc;
@@ -2757,7 +2757,7 @@ iio_proxy_vanished_cb (GDBusConnection *connection,
 }
 
 gboolean
-scsd_power_manager_start (GsdPowerManager *manager,
+gsd_power_manager_start (GsdPowerManager *manager,
                          GError **error)
 {
         g_debug ("Starting power manager");
@@ -2812,7 +2812,7 @@ scsd_power_manager_start (GsdPowerManager *manager,
 }
 
 void
-scsd_power_manager_stop (GsdPowerManager *manager)
+gsd_power_manager_stop (GsdPowerManager *manager)
 {
         g_debug ("Stopping power manager");
 
@@ -2872,7 +2872,7 @@ scsd_power_manager_stop (GsdPowerManager *manager)
 }
 
 static void
-scsd_power_manager_init (GsdPowerManager *manager)
+gsd_power_manager_init (GsdPowerManager *manager)
 {
         manager->inhibit_lid_switch_fd = -1;
         manager->inhibit_suspend_fd = -1;
@@ -2942,7 +2942,7 @@ backlight_brightness_step_cb (GObject *object,
         gint brightness;
 
         manager = g_object_get_data (G_OBJECT (invocation), "scsd-power-manager");
-        brightness = scsd_backlight_set_brightness_finish (backlight, res, &error);
+        brightness = gsd_backlight_set_brightness_finish (backlight, res, &error);
 
         /* ambient brightness no longer valid */
         manager->ambient_percentage_old = brightness;
@@ -2952,7 +2952,7 @@ backlight_brightness_step_cb (GObject *object,
                 g_dbus_method_invocation_take_error (invocation,
                                                      error);
         } else {
-                connector = scsd_backlight_get_connector (backlight);
+                connector = gsd_backlight_get_connector (backlight);
 
                 g_dbus_method_invocation_return_value (invocation,
                                                        g_variant_new ("(is)",
@@ -2972,7 +2972,7 @@ backlight_brightness_set_cb (GObject *object,
         gint brightness;
 
         /* Return the invocation. */
-        brightness = scsd_backlight_set_brightness_finish (backlight, res, NULL);
+        brightness = gsd_backlight_set_brightness_finish (backlight, res, NULL);
 
         if (brightness >= 0) {
                 manager->ambient_percentage_old = brightness;
@@ -2999,15 +2999,15 @@ handle_method_call_screen (GsdPowerManager *manager,
 
         if (g_strcmp0 (method_name, "StepUp") == 0) {
                 g_debug ("screen step up");
-                scsd_backlight_step_up_async (manager->backlight, NULL, backlight_brightness_step_cb, invocation);
+                gsd_backlight_step_up_async (manager->backlight, NULL, backlight_brightness_step_cb, invocation);
 
         } else if (g_strcmp0 (method_name, "StepDown") == 0) {
                 g_debug ("screen step down");
-                scsd_backlight_step_down_async (manager->backlight, NULL, backlight_brightness_step_cb, invocation);
+                gsd_backlight_step_down_async (manager->backlight, NULL, backlight_brightness_step_cb, invocation);
 
         } else if (g_strcmp0 (method_name, "Cycle") == 0) {
                 g_debug ("screen cycle up");
-                scsd_backlight_cycle_up_async (manager->backlight, NULL, backlight_brightness_step_cb, invocation);
+                gsd_backlight_cycle_up_async (manager->backlight, NULL, backlight_brightness_step_cb, invocation);
 
         } else {
                 g_assert_not_reached ();
@@ -3067,7 +3067,7 @@ handle_get_property_other (GsdPowerManager *manager,
 
         if (g_strcmp0 (interface_name, GSD_POWER_DBUS_INTERFACE_SCREEN) == 0) {
                 if (manager->backlight)
-                        value = scsd_backlight_get_brightness (manager->backlight, NULL);
+                        value = gsd_backlight_get_brightness (manager->backlight, NULL);
                 else
                         value = -1;
 
@@ -3137,7 +3137,7 @@ handle_set_property_other (GsdPowerManager *manager,
                  * But none of our DBus API users actually read the result. */
                 g_variant_get (value, "i", &brightness_value);
                 if (manager->backlight) {
-                        scsd_backlight_set_brightness_async (manager->backlight, brightness_value,
+                        gsd_backlight_set_brightness_async (manager->backlight, brightness_value,
                                                             NULL,
                                                             backlight_brightness_set_cb, g_object_ref (manager));
                         return TRUE;
@@ -3256,7 +3256,7 @@ register_manager_dbus (GsdPowerManager *manager)
 }
 
 GsdPowerManager *
-scsd_power_manager_new (void)
+gsd_power_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

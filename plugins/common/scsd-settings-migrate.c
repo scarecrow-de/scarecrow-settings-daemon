@@ -26,7 +26,7 @@
 #include "scsd-settings-migrate.h"
 
 void
-scsd_settings_migrate_check (const gchar             *origin_schema,
+gsd_settings_migrate_check (const gchar             *origin_schema,
                             const gchar             *origin_path,
                             const gchar             *dest_schema,
                             const gchar             *dest_path,

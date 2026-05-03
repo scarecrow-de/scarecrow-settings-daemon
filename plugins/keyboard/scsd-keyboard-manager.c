@@ -90,13 +90,13 @@ struct _GsdKeyboardManager
         guint device_removed_id;
 };
 
-static void     scsd_keyboard_manager_class_init  (GsdKeyboardManagerClass *klass);
-static void     scsd_keyboard_manager_init        (GsdKeyboardManager      *keyboard_manager);
-static void     scsd_keyboard_manager_finalize    (GObject                 *object);
+static void     gsd_keyboard_manager_class_init  (GsdKeyboardManagerClass *klass);
+static void     gsd_keyboard_manager_init        (GsdKeyboardManager      *keyboard_manager);
+static void     gsd_keyboard_manager_finalize    (GObject                 *object);
 
 static void     update_gtk_im_module (GsdKeyboardManager *manager);
 
-G_DEFINE_TYPE (GsdKeyboardManager, scsd_keyboard_manager, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdKeyboardManager, gsd_keyboard_manager, G_TYPE_OBJECT)
 
 static gpointer manager_object = NULL;
 
@@ -619,7 +619,7 @@ start_keyboard_idle_cb (GsdKeyboardManager *manager)
 }
 
 gboolean
-scsd_keyboard_manager_start (GsdKeyboardManager *manager,
+gsd_keyboard_manager_start (GsdKeyboardManager *manager,
                             GError            **error)
 {
         gnome_settings_profile_start (NULL);
@@ -633,7 +633,7 @@ scsd_keyboard_manager_start (GsdKeyboardManager *manager,
 }
 
 void
-scsd_keyboard_manager_stop (GsdKeyboardManager *manager)
+gsd_keyboard_manager_stop (GsdKeyboardManager *manager)
 {
         g_debug ("Stopping keyboard manager");
 
@@ -653,20 +653,20 @@ scsd_keyboard_manager_stop (GsdKeyboardManager *manager)
 }
 
 static void
-scsd_keyboard_manager_class_init (GsdKeyboardManagerClass *klass)
+gsd_keyboard_manager_class_init (GsdKeyboardManagerClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_keyboard_manager_finalize;
+        object_class->finalize = gsd_keyboard_manager_finalize;
 }
 
 static void
-scsd_keyboard_manager_init (GsdKeyboardManager *manager)
+gsd_keyboard_manager_init (GsdKeyboardManager *manager)
 {
 }
 
 static void
-scsd_keyboard_manager_finalize (GObject *object)
+gsd_keyboard_manager_finalize (GObject *object)
 {
         GsdKeyboardManager *keyboard_manager;
 
@@ -677,12 +677,12 @@ scsd_keyboard_manager_finalize (GObject *object)
 
         g_return_if_fail (keyboard_manager != NULL);
 
-        scsd_keyboard_manager_stop (keyboard_manager);
+        gsd_keyboard_manager_stop (keyboard_manager);
 
         if (keyboard_manager->start_idle_id != 0)
                 g_source_remove (keyboard_manager->start_idle_id);
 
-        G_OBJECT_CLASS (scsd_keyboard_manager_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_keyboard_manager_parent_class)->finalize (object);
 }
 
 static void
@@ -695,7 +695,7 @@ migrate_keyboard_settings (void)
                 { "remember-numlock-state", "remember-numlock-state", NULL },
         };
 
-        scsd_settings_migrate_check ("io.github.scarecrow_de.settings-daemon.peripherals.keyboard.deprecated",
+        gsd_settings_migrate_check ("io.github.scarecrow_de.settings-daemon.peripherals.keyboard.deprecated",
                                     "/io/github/scarecrow_de/settings-daemon/peripherals/keyboard/",
                                     "io.github.scarecrow_de.desktop.peripherals.keyboard",
                                     "/io/github/scarecrow_de/desktop/peripherals/keyboard/",
@@ -703,7 +703,7 @@ migrate_keyboard_settings (void)
 }
 
 GsdKeyboardManager *
-scsd_keyboard_manager_new (void)
+gsd_keyboard_manager_new (void)
 {
         if (manager_object != NULL) {
                 g_object_ref (manager_object);

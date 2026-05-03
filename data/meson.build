@@ -26,7 +26,7 @@ foreach schema: schemas
     output: schema,
     configuration: schema_conf,
     install: true,
-    install_dir: scsd_schemadir
+    install_dir: gsd_schemadir
   )]
 endforeach
 
@@ -42,25 +42,25 @@ mkenums = gnome.mkenums(
   vtail: '  </@type@>',
   ftail: '</schemalist>',
   install_header: true,
-  install_dir: scsd_schemadir
+  install_dir: gsd_schemadir
 )
 
 install_data(
   enums_header,
-  install_dir: join_paths(scsd_pkgincludedir, meson.project_name())
+  install_dir: join_paths(gsd_pkgincludedir, meson.project_name())
 )
 
 install_data(
   'scarecrow-settings-daemon.convert',
-  install_dir: join_paths(scsd_datadir, 'GConf', 'gsettings')
+  install_dir: join_paths(gsd_datadir, 'GConf', 'gsettings')
 )
 
 pkg.generate(
-  version: scsd_version,
+  version: gsd_version,
   name: meson.project_name(),
   description: meson.project_name() + ' specific enumerations',
   filebase: meson.project_name(),
-  subdirs: scsd_api_name
+  subdirs: gsd_api_name
 )
 
 

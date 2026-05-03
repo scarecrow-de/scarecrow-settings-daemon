@@ -3179,7 +3179,7 @@ Background:
 
 Date & Time:
 - Add Debian support to NTP service activation (Milan Bouchet-Valat) (#641598)
-- Fix scsd_datetime_check_tz_name() never working (Bastien Nocera) (#674999)
+- Fix gsd_datetime_check_tz_name() never working (Bastien Nocera) (#674999)
 
 Keyboard:
 - Update for new libgnomekbd API (Sergey V. Udaltsov)

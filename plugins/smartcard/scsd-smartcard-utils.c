@@ -102,7 +102,7 @@ dashed_string_to_dbus_error_string (const char *dashed_string,
 }
 
 void
-scsd_smartcard_utils_register_error_domain (GQuark error_domain,
+gsd_smartcard_utils_register_error_domain (GQuark error_domain,
                                            GType  error_enum)
 {
         const char *error_domain_string;
@@ -137,7 +137,7 @@ scsd_smartcard_utils_register_error_domain (GQuark error_domain,
 }
 
 char *
-scsd_smartcard_utils_escape_object_path (const char *unescaped_string)
+gsd_smartcard_utils_escape_object_path (const char *unescaped_string)
 {
   const char *p;
   char *object_path;

@@ -55,10 +55,10 @@ libscsd = shared_library(
   include_directories: top_inc,
   dependencies: deps,
   install: true,
-  install_dir: scsd_pkglibdir
+  install_dir: gsd_pkglibdir
 )
 
-libscsd_dep = declare_dependency(
+libgsd_dep = declare_dependency(
   sources: dbus_headers,
   include_directories: include_directories('.'),
   link_with: libscsd

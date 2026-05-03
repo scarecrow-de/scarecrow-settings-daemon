@@ -28,17 +28,17 @@ if host_is_linux
   deps += gudev_dep
 endif
 
-cflags += ['-DLIBEXECDIR="@0@"'.format(scsd_libexecdir)]
+cflags += ['-DLIBEXECDIR="@0@"'.format(gsd_libexecdir)]
 
-scsd_power = executable(
+gsd_power = executable(
   'scsd-' + plugin_name,
   sources,
   include_directories: [top_inc, data_inc],
   dependencies: deps,
   c_args: cflags,
   install: true,
-  install_rpath: scsd_pkglibdir,
-  install_dir: scsd_libexecdir
+  install_rpath: gsd_pkglibdir,
+  install_dir: gsd_libexecdir
 )
 
 sources = files('scsd-power-enums-update.c')
@@ -57,7 +57,7 @@ sources += gnome.mkenums(
   h_template: enums + '.h.in'
 )
 
-scsd_power_enums_update = executable(
+gsd_power_enums_update = executable(
   'scsd-power-enums-update',
   sources,
   include_directories: top_inc,
@@ -80,7 +80,7 @@ if host_is_linux
     output: policy,
     po_dir: po_dir,
     install: true,
-    install_dir: join_paths(scsd_datadir, 'polkit-1', 'actions')
+    install_dir: join_paths(gsd_datadir, 'polkit-1', 'actions')
   )
 
   sources = files(
@@ -96,8 +96,8 @@ if host_is_linux
     include_directories: top_inc,
     dependencies: deps,
     install: true,
-    install_rpath: scsd_pkglibdir,
-    install_dir: scsd_libexecdir
+    install_rpath: gsd_pkglibdir,
+    install_dir: gsd_libexecdir
   )
 endif
 
@@ -118,7 +118,7 @@ scsdpowerenums_py = custom_target(
   output: output,
   capture: true,
   build_by_default: true,
-  command: [scsd_power_enums_update]
+  command: [gsd_power_enums_update]
 )
 
 test_py = find_program('test.py')

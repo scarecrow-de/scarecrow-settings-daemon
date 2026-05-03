@@ -20,7 +20,7 @@ deps = plugins_deps + [
   m_dep,
 ]
 
-cflags += ['-DBINDIR="@0@"'.format(scsd_bindir)]
+cflags += ['-DBINDIR="@0@"'.format(gsd_bindir)]
 
 executable(
   'scsd-' + plugin_name,
@@ -29,8 +29,8 @@ executable(
   dependencies: deps,
   c_args: cflags,
   install: true,
-  install_rpath: scsd_pkglibdir,
-  install_dir: scsd_libexecdir
+  install_rpath: gsd_pkglibdir,
+  install_dir: gsd_libexecdir
 )
 
 sources = files(

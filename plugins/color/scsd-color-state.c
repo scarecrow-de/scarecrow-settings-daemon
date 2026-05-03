@@ -61,11 +61,11 @@ struct _GsdColorState
         guint            color_temperature;
 };
 
-static void     scsd_color_state_class_init  (GsdColorStateClass *klass);
-static void     scsd_color_state_init        (GsdColorState      *color_state);
-static void     scsd_color_state_finalize    (GObject            *object);
+static void     gsd_color_state_class_init  (GsdColorStateClass *klass);
+static void     gsd_color_state_init        (GsdColorState      *color_state);
+static void     gsd_color_state_finalize    (GObject            *object);
 
-G_DEFINE_TYPE (GsdColorState, scsd_color_state, G_TYPE_OBJECT)
+G_DEFINE_TYPE (GsdColorState, gsd_color_state, G_TYPE_OBJECT)
 
 /* see http://www.oyranos.org/wiki/index.php?title=ICC_Profiles_in_X_Specification_0.3 */
 #define GCM_ICC_PROFILE_IN_X_VERSION_MAJOR      0
@@ -78,11 +78,11 @@ typedef struct {
 } GnomeRROutputClutItem;
 
 GQuark
-scsd_color_state_error_quark (void)
+gsd_color_state_error_quark (void)
 {
         static GQuark quark = 0;
         if (!quark)
-                quark = g_quark_from_static_string ("scsd_color_state_error");
+                quark = g_quark_from_static_string ("gsd_color_state_error");
         return quark;
 }
 
@@ -172,7 +172,7 @@ gcm_session_screen_set_icc_profile (GsdColorState *state,
 }
 
 void
-scsd_color_state_set_temperature (GsdColorState *state, guint temperature)
+gsd_color_state_set_temperature (GsdColorState *state, guint temperature)
 {
         g_return_if_fail (GSD_IS_COLOR_STATE (state));
 
@@ -184,7 +184,7 @@ scsd_color_state_set_temperature (GsdColorState *state, guint temperature)
 }
 
 guint
-scsd_color_state_get_temperature (GsdColorState *state)
+gsd_color_state_get_temperature (GsdColorState *state)
 {
         g_return_val_if_fail (GSD_IS_COLOR_STATE (state), 0);
         return state->color_temperature;
@@ -1505,7 +1505,7 @@ out:
 }
 
 void
-scsd_color_state_start (GsdColorState *state)
+gsd_color_state_start (GsdColorState *state)
 {
         /* use a fresh cancellable for each start->stop operation */
         g_cancellable_cancel (state->cancellable);
@@ -1519,21 +1519,21 @@ scsd_color_state_start (GsdColorState *state)
 }
 
 void
-scsd_color_state_stop (GsdColorState *state)
+gsd_color_state_stop (GsdColorState *state)
 {
         g_cancellable_cancel (state->cancellable);
 }
 
 static void
-scsd_color_state_class_init (GsdColorStateClass *klass)
+gsd_color_state_class_init (GsdColorStateClass *klass)
 {
         GObjectClass   *object_class = G_OBJECT_CLASS (klass);
 
-        object_class->finalize = scsd_color_state_finalize;
+        object_class->finalize = gsd_color_state_finalize;
 }
 
 static void
-scsd_color_state_init (GsdColorState *state)
+gsd_color_state_init (GsdColorState *state)
 {
         /* track the active session */
         state->session = gnome_settings_bus_get_session_proxy ();
@@ -1563,7 +1563,7 @@ scsd_color_state_init (GsdColorState *state)
 }
 
 static void
-scsd_color_state_finalize (GObject *object)
+gsd_color_state_finalize (GObject *object)
 {
         GsdColorState *state;
 
@@ -1580,11 +1580,11 @@ scsd_color_state_finalize (GObject *object)
         g_clear_pointer (&state->device_assign_hash, g_hash_table_destroy);
         g_clear_object (&state->state_screen);
 
-        G_OBJECT_CLASS (scsd_color_state_parent_class)->finalize (object);
+        G_OBJECT_CLASS (gsd_color_state_parent_class)->finalize (object);
 }
 
 GsdColorState *
-scsd_color_state_new (void)
+gsd_color_state_new (void)
 {
         GsdColorState *state;
         state = g_object_new (GSD_TYPE_COLOR_STATE, NULL);
