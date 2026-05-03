@@ -19,14 +19,14 @@ builddir = os.environ.get('BUILDDIR', os.path.dirname(__file__))
 
 sys.path.insert(0, os.path.join(project_root, 'tests'))
 sys.path.insert(0, builddir)
-import gsdtestcase
+import csdtestcase
 import dbus
 import dbusmock
 
 from gi.repository import Gio
 from gi.repository import GLib
 
-class XsettingsPluginTest(gsdtestcase.GSDTestCase):
+class XsettingsPluginTest(csdtestcase.GSDTestCase):
     '''Test the xsettings plugin'''
 
     def setUp(self):
@@ -87,7 +87,7 @@ class XsettingsPluginTest(gsdtestcase.GSDTestCase):
 
         env = os.environ.copy()
         self.daemon = subprocess.Popen(
-            [os.path.join(builddir, 'gsd-xsettings'), '--verbose'],
+            [os.path.join(builddir, 'csd-xsettings'), '--verbose'],
             # comment out this line if you want to see the logs in real time
             stdout=self.plugin_log_write,
             stderr=subprocess.STDOUT,
@@ -196,7 +196,7 @@ class XsettingsPluginTest(gsdtestcase.GSDTestCase):
         shutil.copy(os.path.join(os.path.dirname(__file__), 'fontconfig-test/fonts.conf'),
                 os.path.join(self.fc_dir, 'fonts.conf'))
 
-        # Wait for gsd-xsettings to pick up the change (and process it)
+        # Wait for csd-xsettings to pick up the change (and process it)
         self.check_plugin_log("Fontconfig update successful", timeout=5, failmsg="Fontconfig was not updated!")
 
         # Sleep a bit to ensure that the setting is updated

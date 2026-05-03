@@ -905,131 +905,131 @@ msgstr "Тастатура за пристапност"
 msgid "Accessibility keyboard plugin"
 msgstr "Додаток за пристапност на тастатурата"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:384
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:384
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "Се појави грешка при прикажувањето на помошта: %s"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:509
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:573
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:509
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:573
 #| msgid "Slow Keys Alert"
 msgid "Slow Keys Turned On"
 msgstr "Бавните копчиња се вклучени"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:510
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:574
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:510
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:574
 #| msgid "Slow Keys Alert"
 msgid "Slow Keys Turned Off"
 msgstr "Бавните копчиња се исклучени"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:511
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:575
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:511
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:575
 msgid "You just held down the Shift key for 8 seconds.  This is the shortcut for the Slow Keys feature, which affects the way your keyboard works."
 msgstr "Го држевте копчето Shift 8 секунди.  Ова е кратенка за опцијата за спори копчиња, која што прави промени на начинот на кој што работи Вашата тастатура."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:530
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:666
-#: ../plugins/mouse/gsd-mouse-manager.c:835
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:530
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:666
+#: ../plugins/mouse/csd-mouse-manager.c:835
 #| msgid "Universal Access Preferences"
 msgid "Universal Access"
 msgstr "Универзален пристап"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:536
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:672
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:536
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:672
 msgid "Turn Off"
 msgstr "Исклучи"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:536
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:672
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:536
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:672
 msgid "Turn On"
 msgstr "Вклучи"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:542
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:678
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:542
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:678
 msgid "Leave On"
 msgstr "Остани вклучен"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:542
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:678
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:542
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:678
 msgid "Leave Off"
 msgstr "Остани исклучен"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:596
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:734
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:596
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:734
 msgid "_Turn Off"
 msgstr "_Исклучи се"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:596
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:734
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:596
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:734
 msgid "_Turn On"
 msgstr "_Вклучи се"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:599
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:737
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:599
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:737
 msgid "_Leave On"
 msgstr "_Остани вклучен"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:599
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:737
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:599
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:737
 msgid "_Leave Off"
 msgstr "_Остани исклучен"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:642
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:708
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:642
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:708
 #| msgid "Sticky Keys Alert"
 msgid "Sticky Keys Turned On"
 msgstr "Лепливите копчиња се вклучени"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:643
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:709
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:643
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:709
 #| msgid "Sticky Keys Alert"
 msgid "Sticky Keys Turned Off"
 msgstr "Лепливите копчиња се исклучени"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:645
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:711
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:645
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:711
 msgid "You just pressed the Shift key 5 times in a row.  This is the shortcut for the Sticky Keys feature, which affects the way your keyboard works."
 msgstr "Го притиснавте копчето Shift 5 пати по ред.  Ова е кратенка за опцијата за лепливи копчиња, која што прави промени на начинот на кој што работи Вашата тастатура."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:647
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:713
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:647
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:713
 msgid "You just pressed two keys at once, or pressed the Shift key 5 times in a row.  This turns off the Sticky Keys feature, which affects the way your keyboard works."
 msgstr "Притиснавте две копчиа одеднаш, или пак го притиснавте копчето Shift 5 пати по ред.  Ова ја исклучува опцијата за лепливи копчиња, која што прави промени на начинот на работењето на Вашата тастатура."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.c:412
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:4
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.c:412
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:4
 msgid "Universal Access Preferences"
 msgstr "Преференции за универзален пристап"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:1
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:1
 msgid "Enhance _contrast in colors"
 msgstr "Зголеми го _контрастот на боите"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:2
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:2
 msgid "Make _text larger and easier to read"
 msgstr "Направи го текстот _поголем и полесен за читање"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:3
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:3
 msgid "Press and _hold keys to accept them (Slow Keys)"
 msgstr "Притисни и _држи на копчињата за прифаќање (бавни копчиња)"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:5
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:5
 msgid "Use on-screen _keyboard"
 msgstr "Користи екранска _тастатура"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:6
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:6
 msgid "Use screen _magnifier"
 msgstr "Користи _зголемувач на екранот"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:7
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:7
 msgid "Use screen _reader"
 msgstr "Користи читај на _екранот"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:8
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:8
 msgid "_Ignore duplicate keypresses (Bounce Keys)"
 msgstr "_Игнорирај ги дуплите притискања на копчињата (скокачки копчиња)"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:9
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:9
 msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
 msgstr "_Притиснете на кратенките на тастатурата едно по едно (лепливи копчиња)"
 
@@ -1051,119 +1051,119 @@ msgstr "Уреди кои користат автоматско монтирањ
 msgid "Mount Helper"
 msgstr "Помагач за монтирање"
 
-#: ../plugins/automount/gsd-automount-manager.c:151
+#: ../plugins/automount/csd-automount-manager.c:151
 #, c-format
 msgid "Unable to mount %s"
 msgstr "Не можам да го монтирам %s"
 
-#: ../plugins/automount/gsd-automount-manager.c:264
+#: ../plugins/automount/csd-automount-manager.c:264
 #, c-format
 msgid "Unable to open a folder for %s"
 msgstr "Не можам да отворам папка за %s"
 
-#: ../plugins/automount/gsd-autorun.c:340
+#: ../plugins/automount/csd-autorun.c:340
 msgid "Ask what to do"
 msgstr "Прашај ме што да правам"
 
-#: ../plugins/automount/gsd-autorun.c:346
+#: ../plugins/automount/csd-autorun.c:346
 msgid "Do Nothing"
 msgstr "Не прави ништо"
 
-#: ../plugins/automount/gsd-autorun.c:352
+#: ../plugins/automount/csd-autorun.c:352
 #| msgid "Home folder"
 msgid "Open Folder"
 msgstr "Отвори папка"
 
-#: ../plugins/automount/gsd-autorun.c:495
+#: ../plugins/automount/csd-autorun.c:495
 #, c-format
 msgid "Unable to eject %p"
 msgstr "Не можам да го извадам %p"
 
-#: ../plugins/automount/gsd-autorun.c:497
+#: ../plugins/automount/csd-autorun.c:497
 #, c-format
 msgid "Unable to unmount %p"
 msgstr "Не можам да го одмонтирам %p"
 
-#: ../plugins/automount/gsd-autorun.c:702
+#: ../plugins/automount/csd-autorun.c:702
 msgid "You have just inserted an Audio CD."
 msgstr "Внесовте аудио CD."
 
-#: ../plugins/automount/gsd-autorun.c:704
+#: ../plugins/automount/csd-autorun.c:704
 msgid "You have just inserted an Audio DVD."
 msgstr "Внесовте аудио DVD."
 
-#: ../plugins/automount/gsd-autorun.c:706
+#: ../plugins/automount/csd-autorun.c:706
 msgid "You have just inserted a Video DVD."
 msgstr "Внесовте видео DVD."
 
-#: ../plugins/automount/gsd-autorun.c:708
+#: ../plugins/automount/csd-autorun.c:708
 msgid "You have just inserted a Video CD."
 msgstr "Внесовте видео CD."
 
-#: ../plugins/automount/gsd-autorun.c:710
+#: ../plugins/automount/csd-autorun.c:710
 msgid "You have just inserted a Super Video CD."
 msgstr "Внесовте Super Video CD."
 
-#: ../plugins/automount/gsd-autorun.c:712
+#: ../plugins/automount/csd-autorun.c:712
 msgid "You have just inserted a blank CD."
 msgstr "Внесовте празно CD."
 
-#: ../plugins/automount/gsd-autorun.c:714
+#: ../plugins/automount/csd-autorun.c:714
 msgid "You have just inserted a blank DVD."
 msgstr "Внесовте празно DVD."
 
-#: ../plugins/automount/gsd-autorun.c:716
+#: ../plugins/automount/csd-autorun.c:716
 msgid "You have just inserted a blank Blu-Ray disc."
 msgstr "Внесовте празен Blu-Ray диск."
 
-#: ../plugins/automount/gsd-autorun.c:718
+#: ../plugins/automount/csd-autorun.c:718
 msgid "You have just inserted a blank HD DVD."
 msgstr "Внесовте празно HD DVD."
 
-#: ../plugins/automount/gsd-autorun.c:720
+#: ../plugins/automount/csd-autorun.c:720
 msgid "You have just inserted a Photo CD."
 msgstr "Внесовте CD со фотографии."
 
-#: ../plugins/automount/gsd-autorun.c:722
+#: ../plugins/automount/csd-autorun.c:722
 msgid "You have just inserted a Picture CD."
 msgstr "Внесовте CD со слики."
 
-#: ../plugins/automount/gsd-autorun.c:724
+#: ../plugins/automount/csd-autorun.c:724
 msgid "You have just inserted a medium with digital photos."
 msgstr "Внесовте медиум со дигитални фотографии."
 
-#: ../plugins/automount/gsd-autorun.c:726
+#: ../plugins/automount/csd-autorun.c:726
 msgid "You have just inserted a digital audio player."
 msgstr "Внесовте дигитален пуштач на аудио."
 
-#: ../plugins/automount/gsd-autorun.c:728
+#: ../plugins/automount/csd-autorun.c:728
 msgid "You have just inserted a medium with software intended to be automatically started."
 msgstr "Внесовте медиум со софтвер кој е наменет за автоматско стартување."
 
 #. fallback to generic greeting
-#: ../plugins/automount/gsd-autorun.c:731
+#: ../plugins/automount/csd-autorun.c:731
 msgid "You have just inserted a medium."
 msgstr "Внесовте медиум."
 
-#: ../plugins/automount/gsd-autorun.c:733
+#: ../plugins/automount/csd-autorun.c:733
 msgid "Choose what application to launch."
 msgstr "Изберете која апликација да се пушти."
 
-#: ../plugins/automount/gsd-autorun.c:742
+#: ../plugins/automount/csd-autorun.c:742
 #, c-format
 msgid "Select how to open \"%s\" and whether to perform this action in the future for other media of type \"%s\"."
 msgstr "Изберете како да се отвори „%s“ и дали да се извршува ова дејство повторно во иднина за други медиуми од типот „%s“."
 
-#: ../plugins/automount/gsd-autorun.c:769
+#: ../plugins/automount/csd-autorun.c:769
 msgid "_Always perform this action"
 msgstr "_Секогаш извршувај го ова дејство"
 
-#: ../plugins/automount/gsd-autorun.c:785
+#: ../plugins/automount/csd-autorun.c:785
 #| msgid "Eject"
 msgid "_Eject"
 msgstr "_Извади"
 
-#: ../plugins/automount/gsd-autorun.c:790
+#: ../plugins/automount/csd-autorun.c:790
 msgid "_Unmount"
 msgstr "_Одмонтирај"
 
@@ -1184,7 +1184,7 @@ msgid "Clipboard plugin"
 msgstr "Додатоко за таблата со исечоци"
 
 #: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
-#: ../plugins/color/gsd-color-manager.c:1640
+#: ../plugins/color/csd-color-manager.c:1640
 msgid "Color"
 msgstr "Боја"
 
@@ -1193,50 +1193,50 @@ msgstr "Боја"
 msgid "Color plugin"
 msgstr "Приклучок за боја"
 
-#: ../plugins/color/gsd-color-manager.c:1645
+#: ../plugins/color/csd-color-manager.c:1645
 msgid "Recalibrate now"
 msgstr "Рекалибрирај се"
 
 #. TRANSLATORS: this is when the device has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1687
+#: ../plugins/color/csd-color-manager.c:1687
 msgid "Recalibration required"
 msgstr "Потребно е рекалибрирање"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1699
+#: ../plugins/color/csd-color-manager.c:1699
 #, c-format
 msgid "The display '%s' should be recalibrated soon."
 msgstr "Приказот „%s“ ќе треба да се рекалибрира наскоро."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1708
+#: ../plugins/color/csd-color-manager.c:1708
 #, c-format
 msgid "The printer '%s' should be recalibrated soon."
 msgstr "Печеатачот „%s“ ќе треба да се рекалибрира наскоро."
 
 #. TRANSLATORS: this is the application name
-#: ../plugins/color/gsd-color-manager.c:2034
-#: ../plugins/color/gsd-color-manager.c:2050
+#: ../plugins/color/csd-color-manager.c:2034
+#: ../plugins/color/csd-color-manager.c:2050
 #| msgid "GNOME Settings Daemon"
 msgid "GNOME Settings Daemon Color Plugin"
 msgstr "Приклучок за боја за демонот за поставувања на GNOME"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-manager.c:2036
+#: ../plugins/color/csd-color-manager.c:2036
 msgid "Color calibration device added"
 msgstr "Беше додаден уред за калибрација на бои"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-manager.c:2052
+#: ../plugins/color/csd-color-manager.c:2052
 msgid "Color calibration device removed"
 msgstr "Беше отстранет уред за калибрација на бои"
 
-#: ../plugins/datetime/io.github.scarecrow_de.settingsdaemon.datetimemechanism.policy.in.h:1
+#: ../plugins/datetime/io.github.scarecrow_de.settincsdaemon.datetimemechanism.policy.in.h:1
 #| msgid "Set up screen size and rotation settings"
 msgid "Change system time and date settings"
 msgstr "Промени ги поставувањата за време и датум"
 
-#: ../plugins/datetime/io.github.scarecrow_de.settingsdaemon.datetimemechanism.policy.in.h:2
+#: ../plugins/datetime/io.github.scarecrow_de.settincsdaemon.datetimemechanism.policy.in.h:2
 msgid "To change time or date settings, you need to authenticate."
 msgstr "За да ги промените поставувањата за датум и време мора да се автентицирате."
 
@@ -1248,87 +1248,87 @@ msgstr "Тест"
 msgid "Dummy plugin"
 msgstr "Додаток за тест"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:332
+#: ../plugins/housekeeping/csd-disk-space.c:332
 #, c-format
 msgid "Low Disk Space on \"%s\""
 msgstr "Преостанува уште малку празен простор на „%s“"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:334
+#: ../plugins/housekeeping/csd-disk-space.c:334
 #, c-format
 msgid "The volume \"%s\" has only %s disk space remaining.  You may free up some space by emptying the trash."
 msgstr "Просторот „%s“ има уште %s празен простор.  Можете да ослободите простор со празнење на ѓубрето."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:338
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:81
+#: ../plugins/housekeeping/csd-disk-space.c:338
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:81
 #, c-format
 msgid "The volume \"%s\" has only %s disk space remaining."
 msgstr "Просторот „%s“ има уште %s празен простор."
 
 #. Set up all the window stuff here
-#: ../plugins/housekeeping/gsd-disk-space.c:343
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:205
+#: ../plugins/housekeeping/csd-disk-space.c:343
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:205
 msgid "Low Disk Space"
 msgstr "Недоволно празен простор"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:345
+#: ../plugins/housekeeping/csd-disk-space.c:345
 #, c-format
 msgid "This computer has only %s disk space remaining.  You may free up some space by emptying the trash."
 msgstr "Овој компјутер има уште само %s празен простор на дискот.  Ќе треба да ослободите простор со празнење на ѓубрето."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:348
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:84
+#: ../plugins/housekeeping/csd-disk-space.c:348
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:84
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Овој компјутер има уште само %s празен простор на дискот."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:363
+#: ../plugins/housekeeping/csd-disk-space.c:363
 msgid "Disk space"
 msgstr "Простор на дискот"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:370
+#: ../plugins/housekeeping/csd-disk-space.c:370
 msgid "Examine"
 msgstr "Испитај"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:378
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:437
+#: ../plugins/housekeeping/csd-disk-space.c:378
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:437
 msgid "Empty Trash"
 msgstr "Испразни го ѓубрето"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:385
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:452
+#: ../plugins/housekeeping/csd-disk-space.c:385
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:452
 msgid "Ignore"
 msgstr "Игнорирај"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:66
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:66
 msgid "Don't show any warnings again for this file system"
 msgstr "Не покажувај предупредувања повторно за овој датотечен систем"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:68
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:68
 #| msgid "Do _not show this warning again."
 msgid "Don't show any warnings again"
 msgstr "Не прикажувај предупредувања повторно"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:100
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:100
 msgid "You can free up disk space by emptying the Trash, removing unused programs or files, or moving files to another disk or partition."
 msgstr "Можете да ослободите празен простор со празнење на ѓубрето, отстранување на некористени програми и датотеки или преместување на датотеки на друг диск или партиција."
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:103
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:103
 msgid "You can free up disk space by removing unused programs or files, or by moving files to another disk or partition."
 msgstr "Можете да ослободите празен простор со отстранување на некористени програми и датотеки или преместување на датотеки на друг диск или партиција."
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:108
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:108
 msgid "You can free up disk space by emptying the Trash, removing unused programs or files, or moving files to an external disk."
 msgstr "Можете да ослободите празен простор со празнење на ѓубрето, отстранување на некористени програми и датотеки или преместување на датотеки на надворешен диск."
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:111
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:111
 msgid "You can free up disk space by removing unused programs or files, or by moving files to an external disk."
 msgstr "Можете да ослободите празен простор со отстранување на некористени програми и датотеки или преместување на датотеки на надворешен диск."
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:445
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:445
 msgid "Examine…"
 msgstr "Испитај..."
 
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:87
+#: ../plugins/keyboard/csd-keyboard-xkb.c:87
 #, c-format
 msgid ""
 "Error activating XKB configuration.\n"
@@ -1349,17 +1349,17 @@ msgstr ""
 " • <b>%s</b>\n"
 " • <b>%s</b>"
 
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:242
+#: ../plugins/keyboard/csd-keyboard-xkb.c:242
 msgid "_Layouts"
 msgstr "_Распореди"
 
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:248
+#: ../plugins/keyboard/csd-keyboard-xkb.c:248
 msgid "Show _Keyboard Layout..."
 msgstr "Покажи го распоредот на _тастатурата..."
 
 #. translators note:
 #. * This is the name of the gnome-control-center "region" panel
-#: ../plugins/keyboard/gsd-keyboard-xkb.c:255
+#: ../plugins/keyboard/csd-keyboard-xkb.c:255
 #| msgid "Manage X Settings"
 msgid "Region and Language Settings"
 msgstr "Поставувања за јазик и регион"
@@ -1414,11 +1414,11 @@ msgstr "Музички копчиња"
 msgid "Media keys plugin"
 msgstr "Додаток за копчињата за музика"
 
-#: ../plugins/mouse/gsd-mouse-manager.c:831
+#: ../plugins/mouse/csd-mouse-manager.c:831
 msgid "Could not enable mouse accessibility features"
 msgstr "Не можам да ги вклучам особините за пристапност на глушецот"
 
-#: ../plugins/mouse/gsd-mouse-manager.c:833
+#: ../plugins/mouse/csd-mouse-manager.c:833
 #| msgid ""
 #| "Mouse accessibility requires mousetweaks to be installed on your system."
 msgid "Mouse accessibility requires Mousetweaks to be installed on your system."
@@ -1944,317 +1944,317 @@ msgid "Computer is charged"
 msgstr "Компјутерот е полн"
 
 #. TRANSLATORS: the battery may be recalled by it's vendor
-#: ../plugins/power/gsd-power-manager.c:932
+#: ../plugins/power/csd-power-manager.c:932
 msgid "Battery may be recalled"
 msgstr "Батеријата можеби е повлечена од производителот"
 
-#: ../plugins/power/gsd-power-manager.c:935
+#: ../plugins/power/csd-power-manager.c:935
 #, c-format
 msgid "A battery in your computer may have been recalled by %s and you may be at risk."
 msgstr "Можно е батерија во Вашиот уред да е повлечена од производителот %s и можно е да сте во опасност."
 
-#: ../plugins/power/gsd-power-manager.c:938
+#: ../plugins/power/csd-power-manager.c:938
 msgid "For more information visit the battery recall website."
 msgstr "За повеќе информации посетете ја веб страницата за повлекување на производот."
 
 #. TRANSLATORS: button text, visit the manufacturers recall website
-#: ../plugins/power/gsd-power-manager.c:949
+#: ../plugins/power/csd-power-manager.c:949
 msgid "Visit recall website"
 msgstr "Посети ја веб страницата за повлекување на производот."
 
 #. TRANSLATORS: button text, do not show this bubble again
-#: ../plugins/power/gsd-power-manager.c:953
+#: ../plugins/power/csd-power-manager.c:953
 #| msgid "_Do not show this message again"
 msgid "Do not show me this again"
 msgstr "Не го прикажувај ова повторно"
 
 #. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:1164
+#: ../plugins/power/csd-power-manager.c:1164
 msgid "UPS Discharging"
 msgstr "UPS-от се празни"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1169
+#: ../plugins/power/csd-power-manager.c:1169
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "%s на резервна енергија преостаната во UPS"
 
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:1190
-#: ../plugins/power/gsd-power-manager.c:1368
-#: ../plugins/power/gsd-power-manager.c:1549
-#: ../plugins/power/gsd-power-manager.c:1698
+#: ../plugins/power/csd-power-manager.c:1190
+#: ../plugins/power/csd-power-manager.c:1368
+#: ../plugins/power/csd-power-manager.c:1549
+#: ../plugins/power/csd-power-manager.c:1698
 #: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "Енергија"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:1283
+#: ../plugins/power/csd-power-manager.c:1283
 msgid "Battery low"
 msgstr "Батеријата е празна"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:1286
+#: ../plugins/power/csd-power-manager.c:1286
 msgid "Laptop battery low"
 msgstr "Батеријата на лаптопот е празна"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1292
+#: ../plugins/power/csd-power-manager.c:1292
 #, c-format
 msgid "Approximately <b>%s</b> remaining (%.0f%%)"
 msgstr "Преостануваат приближно <b>%s</b> (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:1296
+#: ../plugins/power/csd-power-manager.c:1296
 msgid "UPS low"
 msgstr "UPS-от е празен"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1300
+#: ../plugins/power/csd-power-manager.c:1300
 #, c-format
 msgid "Approximately <b>%s</b> of remaining UPS backup power (%.0f%%)"
 msgstr "Преостанува уште <b>%s</b> енергија во UPS (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:1304
-#: ../plugins/power/gsd-power-manager.c:1470
+#: ../plugins/power/csd-power-manager.c:1304
+#: ../plugins/power/csd-power-manager.c:1470
 msgid "Mouse battery low"
 msgstr "Батеријата на глушецот е празна"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1307
+#: ../plugins/power/csd-power-manager.c:1307
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "Безжичниот глушец е празен (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:1311
-#: ../plugins/power/gsd-power-manager.c:1478
+#: ../plugins/power/csd-power-manager.c:1311
+#: ../plugins/power/csd-power-manager.c:1478
 msgid "Keyboard battery low"
 msgstr "Батеријата на тастатурата е празна"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1314
+#: ../plugins/power/csd-power-manager.c:1314
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "Безжичната тастатура е празна (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:1318
-#: ../plugins/power/gsd-power-manager.c:1487
+#: ../plugins/power/csd-power-manager.c:1318
+#: ../plugins/power/csd-power-manager.c:1487
 msgid "PDA battery low"
 msgstr "Батеријата на PDA уредот е празна"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1321
+#: ../plugins/power/csd-power-manager.c:1321
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "PDA уредот е при крај со батеријата (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1325
-#: ../plugins/power/gsd-power-manager.c:1497
-#: ../plugins/power/gsd-power-manager.c:1508
+#: ../plugins/power/csd-power-manager.c:1325
+#: ../plugins/power/csd-power-manager.c:1497
+#: ../plugins/power/csd-power-manager.c:1508
 msgid "Cell phone battery low"
 msgstr "Батеријата на телефонот е празна"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1328
+#: ../plugins/power/csd-power-manager.c:1328
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "Батеријата на мобилниот телефон е празна (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:1333
+#: ../plugins/power/csd-power-manager.c:1333
 msgid "Media player battery low"
 msgstr "Батеријата на медиа пуштачот е празна"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1336
+#: ../plugins/power/csd-power-manager.c:1336
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "Батеријата на медиа пуштачот е празна (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1340
-#: ../plugins/power/gsd-power-manager.c:1517
+#: ../plugins/power/csd-power-manager.c:1340
+#: ../plugins/power/csd-power-manager.c:1517
 msgid "Tablet battery low"
 msgstr "Батеријата на таблетот е празна"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1343
+#: ../plugins/power/csd-power-manager.c:1343
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "Батеријата на таблетот е празна (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1347
-#: ../plugins/power/gsd-power-manager.c:1526
+#: ../plugins/power/csd-power-manager.c:1347
+#: ../plugins/power/csd-power-manager.c:1526
 msgid "Attached computer battery low"
 msgstr "Батеријата на прикачениот компјутер е празна"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1350
+#: ../plugins/power/csd-power-manager.c:1350
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "Батеријата на прикачениот компјутер е празна (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1387
+#: ../plugins/power/csd-power-manager.c:1387
 msgid "Battery is low"
 msgstr "Батеријата е празна"
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: ../plugins/power/gsd-power-manager.c:1429
+#: ../plugins/power/csd-power-manager.c:1429
 msgid "Battery critically low"
 msgstr "Батеријата е критично празна"
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:1432
-#: ../plugins/power/gsd-power-manager.c:1616
+#: ../plugins/power/csd-power-manager.c:1432
+#: ../plugins/power/csd-power-manager.c:1616
 msgid "Laptop battery critically low"
 msgstr "Батеријата на лаптопот е критично празна"
 
 #. TRANSLATORS: tell the use to insert the plug, as we're not going to do anything
-#: ../plugins/power/gsd-power-manager.c:1441
+#: ../plugins/power/csd-power-manager.c:1441
 msgid "Plug in your AC adapter to avoid losing data."
 msgstr "Приклучете адаптер за да спречите загуба на податоци."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1445
+#: ../plugins/power/csd-power-manager.c:1445
 #, c-format
 msgid "Computer will suspend very soon unless it is plugged in."
 msgstr "Компјутерот ќе се суспендира ако не го вклучите да се полни."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1449
+#: ../plugins/power/csd-power-manager.c:1449
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr "Компјутерот ќе хибернира ако не го вклучите да се полни."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1453
+#: ../plugins/power/csd-power-manager.c:1453
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr "Компјутерот ќе се исклучи ако не го вклучите да се полни."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:1460
-#: ../plugins/power/gsd-power-manager.c:1652
+#: ../plugins/power/csd-power-manager.c:1460
+#: ../plugins/power/csd-power-manager.c:1652
 msgid "UPS critically low"
 msgstr "UPS-от е критично празен"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1464
+#: ../plugins/power/csd-power-manager.c:1464
 #, c-format
 msgid "Approximately <b>%s</b> of remaining UPS power (%.0f%%). Restore AC power to your computer to avoid losing data."
 msgstr "Преостанува приближно <b>%s</b> работа на UPS (%.0f%%). Приклучете го адаптерот за да спречите загуба на податоци."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1473
+#: ../plugins/power/csd-power-manager.c:1473
 #, c-format
 msgid "Wireless mouse is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr "Безжичниот глушец е при крај со батеријата (%.0f%%). Уредот ќе престане да работи ако не се наполни."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1481
+#: ../plugins/power/csd-power-manager.c:1481
 #, c-format
 msgid "Wireless keyboard is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr "Безжичната тастатура е при крај со батеријата (%.0f%%). Уредот ќе престане да работи ако не се наполни."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1490
+#: ../plugins/power/csd-power-manager.c:1490
 #, c-format
 msgid "PDA is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr "PDA уредот е при крај со батеријата (%.0f%%). Уредот ќе престане да работи ако не се наполни."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1500
+#: ../plugins/power/csd-power-manager.c:1500
 #, c-format
 msgid "Cell phone is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr "Мобилниот телефон е при крај со батеријата (%.0f%%). Уредот ќе престане да работи ако не се наполни."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1511
+#: ../plugins/power/csd-power-manager.c:1511
 #, c-format
 msgid "Media player is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr "Медиа пуштачот е при крај со батеријата (%.0f%%). Уредот ќе престане да работи ако не се наполни."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1520
+#: ../plugins/power/csd-power-manager.c:1520
 #, c-format
 msgid "Tablet is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr "Таблетот е при крај со батеријата (%.0f%%). Уредот ќе престане да работи ако не се наполни."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1529
+#: ../plugins/power/csd-power-manager.c:1529
 #, c-format
 msgid "Attached computer is very low in power (%.0f%%). The device will soon shutdown if not charged."
 msgstr "Прикачениот компјутер е при крај со батеријата (%.0f%%). Уредот ќе престане да работи ако не се наполни."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1569
-#: ../plugins/power/gsd-power-manager.c:1579
-#: ../plugins/power/gsd-power-manager.c:1715
+#: ../plugins/power/csd-power-manager.c:1569
+#: ../plugins/power/csd-power-manager.c:1579
+#: ../plugins/power/csd-power-manager.c:1715
 msgid "Battery is critically low"
 msgstr "Батеријата е целосно празна"
 
 #. TRANSLATORS: computer will shutdown without saving data
-#: ../plugins/power/gsd-power-manager.c:1624
+#: ../plugins/power/csd-power-manager.c:1624
 msgid "The battery is below the critical level and this computer will <b>power-off</b> when the battery becomes completely empty."
 msgstr "Батеријата е под критичното ниво и овој компјутер ќе се <b>исклучи</b> кога таа ќе се испразне целосно."
 
 #. TRANSLATORS: computer will suspend
-#: ../plugins/power/gsd-power-manager.c:1630
+#: ../plugins/power/csd-power-manager.c:1630
 msgid "The battery is below the critical level and this computer is about to suspend.<br><b>NOTE:</b> A small amount of power is required to keep your computer in a suspended state."
 msgstr "Батеријата е под критичното ниво и овој компјутер ќе се суспендира.<br><b>ЗАБЕЛЕШКА:</b> потребно е мало количество енергија за Вашиот компјутер да остане во суспендирана состојба."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:1637
+#: ../plugins/power/csd-power-manager.c:1637
 msgid "The battery is below the critical level and this computer is about to hibernate."
 msgstr "Батеријата е под критичното ниво и овој компјутер ќе хибернира."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:1642
+#: ../plugins/power/csd-power-manager.c:1642
 msgid "The battery is below the critical level and this computer is about to shutdown."
 msgstr "Батеријата е под критичното ниво и овој компјутер ќе се исклучи."
 
 #. TRANSLATORS: computer will shutdown without saving data
-#: ../plugins/power/gsd-power-manager.c:1660
+#: ../plugins/power/csd-power-manager.c:1660
 msgid "UPS is below the critical level and this computer will <b>power-off</b> when the UPS becomes completely empty."
 msgstr "UPS-от е под критичното ниво и овој компјутер ќе се <b>исклучи</b> кога тој ќе се испразне целосно."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:1666
+#: ../plugins/power/csd-power-manager.c:1666
 msgid "UPS is below the critical level and this computer is about to hibernate."
 msgstr "UPS-от е под критичното ниво и овој компјутер ќе хибернира."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:1671
+#: ../plugins/power/csd-power-manager.c:1671
 msgid "UPS is below the critical level and this computer is about to shutdown."
 msgstr "UPS-от е под критичното ниво и овој компјутер ќе се исклучи."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:2140
+#: ../plugins/power/csd-power-manager.c:2140
 msgid "Lid has been opened"
 msgstr "Лаптопот се отвора"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:2177
+#: ../plugins/power/csd-power-manager.c:2177
 msgid "Lid has been closed"
 msgstr "Лаптопот се затвора"
 
 #. TRANSLATORS: this is the title of the power manager status icon
 #. * that is only shown in fallback mode
-#: ../plugins/power/gsd-power-manager.c:3500
+#: ../plugins/power/csd-power-manager.c:3500
 msgid "Power Manager"
 msgstr "Менаџер на енергија"
 
@@ -2276,217 +2276,217 @@ msgid "Power plugin"
 msgstr "Приклучок за енергијата"
 
 #. Translators: We are configuring new printer
-#: ../plugins/print-notifications/gsd-printer.c:942
+#: ../plugins/print-notifications/csd-printer.c:942
 msgid "Configuring new printer"
 msgstr "Го конфигурирам новиот печатач"
 
 #. Translators: Just wait
-#: ../plugins/print-notifications/gsd-printer.c:944
+#: ../plugins/print-notifications/csd-printer.c:944
 msgid "Please wait..."
 msgstr "Ве молам, почекајте..."
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:971
+#: ../plugins/print-notifications/csd-printer.c:971
 msgid "Missing printer driver"
 msgstr "Недостасува драјвер за печатачот"
 
 #. Translators: We have no driver installed for the device
-#: ../plugins/print-notifications/gsd-printer.c:980
+#: ../plugins/print-notifications/csd-printer.c:980
 #, c-format
 msgid "No printer driver for %s."
 msgstr "Нема драјвер за печатачот %s."
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:985
+#: ../plugins/print-notifications/csd-printer.c:985
 msgid "No driver for this printer."
 msgstr "Нема драјвер за овој печатач."
 
-#: ../plugins/print-notifications/gsd-printer.c:1088
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:219
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:658
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:704
+#: ../plugins/print-notifications/csd-printer.c:1088
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:219
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:658
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:704
 msgid "Printers"
 msgstr "Печатачи"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:295
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:295
 msgid "Toner low"
 msgstr "Тонерот е при крај"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:297
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:297
 msgid "Toner empty"
 msgstr "Тонерот е празен"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:299
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:299
 msgid "Not connected?"
 msgstr "Не е поврзан?"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:301
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:301
 msgid "Cover open"
 msgstr "Капакот е отворен"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:303
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:303
 msgid "Printer configuration error"
 msgstr "Грешка при конфигурацијата на печатачот"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:305
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:305
 msgid "Door open"
 msgstr "Вратата е отворена"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:307
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:307
 msgid "Marker supply low"
 msgstr "Резервата на маркер е при крај"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:309
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:309
 msgid "Out of a marker supply"
 msgstr "Нема веќе маркер"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:311
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:311
 msgid "Paper low"
 msgstr "Хартијата е при крај"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:313
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:313
 msgid "Out of paper"
 msgstr "Нема веќе хартија"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:315
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:315
 msgid "Printer off-line"
 msgstr "Печатачот е исклучен"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:317
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:317
 msgid "Printer error"
 msgstr "Грешка на печатачот"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:321
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:321
 #, c-format
 msgid "Printer '%s' is low on toner."
 msgstr "Печатачот „%s“ е при крај со тонер."
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:323
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:323
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "Печатачот „%s“ нема веќе тонер."
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:325
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:325
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "Печатачот „%s“ можно е да не е поврзан."
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:327
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:327
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "Капакот на печатачот „%s“ е отворен."
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:329
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:329
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "Недостасува филтер за печатење за печатачот „%s“."
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:332
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:332
 #, c-format
 msgid "The door is open on printer '%s'."
 msgstr "Вратата на печатачот „%s“ е отворена."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:334
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:334
 #, c-format
 msgid "Printer '%s' is low on a marker supply."
 msgstr "Печатачот „%s“ е при крај со залихата на маркер."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:336
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:336
 #, c-format
 msgid "Printer '%s' is out of a marker supply."
 msgstr "Печатачот „%s“ ја потроши залихата на маркер."
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:338
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:338
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "Хартијата на печатачот „%s“ е при крај."
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:340
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:340
 #, c-format
 msgid "Printer '%s' is out of paper."
 msgstr "Печатачот „%s“ нема хартија."
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:342
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:342
 #, c-format
 msgid "Printer '%s' is currently off-line."
 msgstr "Печатачот „%s“ моментално е офлајн."
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:344
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:344
 #, c-format
 msgid "There is a problem on printer '%s'."
 msgstr "Има проблем со печатачот „%s“."
 
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:421
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:421
 msgid "Printer added"
 msgstr "Печатачот е додаден"
 
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:429
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:429
 msgid "Printer removed"
 msgstr "Печатачот е отстранет"
 
 #. Translators: A print job has been stopped
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:449
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "Печатачот е стопиран"
 
 #. Translators: "print-job xy" on a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:457
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:463
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:469
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:486
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:511
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:451
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:457
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:463
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:469
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:486
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:511
 #, c-format
 msgctxt "print job"
 msgid "\"%s\" on %s"
 msgstr "„%s“ на %s"
 
 #. Translators: A print job has been canceled
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:455
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:455
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "Печатењето е откажано"
 
 #. Translators: A print job has been aborted
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:461
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "Печатењето е прекинато"
 
 #. Translators: A print job has been completed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:467
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:467
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "Печатењето е завршено"
 
 #. Translators: A job is printing
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:484
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:509
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:484
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:509
 #| msgid "Hinting"
 msgctxt "print job state"
 msgid "Printing"
@@ -2500,252 +2500,252 @@ msgstr "Print-notifications"
 msgid "Print-notifications plugin"
 msgstr "Приклучокот „Print-notifications“"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:528
+#: ../plugins/smartcard/csd-smartcard-manager.c:528
 msgid "received error or hang up from event source"
 msgstr "примив грешка или спуштање од изворот на настан"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:662
+#: ../plugins/smartcard/csd-smartcard-manager.c:662
 #, c-format
 #| msgid "The selected rotation could not be applied"
 msgid "NSS security system could not be initialized"
 msgstr "Не може да се иницијализира системот за безбедност NSS"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:790
+#: ../plugins/smartcard/csd-smartcard-manager.c:790
 #, c-format
 msgid "no suitable smartcard driver could be found"
 msgstr "не е пронајден соодветен драјвер за смарт картичката"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:804
+#: ../plugins/smartcard/csd-smartcard-manager.c:804
 #, c-format
 msgid "smartcard driver '%s' could not be loaded"
 msgstr "драјверот за смарт картичката „%s“ не може да се вчита"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:876
+#: ../plugins/smartcard/csd-smartcard-manager.c:876
 #, c-format
 msgid "could not watch for incoming card events - %s"
 msgstr "не можам да надгледувам за дојдовни настани од картичката - %s"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:1274
+#: ../plugins/smartcard/csd-smartcard-manager.c:1274
 #, c-format
 msgid "encountered unexpected error while waiting for smartcard events"
 msgstr "се случи неочекувана грешка при чекање на настани од смарт картичка"
 
 #. TRANSLATORS: we need to restart so the new hardware can re-request the firmware
-#: ../plugins/updates/gsd-updates-firmware.c:240
+#: ../plugins/updates/csd-updates-firmware.c:240
 msgid "You will need to restart this computer before the hardware will work correctly."
 msgstr "Ќе треба да го рестартирате компјутерот за хардверот да работи правилно."
 
 #. TRANSLATORS: title of libnotify bubble
-#: ../plugins/updates/gsd-updates-firmware.c:243
-#: ../plugins/updates/gsd-updates-firmware.c:268
-#: ../plugins/updates/gsd-updates-firmware.c:293
+#: ../plugins/updates/csd-updates-firmware.c:243
+#: ../plugins/updates/csd-updates-firmware.c:268
+#: ../plugins/updates/csd-updates-firmware.c:293
 msgid "Additional software was installed"
 msgstr "Беше инсталиран додатен софтвер"
 
-#: ../plugins/updates/gsd-updates-firmware.c:244
-#: ../plugins/updates/gsd-updates-firmware.c:269
-#: ../plugins/updates/gsd-updates-firmware.c:294
-#: ../plugins/updates/gsd-updates-firmware.c:583
-#: ../plugins/updates/gsd-updates-manager.c:203
-#: ../plugins/updates/gsd-updates-manager.c:328
-#: ../plugins/updates/gsd-updates-manager.c:387
-#: ../plugins/updates/gsd-updates-manager.c:443
-#: ../plugins/updates/gsd-updates-manager.c:575
-#: ../plugins/updates/gsd-updates-manager.c:663
+#: ../plugins/updates/csd-updates-firmware.c:244
+#: ../plugins/updates/csd-updates-firmware.c:269
+#: ../plugins/updates/csd-updates-firmware.c:294
+#: ../plugins/updates/csd-updates-firmware.c:583
+#: ../plugins/updates/csd-updates-manager.c:203
+#: ../plugins/updates/csd-updates-manager.c:328
+#: ../plugins/updates/csd-updates-manager.c:387
+#: ../plugins/updates/csd-updates-manager.c:443
+#: ../plugins/updates/csd-updates-manager.c:575
+#: ../plugins/updates/csd-updates-manager.c:663
 msgid "Software Updates"
 msgstr "Ажурирања на софтвер"
 
 #. TRANSLATORS: we need to remove an replug so the new hardware can re-request the firmware
-#: ../plugins/updates/gsd-updates-firmware.c:265
+#: ../plugins/updates/csd-updates-firmware.c:265
 msgid "You will need to remove and then reinsert the hardware before it will work correctly."
 msgstr "Ќе мора да го извадите и пак да го ставите хардверот пред да работи соодветно."
 
 #. TRANSLATORS: we need to remove an replug so the new hardware can re-request the firmware
-#: ../plugins/updates/gsd-updates-firmware.c:290
+#: ../plugins/updates/csd-updates-firmware.c:290
 msgid "Your hardware has been set up and is now ready to use."
 msgstr "Вашиот хардвер е поставен и подготвен за употреба."
 
 #. TRANSLATORS: we need another package to keep udev quiet
-#: ../plugins/updates/gsd-updates-firmware.c:568
+#: ../plugins/updates/csd-updates-firmware.c:568
 msgid "Additional firmware is required to make hardware in this computer function correctly."
 msgstr "Потребен е дополнителен фирмвер за хардверот на овој компјутер да работи соодветно."
 
 #. TRANSLATORS: title of libnotify bubble
-#: ../plugins/updates/gsd-updates-firmware.c:582
+#: ../plugins/updates/csd-updates-firmware.c:582
 msgid "Additional firmware required"
 msgstr "Потребен е дополнителен фирмвер"
 
 #. TRANSLATORS: button label
-#: ../plugins/updates/gsd-updates-firmware.c:588
+#: ../plugins/updates/csd-updates-firmware.c:588
 msgid "Install firmware"
 msgstr "Инсталирај фирмвер"
 
 #. TRANSLATORS: we should ignore this device and not ask anymore
-#: ../plugins/updates/gsd-updates-firmware.c:591
+#: ../plugins/updates/csd-updates-firmware.c:591
 msgid "Ignore devices"
 msgstr "Игнорирај ги уредите"
 
 #. TRANSLATORS: a distro update is available, e.g. Fedora 8 to Fedora 9
-#: ../plugins/updates/gsd-updates-manager.c:199
+#: ../plugins/updates/csd-updates-manager.c:199
 msgid "Distribution upgrades available"
 msgstr "Достапни се надградби на дистрибуцијата"
 
 #. TRANSLATORS: provides more information about the upgrade
-#: ../plugins/updates/gsd-updates-manager.c:208
+#: ../plugins/updates/csd-updates-manager.c:208
 msgid "More information"
 msgstr "Повеќе информации"
 
 #. TRANSLATORS: title in the libnotify popup
-#: ../plugins/updates/gsd-updates-manager.c:311
-#: ../plugins/updates/gsd-updates-manager.c:370
+#: ../plugins/updates/csd-updates-manager.c:311
+#: ../plugins/updates/csd-updates-manager.c:370
 msgid "Update"
 msgid_plural "Updates"
 msgstr[0] "Ажурирање"
 msgstr[1] "Ажурирање"
 
 #. TRANSLATORS: message when there are security updates
-#: ../plugins/updates/gsd-updates-manager.c:314
+#: ../plugins/updates/csd-updates-manager.c:314
 msgid "An important software update is available"
 msgid_plural "Important software updates are available"
 msgstr[0] "Достапно е ажурирање на софтверот"
 msgstr[1] "Достапни се ажурирања на софтверот"
 
 #. TRANSLATORS: button: open the update viewer to install updates
-#: ../plugins/updates/gsd-updates-manager.c:333
-#: ../plugins/updates/gsd-updates-manager.c:392
+#: ../plugins/updates/csd-updates-manager.c:333
+#: ../plugins/updates/csd-updates-manager.c:392
 msgid "Install updates"
 msgstr "Инсталирај ги ажурирањата"
 
 #. TRANSLATORS: message when there are non-security updates
-#: ../plugins/updates/gsd-updates-manager.c:373
+#: ../plugins/updates/csd-updates-manager.c:373
 msgid "A software update is available."
 msgid_plural "Software updates are available."
 msgstr[0] "Достапно е ажурирање на софтверот."
 msgstr[1] "Достапни се ажурирања на софтверот."
 
 #. TRANSLATORS: policy says update, but we are on battery and so prompt
-#: ../plugins/updates/gsd-updates-manager.c:438
+#: ../plugins/updates/csd-updates-manager.c:438
 msgid "Automatic updates are not being installed as the computer is running on battery power"
 msgstr "Нема да се инсталираат автоматските ажурирања на компјутерот, бидејќи тој работи на батерија"
 
 #. TRANSLATORS: informs user will not install by default
-#: ../plugins/updates/gsd-updates-manager.c:440
+#: ../plugins/updates/csd-updates-manager.c:440
 msgid "Updates not installed"
 msgstr "Ажурирањата не се инсталирани"
 
 #. TRANSLATORS: to hell with my battery life, just do it
-#: ../plugins/updates/gsd-updates-manager.c:448
+#: ../plugins/updates/csd-updates-manager.c:448
 msgid "Install the updates anyway"
 msgstr "Инсталирај ги ажурирањата и покрај тоа"
 
-#: ../plugins/updates/gsd-updates-manager.c:464
+#: ../plugins/updates/csd-updates-manager.c:464
 msgid "No restart is required."
 msgstr "Не е потребен рестарт."
 
-#: ../plugins/updates/gsd-updates-manager.c:467
+#: ../plugins/updates/csd-updates-manager.c:467
 msgid "A restart is required."
 msgstr "Потребен е рестарт."
 
-#: ../plugins/updates/gsd-updates-manager.c:470
+#: ../plugins/updates/csd-updates-manager.c:470
 msgid "You need to log out and log back in."
 msgstr "Треба да се одјавите и пак да се најавите."
 
-#: ../plugins/updates/gsd-updates-manager.c:473
+#: ../plugins/updates/csd-updates-manager.c:473
 msgid "You need to restart the application."
 msgstr "Треба да ја рестартирате апликацијата."
 
-#: ../plugins/updates/gsd-updates-manager.c:476
+#: ../plugins/updates/csd-updates-manager.c:476
 msgid "You need to log out and log back in to remain secure."
 msgstr "Треба да се одјавите и пак да се најавите за да останите безбедни."
 
-#: ../plugins/updates/gsd-updates-manager.c:479
+#: ../plugins/updates/csd-updates-manager.c:479
 msgid "A restart is required to remain secure."
 msgstr "Потребно е рестартирање за да останите безбедни."
 
 #. TRANSLATORS: we did the update, but some updates were skipped and not applied
-#: ../plugins/updates/gsd-updates-manager.c:540
+#: ../plugins/updates/csd-updates-manager.c:540
 msgid "One package was skipped:"
 msgid_plural "Some packages were skipped:"
 msgstr[0] "Еден пакет беше прескокнат:"
 msgstr[1] "Некои пакети беа прескокнати:"
 
 #. TRANSLATORS: title: system update completed all okay
-#: ../plugins/updates/gsd-updates-manager.c:572
+#: ../plugins/updates/csd-updates-manager.c:572
 msgid "The system update has completed"
 msgstr "Ажурирањето на системот заврши"
 
 #. TRANSLATORS: restart computer as system packages need update
-#: ../plugins/updates/gsd-updates-manager.c:581
+#: ../plugins/updates/csd-updates-manager.c:581
 msgid "Restart computer now"
 msgstr "Рестартирај го компјутерот"
 
 #. TRANSLATORS: the updates mechanism
-#: ../plugins/updates/gsd-updates-manager.c:651
+#: ../plugins/updates/csd-updates-manager.c:651
 msgid "Updates"
 msgstr "Ажурирања"
 
 #. TRANSLATORS: we failed to get the updates multiple times,
 #. * and now we need to inform the user that something might be wrong
-#: ../plugins/updates/gsd-updates-manager.c:655
+#: ../plugins/updates/csd-updates-manager.c:655
 msgid "Unable to access software updates"
 msgstr "Не можам да пристапам до ажурирањата на софтверот"
 
 #. TRANSLATORS: try again, this time launching the update viewer
-#: ../plugins/updates/gsd-updates-manager.c:658
+#: ../plugins/updates/csd-updates-manager.c:658
 msgid "Try again"
 msgstr "Пробај пак"
 
 #. TRANSLATORS: the reason why we've inhibited it
-#: ../plugins/updates/gsd-updates-manager.c:1096
+#: ../plugins/updates/csd-updates-manager.c:1096
 msgid "A transaction that cannot be interrupted is running"
 msgstr "Се извршува трансакција која не може да биде прекината"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:420
+#: ../plugins/xrandr/csd-xrandr-manager.c:420
 msgid "Could not switch the monitor configuration"
 msgstr "Не можам да ја сменам конфигурацијата на мониторот"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:444
+#: ../plugins/xrandr/csd-xrandr-manager.c:444
 msgid "Could not restore the display's configuration"
 msgstr "Не можам да ја вратам конфигурацијата на приказот"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:469
+#: ../plugins/xrandr/csd-xrandr-manager.c:469
 msgid "Could not restore the display's configuration from a backup"
 msgstr "Не можам да ја вратам конфигурацијата на приказот од сигурносна копија"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:490
+#: ../plugins/xrandr/csd-xrandr-manager.c:490
 #, c-format
 msgid "The display will be reset to its previous configuration in %d second"
 msgid_plural "The display will be reset to its previous configuration in %d seconds"
 msgstr[0] "Приказот ќе биде ресетиран на претходната конфигурација за %d секунда"
 msgstr[1] "Приказот ќе биде ресетиран на претходната конфигурација за %d секунди"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:539
+#: ../plugins/xrandr/csd-xrandr-manager.c:539
 msgid "Does the display look OK?"
 msgstr "Дали приказот изгледа во ред?"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:546
+#: ../plugins/xrandr/csd-xrandr-manager.c:546
 msgid "_Restore Previous Configuration"
 msgstr "_Врати ја претходната конфигурација"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:547
+#: ../plugins/xrandr/csd-xrandr-manager.c:547
 msgid "_Keep This Configuration"
 msgstr "_Зачувај ја оваа конфигурација"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:628
+#: ../plugins/xrandr/csd-xrandr-manager.c:628
 #| msgid "The selected rotation could not be applied"
 msgid "The selected configuration for displays could not be applied"
 msgstr "Избраната конфигурација за прикази не може да се примени"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1188
+#: ../plugins/xrandr/csd-xrandr-manager.c:1188
 #, c-format
 msgid "Could not refresh the screen information: %s"
 msgstr "Не можам да ги освежам информациите за екранот: %s"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1192
+#: ../plugins/xrandr/csd-xrandr-manager.c:1192
 msgid "Trying to switch the monitor configuration anyway."
 msgstr "Пробувам да ја сменам конфигурацијата на екранот и покрај тоа."
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1743
+#: ../plugins/xrandr/csd-xrandr-manager.c:1743
 msgid "Could not apply the stored configuration for monitors"
 msgstr "Не можам да ја применам зачуваната конфигурација за мониторите"
 

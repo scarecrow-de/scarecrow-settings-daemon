@@ -1,7 +1,7 @@
-#define NEW gsd_power_manager_new
-#define START gsd_power_manager_start
-#define STOP gsd_power_manager_stop
+#define NEW csd_power_manager_new
+#define START csd_power_manager_start
+#define STOP csd_power_manager_stop
 #define MANAGER GsdPowerManager
-#include "gsd-power-manager.h"
+#include "csd-power-manager.h"
 
 #include "daemon-skeleton-gtk.h"

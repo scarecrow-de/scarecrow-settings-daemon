@@ -6,7 +6,7 @@ keys to applications that register their interest in those events.
 This allows the play/pause button to control an audio player that's
 not focused for example.
 
-The D-Bus API is described in gsd-media-keys-manager.c (look for
+The D-Bus API is described in csd-media-keys-manager.c (look for
 introspection_xml), but a small explanation follows here.
 
 1. Create yourself a proxy object for the remote interface:

@@ -1061,23 +1061,23 @@ msgstr "ក្ដារចុច​មធ្យោបាយ​ងាយស្រ
 msgid "Accessibility keyboard plugin"
 msgstr "កម្មវិធី​ជំនួយ​ក្ដារចុច​មធ្យោបាយ​ងាយស្រួល"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:383
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:383
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "មាន​កំហុស​ក្នុង​ការ​បង្ហាញ​ជំនួយ ៖ %s"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:507
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:570
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:507
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:570
 msgid "Slow Keys Turned On"
 msgstr "បាន​បើក​គ្រាប់ចុច​យឺត"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:508
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:571
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:508
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:571
 msgid "Slow Keys Turned Off"
 msgstr "បាន​បិទ​គ្រាប់ចុច​យឺត"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:509
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:572
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:509
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:572
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -1085,64 +1085,64 @@ msgstr ""
 "អ្នក​បាន​សង្កត់​គ្រាប់ចុច​ប្ដូរ (Shift) ជាប់​អស់​រយៈពេល ៨ វិនាទី ។ នេះ​ជា​ផ្លូវកាត់​សម្រាប់​លក្ខណ​ពិសេស​"
 "គ្រាប់ចុច​យឺត ដែល​ប៉ះពាល់​វិធី​ធ្វើ​ការ​នៃ​ក្ដារចុច​របស់​អ្នក ។"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:528
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:663
-#: ../plugins/mouse/gsd-mouse-manager.c:920
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:528
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:663
+#: ../plugins/mouse/csd-mouse-manager.c:920
 msgid "Universal Access"
 msgstr "ការ​ចូល​ដំណើរការ​សាកល"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:534
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:669
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:534
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:669
 msgid "Turn Off"
 msgstr "បិទ"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:534
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:669
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:534
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:669
 msgid "Turn On"
 msgstr "បើក"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:540
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:675
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:540
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:675
 msgid "Leave On"
 msgstr "បន្ត"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:540
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:675
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:540
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:675
 msgid "Leave Off"
 msgstr "ឈប់"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:593
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:731
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:593
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:731
 msgid "_Turn Off"
 msgstr "បិទ"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:593
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:731
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:593
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:731
 msgid "_Turn On"
 msgstr "បើក"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:596
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:734
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:596
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:734
 msgid "_Leave On"
 msgstr "បន្ត"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:596
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:734
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:596
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:734
 msgid "_Leave Off"
 msgstr "ឈប់"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:639
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:705
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:639
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:705
 msgid "Sticky Keys Turned On"
 msgstr "បាន​បើក​គ្រាប់ចុច​ស្អិត"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:640
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:706
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:640
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:706
 msgid "Sticky Keys Turned Off"
 msgstr "បាន​បិទ​គ្រាប់ចុច​ស្អិត"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:642
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:708
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:642
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:708
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -1150,8 +1150,8 @@ msgstr ""
 "អ្នក​បាន​ចុច​គ្រាប់ចុច​ប្ដូរ (Shift) ជាប់គ្នា​ចំនួន​ប្រាំដង ។ នេះ​ជា​ផ្លូវកាត់​សម្រាប់​លក្ខណ​ពិសេស​គ្រាប់ចុច​ស្អិត "
 "ដែល​ប៉ះពាល់​វិធី​ធ្វើ​ការ​នៃ​ក្ដារចុច​របស់​អ្នក ។"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:644
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:710
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:644
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:710
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -1160,40 +1160,40 @@ msgstr ""
 "អ្នក​បាន​ចុច​គ្រាប់ចុច​ពីរ​ដំណាលគ្នា ឬ​អ្នក​បាន​ចុច​គ្រាប់ចុច​ប្ដូរ (Shift) ជាប់គ្នា​ចំនួន​ប្រាំដង ។ វា​នឹង​បិទ​"
 "លក្ខណ​ពិសេស​គ្រាប់ចុច​ស្អិត ដែល​ប៉ះពាល់​វិធី​ធ្វើ​ការ​នៃ​ក្ដារចុច​របស់​អ្នក ។"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.c:412
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:1
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.c:412
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:1
 msgid "Universal Access Preferences"
 msgstr "ចំណូលចិត្ត​ការ​ចូល​ដំណើរការ​សាកល"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:2
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:2
 msgid "Use on-screen _keyboard"
 msgstr "ប្រើ​ក្ដារចុច​លើ​អេក្រង់"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:3
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:3
 msgid "Use screen _reader"
 msgstr "ប្រើ​កម្មវិធី​អាន​អេក្រង់"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:4
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:4
 msgid "Use screen _magnifier"
 msgstr "ប្រើ​កម្មវិធី​ពង្រីក​អេក្រង់"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:5
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:5
 msgid "Enhance _contrast in colors"
 msgstr "ធ្វើឲ្យ​កម្រិត​ពណ៌​ប្រសើរ​ឡើង"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:6
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:6
 msgid "Make _text larger and easier to read"
 msgstr "ធ្វើឲ្យ​អត្ថបទ​ធំ និង​ងាយស្រួ​អាន"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:7
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:7
 msgid "_Press keyboard shortcuts one key at a time (Sticky Keys)"
 msgstr "ចុច​គ្រាប់ចុច​ផ្លូវកាត់​មួយ​ម្ដង (គ្រាប់ចុច​ស្អិត)"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:8
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:8
 msgid "_Ignore duplicate keypresses (Bounce Keys)"
 msgstr "មិន​អើពើ​ការ​ចុច​គ្រាប់ចុច​ស្ទួន (គ្រាប់​ចុច​លោត)"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-preferences-dialog.ui.h:9
+#: ../plugins/a11y-keyboard/csd-a11y-preferences-dialog.ui.h:9
 msgid "Press and _hold keys to accept them (Slow Keys)"
 msgstr "ចុច និង​សង្កត់​គ្រាប់ចុច​ដើម្បី​ព្រម​ទទួល​ពួកគេ (គ្រាប់ចុច​យឺត)"
 
@@ -1213,106 +1213,106 @@ msgstr "កម្មវិធី​ជំនួយ​ម៉ោន"
 msgid "Automount and autorun plugged devices"
 msgstr "ម៉ោន និង​ដំណើរការ​ឧបករណ៍​ដែល​បាន​ដោត​ដោយ​ស្វ័យប្រវត្តិ"
 
-#: ../plugins/automount/gsd-automount-manager.c:151
+#: ../plugins/automount/csd-automount-manager.c:151
 #, c-format
 msgid "Unable to mount %s"
 msgstr "មិន​អាច​ម៉ោន %s"
 
-#: ../plugins/automount/gsd-automount-manager.c:264
+#: ../plugins/automount/csd-automount-manager.c:264
 #, c-format
 msgid "Unable to open a folder for %s"
 msgstr "មិន​អាច​បើក​ថត​សម្រាប់ %s"
 
-#: ../plugins/automount/gsd-autorun.c:340
+#: ../plugins/automount/csd-autorun.c:340
 msgid "Ask what to do"
 msgstr "សួរ​ថា​ត្រូវ​ធ្វើ​អ្វី"
 
-#: ../plugins/automount/gsd-autorun.c:346
+#: ../plugins/automount/csd-autorun.c:346
 msgid "Do Nothing"
 msgstr "មិន​ធ្វើ​អ្វី​ទាំងអស់"
 
-#: ../plugins/automount/gsd-autorun.c:352
+#: ../plugins/automount/csd-autorun.c:352
 msgid "Open Folder"
 msgstr "បើក​ថត"
 
-#: ../plugins/automount/gsd-autorun.c:495
+#: ../plugins/automount/csd-autorun.c:495
 #, c-format
 msgid "Unable to eject %p"
 msgstr "មិន​អាច​ច្រាន %p ចេញ​បាន​ទេ"
 
-#: ../plugins/automount/gsd-autorun.c:497
+#: ../plugins/automount/csd-autorun.c:497
 #, c-format
 msgid "Unable to unmount %p"
 msgstr "មិន​អាច​ម៉ោន %p"
 
-#: ../plugins/automount/gsd-autorun.c:702
+#: ../plugins/automount/csd-autorun.c:702
 msgid "You have just inserted an Audio CD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ស៊ីឌី​អូឌីយ៉ូ ។"
 
-#: ../plugins/automount/gsd-autorun.c:704
+#: ../plugins/automount/csd-autorun.c:704
 msgid "You have just inserted an Audio DVD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ឌីវីឌី​អូឌីយ៉ូ ។"
 
-#: ../plugins/automount/gsd-autorun.c:706
+#: ../plugins/automount/csd-autorun.c:706
 msgid "You have just inserted a Video DVD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ឌីវីឌី​វីដេអូ ។"
 
-#: ../plugins/automount/gsd-autorun.c:708
+#: ../plugins/automount/csd-autorun.c:708
 msgid "You have just inserted a Video CD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ស៊ីឌី​វីដេអូ ។"
 
-#: ../plugins/automount/gsd-autorun.c:710
+#: ../plugins/automount/csd-autorun.c:710
 msgid "You have just inserted a Super Video CD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូលស៊ីឌី​វីដេអូ​ពិសេស ។"
 
-#: ../plugins/automount/gsd-autorun.c:712
+#: ../plugins/automount/csd-autorun.c:712
 msgid "You have just inserted a blank CD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ស៊ីឌី​ទទេ ។"
 
-#: ../plugins/automount/gsd-autorun.c:714
+#: ../plugins/automount/csd-autorun.c:714
 msgid "You have just inserted a blank DVD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ឌីវីឌី​ទទេ ។"
 
-#: ../plugins/automount/gsd-autorun.c:716
+#: ../plugins/automount/csd-autorun.c:716
 msgid "You have just inserted a blank Blu-Ray disc."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ថាស Blu-Ray ទទេ ។"
 
-#: ../plugins/automount/gsd-autorun.c:718
+#: ../plugins/automount/csd-autorun.c:718
 msgid "You have just inserted a blank HD DVD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ឌីវីឌី HD ទទេ ។"
 
-#: ../plugins/automount/gsd-autorun.c:720
+#: ../plugins/automount/csd-autorun.c:720
 msgid "You have just inserted a Photo CD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ស៊ីឌី​រូបថត ។"
 
-#: ../plugins/automount/gsd-autorun.c:722
+#: ../plugins/automount/csd-autorun.c:722
 msgid "You have just inserted a Picture CD."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ស៊ីឌី​រូបភាព ។"
 
-#: ../plugins/automount/gsd-autorun.c:724
+#: ../plugins/automount/csd-autorun.c:724
 msgid "You have just inserted a medium with digital photos."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ឧបករណ៍​ដែល​មាន​រូបថត​ឌីជីថល ។"
 
-#: ../plugins/automount/gsd-autorun.c:726
+#: ../plugins/automount/csd-autorun.c:726
 msgid "You have just inserted a digital audio player."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​កម្មវិធី​ចាក់​អូឌីយ៉ូ​ឌីជីថល ។"
 
-#: ../plugins/automount/gsd-autorun.c:728
+#: ../plugins/automount/csd-autorun.c:728
 msgid ""
 "You have just inserted a medium with software intended to be automatically "
 "started."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ឧបករណ៍​ដែល​មាន​កម្មវិធី​អាច​ចាប់ផ្ដើម​ដោយ​ស្វ័យប្រវត្តិ​បាន ។"
 
 #. fallback to generic greeting
-#: ../plugins/automount/gsd-autorun.c:731
+#: ../plugins/automount/csd-autorun.c:731
 msgid "You have just inserted a medium."
 msgstr "អ្នក​ទើប​បាន​បញ្ចូល​ឧបករណ៍ ។"
 
-#: ../plugins/automount/gsd-autorun.c:733
+#: ../plugins/automount/csd-autorun.c:733
 msgid "Choose what application to launch."
 msgstr "ជ្រើស​កម្មវិធី​ដែល​ត្រូវ​ចាប់ផ្ដើម ។"
 
-#: ../plugins/automount/gsd-autorun.c:742
+#: ../plugins/automount/csd-autorun.c:742
 #, c-format
 msgid ""
 "Select how to open \"%s\" and whether to perform this action in the future "
@@ -1321,15 +1321,15 @@ msgstr ""
 "ជ្រើស​របៀប​បើក \"%s\" និង​ថា​តើ​ត្រូវ​អនុវត្ត​អំពើ​នេះ​នៅ​ពេល​អនាគត​ដែរ​ឬទេ​សម្រាប់​ប្រភេទ​មេឌៀ​ផ្សេងទៀត "
 "\"%s\" ។"
 
-#: ../plugins/automount/gsd-autorun.c:769
+#: ../plugins/automount/csd-autorun.c:769
 msgid "_Always perform this action"
 msgstr "អនុវត្ត​សកម្មភាព​នេះ​ជានិច្ច"
 
-#: ../plugins/automount/gsd-autorun.c:785
+#: ../plugins/automount/csd-autorun.c:785
 msgid "_Eject"
 msgstr "ច្រានចេញ"
 
-#: ../plugins/automount/gsd-autorun.c:790
+#: ../plugins/automount/csd-autorun.c:790
 msgid "_Unmount"
 msgstr "អាន់ម៉ោន"
 
@@ -1350,7 +1350,7 @@ msgid "Clipboard plugin"
 msgstr "កម្មវិធី​ជំនួយ​ក្ដារ​តម្បៀត​ខ្ទាស់"
 
 #: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
-#: ../plugins/color/gsd-color-manager.c:1801
+#: ../plugins/color/csd-color-manager.c:1801
 msgid "Color"
 msgstr "ពណ៌"
 
@@ -1358,40 +1358,40 @@ msgstr "ពណ៌"
 msgid "Color plugin"
 msgstr "កម្មវិធី​ជំនួយ​ពណ៌"
 
-#: ../plugins/color/gsd-color-manager.c:1806
+#: ../plugins/color/csd-color-manager.c:1806
 msgid "Recalibrate now"
 msgstr "ក្រិត​តាម​ខ្នាត​ឡើងវិញ​ឥឡូវ"
 
 #. TRANSLATORS: this is when the device has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1849
+#: ../plugins/color/csd-color-manager.c:1849
 msgid "Recalibration required"
 msgstr "ទាមទារ​ការ​ក្រិត​តាម​ខ្នាត​ឡើងវិញ"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1861
+#: ../plugins/color/csd-color-manager.c:1861
 #, c-format
 msgid "The display '%s' should be recalibrated soon."
 msgstr "ទិដ្ឋភាព '%s' គួរតែ​ត្រូវ​បាន​ក្រិត​តាម​ខ្នាត​ឡើងវិញ​ក្នុង​ពេល​ឆាប់ៗ ។"
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
-#: ../plugins/color/gsd-color-manager.c:1870
+#: ../plugins/color/csd-color-manager.c:1870
 #, c-format
 msgid "The printer '%s' should be recalibrated soon."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' គួរតែ​ត្រូវ​បាន​ក្រិត​តាម​ខ្នាត​ឡើងវិញ​ក្នុង​ពេល​ឆាប់ៗ ។"
 
 #. TRANSLATORS: this is the application name
-#: ../plugins/color/gsd-color-manager.c:2194
-#: ../plugins/color/gsd-color-manager.c:2210
+#: ../plugins/color/csd-color-manager.c:2194
+#: ../plugins/color/csd-color-manager.c:2210
 msgid "GNOME Settings Daemon Color Plugin"
 msgstr "កម្មវិធី​ជំនួយ​ពណ៌​ដេមិន​ការ​កំណត់ GNOME"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-manager.c:2196
+#: ../plugins/color/csd-color-manager.c:2196
 msgid "Color calibration device added"
 msgstr "បាន​បន្ថែម​ឧបករណ៍​ក្រិត​តាម​ខ្នាត​ពណ៌"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-manager.c:2212
+#: ../plugins/color/csd-color-manager.c:2212
 msgid "Color calibration device removed"
 msgstr "បាន​យក​ឧបករណ៍​ក្រិត​តាម​ខ្នាត​ពណ៌​ចេញ"
 
@@ -1403,12 +1403,12 @@ msgstr "Dummy"
 msgid "Dummy plugin"
 msgstr "កម្មវិធី​ជំនួយ Dummy"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:334
+#: ../plugins/housekeeping/csd-disk-space.c:334
 #, c-format
 msgid "Low Disk Space on \"%s\""
 msgstr "ទំហំ​ថាស​ទាប​នៅ​លើ \"%s\""
 
-#: ../plugins/housekeeping/gsd-disk-space.c:336
+#: ../plugins/housekeeping/csd-disk-space.c:336
 #, c-format
 msgid ""
 "The volume \"%s\" has only %s disk space remaining.  You may free up some "
@@ -1416,19 +1416,19 @@ msgid ""
 msgstr ""
 "ភាគ \"%s\" នៅសល់​ទំហំ​ថាស​តែ %s ប៉ុណ្ណោះ ។ អ្នក​អាច​បង្កើន​ទំហំ​ថាស​ទំនេរ​បាន​ដោយ​ការ​សម្អាត​ធុងសំរាម ។"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:340
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:81
+#: ../plugins/housekeeping/csd-disk-space.c:340
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:81
 #, c-format
 msgid "The volume \"%s\" has only %s disk space remaining."
 msgstr "ភាគ \"%s\" នៅសល់​ទំហំ​ថាស​តែ %s ប៉ុណ្ណោះ ។"
 
 #. Set up all the window stuff here
-#: ../plugins/housekeeping/gsd-disk-space.c:345
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:205
+#: ../plugins/housekeeping/csd-disk-space.c:345
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:205
 msgid "Low Disk Space"
 msgstr "ទំហំ​ថាស​ទាប"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:347
+#: ../plugins/housekeeping/csd-disk-space.c:347
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1436,39 +1436,39 @@ msgid ""
 msgstr ""
 "កុំព្យូទ័រ​នេះ​នៅសល់​ទំហំ​ថាស​តែ %s ប៉ុណ្ណោះ ។ អ្នក​អាច​បង្កើន​ទំហំ​ថាស​ទំនេរ​បាន​ដោយ​ការ​សម្អាត​ធុងសំរាម ។"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:350
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:84
+#: ../plugins/housekeeping/csd-disk-space.c:350
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:84
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "កុំព្យូទ័រ​នេះ​នៅសល់​ទំហំ​ថាស​តែ %s ប៉ុណ្ណោះ ។"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:365
+#: ../plugins/housekeeping/csd-disk-space.c:365
 msgid "Disk space"
 msgstr "ទំហំ​ថាស"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:372
+#: ../plugins/housekeeping/csd-disk-space.c:372
 msgid "Examine"
 msgstr "ត្រួតពិនិត្យ"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:380
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:437
+#: ../plugins/housekeeping/csd-disk-space.c:380
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:437
 msgid "Empty Trash"
 msgstr "សម្អាត​ធុងសំរាម"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:387
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:452
+#: ../plugins/housekeeping/csd-disk-space.c:387
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:452
 msgid "Ignore"
 msgstr "មិន​អើពើ"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:66
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:66
 msgid "Don't show any warnings again for this file system"
 msgstr "កុំ​បង្ហាញ​ការ​ព្រមាន​ម្ដងទៀត​សម្រាប់​ប្រព័ន្ធ​ឯកសារ​នេះ"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:68
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:68
 msgid "Don't show any warnings again"
 msgstr "កុំ​បង្ហាញ​ការ​ព្រមាន​ម្ដងទៀត"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:100
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:100
 msgid ""
 "You can free up disk space by emptying the Trash, removing unused programs "
 "or files, or moving files to another disk or partition."
@@ -1476,7 +1476,7 @@ msgstr ""
 "អ្នក​អាច​បង្កើន​ទំហំ​ថាស​ទំនេរ​បាន​ដោយ​ការ​សម្អាត​ធុងសំរាម ការ​យក​កម្មវិធី ឬ​ឯកសារ​ដែល​មិន​ប្រើ​ចេញ ឬ​ដោយ​ការ​"
 "ផ្លាស់ទី​ឯកសារ​ទៅកាន់​ថាស ឬ​ភាគ​ថាស​ផ្សេងទៀត ។"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:103
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:103
 msgid ""
 "You can free up disk space by removing unused programs or files, or by "
 "moving files to another disk or partition."
@@ -1484,7 +1484,7 @@ msgstr ""
 "អ្នក​អាច​បង្កើន​ទំហំ​ថាស​ទំនេរ​បាន​ដោយ​ការ​យក​កម្មវិធី ឬ​ឯកសារ​ដែល​មិន​ប្រើ​ចេញ ឬ​ដោយ​ការ​ផ្លាស់ទី​ឯកសារ​ទៅកាន់​"
 "ថាស ឬ​ភាគ​ថាស​ផ្សេងទៀត ។"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:108
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:108
 msgid ""
 "You can free up disk space by emptying the Trash, removing unused programs "
 "or files, or moving files to an external disk."
@@ -1492,7 +1492,7 @@ msgstr ""
 "អ្នក​អាច​បង្កើន​ទំហំ​ថាស​ទំនេរ​បាន​ដោយ​ការ​សម្អាត​ធុងសំរាម ការ​យក​កម្មវិធី ឬ​ឯកសារ​ដែល​មិន​ប្រើ​ចេញ ឬ​ដោយ​ការ​"
 "ផ្លាស់ទី​ឯកសារ​ទៅកាន់​ថាស​ខាងក្រៅ ។"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:111
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:111
 msgid ""
 "You can free up disk space by removing unused programs or files, or by "
 "moving files to an external disk."
@@ -1500,7 +1500,7 @@ msgstr ""
 "អ្នក​អាច​បង្កើន​ទំហំ​ថាស​ទំនេរ​បាន​ដោយ​ការ​យក​កម្មវិធី ឬ​ឯកសារ​ដែល​មិន​ប្រើ​ចេញ ឬ​ដោយ​ការ​ផ្លាស់ទី​ឯកសារ​ទៅកាន់​"
 "ថាស​ខាងក្រៅ ។"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:445
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:445
 msgid "Examine…"
 msgstr "ត្រួតពិនិត្យ…"
 
@@ -1549,11 +1549,11 @@ msgstr "គ្រាប់ចុច​មេឌៀ"
 msgid "Media keys plugin"
 msgstr "កម្មវិធី​ជំនួយ​គ្រាប់ចុច​មេឌៀ"
 
-#: ../plugins/mouse/gsd-mouse-manager.c:916
+#: ../plugins/mouse/csd-mouse-manager.c:916
 msgid "Could not enable mouse accessibility features"
 msgstr "មិន​អាច​បើក​លក្ខណ​ពិសេស​ភាព​ងាយស្រួល​កណ្ដុរ"
 
-#: ../plugins/mouse/gsd-mouse-manager.c:918
+#: ../plugins/mouse/csd-mouse-manager.c:918
 msgid ""
 "Mouse accessibility requires Mousetweaks to be installed on your system."
 msgstr "ភាព​ងាយស្រួល​កណ្ដុរ​ទាមទារ​ឲ្យ​ដំឡើង Mousetweaks នៅ​លើ​ប្រពន្ធ​របស់​អ្នក ។"
@@ -2040,217 +2040,217 @@ msgid "Computer is charged"
 msgstr "ថ្ម​កុំព្យូទ័រ​ពេញ"
 
 #. TRANSLATORS: the battery may be recalled by its vendor
-#: ../plugins/power/gsd-power-manager.c:997
+#: ../plugins/power/csd-power-manager.c:997
 msgid "Battery may be recalled"
 msgstr "ថ្ម​អាច​ត្រូវ​បាន​ប្រមូល​មក​វិញ"
 
-#: ../plugins/power/gsd-power-manager.c:1000
+#: ../plugins/power/csd-power-manager.c:1000
 #, c-format
 msgid ""
 "A battery in your computer may have been recalled by %s and you may be at "
 "risk."
 msgstr "ថ្ម​នៅ​ក្នុង​កុំព្យូទ័រ​របស់​អ្នក​អាច​ត្រូវ​បាន​ប្រមូល​មក​វិញ​ដោយ %s ហើយ​អ្នក​អាច​ប្រថុយប្រថាន ។"
 
-#: ../plugins/power/gsd-power-manager.c:1003
+#: ../plugins/power/csd-power-manager.c:1003
 msgid "For more information visit the battery recall website."
 msgstr "សម្រាប់​ព័ត៌មាន​បន្ថែម​សូម​ទស្សនា​តំបន់បណ្ដាញ​ហៅ​ប្រមូល​ថ្ម​មក​វិញ ។​"
 
 #. TRANSLATORS: button text, visit the manufacturers recall website
-#: ../plugins/power/gsd-power-manager.c:1014
+#: ../plugins/power/csd-power-manager.c:1014
 msgid "Visit recall website"
 msgstr "ទស្សនា​តំបន់បណ្ដាញ​ហៅ​ប្រមូល​មក​វិញ"
 
 #. TRANSLATORS: button text, do not show this bubble again
-#: ../plugins/power/gsd-power-manager.c:1018
+#: ../plugins/power/csd-power-manager.c:1018
 msgid "Do not show me this again"
 msgstr "កុំ​បង្ហាញ​ខ្ញុំ​ម្ដងទៀត"
 
 #. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:1251
+#: ../plugins/power/csd-power-manager.c:1251
 msgid "UPS Discharging"
 msgstr "កំពុង​ឈប់​បញ្ចូល​ថ្ម​យូភីអេស"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1256
+#: ../plugins/power/csd-power-manager.c:1256
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "ថាមពល​បម្រុងទុក​របស់​យូភីអេស​នៅសល់ %s"
 
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:1277
-#: ../plugins/power/gsd-power-manager.c:1459
-#: ../plugins/power/gsd-power-manager.c:1641
-#: ../plugins/power/gsd-power-manager.c:1788
+#: ../plugins/power/csd-power-manager.c:1277
+#: ../plugins/power/csd-power-manager.c:1459
+#: ../plugins/power/csd-power-manager.c:1641
+#: ../plugins/power/csd-power-manager.c:1788
 #: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "ថាមពល"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:1369
+#: ../plugins/power/csd-power-manager.c:1369
 msgid "Battery low"
 msgstr "ថ្ម​ជិត​អស់ហើយ"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:1372
+#: ../plugins/power/csd-power-manager.c:1372
 msgid "Laptop battery low"
 msgstr "ថ្ម​កុំព្យូទ័រយួរដៃ​ជិត​អស់ហើយ"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1379
+#: ../plugins/power/csd-power-manager.c:1379
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "នៅសល់​ប្រហែល %s (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:1384
+#: ../plugins/power/csd-power-manager.c:1384
 msgid "UPS low"
 msgstr "យូភីអេស​ខ្សោយ"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:1390
+#: ../plugins/power/csd-power-manager.c:1390
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "ថាមពល​បម្រុង​ទុក​របស់​យូភីអេស​នៅសល់​ប្រហែល %s  (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:1395
-#: ../plugins/power/gsd-power-manager.c:1562
+#: ../plugins/power/csd-power-manager.c:1395
+#: ../plugins/power/csd-power-manager.c:1562
 msgid "Mouse battery low"
 msgstr "ថ្ម​កណ្ដុរ​ខ្សោយ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1398
+#: ../plugins/power/csd-power-manager.c:1398
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "ថាមពល​កណ្ដុរ​ឥត​ខ្សែ​គឺ​ខ្សោយ (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:1402
-#: ../plugins/power/gsd-power-manager.c:1570
+#: ../plugins/power/csd-power-manager.c:1402
+#: ../plugins/power/csd-power-manager.c:1570
 msgid "Keyboard battery low"
 msgstr "ថ្ម​ក្ដារចុច​ជិត​អស់ហើយ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1405
+#: ../plugins/power/csd-power-manager.c:1405
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "ថ្ម​ក្ដារចុច​ឥត​ខ្សែ​គឺ​ខ្សោយ (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:1409
-#: ../plugins/power/gsd-power-manager.c:1579
+#: ../plugins/power/csd-power-manager.c:1409
+#: ../plugins/power/csd-power-manager.c:1579
 msgid "PDA battery low"
 msgstr "ថ្ម PDA ជិត​អស់ហើយ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1412
+#: ../plugins/power/csd-power-manager.c:1412
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "ថាមពល PDA គឺ​ខ្សោយ (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1416
-#: ../plugins/power/gsd-power-manager.c:1589
-#: ../plugins/power/gsd-power-manager.c:1600
+#: ../plugins/power/csd-power-manager.c:1416
+#: ../plugins/power/csd-power-manager.c:1589
+#: ../plugins/power/csd-power-manager.c:1600
 msgid "Cell phone battery low"
 msgstr "ថ្ម​ទូរស័ព្ទ​ចល័ត​ជិត​អស់ហើយ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1419
+#: ../plugins/power/csd-power-manager.c:1419
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "ថាមពល​ទូរស័ព្ទ​ចល័ត​គឺ​ខ្សោយ (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:1424
+#: ../plugins/power/csd-power-manager.c:1424
 msgid "Media player battery low"
 msgstr "ថ្ម​កម្មវិធី​ចាក់​មេឌៀ​ជិត​អស់ហើយ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1427
+#: ../plugins/power/csd-power-manager.c:1427
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "ថាមពល​កម្មវិធី​ចាក់​មេឌៀ​គឺ​ខ្សោយ (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1431
-#: ../plugins/power/gsd-power-manager.c:1609
+#: ../plugins/power/csd-power-manager.c:1431
+#: ../plugins/power/csd-power-manager.c:1609
 msgid "Tablet battery low"
 msgstr "ថ្ម Tablet ជិត​អស់ហើយ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1434
+#: ../plugins/power/csd-power-manager.c:1434
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "ថាមពល Tablet គឺ​ខ្សោយ (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:1438
-#: ../plugins/power/gsd-power-manager.c:1618
+#: ../plugins/power/csd-power-manager.c:1438
+#: ../plugins/power/csd-power-manager.c:1618
 msgid "Attached computer battery low"
 msgstr "ថ្ម​កុំព្យូទ័រ​ដែល​បាន​ភ្ជាប់​ជាមួយ​គឺ​ជិត​អស់ហើយ"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:1441
+#: ../plugins/power/csd-power-manager.c:1441
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "ថាមពល​កុំព្យូទ័រ​ដែល​បាន​ភ្ជាប់​ជាមួយ​គឺ​ខ្សោយ (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1476
+#: ../plugins/power/csd-power-manager.c:1476
 msgid "Battery is low"
 msgstr "ថ្ម​ជិត​អស់ហើយ"
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: ../plugins/power/gsd-power-manager.c:1518
+#: ../plugins/power/csd-power-manager.c:1518
 msgid "Battery critically low"
 msgstr "អស់​ថ្ម​រលីង​ហើយ"
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:1521
-#: ../plugins/power/gsd-power-manager.c:1706
+#: ../plugins/power/csd-power-manager.c:1521
+#: ../plugins/power/csd-power-manager.c:1706
 msgid "Laptop battery critically low"
 msgstr "ថ្ម​កុំព្យូទ័រ​យួរ​ដៃ​អស់រលីង​ហើយ"
 
 #. TRANSLATORS: tell the use to insert the plug, as we're not going to do anything
-#: ../plugins/power/gsd-power-manager.c:1530
+#: ../plugins/power/csd-power-manager.c:1530
 msgid "Plug in your AC adapter to avoid losing data."
 msgstr "ដោត​អាដាប់ទ័រ​របស់​អ្នក​ដើម្បី​ចៀសវាង​ការ​បាត់​ទិន្នន័យ ។"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1534
+#: ../plugins/power/csd-power-manager.c:1534
 #, c-format
 msgid "Computer will suspend very soon unless it is plugged in."
 msgstr "កុំព្យូទ័រ​របស់​អ្នក​នឹង​ផ្អាកឥឡូវនេះ ប្រសិនបើ​មិន​ដោត​បញ្ចូល​ថ្ម​ទេ ។"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1538
+#: ../plugins/power/csd-power-manager.c:1538
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr "កុំព្យូទ័រ​របស់​អ្នក​នឹង​សម្ងំ​ឥឡូវនេះ ប្រសិនបើ​មិន​ដោត​បញ្ចូល​ថ្ម​ទេ ។"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1542
+#: ../plugins/power/csd-power-manager.c:1542
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr "កុំព្យូទ័រ​របស់​អ្នក​នឹង​បិទ​ឥឡូវនេះ ប្រសិនបើ​មិន​ដោត​បញ្ចូល​ថ្ម​ទេ ។"
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:1550
-#: ../plugins/power/gsd-power-manager.c:1742
+#: ../plugins/power/csd-power-manager.c:1550
+#: ../plugins/power/csd-power-manager.c:1742
 msgid "UPS critically low"
 msgstr "យូភីអេស​ខ្សោយ​មែនទែន"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:1556
+#: ../plugins/power/csd-power-manager.c:1556
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -2260,7 +2260,7 @@ msgstr ""
 "បាត់​ទិន្នន័យ ។"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1565
+#: ../plugins/power/csd-power-manager.c:1565
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
@@ -2268,7 +2268,7 @@ msgid ""
 msgstr "ថាមពល​កណ្ដុរ​ឥត​ខ្សែ​គឺ​ខ្សោយ (%.0f%%) ។ ឧបករណ៍​នេះ​នឹង​បិទ​ជាបន្ទាន់ ប្រសិនបើ​មិន​បញ្ចូល​ថ្ម​ទេ ។"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1573
+#: ../plugins/power/csd-power-manager.c:1573
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
@@ -2277,7 +2277,7 @@ msgstr ""
 "ថាមពល​ក្ដារចុច​ឥត​ខ្សែ​គឺ​ខ្សោយ (%.0f%%) ។ ឧបករណ៍​នេះ​នឹង​បិទ​ជាបន្ទាន់ ប្រសិនបើ​មិន​បញ្ចូល​ថ្ម​ទេ ។"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1582
+#: ../plugins/power/csd-power-manager.c:1582
 #, c-format
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if "
@@ -2285,7 +2285,7 @@ msgid ""
 msgstr "ថាមពល PDA គឺ​ខ្សោយ (%.0f%%) ។ ឧបករណ៍​នេះ​នឹង​បិទ​ជាបន្ទាន់ ប្រសិនបើ​មិន​បញ្ចូល​ថ្ម​ទេ ។"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1592
+#: ../plugins/power/csd-power-manager.c:1592
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
@@ -2294,7 +2294,7 @@ msgstr ""
 "ថាមពល​ទូរស័ព្ទ​ដៃ​គឺ​ខ្សោយ​មែនទែន (%.0f%%) ។ ឧបករណ៍​នេះ​នឹង​បិទ​ជាបន្ទាន់ ប្រសិនបើ​មិន​បញ្ចូល​ថ្ម​ទេ ។"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1603
+#: ../plugins/power/csd-power-manager.c:1603
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
@@ -2304,7 +2304,7 @@ msgstr ""
 "។"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1612
+#: ../plugins/power/csd-power-manager.c:1612
 #, c-format
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning "
@@ -2313,7 +2313,7 @@ msgstr ""
 "ថាមពល Tablet គឺ​ខ្សោយ​មែនទែន (%.0f%%) ។ ឧបករណ៍​នេះ​នឹង​បិទ​ជាបន្ទាន់ ប្រសិនបើ​មិន​បញ្ចូល​ថ្ម​ទេ ។"
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:1621
+#: ../plugins/power/csd-power-manager.c:1621
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -2323,21 +2323,21 @@ msgstr ""
 "ទេ ។"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1659
-#: ../plugins/power/gsd-power-manager.c:1669
-#: ../plugins/power/gsd-power-manager.c:1803
+#: ../plugins/power/csd-power-manager.c:1659
+#: ../plugins/power/csd-power-manager.c:1669
+#: ../plugins/power/csd-power-manager.c:1803
 msgid "Battery is critically low"
 msgstr "ថ្ម​អស់​រលីង​ហើយ"
 
 #. TRANSLATORS: computer will shutdown without saving data
-#: ../plugins/power/gsd-power-manager.c:1714
+#: ../plugins/power/csd-power-manager.c:1714
 msgid ""
 "The battery is below the critical level and this computer will <b>power-off</"
 "b> when the battery becomes completely empty."
 msgstr "ថ្ម​គឺ​ស្ថិត​ក្រោម​កម្រិត​ព្រមាន ហើយ​កុំព្យូទ័រ​នឹង <b>បិទ</b> នៅ​ពេល​ដែល​ថ្ម​អស់រលីង ។"
 
 #. TRANSLATORS: computer will suspend
-#: ../plugins/power/gsd-power-manager.c:1720
+#: ../plugins/power/csd-power-manager.c:1720
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "suspend.\n"
@@ -2348,21 +2348,21 @@ msgstr ""
 "<b>ចំណាំ ៖</b> ចំនួន​ថាមពល​តិចតួច​ត្រូវ​បាន​ទាមទារ​ដើម្បី​រក្សាទុក​កុំព្យូទ័រ​របស់​អ្នក​នៅ​ពេល​វា​ផ្អាក ។"
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:1727
+#: ../plugins/power/csd-power-manager.c:1727
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
 msgstr "ថ្ម​គឺ​នៅ​ក្រោម​កម្រិត​ព្រមាន ហើយ​កុំព្យូទ័រ​ហៀបនឹង​សម្ងំ ។"
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:1732
+#: ../plugins/power/csd-power-manager.c:1732
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
 msgstr "ថ្ម​គឺ​នៅ​ក្រោម​កម្រិត​ព្រមាន ហើយ​កុំព្យូទ័រ​ហៀបនឹង​បិទ ។"
 
 #. TRANSLATORS: computer will shutdown without saving data
-#: ../plugins/power/gsd-power-manager.c:1750
+#: ../plugins/power/csd-power-manager.c:1750
 msgid ""
 "UPS is below the critical level and this computer will <b>power-off</b> when "
 "the UPS becomes completely empty."
@@ -2370,29 +2370,29 @@ msgstr ""
 "យូភីអេស​គឺ​ទាប​ជាង​កម្រិត​ព្រមាន ហើយ​កុំព្យូទ័រ​នេះ​នឹង <b>បិទ</b> នៅ​ពេល​ដែល​យូភីអេស​អស់​ថ្ម​មែនទែន ។"
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:1756
+#: ../plugins/power/csd-power-manager.c:1756
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr "យូភីអេស​គឺ​ទាប​ជាង​កម្រិត​ព្រមាន ហើយ​កុំព្យូទ័រ​ហៀបនឹង​សម្ងំ ។"
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:1761
+#: ../plugins/power/csd-power-manager.c:1761
 msgid "UPS is below the critical level and this computer is about to shutdown."
 msgstr "យូភីអេស​គឺ​ទាប​ជាង​កម្រិត​ព្រមាន ហើយ​កុំព្យូទ័រ​ហៀបនឹង​បិទ ។"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:2149
+#: ../plugins/power/csd-power-manager.c:2149
 msgid "Lid has been opened"
 msgstr "Lid ត្រូវ​បាន​បើក"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:2305
+#: ../plugins/power/csd-power-manager.c:2305
 msgid "Lid has been closed"
 msgstr "Lid ត្រូវ​បាន​បិទ"
 
 #. TRANSLATORS: this is the title of the power manager status icon
 #. * that is only shown in fallback mode
-#: ../plugins/power/gsd-power-manager.c:3668
+#: ../plugins/power/csd-power-manager.c:3668
 msgid "Power Manager"
 msgstr "កម្មវិធី​គ្រប់គ្រង​ថាមពល"
 
@@ -2413,236 +2413,236 @@ msgid "Power plugin"
 msgstr "កម្មវិធី​គ្រប់គ្រង​ថាមពល"
 
 #. Translators: We are configuring new printer
-#: ../plugins/print-notifications/gsd-printer.c:891
+#: ../plugins/print-notifications/csd-printer.c:891
 msgid "Configuring new printer"
 msgstr "កំពុង​កំណត់​រចនាសម្ព័ន្ធ​ម៉ាស៊ីន​បោះពុម្ព​ថ្មី"
 
 #. Translators: Just wait
-#: ../plugins/print-notifications/gsd-printer.c:893
+#: ../plugins/print-notifications/csd-printer.c:893
 msgid "Please wait..."
 msgstr "សូម​រង់ចាំ..."
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:920
+#: ../plugins/print-notifications/csd-printer.c:920
 msgid "Missing printer driver"
 msgstr "បាត់​កម្មវិធី​បញ្ជា​ម៉ាស៊ីន​បោះពុម្ព"
 
 #. Translators: We have no driver installed for the device
-#: ../plugins/print-notifications/gsd-printer.c:929
+#: ../plugins/print-notifications/csd-printer.c:929
 #, c-format
 msgid "No printer driver for %s."
 msgstr "គ្មាន​កម្មវិធី​បញ្ជា​ម៉ាស៊ីន​បោះពុម្ព​សម្រាប់ %s ។"
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:934
+#: ../plugins/print-notifications/csd-printer.c:934
 msgid "No driver for this printer."
 msgstr "គ្មាន​កម្មវិធី​បញ្ជា​ម៉ាស៊ីន​បោះពុម្ព ។"
 
-#: ../plugins/print-notifications/gsd-printer.c:1032
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:233
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:658
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:747
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:790
+#: ../plugins/print-notifications/csd-printer.c:1032
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:233
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:658
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:747
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:790
 msgid "Printers"
 msgstr "ម៉ាស៊ីន​បោះពុម្ព"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:309
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:309
 msgid "Toner low"
 msgstr "ទឹក​ថ្នាំ​ជិត​អស់​ហើយ"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:311
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:311
 msgid "Toner empty"
 msgstr "អស់​ទឹក​ថ្នាំ"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:313
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:313
 msgid "Not connected?"
 msgstr "មិន​បាន​តភ្ជាប់ ?"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:315
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:315
 msgid "Cover open"
 msgstr "បាន​បើក​គម្រប"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:317
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:317
 msgid "Printer configuration error"
 msgstr "កំហុស​ក្នុង​ការ​កំណត់​រចនាសម្ព័ន្ធ​ម៉ាស៊ីន​បោះពុម្ព"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:319
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:319
 msgid "Door open"
 msgstr "ទ្វារ​បើក"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:321
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:321
 msgid "Marker supply low"
 msgstr "កំប៉ុង​ទឹក​ថ្នាំ​ជិតអស់"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:323
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:323
 msgid "Out of a marker supply"
 msgstr "កំប៉ុង​ទឹក​ថ្នាំ​អស់"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:325
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:325
 msgid "Paper low"
 msgstr "ជិត​អស់​ក្រដាស"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:327
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:327
 msgid "Out of paper"
 msgstr "អស់​ក្រដាស"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:329
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:329
 msgid "Printer off-line"
 msgstr "ម៉ាស៊ីន​បោះពុម្ព​ក្រៅ​បណ្ដាញ"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #. Translators: This is a title of an error notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:331
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:733
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:331
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:733
 msgid "Printer error"
 msgstr "កំហុស​ម៉ាស៊ីន​បោះពុម្ព"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:335
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:335
 #, c-format
 msgid "Printer '%s' is low on toner."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' ជិត​អស់​ទឹក​ថ្នាំ​ហើយ ។"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:337
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:337
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' អស់​ទឹក​ថ្នាំ​ហើយ ។"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:339
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:339
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "មិន​អាច​តភ្ជាប់​ម៉ាស៊ីន​បោះពុម្ព​បាន​ទេ '%s' ។"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:341
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:341
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' អាច​មិន​ត្រូវ​បាន​តភ្ជាប់ ។"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:343
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:343
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "គម្រប​ម៉ាស៊ីន​បោះពុម្ព '%s' កំពុង​បើក ។"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:346
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:346
 #, c-format
 msgid "The door is open on printer '%s'."
 msgstr "ទ្វារ​ម៉ាស៊ីន​បោះពុម្ព '%s' កំពុង​បើក ។"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:348
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:348
 #, c-format
 msgid "Printer '%s' is low on a marker supply."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' ជិត​អស់​ទឹក​ថ្នាំ ។"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer '%s' is out of a marker supply."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' អស់​ទឹក​ថ្នាំ​ហើយ ។"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:352
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:352
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' ជិត​អស់​ក្រដាស​ហើយ ។"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer '%s' is out of paper."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' អស់​ក្រដាស​ហើយ ។"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:356
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:356
 #, c-format
 msgid "Printer '%s' is currently off-line."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' បច្ចុប្បន្ន​នៅ​ក្រៅ​បណ្ដាញ ។"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:358
 #, c-format
 msgid "There is a problem on printer '%s'."
 msgstr "មាន​បញ្ហា​នៅ​លើ​ម៉ាស៊ីន​បោះពុម្ព '%s' ។"
 
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:435
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:435
 msgid "Printer added"
 msgstr "បាន​បន្ថែម​ម៉ាស៊ីន​បោះពុម្ព"
 
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:443
 msgid "Printer removed"
 msgstr "បាន​យក​ម៉ាស៊ីន​បោះពុម្ព​ចេញ"
 
 #. Translators: A print job has been stopped
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:460
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:460
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "បាន​បញ្ឈប់​ការ​បោះពុម្ព"
 
 #. Translators: "print-job xy" on a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:462
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:468
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:474
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:480
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:492
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:512
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:462
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:468
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:474
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:480
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:492
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:512
 #, c-format
 msgctxt "print job"
 msgid "\"%s\" on %s"
 msgstr "\"%s\" លើ %s"
 
 #. Translators: A print job has been canceled
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:466
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:466
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "បាន​បោះបង់​ការ​បោះពុម្ព"
 
 #. Translators: A print job has been aborted
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:472
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:472
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "បាន​បោះបង់​ការ​បោះពុម្ព"
 
 #. Translators: A print job has been completed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:478
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:478
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "បាន​បញ្ចប់​ការ​បោះពុម្ព"
 
 #. Translators: A job is printing
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:490
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:510
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:490
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:510
 msgctxt "print job state"
 msgid "Printing"
 msgstr "កំពុង​បោះពុម្ព"
 
 #. Translators: This is a title of a report notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:727
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:727
 msgid "Printer report"
 msgstr "របាយការណ៍​ម៉ាស៊ីន​បោះពុម្ព"
 
 #. Translators: This is a title of a warning notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:730
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:730
 msgid "Printer warning"
 msgstr "ការ​ព្រមាន​ម៉ាស៊ីន​បោះពុម្ព"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:740
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:740
 #, c-format
 msgid "Printer '%s': '%s'."
 msgstr "ម៉ាស៊ីន​បោះពុម្ព '%s' ៖ '%s' ។"
@@ -2655,315 +2655,315 @@ msgstr "បោះពុម្ព​ការ​ជូនដំណឹង"
 msgid "Print-notifications plugin"
 msgstr "កម្មវិធី​ជំនួយ​បោះពុម្ព​ការ​ជូនដំណឹង"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:529
+#: ../plugins/smartcard/csd-smartcard-manager.c:529
 msgid "received error or hang up from event source"
 msgstr "បាន​ទទួល​កំហុស ឬ​ការ​ព្យួរ​ពី​ប្រភព​ព្រឹត្តិការណ៍"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:663
+#: ../plugins/smartcard/csd-smartcard-manager.c:663
 #, c-format
 msgid "NSS security system could not be initialized"
 msgstr "មិន​អាច​ដំឡើង​ប្រព័ន្ធ​សុវត្ថិភាព NSS បាន​ទេ"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:791
+#: ../plugins/smartcard/csd-smartcard-manager.c:791
 #, c-format
 msgid "no suitable smartcard driver could be found"
 msgstr "រក​មិន​ឃើញ​កម្មវិធី​បញ្ជា smartcard ដែល​សមរម្យ​ទេ"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:805
+#: ../plugins/smartcard/csd-smartcard-manager.c:805
 #, c-format
 msgid "smartcard driver '%s' could not be loaded"
 msgstr "កម្មវិធី​បញ្ជា smartcard '%s' មិន​អាច​ផ្ទុក​បាន​ទេ"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:877
+#: ../plugins/smartcard/csd-smartcard-manager.c:877
 #, c-format
 msgid "could not watch for incoming card events - %s"
 msgstr "មិន​អាច​មើល​ព្រឹត្តិការណ៍​កាត​មកដល់​បាន​ទេ - %s"
 
-#: ../plugins/smartcard/gsd-smartcard-manager.c:1275
+#: ../plugins/smartcard/csd-smartcard-manager.c:1275
 #, c-format
 msgid "encountered unexpected error while waiting for smartcard events"
 msgstr "បាន​ជួបប្រទះ​កំហុស​ដែល​មិន​រំពឹង​ទុក នៅ​ពេល​រង់ចាំ​ព្រឹត្តិការណ៍ smartcard"
 
 #. TRANSLATORS: we need to restart so the new hardware can re-request the firmware
-#: ../plugins/updates/gsd-updates-firmware.c:250
+#: ../plugins/updates/csd-updates-firmware.c:250
 msgid ""
 "You will need to restart this computer before the hardware will work "
 "correctly."
 msgstr "អ្នក​ចាំបាច់​ត្រូវតែ​ចាប់ផ្ដើម​កុំព្យូទ័រ​នេះ​ឡើងវិញ ដើម្បី​ឲ្យ​ផ្នែក​រឹង​របស់​វា​ដំណើរការ​ត្រឹមត្រូវ ។"
 
 #. TRANSLATORS: title of libnotify bubble
-#: ../plugins/updates/gsd-updates-firmware.c:253
-#: ../plugins/updates/gsd-updates-firmware.c:280
-#: ../plugins/updates/gsd-updates-firmware.c:307
+#: ../plugins/updates/csd-updates-firmware.c:253
+#: ../plugins/updates/csd-updates-firmware.c:280
+#: ../plugins/updates/csd-updates-firmware.c:307
 msgid "Additional software was installed"
 msgstr "កម្មវិធី​បន្ថែម​ត្រូវ​បាន​ដំឡើង"
 
-#: ../plugins/updates/gsd-updates-firmware.c:254
-#: ../plugins/updates/gsd-updates-firmware.c:281
-#: ../plugins/updates/gsd-updates-firmware.c:308
-#: ../plugins/updates/gsd-updates-firmware.c:599
-#: ../plugins/updates/gsd-updates-manager.c:347
-#: ../plugins/updates/gsd-updates-manager.c:474
-#: ../plugins/updates/gsd-updates-manager.c:535
-#: ../plugins/updates/gsd-updates-manager.c:624
-#: ../plugins/updates/gsd-updates-manager.c:1313
+#: ../plugins/updates/csd-updates-firmware.c:254
+#: ../plugins/updates/csd-updates-firmware.c:281
+#: ../plugins/updates/csd-updates-firmware.c:308
+#: ../plugins/updates/csd-updates-firmware.c:599
+#: ../plugins/updates/csd-updates-manager.c:347
+#: ../plugins/updates/csd-updates-manager.c:474
+#: ../plugins/updates/csd-updates-manager.c:535
+#: ../plugins/updates/csd-updates-manager.c:624
+#: ../plugins/updates/csd-updates-manager.c:1313
 msgid "Software Updates"
 msgstr "ធ្វើ​បច្ចុប្បន្នភាព​កម្មវិធី"
 
 #. TRANSLATORS: we need to remove an replug so the new hardware can re-request the firmware
-#: ../plugins/updates/gsd-updates-firmware.c:277
+#: ../plugins/updates/csd-updates-firmware.c:277
 msgid ""
 "You will need to remove and then reinsert the hardware before it will work "
 "correctly."
 msgstr "អ្នក​ចាំបាច់​ត្រូវតែ​យកចេញ រួច​បញ្ចូល​ផ្នែក​រឹង​នេះ​ឡើងវិញ ដើម្បី​ឲ្យ​វា​ដំណើរការ​ត្រឹមត្រូវ ។"
 
 #. TRANSLATORS: we need to remove an replug so the new hardware can re-request the firmware
-#: ../plugins/updates/gsd-updates-firmware.c:304
+#: ../plugins/updates/csd-updates-firmware.c:304
 msgid "Your hardware has been set up and is now ready to use."
 msgstr "ផ្នែក​រឹង​របស់​អ្នក​ត្រូវ​បាន​ដំឡើង និង​អាច​ប្រើ​បាន​ហើយ​ឥឡូវនេះ ។"
 
 #. TRANSLATORS: we need another package to keep udev quiet
-#: ../plugins/updates/gsd-updates-firmware.c:584
+#: ../plugins/updates/csd-updates-firmware.c:584
 msgid ""
 "Additional firmware is required to make hardware in this computer function "
 "correctly."
 msgstr "ត្រូវការ​កម្មវិធី​បង្កប់​បន្ថែម​ដើម្បី​ធ្វើ​ឲ្យ​ផ្នែក​រឹង​នៅ​ក្នុង​កុំព្យូទ័រ​នេះ​ដំណើរការ​បាន​ត្រឹមត្រូវ ។"
 
 #. TRANSLATORS: title of libnotify bubble
-#: ../plugins/updates/gsd-updates-firmware.c:598
+#: ../plugins/updates/csd-updates-firmware.c:598
 msgid "Additional firmware required"
 msgstr "ត្រូវការ​កម្មវិធី​បង្កប់​បន្ថែម"
 
 #. TRANSLATORS: button label
-#: ../plugins/updates/gsd-updates-firmware.c:604
+#: ../plugins/updates/csd-updates-firmware.c:604
 msgid "Install firmware"
 msgstr "ដំឡើង​កម្មវិធី​បង្កប់"
 
 #. TRANSLATORS: we should ignore this device and not ask anymore
-#: ../plugins/updates/gsd-updates-firmware.c:607
+#: ../plugins/updates/csd-updates-firmware.c:607
 msgid "Ignore devices"
 msgstr "មិន​អើពើ​ឧបករណ៍"
 
 #. TRANSLATORS: this is when the offline update failed
-#: ../plugins/updates/gsd-updates-manager.c:125
+#: ../plugins/updates/csd-updates-manager.c:125
 msgid "Failed To Update"
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ធ្វើ​បច្ចុប្បន្នភាព"
 
 #. TRANSLATORS: the transaction could not be completed
 #. * as a previous transaction was unfinished
-#: ../plugins/updates/gsd-updates-manager.c:131
+#: ../plugins/updates/csd-updates-manager.c:131
 msgid "A previous update was unfinished."
 msgstr "ការ​ធ្វើ​បច្ចុប្បន្ន​មុន​មិន​បាន​បញ្ចប់​​ឡើយ ។"
 
 #. TRANSLATORS: the package manager needed to download
 #. * something with no network available
-#: ../plugins/updates/gsd-updates-manager.c:141
+#: ../plugins/updates/csd-updates-manager.c:141
 msgid "Network access was required but not available."
 msgstr "ទាមទារ​ចូល​ដំណើរការ​បណ្ដាញ​ ប៉ុន្តែ​មិន​អាច​ចូល​បាន​ទេ ។"
 
 #. TRANSLATORS: if the package is not signed correctly
 #. *
-#: ../plugins/updates/gsd-updates-manager.c:150
+#: ../plugins/updates/csd-updates-manager.c:150
 msgid "An update was not signed in the correct way."
 msgstr "បច្ចុប្បន្នភាព​មិន​បាន​ចុះ​ហត្ថលេខា​នៅ​វិធី​ដែល​ត្រឹមត្រូវ​ឡើយ ។"
 
 #. TRANSLATORS: the transaction failed in a way the user
 #. * probably cannot comprehend. Package management systems
 #. * really are teh suck.
-#: ../plugins/updates/gsd-updates-manager.c:160
+#: ../plugins/updates/csd-updates-manager.c:160
 msgid "The update could not be completed."
 msgstr "ការ​ធ្វើ​បច្ចុប្បន្នភាព​មិន​អាច​បញ្ចប់​បាន​ទេ ។"
 
 #. TRANSLATORS: the user aborted the update manually
-#: ../plugins/updates/gsd-updates-manager.c:165
+#: ../plugins/updates/csd-updates-manager.c:165
 msgid "The update was cancelled."
 msgstr "បាន​បោះបង់​ការ​ធ្វើ​បច្ចុប្បន្ន ។"
 
 #. TRANSLATORS: the user must have updated manually after
 #. * the updates were prepared
-#: ../plugins/updates/gsd-updates-manager.c:171
+#: ../plugins/updates/csd-updates-manager.c:171
 msgid "An offline update was requested but no packages required updating."
 msgstr ""
 "បាន​ស្នើ​ការ​ធ្វើ​បច្ចុប្បន្ន​ក្រៅ​បណ្ដាញ ប៉ុន្តែ​គ្មាន​កញ្ចប់​ដែល​បាន​ទាមទារ​​ការ​ធ្វើ​បច្ចុប្បន្ន​ភាព​ឡើយ ។"
 
 #. TRANSLATORS: we ran out of disk space
-#: ../plugins/updates/gsd-updates-manager.c:175
+#: ../plugins/updates/csd-updates-manager.c:175
 msgid "No space was left on the drive."
 msgstr "គ្មាន​ទំហំ​នៅ​សល់​លើ​ដ្រាយ​ទេ ។"
 
 #. TRANSLATORS: the update process failed in a general
 #. * way, usually this message will come from source distros
 #. * like gentoo
-#: ../plugins/updates/gsd-updates-manager.c:183
+#: ../plugins/updates/csd-updates-manager.c:183
 msgid "An update failed to install correctly."
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ធ្វើ​បច្ចុប្បន្នភាព​ការ​ដំឡើង​ត្រឹមត្រូវ ។"
 
 #. TRANSLATORS: We didn't handle the error type
-#: ../plugins/updates/gsd-updates-manager.c:188
+#: ../plugins/updates/csd-updates-manager.c:188
 msgid "The offline update failed in an unexpected way."
 msgstr "បាន​បរាជ័យ​​ការ​ធ្វើ​បច្ចុប្បន្ន​ក្រៅ​បណ្ដាញ​នៅ​វិធី​ដែល​មិន​បាន​រំពឹង ។"
 
 #. TRANSLATORS: these are geeky messages from the
 #. * package manager no mortal is supposed to understand,
 #. * but google might know what they mean
-#: ../plugins/updates/gsd-updates-manager.c:197
+#: ../plugins/updates/csd-updates-manager.c:197
 msgid "Detailed errors from the package manager follow:"
 msgstr "បាន​រាយការណ៍​​កំហុស​លម្អិត​ពី​កម្មវិធី​គ្រប់គ្រង​កញ្ចប់​ខាងក្រោម ៖"
 
 #. TRANSLATORS: a distro update is available, e.g. Fedora 8 to Fedora 9
-#: ../plugins/updates/gsd-updates-manager.c:343
+#: ../plugins/updates/csd-updates-manager.c:343
 msgid "Distribution upgrades available"
 msgstr "មាន​ការ​ចែកចាយ​ភាព​ធ្វើឲ្យ​ប្រសើរ​ឡើង"
 
 #. TRANSLATORS: provides more information about the upgrade
-#: ../plugins/updates/gsd-updates-manager.c:352
+#: ../plugins/updates/csd-updates-manager.c:352
 msgid "More information"
 msgstr "ព័ត៌មាន​បន្ថែម"
 
 #. TRANSLATORS: title in the libnotify popup
-#: ../plugins/updates/gsd-updates-manager.c:457
-#: ../plugins/updates/gsd-updates-manager.c:518
+#: ../plugins/updates/csd-updates-manager.c:457
+#: ../plugins/updates/csd-updates-manager.c:518
 msgid "Update"
 msgid_plural "Updates"
 msgstr[0] "ធ្វើបច្ចុប្បន្នភាព"
 
 #. TRANSLATORS: message when there are security updates
-#: ../plugins/updates/gsd-updates-manager.c:460
+#: ../plugins/updates/csd-updates-manager.c:460
 msgid "An important software update is available"
 msgid_plural "Important software updates are available"
 msgstr[0] "មាន​កម្មវិធី​ធ្វើ​បច្ចុប្បន្នភាព​សំខាន់"
 
 #. TRANSLATORS: button: open the update viewer to install updates
-#: ../plugins/updates/gsd-updates-manager.c:479
-#: ../plugins/updates/gsd-updates-manager.c:540
+#: ../plugins/updates/csd-updates-manager.c:479
+#: ../plugins/updates/csd-updates-manager.c:540
 msgid "Install updates"
 msgstr "ដំឡើង​បច្ចុប្បន្នភាព"
 
 #. TRANSLATORS: message when there are non-security updates
-#: ../plugins/updates/gsd-updates-manager.c:521
+#: ../plugins/updates/csd-updates-manager.c:521
 msgid "A software update is available."
 msgid_plural "Software updates are available."
 msgstr[0] "មាន​កម្មវិធី​ធ្វើ​បច្ចុប្បន្នភាព ។"
 
 #. TRANSLATORS: the updates mechanism
-#: ../plugins/updates/gsd-updates-manager.c:612
+#: ../plugins/updates/csd-updates-manager.c:612
 msgid "Updates"
 msgstr "បច្ចុប្បន្នភាព"
 
 #. TRANSLATORS: we failed to get the updates multiple times,
 #. * and now we need to inform the user that something might be wrong
-#: ../plugins/updates/gsd-updates-manager.c:616
+#: ../plugins/updates/csd-updates-manager.c:616
 msgid "Unable to access software updates"
 msgstr "មិន​អាច​ចូល​ដំណើរការ​ធ្វើ​បច្ចុប្បន្នភាព​កម្មវិធី​បាន​ទេ"
 
 #. TRANSLATORS: try again, this time launching the update viewer
-#: ../plugins/updates/gsd-updates-manager.c:619
+#: ../plugins/updates/csd-updates-manager.c:619
 msgid "Try again"
 msgstr "ព្យាយាម​ម្ដងទៀត"
 
 #. TRANSLATORS: the reason why we've inhibited it
-#: ../plugins/updates/gsd-updates-manager.c:981
+#: ../plugins/updates/csd-updates-manager.c:981
 msgid "A transaction that cannot be interrupted is running"
 msgstr "កិច្ចការ​ដែល​មិន​អាច​ត្រូវ​បាន​បង្អាក់ គឺ​កំពុង​ដំណើរការ"
 
 #. TRANSLATORS: title in the libnotify popup
-#: ../plugins/updates/gsd-updates-manager.c:1274
+#: ../plugins/updates/csd-updates-manager.c:1274
 msgid "Software Update Installed"
 msgid_plural "Software Updates Installed"
 msgstr[0] "បាន​ដំឡើង​បច្ចុប្បន្នភាព​កម្មវិធី"
 
 #. TRANSLATORS: message when we've done offline updates
-#: ../plugins/updates/gsd-updates-manager.c:1279
+#: ../plugins/updates/csd-updates-manager.c:1279
 msgid "An important OS update has been installed."
 msgid_plural "Important OS updates have been installed."
 msgstr[0] "បាន​ដំឡើង​បច្ចុប្បន្នភាព​ប្រព័ន្ធ​ប្រតិបត្តិការដែល​សំខាន់ ។"
 
 #. TRANSLATORS: title in the libnotify popup
-#: ../plugins/updates/gsd-updates-manager.c:1302
+#: ../plugins/updates/csd-updates-manager.c:1302
 msgid "Software Updates Failed"
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ធ្វើ​បច្ចុប្បន្ន​កម្មវិធី"
 
 #. TRANSLATORS: message when we've not done offline updates
-#: ../plugins/updates/gsd-updates-manager.c:1305
+#: ../plugins/updates/csd-updates-manager.c:1305
 msgid "An important OS update failed to be installed."
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ដំឡើង​បច្ចុប្បន្នភាព​ប្រព័ន្ធ​ប្រតិបត្តិការ​ដែល​សំខាន់ ។"
 
 #. TRANSLATORS: button: review the offline update changes
-#: ../plugins/updates/gsd-updates-manager.c:1320
+#: ../plugins/updates/csd-updates-manager.c:1320
 msgid "Review"
 msgstr "ពិនិត្យ​ឡើងវិញ"
 
 #. TRANSLATORS: button: review the offline update changes
-#: ../plugins/updates/gsd-updates-manager.c:1325
+#: ../plugins/updates/csd-updates-manager.c:1325
 msgid "Show details"
 msgstr "បង្ហាញ​លម្អិត"
 
 #. TRANSLATORS: button: clear notification
-#: ../plugins/updates/gsd-updates-manager.c:1329
+#: ../plugins/updates/csd-updates-manager.c:1329
 msgid "OK"
 msgstr "គ្មាន​បញ្ហា"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1010
+#: ../plugins/wacom/csd-wacom-device.c:1010
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "របៀប​កង​ខាងឆ្វេង #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1019
+#: ../plugins/wacom/csd-wacom-device.c:1019
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "របៀប​កង​ខាងស្ដាំ #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1049
+#: ../plugins/wacom/csd-wacom-device.c:1049
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "របៀប Touchstrip ខាងឆ្វេង #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1058
+#: ../plugins/wacom/csd-wacom-device.c:1058
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "របៀប Touchstrip ខាងស្ដាំ #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1075
+#: ../plugins/wacom/csd-wacom-device.c:1075
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "ការ​ប្ដូរ​របៀប Touchring ខាងឆ្វេង"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1077
+#: ../plugins/wacom/csd-wacom-device.c:1077
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ការ​ប្ដូរ​របៀប Touchring ខាងស្ដាំ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1080
+#: ../plugins/wacom/csd-wacom-device.c:1080
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "ការ​ប្ដូរ​របៀប Touchstrip ខាងឆ្វេង"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1082
+#: ../plugins/wacom/csd-wacom-device.c:1082
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ការ​ប្ដូរ​របៀប Touchstrip ខាងស្ដាំ"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1087
+#: ../plugins/wacom/csd-wacom-device.c:1087
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "ការ​ប្ដូរ​របៀប #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1159
+#: ../plugins/wacom/csd-wacom-device.c:1159
 #, c-format
 msgid "Left Button #%d"
 msgstr "ប៊ូតុង​ខាងឆ្វេង #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1162
+#: ../plugins/wacom/csd-wacom-device.c:1162
 #, c-format
 msgid "Right Button #%d"
 msgstr "ប៊ូតុង​ខាងស្ដាំ #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1165
+#: ../plugins/wacom/csd-wacom-device.c:1165
 #, c-format
 msgid "Top Button #%d"
 msgstr "ប៊ូតុង​ខាងលើ #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1168
+#: ../plugins/wacom/csd-wacom-device.c:1168
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "ប៊ូតុង​ខាងក្រោម #%d"
@@ -2980,19 +2980,19 @@ msgstr "កែប្រែ lit LED សម្រាប់ Wacom tablet"
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr "បាន​ទាមទារ​ការ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ដើម្បី​កែប្រែ lit LED សម្រាប់ Wacom tablet"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:508
+#: ../plugins/xrandr/csd-xrandr-manager.c:508
 msgid "Could not switch the monitor configuration"
 msgstr "មិន​អាច​ប្ដូរ​ការ​កំណត់​រចនាសម្ព័ន្ធ​ម៉ូនីទ័រ"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:532
+#: ../plugins/xrandr/csd-xrandr-manager.c:532
 msgid "Could not restore the display's configuration"
 msgstr "មិន​អាច​ស្ដារ​ការ​កំណត់​រចនាសម្ព័ន្ធ​ទិដ្ឋភាព​បាន​ទេ"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:557
+#: ../plugins/xrandr/csd-xrandr-manager.c:557
 msgid "Could not restore the display's configuration from a backup"
 msgstr "មិន​អាច​ស្ដារ​ការ​កំណត់​រចនាសម្ព័ន្ធ​ទិដ្ឋភាព​ពី​ព័ត៌មាន​បម្រុងទុក​បាន​ទេ"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:578
+#: ../plugins/xrandr/csd-xrandr-manager.c:578
 #, c-format
 msgid "The display will be reset to its previous configuration in %d second"
 msgid_plural ""
@@ -3000,32 +3000,32 @@ msgid_plural ""
 msgstr[0] ""
 "ទិដ្ឋភាព​នឹង​ត្រូវ​បាន​កំណត់​ឡើងវិញ​ទៅកាន់​ការ​កំណត់​រចនាសម្ព័ន្ធ​មុន​របស់​វា​ក្នុងរយៈពេល %d វិនាទី​ទៀត"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:627
+#: ../plugins/xrandr/csd-xrandr-manager.c:627
 msgid "Does the display look OK?"
 msgstr "តើ​ការ​បង្ហាញ​នេះ​ល្អ​ទេ ?"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:634
+#: ../plugins/xrandr/csd-xrandr-manager.c:634
 msgid "_Restore Previous Configuration"
 msgstr "ស្ដារ​ការ​កំណត់​រចនាសម្ព័ន្ធ​ឡើងវិញ"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:635
+#: ../plugins/xrandr/csd-xrandr-manager.c:635
 msgid "_Keep This Configuration"
 msgstr "រក្សាទុក​ការ​កំណត់​រចនាសម្ព័ន្ធ​នេះ"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:716
+#: ../plugins/xrandr/csd-xrandr-manager.c:716
 msgid "The selected configuration for displays could not be applied"
 msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ​ដែល​បាន​ជ្រើស​សម្រាប់​ការ​បង្ហាញ​មិន​អាច​អនុវត្ត​បាន​ទេ"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1374
+#: ../plugins/xrandr/csd-xrandr-manager.c:1374
 #, c-format
 msgid "Could not refresh the screen information: %s"
 msgstr "មិន​អាច​ធ្វើ​ព័ត៌មាន​អេក្រង់​ឲ្យ​ស្រស់​បាន​ទេ ៖ %s"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1378
+#: ../plugins/xrandr/csd-xrandr-manager.c:1378
 msgid "Trying to switch the monitor configuration anyway."
 msgstr "អញ្ចឹង​សាកល្បង​ប្ដូរ​ការ​កំណត់​រចនាសម្ព័ន្ធ​ម៉ូនីទ័រ ។"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:1848
+#: ../plugins/xrandr/csd-xrandr-manager.c:1848
 msgid "Could not apply the stored configuration for monitors"
 msgstr "មិន​អាច​អនុវត្ត​ការ​កំណត់​រចនាសម្ព័ន្ធ​ដែល​បាន​ស្ដារ​សម្រាប់​ម៉ូនីទ័រ​បាន​ទេ"
 

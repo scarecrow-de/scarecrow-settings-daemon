@@ -1,10 +1,10 @@
 /**
  * Create a scarecrow-settings-daemon helper easily
  *
- * #define NEW gsd_media_keys_manager_new
- * #define START gsd_media_keys_manager_start
+ * #define NEW csd_media_keys_manager_new
+ * #define START csd_media_keys_manager_start
  * #define MANAGER GsdMediaKeysManager
- * #include "gsd-media-keys-manager.h"
+ * #include "csd-media-keys-manager.h"
  *
  * #include "daemon-skeleton.h"
  */

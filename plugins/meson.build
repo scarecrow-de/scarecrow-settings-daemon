@@ -69,11 +69,11 @@ plugin_restart_rule = {
 }
 
 plugins_conf = configuration_data()
-plugins_conf.set('libexecdir', gsd_libexecdir)
+plugins_conf.set('libexecdir', csd_libexecdir)
 
-plugins_deps = [libgsd_dep]
+plugins_deps = [libcsd_dep]
 
-plugins_cflags = ['-DGNOME_SETTINGS_LOCALEDIR="@0@"'.format(gsd_localedir)]
+plugins_cflags = ['-DGNOME_SETTINGS_LOCALEDIR="@0@"'.format(csd_localedir)]
 
 all_plugins_file = []
 
@@ -105,7 +105,7 @@ foreach plugin: all_plugins
 
     desktop = 'io.github.scarecrow_de.SettingsDaemon.@0@.desktop'.format(plugin[1])
     desktop_conf = configuration_data()
-    desktop_conf.set('libexecdir', gsd_libexecdir)
+    desktop_conf.set('libexecdir', csd_libexecdir)
     desktop_conf.set('systemd_hidden', enable_systemd ? 'true' : 'false')
     desktop_conf.set('pluginname', plugin_name)
     desktop_conf.set('description', plugin_description)
@@ -114,7 +114,7 @@ foreach plugin: all_plugins
         output: desktop,
         configuration: desktop_conf,
         install: true,
-        install_dir: gsd_xdg_autostart
+        install_dir: csd_xdg_autostart
     )
 
     if not disabled_plugins.contains(plugin_name)
@@ -124,7 +124,7 @@ foreach plugin: all_plugins
         unit_conf = configuration_data()
         unit_conf.set('plugin_name', plugin_name)
         unit_conf.set('description', plugin_description)
-        unit_conf.set('libexecdir', gsd_libexecdir)
+        unit_conf.set('libexecdir', csd_libexecdir)
         unit_conf.set('plugin_dbus_name', plugin_dbus_name)
         unit_conf.set('plugin_restart', plugin_restart_rule.get(plugin_name, 'on-failure'))
 
@@ -159,14 +159,14 @@ foreach plugin: all_plugins
 
         if enable_systemd
             configure_file(
-                input: 'gsd.service.in',
+                input: 'csd.service.in',
                 output: user_service,
                 configuration: unit_conf,
                 install: true,
                 install_dir: systemd_userunitdir
             )
             configure_file(
-                input: 'gsd.target.in',
+                input: 'csd.target.in',
                 output: user_target,
                 configuration: unit_conf,
                 install: true,
@@ -180,8 +180,8 @@ foreach plugin: all_plugins
             # jhbuild on an old host.
             # TODO: Should be deleted once we can assume developers have 3.38
             #       installed on their machines.
-            if gsd_prefix != systemd_dep.get_pkgconfig_variable('prefix')
-                meson.add_install_script('sh', '-c', 'ln -vfs /dev/null "${DESTDIR:-}$1"', 'sh', systemd_userunitdir / 'gsd-@0@.target'.format(plugin_name))
+            if csd_prefix != systemd_dep.get_pkgconfig_variable('prefix')
+                meson.add_install_script('sh', '-c', 'ln -vfs /dev/null "${DESTDIR:-}$1"', 'sh', systemd_userunitdir / 'csd-@0@.target'.format(plugin_name))
             endif
 
             foreach target: gates_all

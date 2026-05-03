@@ -1,16 +1,16 @@
 sources = files(
-  'gsd-smartcard-manager.c',
-  'gsd-smartcard-service.c',
-  'gsd-smartcard-utils.c',
+  'csd-smartcard-manager.c',
+  'csd-smartcard-service.c',
+  'csd-smartcard-utils.c',
   'main.c'
 )
 
 enum_headers = files(
-  'gsd-smartcard-manager.h',
-  'gsd-smartcard-utils.h'
+  'csd-smartcard-manager.h',
+  'csd-smartcard-utils.h'
 )
 
-enum_types = 'gsd-smartcard-enum-types'
+enum_types = 'csd-smartcard-enum-types'
 
 sources += gnome.mkenums(
   enum_types,
@@ -38,12 +38,12 @@ deps = plugins_deps + [
 cflags += ['-DGSD_SMARTCARD_MANAGER_NSS_DB="@0@"'.format(system_nssdb_dir)]
 
 executable(
-  'gsd-' + plugin_name,
+  'csd-' + plugin_name,
   sources,
   include_directories: [top_inc, common_inc],
   dependencies: deps,
   c_args: cflags,
   install: true,
-  install_rpath: gsd_pkglibdir,
-  install_dir: gsd_libexecdir
+  install_rpath: csd_pkglibdir,
+  install_dir: csd_libexecdir
 )

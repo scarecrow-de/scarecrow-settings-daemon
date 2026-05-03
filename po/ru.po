@@ -826,15 +826,15 @@ msgstr ""
 "Список модулей GTK+, которые будут загружаться в дополнение к условно или "
 "намеренно отключенным модулям."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
 msgstr "«Медленные» клавиши включены"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:399
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:399
 msgid "Slow Keys Turned Off"
 msgstr "«Медленные» клавиши выключены"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:400
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:400
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -842,40 +842,40 @@ msgstr ""
 "Вы только что удержали клавишу Shift нажатой 8 секунд. Это — комбинация для "
 "функции «медленные» клавиши, которая влияет на способ работы с клавиатурой."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:410
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:478
 msgid "Universal Access"
 msgstr "Универсальный доступ"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:416
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:484
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:416
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:484
 msgid "Turn Off"
 msgstr "Выключить"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:416
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:484
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:416
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:484
 msgid "Turn On"
 msgstr "Включить"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:422
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:490
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:422
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:490
 msgid "Leave On"
 msgstr "Оставить включёнными"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:422
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:490
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:422
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:490
 msgid "Leave Off"
 msgstr "Оставить выключенными"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:463
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:463
 msgid "Sticky Keys Turned On"
 msgstr "«Залипающие» клавиши включены"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:464
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:464
 msgid "Sticky Keys Turned Off"
 msgstr "«Залипающие» клавиши выключены"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:466
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:466
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -884,7 +884,7 @@ msgstr ""
 "включения функции «залипающие» клавиши, которая влияет на способ работы "
 "клавиатуры."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -894,89 +894,89 @@ msgstr ""
 "подряд. Это привело ко включению функции «залипающие клавиши», которая "
 "влияет на режим работы клавиатуры."
 
-#: ../plugins/color/gsd-color-calibrate.c:139
+#: ../plugins/color/csd-color-calibrate.c:139
 msgid "Color"
 msgstr "Цвет"
 
 #. TRANSLATORS: button: this is to open GCM
-#: ../plugins/color/gsd-color-calibrate.c:144
+#: ../plugins/color/csd-color-calibrate.c:144
 msgid "Recalibrate now"
 msgstr "Перекалибровать сейчас"
 
 #. TRANSLATORS: this is when the device has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:187
+#: ../plugins/color/csd-color-calibrate.c:187
 msgid "Recalibration required"
 msgstr "Требуется перекалибровка"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:199
+#: ../plugins/color/csd-color-calibrate.c:199
 #, c-format
 msgid "The display “%s” should be recalibrated soon."
 msgstr "Монитор «%s» должен быть перекалиброван в ближайшее время."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:208
+#: ../plugins/color/csd-color-calibrate.c:208
 #, c-format
 msgid "The printer “%s” should be recalibrated soon."
 msgstr "Принтер «%s» должен быть перекалиброван в ближайшее время."
 
 #. TRANSLATORS: this is the application name
-#: ../plugins/color/gsd-color-calibrate.c:346
-#: ../plugins/color/gsd-color-calibrate.c:362
+#: ../plugins/color/csd-color-calibrate.c:346
+#: ../plugins/color/csd-color-calibrate.c:362
 msgid "GNOME Settings Daemon Color Plugin"
 msgstr "Модуль управления цветом для службы параметров GNOME"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-calibrate.c:348
+#: ../plugins/color/csd-color-calibrate.c:348
 msgid "Color calibration device added"
 msgstr "Добавлено устройство калибровки цветопередачи"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-calibrate.c:364
+#: ../plugins/color/csd-color-calibrate.c:364
 msgid "Color calibration device removed"
 msgstr "Удалено устройство калибровки цветопередачи"
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
-#: ../plugins/datetime/gsd-datetime-manager.c:88
+#: ../plugins/datetime/csd-datetime-manager.c:88
 msgid "UTC%:::z"
 msgstr "UTC%:::z"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:92
+#: ../plugins/datetime/csd-datetime-manager.c:92
 #, c-format
 msgid "Time Zone Updated to %s (%s)"
 msgstr "Часовой пояс обновлён на %s (%s)"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:108
+#: ../plugins/datetime/csd-datetime-manager.c:108
 msgid "Settings"
 msgstr "Параметры"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:118
+#: ../plugins/datetime/csd-datetime-manager.c:118
 msgid "Date & Time Settings"
 msgstr "Настройка даты и времени"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:574
+#: ../plugins/housekeeping/csd-disk-space.c:574
 msgid "Disk space"
 msgstr "Дисковое пространство"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:586
+#: ../plugins/housekeeping/csd-disk-space.c:586
 msgid "Examine"
 msgstr "Проверить"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:597
+#: ../plugins/housekeeping/csd-disk-space.c:597
 msgid "Empty Trash"
 msgstr "Очистить корзину"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:605
+#: ../plugins/housekeeping/csd-disk-space.c:605
 msgid "Ignore"
 msgstr "Игнорировать"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:636
+#: ../plugins/housekeeping/csd-disk-space.c:636
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Заканчивается свободное место на диске «%s»"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:638
+#: ../plugins/housekeeping/csd-disk-space.c:638
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
@@ -985,16 +985,16 @@ msgstr ""
 "На разделе «%s» осталось всего %s свободного места. Можно освободить место, "
 "очистив корзину."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:642
+#: ../plugins/housekeeping/csd-disk-space.c:642
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "На разделе «%s» осталось всего %s свободного места."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:647
+#: ../plugins/housekeeping/csd-disk-space.c:647
 msgid "Low Disk Space"
 msgstr "Заканчивается свободное место на диске"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:649
+#: ../plugins/housekeeping/csd-disk-space.c:649
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1003,51 +1003,51 @@ msgstr ""
 "На компьютере осталось всего %s свободного места. Можно освободить место, "
 "очистив корзину."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:652
+#: ../plugins/housekeeping/csd-disk-space.c:652
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "На компьютере осталось всего %s свободного места."
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2173
+#: ../plugins/media-keys/csd-media-keys-manager.c:2173
 msgid "Bluetooth disabled"
 msgstr "Bluetooth выключен"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2176
+#: ../plugins/media-keys/csd-media-keys-manager.c:2176
 msgid "Bluetooth enabled"
 msgstr "Bluetooth включён"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2180
+#: ../plugins/media-keys/csd-media-keys-manager.c:2180
 msgid "Airplane mode enabled"
 msgstr "Авиарежим включён"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2183
+#: ../plugins/media-keys/csd-media-keys-manager.c:2183
 msgid "Airplane mode disabled"
 msgstr "Авиарежим выключен"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2211
+#: ../plugins/media-keys/csd-media-keys-manager.c:2211
 msgid "Hardware Airplane Mode"
 msgstr "Аппаратный авиарежим"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2271
+#: ../plugins/media-keys/csd-media-keys-manager.c:2271
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Запись экрана от %d %t.webm"
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:82
+#: ../plugins/media-keys/csd-screenshot-utils.c:82
 msgid "Unable to capture a screenshot"
 msgstr "Не удалось сделать снимок экрана"
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:113
-#: ../plugins/media-keys/gsd-screenshot-utils.c:155
+#: ../plugins/media-keys/csd-screenshot-utils.c:113
+#: ../plugins/media-keys/csd-screenshot-utils.c:155
 msgid "Screenshot taken"
 msgstr "Сделан снимок экрана"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
-#: ../plugins/media-keys/gsd-screenshot-utils.c:306
+#: ../plugins/media-keys/csd-screenshot-utils.c:306
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Снимок экрана от %s"
@@ -1243,167 +1243,167 @@ msgstr[1] "минуты"
 msgstr[2] "минут"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gpm-common.c:948 ../plugins/power/gsd-power-manager.c:684
-#: ../plugins/power/gsd-power-manager.c:781
+#: ../plugins/power/gpm-common.c:948 ../plugins/power/csd-power-manager.c:684
+#: ../plugins/power/csd-power-manager.c:781
 msgid "Battery is critically low"
 msgstr "Критически низкий заряд батареи"
 
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:322
+#: ../plugins/power/csd-power-manager.c:322
 msgid "Power"
 msgstr "Электропитание"
 
 #. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:354
+#: ../plugins/power/csd-power-manager.c:354
 msgid "UPS Discharging"
 msgstr "ИБП разряжается"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:359
+#: ../plugins/power/csd-power-manager.c:359
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "Время работы от ИБП — %s"
 
-#: ../plugins/power/gsd-power-manager.c:362
+#: ../plugins/power/csd-power-manager.c:362
 msgid "Unknown amount of UPS backup power remaining"
 msgstr "Количество оставшегося заряда ИБП неизвестно"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:437
+#: ../plugins/power/csd-power-manager.c:437
 msgid "Battery low"
 msgstr "Низкий заряд батареи"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:440
+#: ../plugins/power/csd-power-manager.c:440
 msgid "Laptop battery low"
 msgstr "Низкий заряд батареи"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:447
+#: ../plugins/power/csd-power-manager.c:447
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "До полной разрядки %s (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:452
+#: ../plugins/power/csd-power-manager.c:452
 msgid "UPS low"
 msgstr "Низкий заряд ИБП"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:458
+#: ../plugins/power/csd-power-manager.c:458
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "Приблизительное время работы от ИБП — %s (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:463
-#: ../plugins/power/gsd-power-manager.c:597
+#: ../plugins/power/csd-power-manager.c:463
+#: ../plugins/power/csd-power-manager.c:597
 msgid "Mouse battery low"
 msgstr "Низкий заряд батареи мыши"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:466
+#: ../plugins/power/csd-power-manager.c:466
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "Низкий заряд батареи беспроводной мыши (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:470
-#: ../plugins/power/gsd-power-manager.c:605
+#: ../plugins/power/csd-power-manager.c:470
+#: ../plugins/power/csd-power-manager.c:605
 msgid "Keyboard battery low"
 msgstr "Низкий заряд батареи клавиатуры"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:473
+#: ../plugins/power/csd-power-manager.c:473
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "Низкий заряд батареи беспроводной клавиатуры (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:477
-#: ../plugins/power/gsd-power-manager.c:614
+#: ../plugins/power/csd-power-manager.c:477
+#: ../plugins/power/csd-power-manager.c:614
 msgid "PDA battery low"
 msgstr "Низкий заряд батареи КПК"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:480
+#: ../plugins/power/csd-power-manager.c:480
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "Низкий заряд батареи КПК (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:484
-#: ../plugins/power/gsd-power-manager.c:624
-#: ../plugins/power/gsd-power-manager.c:633
+#: ../plugins/power/csd-power-manager.c:484
+#: ../plugins/power/csd-power-manager.c:624
+#: ../plugins/power/csd-power-manager.c:633
 msgid "Cell phone battery low"
 msgstr "Низкий заряд батареи мобильного телефона"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:487
+#: ../plugins/power/csd-power-manager.c:487
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "Низкий заряд батареи мобильного телефона (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:491
+#: ../plugins/power/csd-power-manager.c:491
 msgid "Media player battery low"
 msgstr "Низкий заряд батареи медиаплеера"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:494
+#: ../plugins/power/csd-power-manager.c:494
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "Низкий заряд батареи медиаплеера (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:498
-#: ../plugins/power/gsd-power-manager.c:642
+#: ../plugins/power/csd-power-manager.c:498
+#: ../plugins/power/csd-power-manager.c:642
 msgid "Tablet battery low"
 msgstr "Низкий заряд батареи планшета"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:501
+#: ../plugins/power/csd-power-manager.c:501
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "Низкий заряд батареи планшета (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:505
-#: ../plugins/power/gsd-power-manager.c:651
+#: ../plugins/power/csd-power-manager.c:505
+#: ../plugins/power/csd-power-manager.c:651
 msgid "Attached computer battery low"
 msgstr "Низкий заряд батареи подключённого компьютера"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:508
+#: ../plugins/power/csd-power-manager.c:508
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "Низкий заряд батареи подключённого компьютера (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:529
+#: ../plugins/power/csd-power-manager.c:529
 msgid "Battery is low"
 msgstr "Низкий заряд батареи"
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: ../plugins/power/gsd-power-manager.c:561
+#: ../plugins/power/csd-power-manager.c:561
 msgid "Battery critically low"
 msgstr "Критически низкий заряд батареи"
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:564
-#: ../plugins/power/gsd-power-manager.c:711
+#: ../plugins/power/csd-power-manager.c:564
+#: ../plugins/power/csd-power-manager.c:711
 msgid "Laptop battery critically low"
 msgstr "Заряд батареи почти нулевой"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:573
+#: ../plugins/power/csd-power-manager.c:573
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr ""
@@ -1411,7 +1411,7 @@ msgstr ""
 "электропитанию."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:577
+#: ../plugins/power/csd-power-manager.c:577
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr ""
@@ -1419,13 +1419,13 @@ msgstr ""
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:585
-#: ../plugins/power/gsd-power-manager.c:736
+#: ../plugins/power/csd-power-manager.c:585
+#: ../plugins/power/csd-power-manager.c:736
 msgid "UPS critically low"
 msgstr "Критически низкий заряд ИБП"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:591
+#: ../plugins/power/csd-power-manager.c:591
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -1435,7 +1435,7 @@ msgstr ""
 "электропитание, чтобы избежать потери данных."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:600
+#: ../plugins/power/csd-power-manager.c:600
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
@@ -1445,7 +1445,7 @@ msgstr ""
 "зарядить, то очень скоро оно перестанет работать."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:608
+#: ../plugins/power/csd-power-manager.c:608
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
@@ -1455,7 +1455,7 @@ msgstr ""
 "не зарядить, то очень скоро оно перестанет работать."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:617
+#: ../plugins/power/csd-power-manager.c:617
 #, c-format
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if "
@@ -1465,7 +1465,7 @@ msgstr ""
 "очень скоро оно перестанет работать."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:627
+#: ../plugins/power/csd-power-manager.c:627
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
@@ -1475,7 +1475,7 @@ msgstr ""
 "зарядить, то очень скоро оно перестанет работать."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:636
+#: ../plugins/power/csd-power-manager.c:636
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
@@ -1485,7 +1485,7 @@ msgstr ""
 "зарядить, то очень скоро оно перестанет работать."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:645
+#: ../plugins/power/csd-power-manager.c:645
 #, c-format
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning "
@@ -1495,7 +1495,7 @@ msgstr ""
 "то очень скоро оно перестанет работать."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:654
+#: ../plugins/power/csd-power-manager.c:654
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -1505,7 +1505,7 @@ msgstr ""
 "устройство не зарядить, то очень скоро оно перестанет работать."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:719
+#: ../plugins/power/csd-power-manager.c:719
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
@@ -1514,7 +1514,7 @@ msgstr ""
 "переведёт в спящий режим."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:724
+#: ../plugins/power/csd-power-manager.c:724
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
@@ -1522,7 +1522,7 @@ msgstr ""
 "Заряд батареи упал ниже критического уровня. Данный компьютер будет выключен."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:744
+#: ../plugins/power/csd-power-manager.c:744
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr ""
@@ -1530,49 +1530,49 @@ msgstr ""
 "спящий режим."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:749
+#: ../plugins/power/csd-power-manager.c:749
 msgid "UPS is below the critical level and this computer is about to shutdown."
 msgstr ""
 "Заряд ИБП упал ниже критического уровня. Данный компьютер будет выключен."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1256
+#: ../plugins/power/csd-power-manager.c:1256
 msgid "Lid has been opened"
 msgstr "Крышка открыта"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1294
+#: ../plugins/power/csd-power-manager.c:1294
 msgid "Lid has been closed"
 msgstr "Крышка закрыта"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1845
+#: ../plugins/power/csd-power-manager.c:1845
 msgid "On battery power"
 msgstr "При работе от батареи"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1850
+#: ../plugins/power/csd-power-manager.c:1850
 msgid "On AC power"
 msgstr "При работе от сети"
 
-#: ../plugins/power/gsd-power-manager.c:2038
+#: ../plugins/power/csd-power-manager.c:2038
 msgid "Automatic logout"
 msgstr "Автоматическое завершение сеанса"
 
-#: ../plugins/power/gsd-power-manager.c:2038
+#: ../plugins/power/csd-power-manager.c:2038
 msgid "You will soon log out because of inactivity."
 msgstr "Из-за неактивности скоро будет произведено завершение сеанса."
 
-#: ../plugins/power/gsd-power-manager.c:2043
+#: ../plugins/power/csd-power-manager.c:2043
 msgid "Automatic suspend"
 msgstr "Автоматический режим ожидания"
 
-#: ../plugins/power/gsd-power-manager.c:2043
-#: ../plugins/power/gsd-power-manager.c:2048
+#: ../plugins/power/csd-power-manager.c:2043
+#: ../plugins/power/csd-power-manager.c:2048
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "Компьютер скоро перейдёт в ждущий режим из-за отсутствия активности."
 
-#: ../plugins/power/gsd-power-manager.c:2048
+#: ../plugins/power/csd-power-manager.c:2048
 msgid "Automatic hibernation"
 msgstr "Автоматический спящий режим"
 
@@ -1589,246 +1589,246 @@ msgid "Authentication is required to modify the laptop brightness"
 msgstr "Для изменения настройки яркости требуется аутентификация"
 
 #. Translators: We are configuring new printer
-#: ../plugins/print-notifications/gsd-printer.c:890
+#: ../plugins/print-notifications/csd-printer.c:890
 msgid "Configuring new printer"
 msgstr "Настройка нового принтера"
 
 #. Translators: Just wait
-#: ../plugins/print-notifications/gsd-printer.c:892
+#: ../plugins/print-notifications/csd-printer.c:892
 msgid "Please wait…"
 msgstr "Подождите…"
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:919
+#: ../plugins/print-notifications/csd-printer.c:919
 msgid "Missing printer driver"
 msgstr "Отсутствует драйвер принтера"
 
 #. Translators: We have no driver installed for the device
-#: ../plugins/print-notifications/gsd-printer.c:928
+#: ../plugins/print-notifications/csd-printer.c:928
 #, c-format
 msgid "No printer driver for %s."
 msgstr "Нет драйвера принтера для %s."
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:933
+#: ../plugins/print-notifications/csd-printer.c:933
 msgid "No driver for this printer."
 msgstr "Для этого принтера нет драйвера."
 
-#: ../plugins/print-notifications/gsd-printer.c:1031
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:274
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:752
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:842
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:885
+#: ../plugins/print-notifications/csd-printer.c:1031
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:274
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:752
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:842
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:885
 msgid "Printers"
 msgstr "Принтеры"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:350
 #, c-format
 msgid "Printer “%s” is low on toner."
 msgstr "В принтере «%s» заканчивается тонер."
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:354
 #, c-format
 msgid "Printer “%s” has no toner left."
 msgstr "В принтере «%s» закончился тонер."
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:358
 #, c-format
 msgid "Printer “%s” may not be connected."
 msgstr "Принтер «%s» возможно не подключен."
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:362
 #, c-format
 msgid "The cover is open on printer “%s”."
 msgstr "Крышка принтера «%s» открыта."
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:366
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:366
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
 msgstr "Для принтера «%s» отсутствует фильтр."
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:371
 #, c-format
 msgid "The door is open on printer “%s”."
 msgstr "Дверца принтера «%s» открыта."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:375
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
 msgstr "В принтере «%s» заканчивается цветной картридж."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:379
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
 msgstr "В принтере «%s» закончился цветной картридж."
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:383
 #, c-format
 msgid "Printer “%s” is low on paper."
 msgstr "В принтере «%s» заканчивается бумага."
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer “%s” is out of paper."
 msgstr "В принтере «%s» закончилась бумага."
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer “%s” is currently off-line."
 msgstr "Принтер «%s» сейчас выключен."
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a problem on printer “%s”."
 msgstr "Произошла ошибка принтера «%s»."
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:443
 msgid "Toner low"
 msgstr "Заканчивается тонер"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:445
 msgid "Toner empty"
 msgstr "Тонер закончился"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:447
 msgid "Not connected?"
 msgstr "Не подключён?"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:449
 msgid "Cover open"
 msgstr "Открыта крышка"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:451
 msgid "Printer configuration error"
 msgstr "Ошибка настройки принтера"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:453
 msgid "Door open"
 msgstr "Открыта дверца"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:455
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:455
 msgid "Marker supply low"
 msgstr "Заканчивается цветной картридж"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:457
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:457
 msgid "Out of a marker supply"
 msgstr "Цветной картридж закончился"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:459
 msgid "Paper low"
 msgstr "Заканчивается бумага"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:461
 msgid "Out of paper"
 msgstr "Бумага закончилась"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:463
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:463
 msgid "Printer off-line"
 msgstr "Принтер не подключён"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #. Translators: This is a title of an error notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:828
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:465
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:828
 msgid "Printer error"
 msgstr "Ошибка принтера"
 
 #. Translators: New printer has been added
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:513
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:513
 msgid "Printer added"
 msgstr "Принтер добавлен"
 
 #. Translators: A print job has been stopped
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:530
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:568
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:530
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:568
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "Печать остановлена"
 
 #. Translators: "print-job xy" on a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:532
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:538
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:544
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:550
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:562
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:570
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:578
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:586
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:594
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:607
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:532
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:538
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:544
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:550
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:562
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:570
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:578
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:586
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:594
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:607
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
 msgstr "«%s» на %s"
 
 #. Translators: A print job has been canceled
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:576
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:536
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:576
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "Печать отменена"
 
 #. Translators: A print job has been aborted
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:542
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:584
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:542
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:584
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "Печать прервана"
 
 #. Translators: A print job has been completed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:548
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:592
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:548
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:592
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "Печать завершена"
 
 #. Translators: A job is printing
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:560
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:605
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:560
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:605
 msgctxt "print job state"
 msgid "Printing"
 msgstr "Идёт печать"
 
 #. Translators: This is a title of a report notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:822
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:822
 msgid "Printer report"
 msgstr "Отчёт"
 
 #. Translators: This is a title of a warning notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:825
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:825
 msgid "Printer warning"
 msgstr "Предупреждение принтера"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:835
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:835
 #, c-format
 msgid "Printer “%s”: “%s”."
 msgstr "Принтер «%s»: «%s»."
 
-#: ../plugins/smartcard/gsd-smartcard-service.c:224
+#: ../plugins/smartcard/csd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."
 msgstr "Пользователь не авторизован с помощью смарт-карты."
 
@@ -1857,7 +1857,7 @@ msgstr "Изменить образ OLED для планшета Wacom"
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "Для изменения OLED-изображения планшета Wacom требуется аутентификация"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:968
+#: ../plugins/xrandr/csd-xrandr-manager.c:968
 #, c-format
 msgid "Could not refresh the screen information: %s"
 msgstr "Не удалось обновить информацию об экране: %s"

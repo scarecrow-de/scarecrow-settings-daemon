@@ -51,7 +51,7 @@ gnome_settings_bus_get_session_proxy (void)
         if (session_proxy != NULL) {
                 g_object_ref (session_proxy);
         } else {
-                session_proxy = gsd_session_manager_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
+                session_proxy = csd_session_manager_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
                                                                             G_DBUS_PROXY_FLAGS_NONE,
                                                                             GNOME_SESSION_DBUS_NAME,
                                                                             GNOME_SESSION_DBUS_OBJECT,
@@ -77,7 +77,7 @@ gnome_settings_bus_get_screen_saver_proxy (void)
         if (screen_saver_proxy != NULL) {
                 g_object_ref (screen_saver_proxy);
         } else {
-                screen_saver_proxy = gsd_screen_saver_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
+                screen_saver_proxy = csd_screen_saver_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
                                                                               G_DBUS_PROXY_FLAGS_DO_NOT_LOAD_PROPERTIES |
                                                                               G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START,
                                                                               GNOME_SCREENSAVER_DBUS_NAME,
@@ -104,7 +104,7 @@ gnome_settings_bus_get_shell_proxy (void)
         if (shell_proxy != NULL) {
                 g_object_ref (shell_proxy);
         } else {
-                shell_proxy = gsd_shell_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
+                shell_proxy = csd_shell_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
 								G_DBUS_PROXY_FLAGS_DO_NOT_LOAD_PROPERTIES |
 								G_DBUS_PROXY_FLAGS_DO_NOT_AUTO_START,
 								GNOME_SHELL_DBUS_NAME,

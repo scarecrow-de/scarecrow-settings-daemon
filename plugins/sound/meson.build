@@ -1,5 +1,5 @@
 sources = files(
-  'gsd-sound-manager.c',
+  'csd-sound-manager.c',
   'main.c'
 )
 
@@ -9,12 +9,12 @@ deps = plugins_deps + [
 ]
 
 executable(
-  'gsd-' + plugin_name,
+  'csd-' + plugin_name,
   sources,
   include_directories: [top_inc, common_inc],
   dependencies: deps,
   c_args: cflags,
   install: true,
-  install_rpath: gsd_pkglibdir,
-  install_dir: gsd_libexecdir
+  install_rpath: csd_pkglibdir,
+  install_dir: csd_libexecdir
 )

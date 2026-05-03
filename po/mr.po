@@ -918,15 +918,15 @@ msgstr "प्रवेशीय कळफलक"
 msgid "Accessibility keyboard plugin"
 msgstr "प्रवेशीय कळफलक प्लगइन"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
 msgstr "स्लो किज् सुरू केले"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:399
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:399
 msgid "Slow Keys Turned Off"
 msgstr "स्लो किज् बंद केले"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:400
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:400
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -935,40 +935,40 @@ msgstr ""
 "शार्टकट आहे, "
 "ज्यामुळे कळफलकच्या कार्यपद्धतीवर प्रभाव पडतो."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:410
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:478
 msgid "Universal Access"
 msgstr "जागतिक प्रवेश"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:416
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:484
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:416
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:484
 msgid "Turn Off"
 msgstr "बंद करा"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:416
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:484
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:416
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:484
 msgid "Turn On"
 msgstr "सुरू करा"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:422
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:490
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:422
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:490
 msgid "Leave On"
 msgstr "लिव्ह ऑन"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:422
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:490
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:422
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:490
 msgid "Leave Off"
 msgstr "लिव्ह ऑफ"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:463
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:463
 msgid "Sticky Keys Turned On"
 msgstr "स्टिकी किज् सुरू केले"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:464
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:464
 msgid "Sticky Keys Turned Off"
 msgstr "स्टिकी किज् बंद केले"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:466
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:466
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -977,7 +977,7 @@ msgstr ""
 "शार्टकट आहे, "
 "ज्यामुळे कळफलकच्या कार्यपद्धतीवर प्रभाव पडतो."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -1005,7 +1005,7 @@ msgid "Clipboard plugin"
 msgstr "क्लिपबोर्ड प्लगइन"
 
 #: ../plugins/color/color.scarecrow-settings-plugin.in.h:1
-#: ../plugins/color/gsd-color-calibrate.c:139
+#: ../plugins/color/csd-color-calibrate.c:139
 msgid "Color"
 msgstr "रंग"
 
@@ -1013,40 +1013,40 @@ msgstr "रंग"
 msgid "Color plugin"
 msgstr "रंग प्लगइन"
 
-#: ../plugins/color/gsd-color-calibrate.c:144
+#: ../plugins/color/csd-color-calibrate.c:144
 msgid "Recalibrate now"
 msgstr "आत्ता पुनःकॅलिब्रेट करा"
 
 #. TRANSLATORS: this is when the device has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:187
+#: ../plugins/color/csd-color-calibrate.c:187
 msgid "Recalibration required"
 msgstr "पुनःकॅलिब्रेशन आवश्यक"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:199
+#: ../plugins/color/csd-color-calibrate.c:199
 #, c-format
 msgid "The display '%s' should be recalibrated soon."
 msgstr "डिस्पले '%s' यास पटकन पुनःकॅलिब्रेट करा."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:208
+#: ../plugins/color/csd-color-calibrate.c:208
 #, c-format
 msgid "The printer '%s' should be recalibrated soon."
 msgstr "छपाईयंत्र '%s' यास पटकन कॅलिब्रेट करा."
 
 #. TRANSLATORS: this is the application name
-#: ../plugins/color/gsd-color-calibrate.c:346
-#: ../plugins/color/gsd-color-calibrate.c:362
+#: ../plugins/color/csd-color-calibrate.c:346
+#: ../plugins/color/csd-color-calibrate.c:362
 msgid "GNOME Settings Daemon Color Plugin"
 msgstr "GNOME सेटिंग्स् डिमन रंग प्लगइन"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-calibrate.c:348
+#: ../plugins/color/csd-color-calibrate.c:348
 msgid "Color calibration device added"
 msgstr "रंग कॅलिब्रेशन साधन समाविष्ट केले"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-calibrate.c:364
+#: ../plugins/color/csd-color-calibrate.c:364
 msgid "Color calibration device removed"
 msgstr "रंग कॅलिब्रेशन साधन काढून टाकले"
 
@@ -1072,21 +1072,21 @@ msgstr "वेळक्षेत्र स्व सुधारित करा
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
-#: ../plugins/datetime/gsd-datetime-manager.c:103
+#: ../plugins/datetime/csd-datetime-manager.c:103
 msgid "UTC%:::z"
 msgstr "UTC%:::z"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:107
+#: ../plugins/datetime/csd-datetime-manager.c:107
 #, c-format
 msgid "Time Zone Updated to %s (%s)"
 msgstr "वेळ क्षेत्र %s (%s) करिता सुधारित केले"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:127
+#: ../plugins/datetime/csd-datetime-manager.c:127
 #| msgid "Manage X Settings"
 msgid "Date & Time Settings"
 msgstr "दिनांक & वेळ सेटिंग्ज"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:135
+#: ../plugins/datetime/csd-datetime-manager.c:135
 #| msgid "X Settings"
 msgid "Settings"
 msgstr "सेटिंग्ज"
@@ -1099,12 +1099,12 @@ msgstr "नकल्ल"
 msgid "Dummy plugin"
 msgstr "नकल्ल प्लगइन"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:614
+#: ../plugins/housekeeping/csd-disk-space.c:614
 #, c-format
 msgid "Low Disk Space on \"%s\""
 msgstr "\"%s\" वर डिस्क जागा कमी आहे"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:616
+#: ../plugins/housekeeping/csd-disk-space.c:616
 #, c-format
 msgid ""
 "The volume \"%s\" has only %s disk space remaining.  You may free up some "
@@ -1114,19 +1114,19 @@ msgstr ""
 "जागा "
 "मोकळी करणे शक्य आहे."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:620
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:80
+#: ../plugins/housekeeping/csd-disk-space.c:620
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:80
 #, c-format
 msgid "The volume \"%s\" has only %s disk space remaining."
 msgstr "खंड \"%s\" येथे फक्त %s उर्वरीत डिस्क जागा आढळली."
 
 #. Set up all the window stuff here
-#: ../plugins/housekeeping/gsd-disk-space.c:625
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:204
+#: ../plugins/housekeeping/csd-disk-space.c:625
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:204
 msgid "Low Disk Space"
 msgstr "कमी डिस्क जागा"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:627
+#: ../plugins/housekeeping/csd-disk-space.c:627
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1136,39 +1136,39 @@ msgstr ""
 "मोकळी करणे "
 "शक्य आहे."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:630
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:83
+#: ../plugins/housekeeping/csd-disk-space.c:630
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:83
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "या संगणकावर फक्त %s डिस्क जागा उर्वरीत आहे."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:645
+#: ../plugins/housekeeping/csd-disk-space.c:645
 msgid "Disk space"
 msgstr "डिस्क जागा"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:652
+#: ../plugins/housekeeping/csd-disk-space.c:652
 msgid "Examine"
 msgstr "परीक्षण करा"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:660
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:433
+#: ../plugins/housekeeping/csd-disk-space.c:660
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:433
 msgid "Empty Trash"
 msgstr "कचरापेटी रिकामी करा"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:667
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:448
+#: ../plugins/housekeeping/csd-disk-space.c:667
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:448
 msgid "Ignore"
 msgstr "दुर्लक्ष करा"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:65
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:65
 msgid "Don't show any warnings again for this file system"
 msgstr "या फाइलप्रणालीसाठी कुठलिहि सावधानता दाखवू नका"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:67
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:67
 msgid "Don't show any warnings again"
 msgstr "कुठल्याही सावधानता पुन्हा दाखवू नका"
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:99
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:99
 msgid ""
 "You can free up disk space by emptying the Trash, removing unused programs "
 "or files, or moving files to another disk or partition."
@@ -1177,7 +1177,7 @@ msgstr ""
 "फाइल्स्ला इतर डिस्क "
 "किंवा पार्टिशनवर हलवून तुम्ही डिस्क जागा मोकळी करू शकता."
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:102
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:102
 msgid ""
 "You can free up disk space by removing unused programs or files, or by "
 "moving files to another disk or partition."
@@ -1186,7 +1186,7 @@ msgstr ""
 "पार्टिशनवर हलवून "
 "तुम्ही डिस्क जागा मोकळी करू शकता."
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:107
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:107
 msgid ""
 "You can free up disk space by emptying the Trash, removing unused programs "
 "or files, or moving files to an external disk."
@@ -1195,7 +1195,7 @@ msgstr ""
 "फाइल्स्ला बाहेर "
 "डिस्कवर हलवून तुम्ही डिस्क जागा मोकळी करू शकता."
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:110
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:110
 msgid ""
 "You can free up disk space by removing unused programs or files, or by "
 "moving files to an external disk."
@@ -1204,7 +1204,7 @@ msgstr ""
 "हलवून तुम्ही डिस्क "
 "जागा मोकळी करू शकता."
 
-#: ../plugins/housekeeping/gsd-ldsm-dialog.c:441
+#: ../plugins/housekeeping/csd-ldsm-dialog.c:441
 msgid "Examine…"
 msgstr "विश्लेषण करा..."
 
@@ -1230,24 +1230,24 @@ msgstr "कळफलक"
 msgid "Keyboard plugin"
 msgstr "कळफलक प्लगइन"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:1975
+#: ../plugins/media-keys/csd-media-keys-manager.c:1975
 msgid "Screencast from %d %t.webm"
 msgstr "%d %t.webm पासून स्क्रीनकास्ट"
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:84
+#: ../plugins/media-keys/csd-screenshot-utils.c:84
 #| msgid "Binding to take a screenshot."
 msgid "Unable to capture a screenshot"
 msgstr "स्क्रीनकास्ट घेणे अशक्य"
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:115
-#: ../plugins/media-keys/gsd-screenshot-utils.c:155
+#: ../plugins/media-keys/csd-screenshot-utils.c:115
+#: ../plugins/media-keys/csd-screenshot-utils.c:155
 #| msgid "Screen reader"
 msgid "Screenshot taken"
 msgstr "स्क्रीनशॉट घेतले"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
-#: ../plugins/media-keys/gsd-screenshot-utils.c:304
+#: ../plugins/media-keys/csd-screenshot-utils.c:304
 #, c-format
 msgid "Screenshot from %s"
 msgstr "%s पासून स्क्रीनशॉट"
@@ -1468,192 +1468,192 @@ msgstr[0] "मिनिट"
 msgstr[1] "मिनिटे"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gpm-common.c:857 ../plugins/power/gsd-power-manager.c:666
-#: ../plugins/power/gsd-power-manager.c:766
+#: ../plugins/power/gpm-common.c:857 ../plugins/power/csd-power-manager.c:666
+#: ../plugins/power/csd-power-manager.c:766
 msgid "Battery is critically low"
 msgstr "बॅटरि गंभीररित्या कमी आहे"
 
 #. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:326
+#: ../plugins/power/csd-power-manager.c:326
 msgid "UPS Discharging"
 msgstr "UPS डिस्चार्ज होत आहे"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:331
+#: ../plugins/power/csd-power-manager.c:331
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "UPS बॅकअप पावरचे %s उर्वरित"
 
-#: ../plugins/power/gsd-power-manager.c:334
+#: ../plugins/power/csd-power-manager.c:334
 #| msgid "%s of UPS backup power remaining"
 msgid "Unknown amount of UPS backup power remaining"
 msgstr "UPS बॅकअप पावरचे अपरिचीत प्रमाण उर्वरित आहे"
 
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:350
-#: ../plugins/power/gsd-power-manager.c:498
-#: ../plugins/power/gsd-power-manager.c:649
-#: ../plugins/power/gsd-power-manager.c:757
-#: ../plugins/power/gsd-power-manager.c:1950
+#: ../plugins/power/csd-power-manager.c:350
+#: ../plugins/power/csd-power-manager.c:498
+#: ../plugins/power/csd-power-manager.c:649
+#: ../plugins/power/csd-power-manager.c:757
+#: ../plugins/power/csd-power-manager.c:1950
 #: ../plugins/power/power.scarecrow-settings-plugin.in.h:1
 msgid "Power"
 msgstr "पावर"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:413
+#: ../plugins/power/csd-power-manager.c:413
 msgid "Battery low"
 msgstr "बॅटरि कमी आहे"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:416
+#: ../plugins/power/csd-power-manager.c:416
 msgid "Laptop battery low"
 msgstr "लॅपटॉप बॅटरि कमी करा"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:423
+#: ../plugins/power/csd-power-manager.c:423
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "अंदाजे <b>%s</b> उर्वरित (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:428
+#: ../plugins/power/csd-power-manager.c:428
 msgid "UPS low"
 msgstr "UPS कमी आहे"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:434
+#: ../plugins/power/csd-power-manager.c:434
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "अंदाजे उर्वरित %s वेळ, उर्वरित UPS बॅकअप पावरचे (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:439
-#: ../plugins/power/gsd-power-manager.c:576
+#: ../plugins/power/csd-power-manager.c:439
+#: ../plugins/power/csd-power-manager.c:576
 msgid "Mouse battery low"
 msgstr "माऊसची बॅटरि कमी आहे"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:442
+#: ../plugins/power/csd-power-manager.c:442
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "वायरलेस माऊसचे पावर कमी आहे (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:446
-#: ../plugins/power/gsd-power-manager.c:584
+#: ../plugins/power/csd-power-manager.c:446
+#: ../plugins/power/csd-power-manager.c:584
 msgid "Keyboard battery low"
 msgstr "किबोर्ड बॅटरि कमी आहे"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:449
+#: ../plugins/power/csd-power-manager.c:449
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "वायरलेस किबोर्डची पावर कमी आहे (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:453
-#: ../plugins/power/gsd-power-manager.c:593
+#: ../plugins/power/csd-power-manager.c:453
+#: ../plugins/power/csd-power-manager.c:593
 msgid "PDA battery low"
 msgstr "PDA बॅटरि कमी आहे"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:456
+#: ../plugins/power/csd-power-manager.c:456
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "PDA ची पावर कमी आहे (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:460
-#: ../plugins/power/gsd-power-manager.c:603
-#: ../plugins/power/gsd-power-manager.c:612
+#: ../plugins/power/csd-power-manager.c:460
+#: ../plugins/power/csd-power-manager.c:603
+#: ../plugins/power/csd-power-manager.c:612
 msgid "Cell phone battery low"
 msgstr "सेल फोनची बॅटरि कमी आहे"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:463
+#: ../plugins/power/csd-power-manager.c:463
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "सेल फोनचे पावर कमी आहे (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:467
+#: ../plugins/power/csd-power-manager.c:467
 msgid "Media player battery low"
 msgstr "मिडीया वादकाची बॅटरि कमी आहे"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:470
+#: ../plugins/power/csd-power-manager.c:470
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "मिडीया प्लेयरचे पावर कमी आहे (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:474
-#: ../plugins/power/gsd-power-manager.c:621
+#: ../plugins/power/csd-power-manager.c:474
+#: ../plugins/power/csd-power-manager.c:621
 msgid "Tablet battery low"
 msgstr "टॅबलेट बॅटरि कमी आहे"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:477
+#: ../plugins/power/csd-power-manager.c:477
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "टॅबलेटचे पावर कमी आहे (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:481
-#: ../plugins/power/gsd-power-manager.c:630
+#: ../plugins/power/csd-power-manager.c:481
+#: ../plugins/power/csd-power-manager.c:630
 msgid "Attached computer battery low"
 msgstr "जोडलेल्या संगणकाची बॅटरि कमी आहे"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:484
+#: ../plugins/power/csd-power-manager.c:484
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "जोडलेल्या संगणकाची बॅटरि कमी आहे (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:508
+#: ../plugins/power/csd-power-manager.c:508
 msgid "Battery is low"
 msgstr "बॅटरि कमी आहे"
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: ../plugins/power/gsd-power-manager.c:540
+#: ../plugins/power/csd-power-manager.c:540
 msgid "Battery critically low"
 msgstr "बॅटरि गंभीररित्या कमी आहे"
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:543
-#: ../plugins/power/gsd-power-manager.c:693
+#: ../plugins/power/csd-power-manager.c:543
+#: ../plugins/power/csd-power-manager.c:693
 msgid "Laptop battery critically low"
 msgstr "लॅपटॉप बॅटरि गंभीररित्या कमी आहे"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:552
+#: ../plugins/power/csd-power-manager.c:552
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr "प्लग इन केल्याशिवाय संगणक पटकणच हाइबरनेट होईल."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:556
+#: ../plugins/power/csd-power-manager.c:556
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr "प्लगइ इन केल्याशिवाय संगणक पटकण बंद होईल."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:564
-#: ../plugins/power/gsd-power-manager.c:718
+#: ../plugins/power/csd-power-manager.c:564
+#: ../plugins/power/csd-power-manager.c:718
 msgid "UPS critically low"
 msgstr "UPS गंभीररित्या कमी आहे"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:570
+#: ../plugins/power/csd-power-manager.c:570
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -1664,7 +1664,7 @@ msgstr ""
 "पावर पूर्ववत् करा."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:579
+#: ../plugins/power/csd-power-manager.c:579
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
@@ -1675,7 +1675,7 @@ msgstr ""
 "कार्य करणार नाही."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:587
+#: ../plugins/power/csd-power-manager.c:587
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
@@ -1686,7 +1686,7 @@ msgstr ""
 "कार्य करणार नाही."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:596
+#: ../plugins/power/csd-power-manager.c:596
 #, c-format
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if "
@@ -1697,7 +1697,7 @@ msgstr ""
 "करणार नाही."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:606
+#: ../plugins/power/csd-power-manager.c:606
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
@@ -1708,7 +1708,7 @@ msgstr ""
 "करणार नाही."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:615
+#: ../plugins/power/csd-power-manager.c:615
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
@@ -1719,7 +1719,7 @@ msgstr ""
 "कार्य करणार नाही."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:624
+#: ../plugins/power/csd-power-manager.c:624
 #, c-format
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning "
@@ -1730,7 +1730,7 @@ msgstr ""
 "करणार नाही."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:633
+#: ../plugins/power/csd-power-manager.c:633
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -1741,7 +1741,7 @@ msgstr ""
 "कार्य करणार नाही."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:701
+#: ../plugins/power/csd-power-manager.c:701
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
@@ -1750,7 +1750,7 @@ msgstr ""
 "मार्गावर आहे."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:706
+#: ../plugins/power/csd-power-manager.c:706
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
@@ -1758,7 +1758,7 @@ msgstr ""
 "बॅटरि गंभीर स्तरापेक्षा कमी स्तरावर आढळली व संगणक बंद होण्याच्या मार्गावर आहे."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:726
+#: ../plugins/power/csd-power-manager.c:726
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr ""
@@ -1766,51 +1766,51 @@ msgstr ""
 "आहे."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:731
+#: ../plugins/power/csd-power-manager.c:731
 msgid "UPS is below the critical level and this computer is about to shutdown."
 msgstr ""
 "UPS गंभीर स्तरापेक्षा कमी स्तरावर आढळले व संगणक बंद होण्याच्या मार्गावर आहे."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1150
+#: ../plugins/power/csd-power-manager.c:1150
 msgid "Lid has been opened"
 msgstr "झाकन उघडले"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1188
+#: ../plugins/power/csd-power-manager.c:1188
 msgid "Lid has been closed"
 msgstr "झाकन बंद झाले आहे"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1749
+#: ../plugins/power/csd-power-manager.c:1749
 #| msgid "PDA battery low"
 msgid "On battery power"
 msgstr "बॅटरि पावरवरील"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1754
+#: ../plugins/power/csd-power-manager.c:1754
 msgid "On AC power"
 msgstr "AC पावरवरील"
 
-#: ../plugins/power/gsd-power-manager.c:1928
+#: ../plugins/power/csd-power-manager.c:1928
 msgid "Automatic logout"
 msgstr "स्व बाहेर पडा"
 
-#: ../plugins/power/gsd-power-manager.c:1928
+#: ../plugins/power/csd-power-manager.c:1928
 msgid "You will soon log out because of inactivity."
 msgstr "निष्क्रीयतामुळे तुम्ही पटकण बाहेर पडाल."
 
-#: ../plugins/power/gsd-power-manager.c:1933
+#: ../plugins/power/csd-power-manager.c:1933
 msgid "Automatic suspend"
 msgstr "स्व स्थगित करा"
 
-#: ../plugins/power/gsd-power-manager.c:1933
-#: ../plugins/power/gsd-power-manager.c:1938
+#: ../plugins/power/csd-power-manager.c:1933
+#: ../plugins/power/csd-power-manager.c:1938
 #| msgid "Computer will suspend very soon unless it is plugged in."
 msgid "Computer will suspend very soon because of inactivity."
 msgstr "निष्क्रीयतामुळे संगणक पटकण सस्पेंड होईल."
 
-#: ../plugins/power/gsd-power-manager.c:1938
+#: ../plugins/power/csd-power-manager.c:1938
 msgid "Automatic hibernation"
 msgstr "स्व हाइबरनेशन"
 
@@ -1831,246 +1831,246 @@ msgid "Power plugin"
 msgstr "पावर प्लगइन"
 
 #. Translators: We are configuring new printer
-#: ../plugins/print-notifications/gsd-printer.c:890
+#: ../plugins/print-notifications/csd-printer.c:890
 msgid "Configuring new printer"
 msgstr "नविन छपाईयंत्र संरचीत करा"
 
 #. Translators: Just wait
-#: ../plugins/print-notifications/gsd-printer.c:892
+#: ../plugins/print-notifications/csd-printer.c:892
 msgid "Please wait..."
 msgstr "कृपया थांबा..."
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:919
+#: ../plugins/print-notifications/csd-printer.c:919
 msgid "Missing printer driver"
 msgstr "छपाईयंत्र ड्राइव्हर आढळले नाही"
 
 #. Translators: We have no driver installed for the device
-#: ../plugins/print-notifications/gsd-printer.c:928
+#: ../plugins/print-notifications/csd-printer.c:928
 #, c-format
 msgid "No printer driver for %s."
 msgstr "%s करीता छपाईयंत्र ड्राइव्हर आढळले नाही."
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:933
+#: ../plugins/print-notifications/csd-printer.c:933
 msgid "No driver for this printer."
 msgstr "या छपाईयंत्रकरीता ड्राइव्हर नाही."
 
-#: ../plugins/print-notifications/gsd-printer.c:1031
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:264
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:704
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:794
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:837
+#: ../plugins/print-notifications/csd-printer.c:1031
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:264
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:704
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:794
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:837
 msgid "Printers"
 msgstr "छपाईयंत्रे"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:361
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:361
 msgid "Toner low"
 msgstr "टोनर कमी आहे"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:363
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:363
 msgid "Toner empty"
 msgstr "टोनर रिकामे आहे"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:365
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:365
 msgid "Not connected?"
 msgstr "जोडणी अशक्य?"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:367
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:367
 msgid "Cover open"
 msgstr "कवर उघडे आहे"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:369
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:369
 msgid "Printer configuration error"
 msgstr "छपाईंयत्र संरचना त्रुटी"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:371
 msgid "Door open"
 msgstr "दार उघडा"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:373
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:373
 msgid "Marker supply low"
 msgstr "मार्कर पुरवठा कमी आहे"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:375
 msgid "Out of a marker supply"
 msgstr "मार्कर पुरवठा कमी आहे"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:377
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:377
 msgid "Paper low"
 msgstr "पेपर कमी आहे"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:379
 msgid "Out of paper"
 msgstr "पेपर कमी आहे"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:381
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:381
 msgid "Printer off-line"
 msgstr "छपाईयंत्र ऑफलाइन आहे"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #. Translators: This is a title of an error notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:780
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:383
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:780
 msgid "Printer error"
 msgstr "छपाईयंत्र त्रुटी"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:387
 #, c-format
 msgid "Printer '%s' is low on toner."
 msgstr "छपाईयंत्र '%s' चा टोनर कमी आहे."
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:389
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:389
 #, c-format
 msgid "Printer '%s' has no toner left."
 msgstr "छपाईयंत्र '%s' चे टोनर आढळले नाही."
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer '%s' may not be connected."
 msgstr "छपाईयंत्र '%s' सह जोडणी कदाचित अशक्य."
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:393
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:393
 #, c-format
 msgid "The cover is open on printer '%s'."
 msgstr "छपाईयंत्र '%s' वरील कवर उघडे आहे."
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:395
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:395
 #, c-format
 msgid "There is a missing print filter for printer '%s'."
 msgstr "छपाईयंत्र '%s' करीता प्रिंट फिल्टर आढळले नाही."
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:398
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:398
 #, c-format
 msgid "The door is open on printer '%s'."
 msgstr "छपाईयंत्र '%s' वरील दार उघडे आहे."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:400
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:400
 #, c-format
 msgid "Printer '%s' is low on a marker supply."
 msgstr "छपाईयंत्र '%s' करीता मार्कर पुरवठा कमी आहे."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:402
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:402
 #, c-format
 msgid "Printer '%s' is out of a marker supply."
 msgstr "छपाईयंत्र '%s' मध्ये मार्कर पुरवठा आढळले नाही."
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:404
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:404
 #, c-format
 msgid "Printer '%s' is low on paper."
 msgstr "छपाईयंत्र '%s' मध्ये पेपर कमी आहे."
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:406
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:406
 #, c-format
 msgid "Printer '%s' is out of paper."
 msgstr "छपाईयंत्र '%s' मध्ये पेपर कमी आहे."
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:408
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:408
 #, c-format
 msgid "Printer '%s' is currently off-line."
 msgstr "छपाईयंत्र '%s' सध्या ऑफलाइन आहे."
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:410
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:410
 #, c-format
 msgid "There is a problem on printer '%s'."
 msgstr "छपाईयंत्र '%s' वर अडचण आढळली."
 
 #. Translators: New printer has been added
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:457
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:457
 msgid "Printer added"
 msgstr "छपाईयंत्र समाविष्ट केले"
 
 #. Translators: A printer has been removed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:465
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:465
 msgid "Printer removed"
 msgstr "छपाईयंत्र काढून टाकले"
 
 #. Translators: A print job has been stopped
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:482
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:520
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:482
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:520
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "छपाई थांबवले"
 
 #. Translators: "print-job xy" on a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:484
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:490
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:496
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:502
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:514
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:522
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:530
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:538
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:546
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:559
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:484
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:490
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:496
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:502
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:514
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:522
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:530
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:538
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:546
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:559
 #, c-format
 msgctxt "print job"
 msgid "\"%s\" on %s"
 msgstr "\"%s\", %s वरील"
 
 #. Translators: A print job has been canceled
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:488
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:528
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:488
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:528
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "छपाई रद्द केली"
 
 #. Translators: A print job has been aborted
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:494
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:536
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:494
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:536
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "छपाई रद्द केली"
 
 #. Translators: A print job has been completed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:500
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:544
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:500
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:544
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "छपाई पूर्ण झाली"
 
 #. Translators: A job is printing
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:512
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:557
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:512
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:557
 msgctxt "print job state"
 msgid "Printing"
 msgstr "छपाई"
 
 #. Translators: This is a title of a report notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:774
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:774
 msgid "Printer report"
 msgstr "छपाईयंत्र रिपोर्ट"
 
 #. Translators: This is a title of a warning notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:777
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:777
 msgid "Printer warning"
 msgstr "छपाईयंत्र सावधानता"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:787
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:787
 #, c-format
 msgid "Printer '%s': '%s'."
 msgstr "छपाईयंत्र '%s': '%s'."
@@ -2103,7 +2103,7 @@ msgstr "स्क्रीनसेवर प्रॉक्सी"
 msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
 msgstr "gnome-session करिता प्रॉक्सी FreeDesktop स्क्रीनसेवर इंहिबिशन"
 
-#: ../plugins/smartcard/gsd-smartcard-service.c:222
+#: ../plugins/smartcard/csd-smartcard-service.c:222
 msgid "User was not logged in with smartcard."
 msgstr "स्मार्टकार्डसह वापरकर्ता प्रवेश करू शकला नाही."
 
@@ -2124,204 +2124,204 @@ msgstr "आवाज"
 msgid "Sound Sample Cache plugin"
 msgstr "साउंड सॅम्पल कॅशे प्लगइन"
 
-#: ../plugins/wacom/gsd-wacom-button-editor.c:51
+#: ../plugins/wacom/csd-wacom-button-editor.c:51
 msgctxt "Wacom action-type"
 msgid "None"
 msgstr "काहिही नाही"
 
-#: ../plugins/wacom/gsd-wacom-button-editor.c:52
+#: ../plugins/wacom/csd-wacom-button-editor.c:52
 msgctxt "Wacom action-type"
 msgid "Send Keystroke"
 msgstr "किस्ट्रोक पाठवा"
 
-#: ../plugins/wacom/gsd-wacom-button-editor.c:53
+#: ../plugins/wacom/csd-wacom-button-editor.c:53
 #| msgid "Switch input source"
 msgctxt "Wacom action-type"
 msgid "Switch Monitor"
 msgstr "मॉनिटर स्विच करा"
 
-#: ../plugins/wacom/gsd-wacom-button-editor.c:54
+#: ../plugins/wacom/csd-wacom-button-editor.c:54
 msgctxt "Wacom action-type"
 msgid "Show On-Screen Help"
 msgstr "ऑन-स्क्रीन मदत दाखवा"
 
-#: ../plugins/wacom/gsd-wacom-button-editor.c:154
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1096
+#: ../plugins/wacom/csd-wacom-button-editor.c:154
+#: ../plugins/wacom/csd-wacom-osd-window.c:1096
 msgctxt "Action type"
 msgid "Show On-Screen Help"
 msgstr "ऑन-स्क्रीन मदत दाखवा"
 
-#: ../plugins/wacom/gsd-wacom-button-editor.c:157
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1099
+#: ../plugins/wacom/csd-wacom-button-editor.c:157
+#: ../plugins/wacom/csd-wacom-osd-window.c:1099
 #| msgid "Switch input source"
 msgctxt "Action type"
 msgid "Switch Monitor"
 msgstr "मॉनिटर स्विच करा"
 
-#: ../plugins/wacom/gsd-wacom-button-editor.c:201
+#: ../plugins/wacom/csd-wacom-button-editor.c:201
 msgctxt "keyboard shortcut"
 msgid "None"
 msgstr "काहिही नाही"
 
-#: ../plugins/wacom/gsd-wacom-button-editor.c:487
+#: ../plugins/wacom/csd-wacom-button-editor.c:487
 msgid "Done"
 msgstr "पूर्ण झाले"
 
 #. If no mode is available, we use "left-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1063
+#: ../plugins/wacom/csd-wacom-device.c:1063
 #| msgid "Left Ring Mode #%d"
 msgid "Left Ring"
 msgstr "डावे रिंग"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1074
+#: ../plugins/wacom/csd-wacom-device.c:1074
 #, c-format
 msgid "Left Ring Mode #%d"
 msgstr "डावे रिंग मोड #%d"
 
 #. If no mode is available, we use "right-ring-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1094
+#: ../plugins/wacom/csd-wacom-device.c:1094
 #| msgid "Right Ring Mode #%d"
 msgid "Right Ring"
 msgstr "उजवे रिंग"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1105
+#: ../plugins/wacom/csd-wacom-device.c:1105
 #, c-format
 msgid "Right Ring Mode #%d"
 msgstr "उजवे रिंग मोड #%d"
 
 #. If no mode is available, we use "left-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1147
+#: ../plugins/wacom/csd-wacom-device.c:1147
 #| msgid "Left Touchstrip Mode #%d"
 msgid "Left Touchstrip"
 msgstr "डावे टचस्ट्रिप"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1158
+#: ../plugins/wacom/csd-wacom-device.c:1158
 #, c-format
 msgid "Left Touchstrip Mode #%d"
 msgstr "डावे टचस्ट्रिप मोड #%d"
 
 #. If no mode is available, we use "right-strip-mode-1" for backward compat
-#: ../plugins/wacom/gsd-wacom-device.c:1178
+#: ../plugins/wacom/csd-wacom-device.c:1178
 #| msgid "Right Touchstrip Mode #%d"
 msgid "Right Touchstrip"
 msgstr "ऊजवे टचस्ट्रिप"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1189
+#: ../plugins/wacom/csd-wacom-device.c:1189
 #, c-format
 msgid "Right Touchstrip Mode #%d"
 msgstr "ऊजवे टचस्ट्रिप मोड #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1215
+#: ../plugins/wacom/csd-wacom-device.c:1215
 #, c-format
 msgid "Left Touchring Mode Switch"
 msgstr "डावे टचरिंग मोड स्विच्"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1217
+#: ../plugins/wacom/csd-wacom-device.c:1217
 #, c-format
 msgid "Right Touchring Mode Switch"
 msgstr "ऊजवे टचरिंग मोड स्विच्"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1220
+#: ../plugins/wacom/csd-wacom-device.c:1220
 #, c-format
 msgid "Left Touchstrip Mode Switch"
 msgstr "डावे टचस्ट्रिप मोड स्विच्"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1222
+#: ../plugins/wacom/csd-wacom-device.c:1222
 #, c-format
 msgid "Right Touchstrip Mode Switch"
 msgstr "ऊजवे टचस्ट्रिप मोड स्विच्"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1227
+#: ../plugins/wacom/csd-wacom-device.c:1227
 #, c-format
 msgid "Mode Switch #%d"
 msgstr "मोड स्विच् #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1335
+#: ../plugins/wacom/csd-wacom-device.c:1335
 #, c-format
 msgid "Left Button #%d"
 msgstr "डावे बटन #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1338
+#: ../plugins/wacom/csd-wacom-device.c:1338
 #, c-format
 msgid "Right Button #%d"
 msgstr "ऊजवे बटन #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1341
+#: ../plugins/wacom/csd-wacom-device.c:1341
 #, c-format
 msgid "Top Button #%d"
 msgstr "शीर्ष बटन #%d"
 
-#: ../plugins/wacom/gsd-wacom-device.c:1344
+#: ../plugins/wacom/csd-wacom-device.c:1344
 #, c-format
 msgid "Bottom Button #%d"
 msgstr "तळ बटन #%d"
 
-#: ../plugins/wacom/gsd-wacom-key-shortcut-button.c:263
+#: ../plugins/wacom/csd-wacom-key-shortcut-button.c:263
 msgid "New shortcut…"
 msgstr "नवीन शार्टकट…"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1014
+#: ../plugins/wacom/csd-wacom-manager.c:1014
 #, c-format
 msgid "The \"%s\" tablet may not work as expected."
 msgstr "\"%s\" टॅबलेट कदाचित अपेक्षाप्रमाणे कार्य करणार नाही."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1015
+#: ../plugins/wacom/csd-wacom-manager.c:1015
 msgid "Unknown Tablet Connected"
 msgstr "अपरिचीत टॅबलेट जोडले"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1019
-#: ../plugins/wacom/gsd-wacom-manager.c:1644
+#: ../plugins/wacom/csd-wacom-manager.c:1019
+#: ../plugins/wacom/csd-wacom-manager.c:1644
 #| msgid "X Settings"
 msgid "Wacom Settings"
 msgstr "वॅकॉम सेटिंग्ज"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1638
+#: ../plugins/wacom/csd-wacom-manager.c:1638
 #, c-format
 #| msgid "The printer '%s' should be recalibrated soon."
 msgid "Tablet %s needs to be calibrated."
 msgstr "टॅबलेट %s ला कॅलिब्रेट करा."
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1640
+#: ../plugins/wacom/csd-wacom-manager.c:1640
 #| msgid "Color calibration device added"
 msgid "Calibration needed"
 msgstr "कॅलिब्रेशन आवश्यक"
 
-#: ../plugins/wacom/gsd-wacom-manager.c:1653
+#: ../plugins/wacom/csd-wacom-manager.c:1653
 #| msgid "Recalibrate now"
 msgid "Calibrate"
 msgstr "कॅलिब्रेट करा"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1073
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1093
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1104
+#: ../plugins/wacom/csd-wacom-osd-window.c:1073
+#: ../plugins/wacom/csd-wacom-osd-window.c:1093
+#: ../plugins/wacom/csd-wacom-osd-window.c:1104
 msgctxt "Action type"
 msgid "None"
 msgstr "काहिही नाही"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1078
+#: ../plugins/wacom/csd-wacom-osd-window.c:1078
 #, c-format
 msgctxt "Action type"
 msgid "Send Keystroke %s"
 msgstr "किस्ट्रोक %s पाठवा"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1137
+#: ../plugins/wacom/csd-wacom-osd-window.c:1137
 #, c-format
 msgid "Mode %d: %s"
 msgstr "मोड %d: %s"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1347
+#: ../plugins/wacom/csd-wacom-osd-window.c:1347
 msgid "(press any key to exit)"
 msgstr "(बाहेर पडण्याकरिता कोणतिही कि दाबा)"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1356
+#: ../plugins/wacom/csd-wacom-osd-window.c:1356
 msgid "Push a button to configure"
 msgstr "संरचनाकरिता बटन दाबा"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1356
+#: ../plugins/wacom/csd-wacom-osd-window.c:1356
 msgid "(Esc to cancel)"
 msgstr "(रद्द करण्यासाठी Esc दाबा)"
 
-#: ../plugins/wacom/gsd-wacom-osd-window.c:1983
+#: ../plugins/wacom/csd-wacom-osd-window.c:1983
 msgid "Edit"
 msgstr "संपादित करा"
 
@@ -2360,7 +2360,7 @@ msgstr "वॅकॉम"
 msgid "Wacom plugin"
 msgstr "वॅकॉम प्लगइन"
 
-#: ../plugins/xrandr/gsd-xrandr-manager.c:958
+#: ../plugins/xrandr/csd-xrandr-manager.c:958
 #, c-format
 msgid "Could not refresh the screen information: %s"
 msgstr "पडदा माहिती पुन्ह दाखल करण्यास अशक्य: %s"

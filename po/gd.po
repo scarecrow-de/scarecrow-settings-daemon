@@ -987,15 +987,15 @@ msgid ""
 "(red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:398
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:398
 msgid "Slow Keys Turned On"
 msgstr "Tha na h-iuchraichean slaodach air"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:399
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:399
 msgid "Slow Keys Turned Off"
 msgstr "Tha na h-iuchraichean slaodach dheth"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:400
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:400
 msgid ""
 "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 "the Slow Keys feature, which affects the way your keyboard works."
@@ -1004,40 +1004,40 @@ msgstr ""
 "nan iuchraichean slaodach agus tha buaidh aige air an dòigh air a "
 "dh’obraicheas am meur-chlàr agad."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:410
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:478
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:410
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:478
 msgid "Universal Access"
 msgstr "Inntrigeadh uile-choitcheann"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:416
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:484
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:416
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:484
 msgid "Turn Off"
 msgstr "Cuir dheth"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:416
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:484
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:416
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:484
 msgid "Turn On"
 msgstr "Cuir air"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:422
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:490
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:422
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:490
 msgid "Leave On"
 msgstr "Fàg air"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:422
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:490
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:422
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:490
 msgid "Leave Off"
 msgstr "Fàg dheth"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:463
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:463
 msgid "Sticky Keys Turned On"
 msgstr "Tha na h-iuchraichean steigeach air"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:464
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:464
 msgid "Sticky Keys Turned Off"
 msgstr "Tha na h-iuchraichean steigeach dheth"
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:466
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:466
 msgid ""
 "You just pressed the Shift key 5 times in a row.  This is the shortcut for "
 "the Sticky Keys feature, which affects the way your keyboard works."
@@ -1046,7 +1046,7 @@ msgstr ""
 "airson gleus nan iuchraichean steigeach agus tha buaidh aige air an dòigh "
 "air a dh’obraicheas am meur-chlàr agad."
 
-#: ../plugins/a11y-keyboard/gsd-a11y-keyboard-manager.c:468
+#: ../plugins/a11y-keyboard/csd-a11y-keyboard-manager.c:468
 msgid ""
 "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -1056,22 +1056,22 @@ msgstr ""
 "an dèidh a chèile. Cuiridh seo dheth gleus nan iuchraichean steigeach agus "
 "tha buaidh aige air an dòigh air a dh’obraicheas am meur-chlàr agad."
 
-#: ../plugins/color/gsd-color-calibrate.c:139
+#: ../plugins/color/csd-color-calibrate.c:139
 msgid "Color"
 msgstr "Dath"
 
 #. TRANSLATORS: button: this is to open GCM
-#: ../plugins/color/gsd-color-calibrate.c:144
+#: ../plugins/color/csd-color-calibrate.c:144
 msgid "Recalibrate now"
 msgstr "Cailbhrich às ùr an-dràsta"
 
 #. TRANSLATORS: this is when the device has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:187
+#: ../plugins/color/csd-color-calibrate.c:187
 msgid "Recalibration required"
 msgstr "Tha ath-chailbhreachadh a dhìth"
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:199
+#: ../plugins/color/csd-color-calibrate.c:199
 #, c-format
 #| msgid "The display '%s' should be recalibrated soon."
 msgid "The display “%s” should be recalibrated soon."
@@ -1080,7 +1080,7 @@ msgstr ""
 "dh’aithghearr."
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
-#: ../plugins/color/gsd-color-calibrate.c:208
+#: ../plugins/color/csd-color-calibrate.c:208
 #, c-format
 #| msgid "The printer '%s' should be recalibrated soon."
 msgid "The printer “%s” should be recalibrated soon."
@@ -1088,62 +1088,62 @@ msgstr ""
 "Bu chòir dhut an clò-bhualadair “%s” ath-chailbhreachadh a dh’aithghearr."
 
 #. TRANSLATORS: this is the application name
-#: ../plugins/color/gsd-color-calibrate.c:346
-#: ../plugins/color/gsd-color-calibrate.c:362
+#: ../plugins/color/csd-color-calibrate.c:346
+#: ../plugins/color/csd-color-calibrate.c:362
 msgid "GNOME Settings Daemon Color Plugin"
 msgstr "Plugain nan dath airson daemon nan roghainnean GNOME"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-calibrate.c:348
+#: ../plugins/color/csd-color-calibrate.c:348
 msgid "Color calibration device added"
 msgstr "Chaidh uidheam airson cailbhreachadh nan dath a chur ris"
 
 #. TRANSLATORS: this is a sound description
-#: ../plugins/color/gsd-color-calibrate.c:364
+#: ../plugins/color/csd-color-calibrate.c:364
 msgid "Color calibration device removed"
 msgstr "Chaidh uidheam airson cailbhreachadh nan dath a thoirt air falbh"
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
-#: ../plugins/datetime/gsd-datetime-manager.c:88
+#: ../plugins/datetime/csd-datetime-manager.c:88
 msgid "UTC%:::z"
 msgstr "UTC%:::z"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:92
+#: ../plugins/datetime/csd-datetime-manager.c:92
 #, c-format
 msgid "Time Zone Updated to %s (%s)"
 msgstr "Chaidh an roinn-tìde ùrachadh gu %s (%s)"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:108
+#: ../plugins/datetime/csd-datetime-manager.c:108
 msgid "Settings"
 msgstr "Roghainnean"
 
-#: ../plugins/datetime/gsd-datetime-manager.c:118
+#: ../plugins/datetime/csd-datetime-manager.c:118
 msgid "Date & Time Settings"
 msgstr "Roghainnean a’ chinn-là ⁊ an ama"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:574
+#: ../plugins/housekeeping/csd-disk-space.c:574
 msgid "Disk space"
 msgstr "Rum air an diosg"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:586
+#: ../plugins/housekeeping/csd-disk-space.c:586
 msgid "Examine"
 msgstr "Sgrùd"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:597
+#: ../plugins/housekeeping/csd-disk-space.c:597
 msgid "Empty Trash"
 msgstr "Falamhaich an sgudal"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:605
+#: ../plugins/housekeeping/csd-disk-space.c:605
 msgid "Ignore"
 msgstr "Leig seachad"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:636
+#: ../plugins/housekeeping/csd-disk-space.c:636
 #, c-format
 msgid "Low Disk Space on “%s”"
 msgstr "Tha an rum gu bhith ruith air an diosga “%s”"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:638
+#: ../plugins/housekeeping/csd-disk-space.c:638
 #, c-format
 msgid ""
 "The volume “%s” has only %s disk space remaining.  You may free up some "
@@ -1152,16 +1152,16 @@ msgstr ""
 "Air an draibh “%s”, chan eil ach %s a rum air fhàgail. Dh’fhaoidte gum faigh "
 "thu barrachd rum a dh’fhalamhaicheas tu an sgudal."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:642
+#: ../plugins/housekeeping/csd-disk-space.c:642
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
 msgstr "Air an draibh “%s”, chan eil ach %s a rum air fhàgail."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:647
+#: ../plugins/housekeeping/csd-disk-space.c:647
 msgid "Low Disk Space"
 msgstr "Rum air an diosg a dhìth"
 
-#: ../plugins/housekeeping/gsd-disk-space.c:649
+#: ../plugins/housekeeping/csd-disk-space.c:649
 #, c-format
 msgid ""
 "This computer has only %s disk space remaining.  You may free up some space "
@@ -1170,51 +1170,51 @@ msgstr ""
 "Chan eil ach %s a rum air fhàgail air a’ choimpiutair agad. Dh’fhaoidte gum "
 "faigh thu barrachd rum a dh’fhalamhaicheas tu an sgudal."
 
-#: ../plugins/housekeeping/gsd-disk-space.c:652
+#: ../plugins/housekeeping/csd-disk-space.c:652
 #, c-format
 msgid "This computer has only %s disk space remaining."
 msgstr "Chan eil ach %s a rum air fhàgail air a’ choimpiutair agad."
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2172
+#: ../plugins/media-keys/csd-media-keys-manager.c:2172
 msgid "Bluetooth disabled"
 msgstr "Tha Bluetooth à comas"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2175
+#: ../plugins/media-keys/csd-media-keys-manager.c:2175
 msgid "Bluetooth enabled"
 msgstr "Tha Bluetooth an comas"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2179
+#: ../plugins/media-keys/csd-media-keys-manager.c:2179
 msgid "Airplane mode enabled"
 msgstr "Tha am modh itealain an comas"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2182
+#: ../plugins/media-keys/csd-media-keys-manager.c:2182
 msgid "Airplane mode disabled"
 msgstr "Tha am modh itealain à comas"
 
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2210
+#: ../plugins/media-keys/csd-media-keys-manager.c:2210
 msgid "Hardware Airplane Mode"
 msgstr "Modh itealain a’ bhathair-chruaidh"
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
 #. * "Screencast from 07-17-2013 10:00:46 PM.webm"
-#: ../plugins/media-keys/gsd-media-keys-manager.c:2270
+#: ../plugins/media-keys/csd-media-keys-manager.c:2270
 #, no-c-format
 msgid "Screencast from %d %t.webm"
 msgstr "Craoladh-sgrìn o %d %t.webm"
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:82
+#: ../plugins/media-keys/csd-screenshot-utils.c:82
 msgid "Unable to capture a screenshot"
 msgstr "Chan urrainn dhuinn glacadh-sgrìn a dhèanamh"
 
-#: ../plugins/media-keys/gsd-screenshot-utils.c:113
-#: ../plugins/media-keys/gsd-screenshot-utils.c:155
+#: ../plugins/media-keys/csd-screenshot-utils.c:113
+#: ../plugins/media-keys/csd-screenshot-utils.c:155
 msgid "Screenshot taken"
 msgstr "Chaidh an glacadh-sgrìn a thogail"
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
-#: ../plugins/media-keys/gsd-screenshot-utils.c:306
+#: ../plugins/media-keys/csd-screenshot-utils.c:306
 #, c-format
 msgid "Screenshot from %s"
 msgstr "Glacadh-sgrìn o %s"
@@ -1416,167 +1416,167 @@ msgstr[2] "mionaidean"
 msgstr[3] "mionaid"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gpm-common.c:948 ../plugins/power/gsd-power-manager.c:686
-#: ../plugins/power/gsd-power-manager.c:783
+#: ../plugins/power/gpm-common.c:948 ../plugins/power/csd-power-manager.c:686
+#: ../plugins/power/csd-power-manager.c:783
 msgid "Battery is critically low"
 msgstr "Tha an teairrds gu bhith ruith air a’ bhataraidh gu èiginneach"
 
 #. TRANSLATORS: this is the notification application name
-#: ../plugins/power/gsd-power-manager.c:324
+#: ../plugins/power/csd-power-manager.c:324
 msgid "Power"
 msgstr "Cumhachd"
 
 #. TRANSLATORS: UPS is now discharging
-#: ../plugins/power/gsd-power-manager.c:356
+#: ../plugins/power/csd-power-manager.c:356
 msgid "UPS Discharging"
 msgstr "Tha an UPS a’ dì-theairrdseadh"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:361
+#: ../plugins/power/csd-power-manager.c:361
 #, c-format
 msgid "%s of UPS backup power remaining"
 msgstr "Tha %s dhen chumhachd èiginneach san UPS air fhàgail"
 
-#: ../plugins/power/gsd-power-manager.c:364
+#: ../plugins/power/csd-power-manager.c:364
 msgid "Unknown amount of UPS backup power remaining"
 msgstr "Chan eil fios cò mheud cumhachd a tha air fhàgail san UPS"
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
-#: ../plugins/power/gsd-power-manager.c:439
+#: ../plugins/power/csd-power-manager.c:439
 msgid "Battery low"
 msgstr "Tha an teairrds a’ ruith air a’ bhataraidh"
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
-#: ../plugins/power/gsd-power-manager.c:442
+#: ../plugins/power/csd-power-manager.c:442
 msgid "Laptop battery low"
 msgstr "Tha an teairrds a’ ruith air bataraidh a’ laptop"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:449
+#: ../plugins/power/csd-power-manager.c:449
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
 msgstr "Tha mu %s air fhàgail (%.0f%%)"
 
 #. TRANSLATORS: UPS is starting to get a little low
-#: ../plugins/power/gsd-power-manager.c:454
+#: ../plugins/power/csd-power-manager.c:454
 msgid "UPS low"
 msgstr "Tha a’ chumhachd a’ ruith air a’ UPS"
 
 #. TRANSLATORS: tell the user how much time they have got
-#: ../plugins/power/gsd-power-manager.c:460
+#: ../plugins/power/csd-power-manager.c:460
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
 msgstr "Tha mu %s dhen chumhachd èiginneach san UPS air fhàgail (%.0f%%)"
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
-#: ../plugins/power/gsd-power-manager.c:465
-#: ../plugins/power/gsd-power-manager.c:599
+#: ../plugins/power/csd-power-manager.c:465
+#: ../plugins/power/csd-power-manager.c:599
 msgid "Mouse battery low"
 msgstr "Tha an teairrds a’ air bataraidh na luchaige"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:468
+#: ../plugins/power/csd-power-manager.c:468
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
 msgstr "Tha a’ chumhachd a’ ruith air an luchag uèirleas (%.0f%%)"
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
-#: ../plugins/power/gsd-power-manager.c:472
-#: ../plugins/power/gsd-power-manager.c:607
+#: ../plugins/power/csd-power-manager.c:472
+#: ../plugins/power/csd-power-manager.c:607
 msgid "Keyboard battery low"
 msgstr "Tha an teairrds a’ ruith air bataraidh a’ mheur-chlàir"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:475
+#: ../plugins/power/csd-power-manager.c:475
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
 msgstr "Tha a’ chumhachd a’ ruith air a’ mheur-chlàr uèirleas (%.0f%%)"
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
-#: ../plugins/power/gsd-power-manager.c:479
-#: ../plugins/power/gsd-power-manager.c:616
+#: ../plugins/power/csd-power-manager.c:479
+#: ../plugins/power/csd-power-manager.c:616
 msgid "PDA battery low"
 msgstr "Tha an teairrds a’ ruith air bataraidh a’ PDA"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:482
+#: ../plugins/power/csd-power-manager.c:482
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
 msgstr "Tha a’ chumhachd a’ ruith air ’ PDA (%.0f%%)"
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:486
-#: ../plugins/power/gsd-power-manager.c:626
-#: ../plugins/power/gsd-power-manager.c:635
+#: ../plugins/power/csd-power-manager.c:486
+#: ../plugins/power/csd-power-manager.c:626
+#: ../plugins/power/csd-power-manager.c:635
 msgid "Cell phone battery low"
 msgstr "Tha an teairrds a’ ruith air bataraidh an fhòn-làimhe"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:489
+#: ../plugins/power/csd-power-manager.c:489
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
 msgstr "Tha a’ chumhachd a’ ruith air an fhòn-làimhe (%.0f%%)"
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
-#: ../plugins/power/gsd-power-manager.c:493
+#: ../plugins/power/csd-power-manager.c:493
 msgid "Media player battery low"
 msgstr "Tha an teairrds a’ ruith air bataraidh a’ chluicheadair mheadhanan"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:496
+#: ../plugins/power/csd-power-manager.c:496
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
 msgstr "Tha a’ chumhachd a’ ruith air a’ chluicheadair mheadhanan (%.0f%%)"
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:500
-#: ../plugins/power/gsd-power-manager.c:644
+#: ../plugins/power/csd-power-manager.c:500
+#: ../plugins/power/csd-power-manager.c:644
 msgid "Tablet battery low"
 msgstr "Tha an teairrds a’ ruith air bataraidh na tablaid"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:503
+#: ../plugins/power/csd-power-manager.c:503
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
 msgstr "Tha a’ chumhachd a’ ruith air an tablaid (%.0f%%)"
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
-#: ../plugins/power/gsd-power-manager.c:507
-#: ../plugins/power/gsd-power-manager.c:653
+#: ../plugins/power/csd-power-manager.c:507
+#: ../plugins/power/csd-power-manager.c:653
 msgid "Attached computer battery low"
 msgstr "Tha an teairrds a’ ruith air a’ bhataraidh cheangailte"
 
 #. TRANSLATORS: tell user more details
-#: ../plugins/power/gsd-power-manager.c:510
+#: ../plugins/power/csd-power-manager.c:510
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
 msgstr "Tha a’ chumhachd a’ ruith air a’ bhataraidh cheangailte (%.0f%%)"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:531
+#: ../plugins/power/csd-power-manager.c:531
 msgid "Battery is low"
 msgstr "Tha an teairrds a’ ruith air a’ bhataraidh"
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of battery
-#: ../plugins/power/gsd-power-manager.c:563
+#: ../plugins/power/csd-power-manager.c:563
 msgid "Battery critically low"
 msgstr "Tha an teairrds gu bhith ruith air a’ bhataraidh gu èiginneach"
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
 #. TRANSLATORS: laptop battery is really, really, low
-#: ../plugins/power/gsd-power-manager.c:566
-#: ../plugins/power/gsd-power-manager.c:713
+#: ../plugins/power/csd-power-manager.c:566
+#: ../plugins/power/csd-power-manager.c:713
 msgid "Laptop battery critically low"
 msgstr "Tha an teairrds gu bhith ruith air bataraidh a’ laptop gu èiginneach"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:575
+#: ../plugins/power/csd-power-manager.c:575
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr ""
@@ -1584,7 +1584,7 @@ msgstr ""
 "ceangail thu e ri bun-dealan."
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:579
+#: ../plugins/power/csd-power-manager.c:579
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr ""
@@ -1593,13 +1593,13 @@ msgstr ""
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
-#: ../plugins/power/gsd-power-manager.c:587
-#: ../plugins/power/gsd-power-manager.c:738
+#: ../plugins/power/csd-power-manager.c:587
+#: ../plugins/power/csd-power-manager.c:738
 msgid "UPS critically low"
 msgstr "Tha a’ chumhachd gu bhith ruith air an UPS gu èiginneach"
 
 #. TRANSLATORS: give the user a ultimatum
-#: ../plugins/power/gsd-power-manager.c:593
+#: ../plugins/power/csd-power-manager.c:593
 #, c-format
 msgid ""
 "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
@@ -1609,7 +1609,7 @@ msgstr ""
 "agad ri cumhachd AC ach nach caill thu dàta."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:602
+#: ../plugins/power/csd-power-manager.c:602
 #, c-format
 msgid ""
 "Wireless mouse is very low in power (%.0f%%). This device will soon stop "
@@ -1619,7 +1619,7 @@ msgstr ""
 "gus an sguir an t-uidheam dhen obair mur faigh e teairrds."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:610
+#: ../plugins/power/csd-power-manager.c:610
 #, c-format
 msgid ""
 "Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
@@ -1629,7 +1629,7 @@ msgstr ""
 "fhada gus an sguir an t-uidheam dhen obair mur faigh e teairrds."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:619
+#: ../plugins/power/csd-power-manager.c:619
 #, c-format
 msgid ""
 "PDA is very low in power (%.0f%%). This device will soon stop functioning if "
@@ -1639,7 +1639,7 @@ msgstr ""
 "an t-uidheam dhen obair mur faigh e teairrds."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:629
+#: ../plugins/power/csd-power-manager.c:629
 #, c-format
 msgid ""
 "Cell phone is very low in power (%.0f%%). This device will soon stop "
@@ -1649,7 +1649,7 @@ msgstr ""
 "an sguir an t-uidheam dhen obair mur faigh e teairrds."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:638
+#: ../plugins/power/csd-power-manager.c:638
 #, c-format
 msgid ""
 "Media player is very low in power (%.0f%%). This device will soon stop "
@@ -1659,7 +1659,7 @@ msgstr ""
 "Chan fhada gus an sguir an t-uidheam dhen obair mur faigh e teairrds."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:647
+#: ../plugins/power/csd-power-manager.c:647
 #, c-format
 msgid ""
 "Tablet is very low in power (%.0f%%). This device will soon stop functioning "
@@ -1669,7 +1669,7 @@ msgstr ""
 "sguir an t-uidheam dhen obair mur faigh e teairrds."
 
 #. TRANSLATORS: the device is just going to stop working
-#: ../plugins/power/gsd-power-manager.c:656
+#: ../plugins/power/csd-power-manager.c:656
 #, c-format
 msgid ""
 "Attached computer is very low in power (%.0f%%). The device will soon "
@@ -1679,7 +1679,7 @@ msgstr ""
 "Chan fhada gus an sguir an t-uidheam dhen obair mur faigh e teairrds."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:721
+#: ../plugins/power/csd-power-manager.c:721
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "hibernate."
@@ -1688,7 +1688,7 @@ msgstr ""
 "a <b>chur ’na chadal-geamhraidh</b> a-nis."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:726
+#: ../plugins/power/csd-power-manager.c:726
 msgid ""
 "The battery is below the critical level and this computer is about to "
 "shutdown."
@@ -1697,7 +1697,7 @@ msgstr ""
 "a <b>dhùnadh sìos</b> a-nis."
 
 #. TRANSLATORS: computer will hibernate
-#: ../plugins/power/gsd-power-manager.c:746
+#: ../plugins/power/csd-power-manager.c:746
 msgid ""
 "UPS is below the critical level and this computer is about to hibernate."
 msgstr ""
@@ -1705,52 +1705,52 @@ msgstr ""
 "’na chadal-geamhraidh a-nis."
 
 #. TRANSLATORS: computer will just shutdown
-#: ../plugins/power/gsd-power-manager.c:751
+#: ../plugins/power/csd-power-manager.c:751
 msgid "UPS is below the critical level and this computer is about to shutdown."
 msgstr ""
 "Chan eil ach teairrds èiginneach air an UPS agus thèid an coimpiutair a "
 "dhùnadh sìos a-nis."
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1264
+#: ../plugins/power/csd-power-manager.c:1264
 msgid "Lid has been opened"
 msgstr "Chaidh am mullach fhosgladh"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1302
+#: ../plugins/power/csd-power-manager.c:1302
 msgid "Lid has been closed"
 msgstr "Chaidh am mullach a dhùnadh"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1896
+#: ../plugins/power/csd-power-manager.c:1896
 msgid "On battery power"
 msgstr "Air cumhachd a’ bhataraidh"
 
 #. TRANSLATORS: this is the sound description
-#: ../plugins/power/gsd-power-manager.c:1901
+#: ../plugins/power/csd-power-manager.c:1901
 msgid "On AC power"
 msgstr "Air cumhachd AC"
 
-#: ../plugins/power/gsd-power-manager.c:2093
+#: ../plugins/power/csd-power-manager.c:2093
 msgid "Automatic logout"
 msgstr "Logadh a-mach fèin-obrachail"
 
-#: ../plugins/power/gsd-power-manager.c:2093
+#: ../plugins/power/csd-power-manager.c:2093
 msgid "You will soon log out because of inactivity."
 msgstr "Thèid do logadh a-mach a dh’aithghearr o nach do rinn thu dad."
 
-#: ../plugins/power/gsd-power-manager.c:2098
+#: ../plugins/power/csd-power-manager.c:2098
 msgid "Automatic suspend"
 msgstr "Cur ’na dhàil fèin-obrachail"
 
-#: ../plugins/power/gsd-power-manager.c:2098
-#: ../plugins/power/gsd-power-manager.c:2103
+#: ../plugins/power/csd-power-manager.c:2098
+#: ../plugins/power/csd-power-manager.c:2103
 msgid "Computer will suspend very soon because of inactivity."
 msgstr ""
 "Thèid an coimpiutair a chur ’na dhàil a dh’aithghearr o nach do rinn thu "
 "dad."
 
-#: ../plugins/power/gsd-power-manager.c:2103
+#: ../plugins/power/csd-power-manager.c:2103
 msgid "Automatic hibernation"
 msgstr "Cadal-geamhraidh fèin-obrachail"
 
@@ -1768,209 +1768,209 @@ msgstr ""
 "Feumaidh tu d’ aithne a dhearbhadh gus soilleireachd a’ laptop atharrachadh"
 
 #. Translators: We are configuring new printer
-#: ../plugins/print-notifications/gsd-printer.c:890
+#: ../plugins/print-notifications/csd-printer.c:890
 msgid "Configuring new printer"
 msgstr "A’ rèiteachadh clò-bhualadair ùr"
 
 #. Translators: Just wait
-#: ../plugins/print-notifications/gsd-printer.c:892
+#: ../plugins/print-notifications/csd-printer.c:892
 #| msgid "Please wait..."
 msgid "Please wait…"
 msgstr "Fuirich ort…"
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:919
+#: ../plugins/print-notifications/csd-printer.c:919
 msgid "Missing printer driver"
 msgstr "Tha dràibhear a’ chlò-bhualadair a dhìth"
 
 #. Translators: We have no driver installed for the device
-#: ../plugins/print-notifications/gsd-printer.c:928
+#: ../plugins/print-notifications/csd-printer.c:928
 #, c-format
 msgid "No printer driver for %s."
 msgstr "Chan eil draibhear clò-bhualadair ann airson “%s”."
 
 #. Translators: We have no driver installed for this printer
-#: ../plugins/print-notifications/gsd-printer.c:933
+#: ../plugins/print-notifications/csd-printer.c:933
 msgid "No driver for this printer."
 msgstr "Chan eil draibhear ann airson a’ chlò-bhualadair seo."
 
-#: ../plugins/print-notifications/gsd-printer.c:1031
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:270
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:748
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:838
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:881
+#: ../plugins/print-notifications/csd-printer.c:1031
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:270
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:748
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:838
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:881
 msgid "Printers"
 msgstr "Clò-bhualadairean"
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:346
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:346
 #, c-format
 #| msgid "Printer '%s' is low on toner."
 msgid "Printer “%s” is low on toner."
 msgstr "Chan eil cus tònair air fhàgail aig a’ chlò-bhualadair “%s”."
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:350
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:350
 #, c-format
 #| msgid "Printer '%s' has no toner left."
 msgid "Printer “%s” has no toner left."
 msgstr "Chan eil tònair air fhàgail aig a’ chlò-bhualadair “%s”."
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:354
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:354
 #, c-format
 #| msgid "Printer '%s' may not be connected."
 msgid "Printer “%s” may not be connected."
 msgstr "Dh’fhaoidte nach eil an clò-bhualadair “%s” ceangailte."
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:358
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:358
 #, c-format
 #| msgid "The cover is open on printer '%s'."
 msgid "The cover is open on printer “%s”."
 msgstr "Tha mullach a’ chlò-bhualadair “%s” fosgailte."
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:362
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:362
 #, c-format
 #| msgid "There is a missing print filter for printer '%s'."
 msgid "There is a missing print filter for printer “%s”."
 msgstr "Tha criathrag clò-bhualaidh a dhìth air a’ chlò-bhualadair “%s”."
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:367
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:367
 #, c-format
 #| msgid "The door is open on printer '%s'."
 msgid "The door is open on printer “%s”."
 msgstr "Tha doras a’ chlò-bhualadair “%s” fosgailte."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:371
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:371
 #, c-format
 #| msgid "Printer '%s' is low on a marker supply."
 msgid "Printer “%s” is low on a marker supply."
 msgstr "Chan eil cus dath air fhàgail aig biona a’ chlò-bhualadair “%s”."
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:375
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:375
 #, c-format
 #| msgid "Printer '%s' is out of a marker supply."
 msgid "Printer “%s” is out of a marker supply."
 msgstr "Chan eil dath air fhàgail ann am biona a’ chlò-bhualadair “%s”."
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:379
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:379
 #, c-format
 #| msgid "Printer '%s' is low on paper."
 msgid "Printer “%s” is low on paper."
 msgstr "Chan eil cus pàipeir air fhàgail aig a’ chlò-bhualadair “%s”."
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:383
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:383
 #, c-format
 #| msgid "Printer '%s' is out of paper."
 msgid "Printer “%s” is out of paper."
 msgstr "Chan eil pàipear air fhàgail aig a’ chlò-bhualadair “%s”."
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:387
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:387
 #, c-format
 #| msgid "Printer '%s' is currently off-line."
 msgid "Printer “%s” is currently off-line."
 msgstr "Tha an clò-bhualadair “%s” far loidhne aig an àm seo."
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:391
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:391
 #, c-format
 #| msgid "There is a problem on printer '%s'."
 msgid "There is a problem on printer “%s”."
 msgstr "Tha duilgheadas aig a’ chlò-bhualadair “%s”."
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:439
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:439
 msgid "Toner low"
 msgstr "Tha an tònair a’ fàs gann"
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:441
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:441
 msgid "Toner empty"
 msgstr "Chan eil tònair air fhàgail"
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:443
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:443
 msgid "Not connected?"
 msgstr "Saoil a bheil ceangal ann ris?"
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:445
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:445
 msgid "Cover open"
 msgstr "Tha am mullach fosgailte"
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:447
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:447
 msgid "Printer configuration error"
 msgstr "Mearachd le rèiteachadh a’ chlò-bhualadair"
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:449
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:449
 msgid "Door open"
 msgstr "Tha an doras fosgailte"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:451
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:451
 msgid "Marker supply low"
 msgstr "Tha an dath sa bhiona a’ fàs gann"
 
 #. Translators: "marker" is one color bin of the printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:453
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:453
 msgid "Out of a marker supply"
 msgstr "Chan eil dath air fhàgail ann am biona a’ chlò-bhualadair"
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:455
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:455
 msgid "Paper low"
 msgstr "Tha am pàipear a’ fàs gann"
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:457
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:457
 msgid "Out of paper"
 msgstr "Chan eil pàipear air fhàgail"
 
 #. Translators: The printer is offline (same as in system-config-printer)
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:459
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:459
 msgid "Printer off-line"
 msgstr "Tha an clò-bhualadair far loidhne"
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #. Translators: This is a title of an error notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:461
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:824
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:461
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:824
 msgid "Printer error"
 msgstr "Mearachd a’ chlò-bhualadair"
 
 #. Translators: New printer has been added
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:509
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:509
 msgid "Printer added"
 msgstr "Chaidh an clò-bhualadair a chur ris"
 
 #. Translators: A print job has been stopped
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:526
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:564
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:526
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:564
 msgctxt "print job state"
 msgid "Printing stopped"
 msgstr "Chaidh clò-bhualadh a stad"
 
 #. Translators: "print-job xy" on a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:528
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:534
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:540
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:546
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:558
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:566
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:574
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:582
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:590
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:603
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:528
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:534
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:540
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:546
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:558
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:566
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:574
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:582
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:590
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:603
 #, c-format
 #| msgctxt "print job"
 #| msgid "\"%s\" on %s"
@@ -1979,51 +1979,51 @@ msgid "“%s” on %s"
 msgstr "“%s” air %s"
 
 #. Translators: A print job has been canceled
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:532
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:572
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:532
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:572
 msgctxt "print job state"
 msgid "Printing canceled"
 msgstr "Chaidh sgur dhen chlò-bhualadh"
 
 #. Translators: A print job has been aborted
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:538
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:580
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:538
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:580
 msgctxt "print job state"
 msgid "Printing aborted"
 msgstr "Chaidh sgur dhen chlò-bhualadh"
 
 #. Translators: A print job has been completed
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:544
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:588
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:544
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:588
 msgctxt "print job state"
 msgid "Printing completed"
 msgstr "Chaidh an clò-bhualadh a choileanadh"
 
 #. Translators: A job is printing
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:556
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:601
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:556
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:601
 msgctxt "print job state"
 msgid "Printing"
 msgstr "’Ga chlò-bhualadh"
 
 #. Translators: This is a title of a report notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:818
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:818
 msgid "Printer report"
 msgstr "Aithris a’ chlò-bhualadair"
 
 #. Translators: This is a title of a warning notification for a printer
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:821
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:821
 msgid "Printer warning"
 msgstr "Rabhadh a’ chlò-bhualadair"
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
-#: ../plugins/print-notifications/gsd-print-notifications-manager.c:831
+#: ../plugins/print-notifications/csd-print-notifications-manager.c:831
 #, c-format
 #| msgid "Printer '%s': '%s'."
 msgid "Printer “%s”: “%s”."
 msgstr "Clò-bhualadair “%s”: “%s”."
 
-#: ../plugins/smartcard/gsd-smartcard-service.c:224
+#: ../plugins/smartcard/csd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."
 msgstr "Cha deach an cleachdaiche clàradh a-steach le smartcard."
 

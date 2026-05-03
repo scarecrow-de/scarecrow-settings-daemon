@@ -171,7 +171,7 @@ Version 3.33.90
 ===============
 - Translation updates
 - Add systemd user service files for all the plugins
-- With the exception of gsd-xsettings, daemons do not use the GDK X11
+- With the exception of csd-xsettings, daemons do not use the GDK X11
   backend anymore
 
 WWAN:
@@ -414,7 +414,7 @@ Version 3.27.91
 ===============
 Build:
 - Fix error when doing non-debug builds
-- Fix runtime linkage to libgsd and libcommon
+- Fix runtime linkage to libcsd and libcommon
 - Apply a workaround for D-Bus code generation
 
 ===============
@@ -1812,7 +1812,7 @@ Mouse:
 - Fix natural horizontal scroll
 
 XRandR:
-- Add new follow-lid behavior and tie gsd-power lid-close to XRandR
+- Add new follow-lid behavior and tie csd-power lid-close to XRandR
 - Avoid crasher if XRandR calls fail on startup
 - Fix the "rotate" button not working
 - Swap axes for some (non-Wacom) tablets as well
@@ -1857,7 +1857,7 @@ Mouse:
 - Re-enable touchpad when mouse isn't present
 
 Power:
-- Fix "no devices" error path in gsd-backlight-helper
+- Fix "no devices" error path in csd-backlight-helper
 - Add a watchdog to keep X's builtin screen saver disabled
 - Fix a number of possible crashers
 
@@ -2454,7 +2454,7 @@ Media keys:
 - Add custom shortcut type (Bastien Nocera)
 - Implement GConf keyboard shortcuts (Bastien Nocera) (#625228)
 - Redraw volume OSD when not composited (Marien Zwart) (#660990)
-- Update for gsd-keygrab API change (Bastien Nocera) (#663343)
+- Update for csd-keygrab API change (Bastien Nocera) (#663343)
 - Move some metacity shortcuts into g-s-d (Florian Müllner) (#663623)
 - Port custom keybindings to GSettings (Florian Müllner) (#631502)
 
@@ -2477,7 +2477,7 @@ Power:
 Printers:
 - Fix build on systems without LC_PAPER (Bastien Nocera) (#660626)
 - Call setlocale() (Bastien Nocera) (#660632)
-- Exit gsd-printer when session ends (Marek Kasik) (#660158)
+- Exit csd-printer when session ends (Marek Kasik) (#660158)
 - Correct signature when calling PrinterAddOptionDefault (Marek Kasik)
 - Don't show "Not connected?" when not needed (Marek Kasik)
 - Unown name on the system bus when session goes idle (Marek Kasik) (#660158)
@@ -3179,7 +3179,7 @@ Background:
 
 Date & Time:
 - Add Debian support to NTP service activation (Milan Bouchet-Valat) (#641598)
-- Fix gsd_datetime_check_tz_name() never working (Bastien Nocera) (#674999)
+- Fix csd_datetime_check_tz_name() never working (Bastien Nocera) (#674999)
 
 Keyboard:
 - Update for new libgnomekbd API (Sergey V. Udaltsov)
@@ -3687,7 +3687,7 @@ Version 2.29.5
 - Tighten check for XInput (Jens Granseuer)
 - Fix bluriness in level bar, and popup (Bastien Nocera) (#567249)
 - Remove unused variable (Bastien Nocera) (#599904)
-- Honour libexecdir when spawning gsd-locate-pointer (Jens Granseuer) (#599209)
+- Honour libexecdir when spawning csd-locate-pointer (Jens Granseuer) (#599209)
 - Allow left-handed setting for touchpads (Peter Hutterer)
 - Use a rounded instead of curved rectangle (William Jon McCann)
 - Improve the media keys overlay design (William Jon McCann) (#596136)
@@ -3696,7 +3696,7 @@ Version 2.29.5
 - Avoid volumes going over 100% (Bastien Nocera) (#600770)
 - Make OSD display more generic (Bastien Nocera) (#600951)
 - Support loading -rtl and -ltr variants of icons (Bastien Nocera) (#600984)
-- Relicense gsd-media-keys-window.[ch] to LGPL (Bastien Nocera) (#600986)
+- Relicense csd-media-keys-window.[ch] to LGPL (Bastien Nocera) (#600986)
 - Hide the status icon before unreffing it (Matthias Clasen) (#601696)
 - Make eject behave better on OpenBSD (Jasper Lievisse Adriaanse) (#598573)
 - Export libexecdir in .pc file (DJ Lucas) (#596388)

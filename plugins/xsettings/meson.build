@@ -1,11 +1,11 @@
-gsd_xsettings_gtk = files('gsd-xsettings-gtk.c')
+csd_xsettings_gtk = files('csd-xsettings-gtk.c')
 
 fc_monitor = files('fc-monitor.c')
 
 wm_button_layout_translation = files('wm-button-layout-translation.c')
 
-sources = gsd_xsettings_gtk + fc_monitor + wm_button_layout_translation + files(
-  'gsd-xsettings-manager.c',
+sources = csd_xsettings_gtk + fc_monitor + wm_button_layout_translation + files(
+  'csd-xsettings-manager.c',
   'xsettings-common.c',
   'xsettings-manager.c',
   'main.c'
@@ -17,21 +17,21 @@ deps = plugins_deps + [
   dependency('fontconfig')
 ]
 
-cflags += ['-DGTK_MODULES_DIRECTORY="@0@"'.format(join_paths(gsd_pkglibdir, 'gtk-modules'))]
+cflags += ['-DGTK_MODULES_DIRECTORY="@0@"'.format(join_paths(csd_pkglibdir, 'gtk-modules'))]
 
 executable(
-  'gsd-' + plugin_name,
+  'csd-' + plugin_name,
   sources,
   include_directories: [top_inc, common_inc, data_inc],
   dependencies: deps,
   c_args: cflags,
   install: true,
-  install_rpath: gsd_pkglibdir,
-  install_dir: gsd_libexecdir
+  install_rpath: csd_pkglibdir,
+  install_dir: csd_libexecdir
 )
 
 programs = [
-  ['test-gtk-modules', gsd_xsettings_gtk + ['test-gtk-modules.c'], cflags],
+  ['test-gtk-modules', csd_xsettings_gtk + ['test-gtk-modules.c'], cflags],
   ['test-fontconfig-monitor', fc_monitor, cflags + ['-DFONTCONFIG_MONITOR_TEST']],
   ['test-wm-button-layout-translations', wm_button_layout_translation + ['test-wm-button-layout-translations.c'], []]
 ]
@@ -48,7 +48,7 @@ endforeach
 
 install_data(
   files('00-xrdb'),
-  install_dir: join_paths(gsd_sysconfdir, 'xdg/Xwayland-session.d')
+  install_dir: join_paths(csd_sysconfdir, 'xdg/Xwayland-session.d')
 )
 
 test_py = find_program('test.py')

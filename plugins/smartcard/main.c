@@ -1,7 +1,7 @@
-#define NEW gsd_smartcard_manager_new
-#define START gsd_smartcard_manager_start
-#define STOP gsd_smartcard_manager_stop
+#define NEW csd_smartcard_manager_new
+#define START csd_smartcard_manager_start
+#define STOP csd_smartcard_manager_stop
 #define MANAGER GsdSmartcardManager
-#include "gsd-smartcard-manager.h"
+#include "csd-smartcard-manager.h"
 
 #include "daemon-skeleton.h"
