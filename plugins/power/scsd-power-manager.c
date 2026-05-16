@@ -1213,7 +1213,7 @@ do_power_action_type (GsdPowerManager *manager,
         }
 }
 
-static InhibitorFlag
+static ScsmInhibitorFlag
 get_idle_inhibitors_for_action (GsdPowerActionType action_type)
 {
         switch (action_type) {
@@ -1235,7 +1235,7 @@ get_idle_inhibitors_for_action (GsdPowerActionType action_type)
 static gboolean
 is_action_inhibited (GsdPowerManager *manager, GsdPowerActionType action_type)
 {
-        InhibitorFlag flag;
+        ScsmInhibitorFlag flag;
         gboolean is_inhibited;
 
         flag = get_idle_inhibitors_for_action (action_type);
@@ -1739,11 +1739,11 @@ idle_set_mode (GsdPowerManager *manager, GsdPowerIdleMode mode)
 
 static gboolean
 idle_is_session_inhibited (GsdPowerManager  *manager,
-                           InhibitorFlag  mask,
+                           ScsmInhibitorFlag  mask,
                            gboolean         *is_inhibited)
 {
         GVariant *variant;
-        InhibitorFlag inhibited_actions;
+        ScsmInhibitorFlag inhibited_actions;
 
         /* not yet connected to gnome-session */
         if (manager->session == NULL)

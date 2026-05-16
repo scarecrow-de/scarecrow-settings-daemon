@@ -304,7 +304,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
             if log is None:
                 continue
 
-            if log and (b'Manager: requesting logout' in log):
+            if log and (b'ScsmManager: requesting logout' in log):
                 break
         else:
             self.fail('timed out waiting for gnome-session logout call')
@@ -317,7 +317,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
         # check that it did not logout
         log = self.session_log.read()
         if log:
-            self.assertFalse(b'Manager: requesting logout' in log, 'unexpected logout request')
+            self.assertFalse(b'ScsmManager: requesting logout' in log, 'unexpected logout request')
 
     def check_for_suspend(self, timeout, methods=COMMON_SUSPEND_METHODS):
         '''Check that one of the given suspend methods are requested. Default
