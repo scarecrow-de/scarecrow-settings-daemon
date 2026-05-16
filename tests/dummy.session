@@ -1,4 +1,4 @@
-[GNOME Session]
+[Scarecrow Session]
 Name=dummy
 RequiredComponents=dummyapp
 DesktopName=dummy
