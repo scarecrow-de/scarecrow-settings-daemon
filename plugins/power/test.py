@@ -304,7 +304,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
             if log is None:
                 continue
 
-            if log and (b'GsmManager: requesting logout' in log):
+            if log and (b'Manager: requesting logout' in log):
                 break
         else:
             self.fail('timed out waiting for gnome-session logout call')
@@ -317,7 +317,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
         # check that it did not logout
         log = self.session_log.read()
         if log:
-            self.assertFalse(b'GsmManager: requesting logout' in log, 'unexpected logout request')
+            self.assertFalse(b'Manager: requesting logout' in log, 'unexpected logout request')
 
     def check_for_suspend(self, timeout, methods=COMMON_SUSPEND_METHODS):
         '''Check that one of the given suspend methods are requested. Default
@@ -535,7 +535,7 @@ class PowerPluginTest1(PowerPluginBase):
         # create suspend inhibitor which should have no effect on the idle
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
-            dbus.UInt32(scsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
+            dbus.UInt32(scsdpowerenums.SCSM_INHIBITOR_FLAG_SUSPEND),
             dbus_interface='io.github.scarecrow_de.SessionManager')
 
         self.obj_screensaver.SetActive(True)
@@ -580,7 +580,7 @@ class PowerPluginTest2(PowerPluginBase):
         # Create the different possible inhibitors
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
-            dbus.UInt32(scsdpowerenums.GSM_INHIBITOR_FLAG_IDLE | scsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND | scsdpowerenums.GSM_INHIBITOR_FLAG_LOGOUT),
+            dbus.UInt32(scsdpowerenums.SCSM_INHIBITOR_FLAG_IDLE | scsdpowerenums.SCSM_INHIBITOR_FLAG_SUSPEND | scsdpowerenums.SCSM_INHIBITOR_FLAG_LOGOUT),
             dbus_interface='io.github.scarecrow_de.SessionManager')
 
         self.check_no_unblank(2)
@@ -596,9 +596,9 @@ class PowerPluginTest2(PowerPluginBase):
 
         # Verify that idle is set after 5 seconds
         self.settings_session['idle-delay'] = 5
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
         time.sleep(7)
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_IDLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_IDLE)
 
         # Raise the idle delay, and see that we stop being idle
         # and get idle again after the timeout
@@ -607,9 +607,9 @@ class PowerPluginTest2(PowerPluginBase):
         time.sleep(0.2)
         self.reset_idle_timer()
         time.sleep(5)
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
         time.sleep(10)
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_IDLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_IDLE)
 
         # Lower the delay again, and see that we get idle as we should
         self.settings_session['idle-delay'] = 5
@@ -617,9 +617,9 @@ class PowerPluginTest2(PowerPluginBase):
         time.sleep(0.2)
         self.reset_idle_timer()
         time.sleep(2)
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
         time.sleep(5)
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_IDLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_IDLE)
 
     def test_idle_time_reset_on_resume(self):
         '''Check that the IDLETIME is reset when resuming'''
@@ -628,9 +628,9 @@ class PowerPluginTest2(PowerPluginBase):
 
         # Go idle
         self.settings_session['idle-delay'] = 5
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
         time.sleep(7)
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_IDLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_IDLE)
 
         # Go to sleep
         self.logind_obj.EmitSignal('', 'PrepareForSleep', 'b', [True], dbus_interface='org.freedesktop.DBus.Mock')
@@ -641,7 +641,7 @@ class PowerPluginTest2(PowerPluginBase):
         time.sleep(1)
 
         # And check we're not idle
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
 
 class PowerPluginTest3(PowerPluginBase):
     def test_sleep_inactive_battery(self):
@@ -686,13 +686,13 @@ class PowerPluginTest3(PowerPluginBase):
         # create inhibitor
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
-            dbus.UInt32(scsdpowerenums.GSM_INHIBITOR_FLAG_IDLE | scsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
+            dbus.UInt32(scsdpowerenums.SCSM_INHIBITOR_FLAG_IDLE | scsdpowerenums.SCSM_INHIBITOR_FLAG_SUSPEND),
             dbus_interface='io.github.scarecrow_de.SessionManager')
         self.check_no_suspend(idle_delay + 2)
         self.check_no_dim(0)
 
         # Check that we didn't go to idle either
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
 
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
                 dbus_interface='io.github.scarecrow_de.SessionManager')
@@ -706,7 +706,7 @@ class PowerPluginTest4(PowerPluginBase):
         # create inhibitor
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
-            dbus.UInt32(scsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
+            dbus.UInt32(scsdpowerenums.SCSM_INHIBITOR_FLAG_SUSPEND),
             dbus_interface='io.github.scarecrow_de.SessionManager')
 
         time.sleep (scsdpowerconstants.LID_CLOSE_SAFETY_TIMEOUT)
@@ -732,7 +732,7 @@ class PowerPluginTest4(PowerPluginBase):
         # create inhibitor
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
-            dbus.UInt32(scsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
+            dbus.UInt32(scsdpowerenums.SCSM_INHIBITOR_FLAG_SUSPEND),
             dbus_interface='io.github.scarecrow_de.SessionManager')
 
         time.sleep (scsdpowerconstants.LID_CLOSE_SAFETY_TIMEOUT)
@@ -755,7 +755,7 @@ class PowerPluginTest4(PowerPluginBase):
         # create inhibitor
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
-            dbus.UInt32(scsdpowerenums.GSM_INHIBITOR_FLAG_SUSPEND),
+            dbus.UInt32(scsdpowerenums.SCSM_INHIBITOR_FLAG_SUSPEND),
             dbus_interface='io.github.scarecrow_de.SessionManager')
 
         time.sleep (scsdpowerconstants.LID_CLOSE_SAFETY_TIMEOUT)
@@ -796,7 +796,7 @@ class PowerPluginTest5(PowerPluginBase):
         dim_level = self.settings_gsd_power['idle-brightness'];
 
         # Check that we're not idle
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
 
         # Wait and check we're not idle, but dimmed
         self.check_dim(scsdpowerconstants.MINIMUM_IDLE_DIM_DELAY + 1)
@@ -806,7 +806,7 @@ class PowerPluginTest5(PowerPluginBase):
             level = self.get_brightness();
             self.assertTrue(level == dim_level, 'incorrect dim brightness (%d != %d)' % (level, dim_level))
 
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
 
         # Bring down the screensaver
         self.obj_screensaver.SetActive(True)
@@ -1118,7 +1118,7 @@ class PowerPluginTest6(PowerPluginBase):
         # create suspend inhibitor which should stop us logging out
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
-            dbus.UInt32(scsdpowerenums.GSM_INHIBITOR_FLAG_LOGOUT),
+            dbus.UInt32(scsdpowerenums.SCSM_INHIBITOR_FLAG_LOGOUT),
             dbus_interface='io.github.scarecrow_de.SessionManager')
 
         self.check_no_logout(idle_delay + 3)
@@ -1156,13 +1156,13 @@ class PowerPluginTest7(PowerPluginBase):
         # create inhibitor
         inhibit_id = self.obj_session_mgr.Inhibit(
             'testsuite', dbus.UInt32(0), 'for testing',
-            dbus.UInt32(scsdpowerenums.GSM_INHIBITOR_FLAG_IDLE),
+            dbus.UInt32(scsdpowerenums.SCSM_INHIBITOR_FLAG_IDLE),
             dbus_interface='io.github.scarecrow_de.SessionManager')
         self.check_no_suspend(idle_delay + 2)
         self.check_no_dim(0)
 
         # Check that we didn't go to idle either
-        self.assertEqual(self.get_status(), scsdpowerenums.GSM_PRESENCE_STATUS_AVAILABLE)
+        self.assertEqual(self.get_status(), scsdpowerenums.SCSM_PRESENCE_STATUS_AVAILABLE)
 
         self.obj_session_mgr.Uninhibit(dbus.UInt32(inhibit_id),
                 dbus_interface='io.github.scarecrow_de.SessionManager')

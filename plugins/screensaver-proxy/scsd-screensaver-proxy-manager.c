@@ -126,7 +126,7 @@ static const gchar introspection_xml2[] =
 #define GSD_SCREENSAVER_PROXY_DBUS_PATH2        "/ScreenSaver"
 #define GSD_SCREENSAVER_PROXY_DBUS_INTERFACE    "org.freedesktop.ScreenSaver"
 
-#define GSM_INHIBITOR_FLAG_IDLE 1 << 3
+#define SCSM_INHIBITOR_FLAG_IDLE 1 << 3
 
 struct _GsdScreensaverProxyManager
 {
@@ -218,7 +218,7 @@ handle_method_call (GDBusConnection       *connection,
                 ret = g_dbus_proxy_call_sync (G_DBUS_PROXY (G_DBUS_PROXY (manager->session)),
                                               "Inhibit",
                                               g_variant_new ("(susu)",
-                                                             app_id, 0, reason, GSM_INHIBITOR_FLAG_IDLE),
+                                                             app_id, 0, reason, SCSM_INHIBITOR_FLAG_IDLE),
                                               G_DBUS_CALL_FLAGS_NONE,
                                               -1, NULL, &error);
 

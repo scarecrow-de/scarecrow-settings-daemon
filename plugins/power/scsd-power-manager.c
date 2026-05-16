@@ -1208,26 +1208,26 @@ do_power_action_type (GsdPowerManager *manager,
         case GSD_POWER_ACTION_NOTHING:
                 break;
         case GSD_POWER_ACTION_LOGOUT:
-                gnome_session_logout (manager, GSM_MANAGER_LOGOUT_MODE_FORCE);
+                gnome_session_logout (manager, SCSM_MANAGER_LOGOUT_MODE_FORCE);
                 break;
         }
 }
 
-static GsmInhibitorFlag
+static InhibitorFlag
 get_idle_inhibitors_for_action (GsdPowerActionType action_type)
 {
         switch (action_type) {
         case GSD_POWER_ACTION_BLANK:
         case GSD_POWER_ACTION_SHUTDOWN:
         case GSD_POWER_ACTION_INTERACTIVE:
-                return GSM_INHIBITOR_FLAG_IDLE;
+                return SCSM_INHIBITOR_FLAG_IDLE;
         case GSD_POWER_ACTION_HIBERNATE:
         case GSD_POWER_ACTION_SUSPEND:
-                return GSM_INHIBITOR_FLAG_SUSPEND; /* in addition to idle */
+                return SCSM_INHIBITOR_FLAG_SUSPEND; /* in addition to idle */
         case GSD_POWER_ACTION_NOTHING:
                 return 0;
         case GSD_POWER_ACTION_LOGOUT:
-                return GSM_INHIBITOR_FLAG_LOGOUT; /* in addition to idle */
+                return SCSM_INHIBITOR_FLAG_LOGOUT; /* in addition to idle */
         }
         return 0;
 }
@@ -1235,7 +1235,7 @@ get_idle_inhibitors_for_action (GsdPowerActionType action_type)
 static gboolean
 is_action_inhibited (GsdPowerManager *manager, GsdPowerActionType action_type)
 {
-        GsmInhibitorFlag flag;
+        InhibitorFlag flag;
         gboolean is_inhibited;
 
         flag = get_idle_inhibitors_for_action (action_type);
@@ -1418,7 +1418,7 @@ do_lid_closed_action (GsdPowerManager *manager)
                 gboolean is_inhibited;
 
                 idle_is_session_inhibited (manager,
-                                           GSM_INHIBITOR_FLAG_SUSPEND,
+                                           SCSM_INHIBITOR_FLAG_SUSPEND,
                                            &is_inhibited);
                 if (is_inhibited) {
                         g_debug ("Suspend is inhibited but lid is closed, locking the screen");
@@ -1739,11 +1739,11 @@ idle_set_mode (GsdPowerManager *manager, GsdPowerIdleMode mode)
 
 static gboolean
 idle_is_session_inhibited (GsdPowerManager  *manager,
-                           GsmInhibitorFlag  mask,
+                           InhibitorFlag  mask,
                            gboolean         *is_inhibited)
 {
         GVariant *variant;
-        GsmInhibitorFlag inhibited_actions;
+        InhibitorFlag inhibited_actions;
 
         /* not yet connected to gnome-session */
         if (manager->session == NULL)
@@ -1782,7 +1782,7 @@ idle_configure (GsdPowerManager *manager)
         gboolean on_battery;
 
         if (!idle_is_session_inhibited (manager,
-                                        GSM_INHIBITOR_FLAG_IDLE,
+                                        SCSM_INHIBITOR_FLAG_IDLE,
                                         &is_idle_inhibited)) {
                 /* Session isn't available yet, postpone */
                 return;

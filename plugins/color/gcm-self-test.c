@@ -311,7 +311,7 @@ gcm_test_edid_func (void)
         g_assert_cmpstr (gcm_edid_get_serial_number (edid), ==, "34398");
         g_assert_cmpstr (gcm_edid_get_eisa_id (edid), ==, NULL);
         g_assert_cmpstr (gcm_edid_get_checksum (edid), ==, "0bb44865bb29984a4bae620656c31368");
-        g_assert_cmpstr (gcm_edid_get_pnp_id (edid), ==, "GSM");
+        g_assert_cmpstr (gcm_edid_get_pnp_id (edid), ==, "SCSM");
         g_assert_cmpint (gcm_edid_get_height (edid), ==, 30);
         g_assert_cmpint (gcm_edid_get_width (edid), ==, 47);
         g_assert_cmpfloat (gcm_edid_get_gamma (edid), >=, 2.2f - 0.01);
