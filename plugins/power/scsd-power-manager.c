@@ -41,7 +41,7 @@
 #include "scsd-power-constants.h"
 #include "gsm-inhibitor-flag.h"
 #include "gsm-presence-flag.h"
-#include "scsm-manager-logout-mode.h"
+#include "gsm-manager-logout-mode.h"
 #include "gpm-common.h"
 #include "scsd-backlight.h"
 #include "scarecrow-settings-profile.h"
