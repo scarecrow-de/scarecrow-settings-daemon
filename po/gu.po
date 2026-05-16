@@ -1796,8 +1796,8 @@ msgid "Screensaver Proxy"
 msgstr "સ્ક્રીનસેવર પ્રોક્સી"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
-msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-msgstr "gnome-session માટે પ્રોક્સી FreeDesktop સ્ક્રીનસેવરને દમન"
+msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+msgstr "scarecrow-session માટે પ્રોક્સી FreeDesktop સ્ક્રીનસેવરને દમન"
 
 #: ../plugins/smartcard/scsd-smartcard-service.c:222
 msgid "User was not logged in with smartcard."

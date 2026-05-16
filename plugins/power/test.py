@@ -75,8 +75,8 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
             'gnome_screensaver', stdout=subprocess.PIPE)
         scsdtestcase.set_nonblock(self.screensaver.stdout)
 
-        self.session_log_write = open(os.path.join(self.workdir, 'gnome-session.log'), 'wb', buffering=0)
-        self.session = subprocess.Popen(['gnome-session', '-f',
+        self.session_log_write = open(os.path.join(self.workdir, 'scarecrow-session.log'), 'wb', buffering=0)
+        self.session = subprocess.Popen(['scarecrow-session', '-f',
                                          '-a', os.path.join(self.workdir, 'autostart'),
                                          '--session=dummy', '--debug'],
                                         stdout=self.session_log_write,
@@ -99,7 +99,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
 
         self.start_mutter()
 
-        # Set up the gnome-session presence
+        # Set up the scarecrow-session presence
         obj_session_presence = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SessionManager', '/io/github/scarecrow_de/SessionManager/Presence')
         self.obj_session_presence_props = dbus.Interface(obj_session_presence, dbus.PROPERTIES_IFACE)
@@ -202,9 +202,9 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
         self.session_log.close()
 
     def check_logind_gnome_session(self):
-        '''Check that gnome-session is built with logind support'''
+        '''Check that scarecrow-session is built with logind support'''
 
-        path = GLib.find_program_in_path ('gnome-session')
+        path = GLib.find_program_in_path ('scarecrow-session')
         assert(path)
         (success, data) = GLib.file_get_contents (path)
         lines = data.split(b'\n')
@@ -214,12 +214,12 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
             if items and items[0] == b'exec':
                 new_path = items[1]
         if not new_path:
-            self.fail("could not get gnome-session's real path from %s" % path)
+            self.fail("could not get scarecrow-session's real path from %s" % path)
         path = new_path
         ldd = subprocess.Popen(['ldd', path], stdout=subprocess.PIPE)
         out = ldd.communicate()[0]
         if not b'libsystemd.so.0' in out:
-            self.fail('gnome-session is not built with logind support')
+            self.fail('scarecrow-session is not built with logind support')
 
     def get_status(self):
         return self.obj_session_presence_props.Get('io.github.scarecrow_de.SessionManager.Presence', 'status')
@@ -307,7 +307,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
             if log and (b'ScsmManager: requesting logout' in log):
                 break
         else:
-            self.fail('timed out waiting for gnome-session logout call')
+            self.fail('timed out waiting for scarecrow-session logout call')
 
     def check_no_logout(self, seconds):
         '''Check that no logout is requested in the given time'''

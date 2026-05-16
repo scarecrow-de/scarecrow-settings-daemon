@@ -2165,9 +2165,9 @@ msgstr ""
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Progsaidh an t-sàbhalaiche-sgrìn"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
-#~ "Dèiligidh gnome-session ri bacadh an t-sàbhalaiche-sgrìn FreeDesktop"
+#~ "Dèiligidh scarecrow-session ri bacadh an t-sàbhalaiche-sgrìn FreeDesktop"
 
 #~ msgid "Smartcard"
 #~ msgstr "Smartcard"

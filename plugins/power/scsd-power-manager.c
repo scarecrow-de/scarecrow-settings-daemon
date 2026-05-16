@@ -41,7 +41,7 @@
 #include "scsd-power-constants.h"
 #include "gsm-inhibitor-flag.h"
 #include "gsm-presence-flag.h"
-#include "gsm-manager-logout-mode.h"
+#include "scsm-manager-logout-mode.h"
 #include "gpm-common.h"
 #include "scsd-backlight.h"
 #include "scarecrow-settings-profile.h"
@@ -981,7 +981,7 @@ gnome_session_shutdown_cb (GObject *source_object,
                                            res,
                                            &error);
         if (result == NULL) {
-                g_warning ("couldn't shutdown using gnome-session: %s",
+                g_warning ("couldn't shutdown using scarecrow-session: %s",
                            error->message);
                 g_error_free (error);
         } else {
@@ -1012,7 +1012,7 @@ gnome_session_logout_cb (GObject *source_object,
                                            res,
                                            &error);
         if (result == NULL) {
-                g_warning ("couldn't log out using gnome-session: %s",
+                g_warning ("couldn't log out using scarecrow-session: %s",
                            error->message);
                 g_error_free (error);
         } else {
@@ -1745,7 +1745,7 @@ idle_is_session_inhibited (GsdPowerManager  *manager,
         GVariant *variant;
         ScsmInhibitorFlag inhibited_actions;
 
-        /* not yet connected to gnome-session */
+        /* not yet connected to scarecrow-session */
         if (manager->session == NULL)
                 return FALSE;
 

@@ -3134,8 +3134,8 @@ msgstr[1] "Du har %u forsøg tilbage"
 #~ msgstr "Pauseskærmsproxy"
 
 # ????  Nå, det er en gconf-ting...
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "Hindring for gnome-session for Proxy-FreeDesktop-pauseskærm"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "Hindring for scarecrow-session for Proxy-FreeDesktop-pauseskærm"
 
 #~ msgid "Smartcard"
 #~ msgstr "Smartcard"

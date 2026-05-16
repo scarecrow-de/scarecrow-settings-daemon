@@ -1889,8 +1889,8 @@ msgid "Screensaver Proxy"
 msgstr "Ủy nhiệm trình bảo vệ màn hình"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
-msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-msgstr "Ủy thác cấm trình bảo vệ màn hình FreeDesktop cho gnome-session"
+msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+msgstr "Ủy thác cấm trình bảo vệ màn hình FreeDesktop cho scarecrow-session"
 
 #: ../plugins/smartcard/scsd-smartcard-service.c:222
 msgid "User was not logged in with smartcard."

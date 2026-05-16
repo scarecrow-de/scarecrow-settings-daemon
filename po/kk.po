@@ -2831,8 +2831,8 @@ msgstr[0] "Сізде %u талап қалды"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Экран қорғаушысы проксиі"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "FreeDesktop экран қорғаушысын басу gnome-session көмегімен басқару"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "FreeDesktop экран қорғаушысын басу scarecrow-session көмегімен басқару"
 
 #~ msgid "Smartcard"
 #~ msgstr "Смарткарта"

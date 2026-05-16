@@ -3058,7 +3058,7 @@ msgstr[1] "Έχετε ακόμα %u προσπάθειες"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Διαμεσολαβητής προφύλαξης οθόνης"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
 #~ "Αποτροπή προφύλαξης οθόνης σε διαμεσολαβητή FreeDesktop για τη συνεδρία "
 #~ "gnome"

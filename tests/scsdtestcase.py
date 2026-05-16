@@ -30,8 +30,8 @@ except ImportError:
     sys.stderr.write('You need pygobject and the Gio GIR for this test suite.\n')
     sys.exit(0)
 
-if subprocess.call(['which', 'gnome-session'], stdout=subprocess.PIPE) != 0:
-    sys.stderr.write('You need gnome-session for this test suite.\n')
+if subprocess.call(['which', 'scarecrow-session'], stdout=subprocess.PIPE) != 0:
+    sys.stderr.write('You need scarecrow-session for this test suite.\n')
     sys.exit(0)
 
 
@@ -64,7 +64,7 @@ class GSDTestCase(X11SessionTestCase):
         # Prevent applications from accessing an outside session manager
         os.environ['SESSION_MANAGER'] = ''
 
-        # Signal to mutter and gnome-session that we are using X11
+        # Signal to mutter and scarecrow-session that we are using X11
         os.environ['XDG_SESSION_TYPE'] = 'x11'
 
         # tell dconf and friends to use our config/runtime directories
@@ -129,7 +129,7 @@ class GSDTestCase(X11SessionTestCase):
         '''Start minimal GNOME session'''
 
         # create dummy session type and component
-        d = os.path.join(klass.workdir, 'config', 'gnome-session', 'sessions')
+        d = os.path.join(klass.workdir, 'config', 'scarecrow-session', 'sessions')
         if not os.path.isdir(d):
             os.makedirs(d)
         shutil.copy(os.path.join(os.path.dirname(__file__), 'dummy.session'), d)

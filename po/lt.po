@@ -2971,9 +2971,9 @@ msgstr[2] "Jums liko %1$u bandymų"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Ekrano užsklandos tarpininkas"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
-#~ "Naudoti tarpininką FreeDesktop ekrano užsklandos trukdžiui gnome-session"
+#~ "Naudoti tarpininką FreeDesktop ekrano užsklandos trukdžiui scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "Išmanioji kortelė"

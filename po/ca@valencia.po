@@ -2263,10 +2263,10 @@ msgstr ""
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Servidor intermediari d'estalvis de pantalla"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
 #~ "Inhibició del servidor intermediari d'estalvis de pantalla FreeDesktop al "
-#~ "gnome-session"
+#~ "scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "Targeta intel·ligent"

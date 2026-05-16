@@ -3182,7 +3182,7 @@ msgstr[3] "Na voljo imate še %u poskuse."
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Posredniški strežnik ohranjevalnika zaslona"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
 #~ "Zaviranje ohranjevalnika zaslona preko posredniškega strežnika med "
 #~ "delovanjem seje"

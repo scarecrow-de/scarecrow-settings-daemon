@@ -2987,8 +2987,8 @@ msgstr[0] "%u denemeniz kaldı"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Ekran Koruyucu Vekili"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "gnome-session için FreeDesktop vekili ekran koruyucusu engelleme"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "scarecrow-session için FreeDesktop vekili ekran koruyucusu engelleme"
 
 #~ msgid "Smartcard"
 #~ msgstr "Akıllı Kart"

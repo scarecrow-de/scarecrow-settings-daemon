@@ -2932,8 +2932,8 @@ msgstr[1] "Tu âs ancjemò %u tentatîfs"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Proxy dal salveschermi"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "Inibizion dal proxy dal salveschermi di FreeDesktop a gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "Inibizion dal proxy dal salveschermi di FreeDesktop a scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "Smartcard"

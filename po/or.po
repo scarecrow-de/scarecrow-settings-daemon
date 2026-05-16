@@ -2098,7 +2098,7 @@ msgid "Screensaver Proxy"
 msgstr "ପରଦା ସଂରକ୍ଷକ ପ୍ରକ୍ସି"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
-msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 msgstr "gnome-ଅଧିବେଶନ ପାଇଁ ପ୍ରକ୍ସି ମୁକ୍ତ FreeDesktop ପରଦା ସଂରକ୍ଷକ ଅବରୋଧ"
 
 #: ../plugins/smartcard/scsd-smartcard-service.c:222

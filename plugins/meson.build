@@ -56,8 +56,8 @@ endif
 plugin_gate_units = {
     'xsettings': [
       # Both after/before. after for stopping reliably, before for synchronisation
-      ['gnome-session-x11-services.target', 'after'],
-      ['gnome-session-x11-services-ready.target', 'before'],
+      ['scarecrow-session-x11-services.target', 'after'],
+      ['scarecrow-session-x11-services-ready.target', 'before'],
     ],
 #    'wacom': [['wacom.target']],
 #    'smartcard': [['smartcard.target']],

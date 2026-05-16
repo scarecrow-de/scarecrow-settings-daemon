@@ -2734,8 +2734,8 @@ msgstr "錯誤 PIN 碼"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "螢幕保護程式代理"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "代理 FreeDesktop 螢幕保護程式禁止 gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "代理 FreeDesktop 螢幕保護程式禁止 scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "智慧卡"

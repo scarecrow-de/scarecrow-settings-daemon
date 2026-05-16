@@ -1974,8 +1974,8 @@ msgstr "Не удалось обновить информацию об экра�
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Прокси хранителя экрана"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "Ограничение прокси хранителя экрана FreeDesktop для gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "Ограничение прокси хранителя экрана FreeDesktop для scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "Смарт-карта"

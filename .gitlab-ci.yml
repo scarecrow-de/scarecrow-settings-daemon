@@ -21,7 +21,7 @@ variables:
     git
     glib2-devel
     scarecrow-desktop3-devel
-    gnome-session
+    scarecrow-session
     gobject-introspection
     gobject-introspection-devel
     gsettings-desktop-schemas-devel

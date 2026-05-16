@@ -6,7 +6,7 @@ CollectMode=inactive-or-failed
 Wants=@plugin_dbus_name@.service
 
 # Require GNOME session and specify startup ordering
-Requisite=gnome-session-initialized.target
-After=gnome-session-initialized.target
-PartOf=gnome-session-initialized.target
-Before=gnome-session.target
+Requisite=scarecrow-session-initialized.target
+After=scarecrow-session-initialized.target
+PartOf=scarecrow-session-initialized.target
+Before=scarecrow-session.target

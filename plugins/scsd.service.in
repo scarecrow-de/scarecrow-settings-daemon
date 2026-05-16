@@ -4,10 +4,10 @@ CollectMode=inactive-or-failed
 RefuseManualStart=true
 RefuseManualStop=true
 
-After=gnome-session-initialized.target
+After=scarecrow-session-initialized.target
 
 # Requisite/PartOf means the dependency is not loaded automatically.
-# The ordering here also implies Before=gnome-session.target
+# The ordering here also implies Before=scarecrow-session.target
 Requisite=@plugin_dbus_name@.target
 PartOf=@plugin_dbus_name@.target
 Before=@plugin_dbus_name@.target

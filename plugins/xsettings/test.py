@@ -33,8 +33,8 @@ class XsettingsPluginTest(scsdtestcase.GSDTestCase):
         self.start_logind()
 
         self.daemon_death_expected = False
-        self.session_log_write = open(os.path.join(self.workdir, 'gnome-session.log'), 'wb')
-        self.session = subprocess.Popen(['gnome-session', '-f',
+        self.session_log_write = open(os.path.join(self.workdir, 'scarecrow-session.log'), 'wb')
+        self.session = subprocess.Popen(['scarecrow-session', '-f',
                                          '-a', os.path.join(self.workdir, 'autostart'),
                                          '--session=dummy', '--debug'],
                                         stdout=self.session_log_write,

@@ -1982,7 +1982,7 @@ msgid "Screensaver Proxy"
 msgstr "Posrednik čuvara ekrana"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
-msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 msgstr ""
 "Sprečavanje posrednika čuvara ekrana slobodne radne površi za gnomovu sesiju"
 

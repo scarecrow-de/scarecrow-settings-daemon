@@ -2433,7 +2433,7 @@ msgstr ""
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Проксі для ахоўніка экрана"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
 #~ "Доступ да механізму стрымання ахоўніка экрана FreeDesktop для gnome-"
 #~ "session"

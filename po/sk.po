@@ -3337,7 +3337,7 @@ msgstr[2] "Máte %u zostávajúce pokusy"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Sprostredkovateľ pre šetrič obrazovky"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
 #~ "Sprostretkuje potlačenie šetriča obrazovky FreeDesktop do programu gnome-"
 #~ "session"

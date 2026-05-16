@@ -2783,7 +2783,7 @@ msgstr "Verkeerde pincode"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Proxy voor schermbeveiliging"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
 #~ "Tegenhouden van schermbeveiliging volgens FreeDesktop-protocol doorgeven "
 #~ "aan de Gnome-sessie."

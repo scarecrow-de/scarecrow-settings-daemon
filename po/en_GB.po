@@ -3008,8 +3008,8 @@ msgstr[1] "You have %u tries left"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Screensaver Proxy"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "Smartcard"

@@ -2538,7 +2538,7 @@ msgid "Screensaver Proxy"
 msgstr "ئېكران قوغدىغۇچ ۋاكالەتچى"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
-msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 msgstr ""
 
 #: ../plugins/smartcard/scsd-smartcard-manager.c:529

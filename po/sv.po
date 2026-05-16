@@ -3040,8 +3040,8 @@ msgstr[1] "Du har %u försök kvar"
 #~ msgstr "Skärmsläckarproxy"
 
 # TRANSLATORS: Jag har inget bra förslag på denna..
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "Hämma skärmsläckaren för FreeDesktop genom proxy till gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "Hämma skärmsläckaren för FreeDesktop genom proxy till scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "Smartkort"

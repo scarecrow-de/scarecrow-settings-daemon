@@ -3308,9 +3308,9 @@ msgstr[0] "あと %u 回入力できます"
 #~ msgid "Disable animations on remote displays"
 #~ msgstr "リモートディスプレイでアニメーションを無効にする"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
-#~ "gnome-session の機能を抑止する FreeDesktop スクリーンセーバープロキシ"
+#~ "scarecrow-session の機能を抑止する FreeDesktop スクリーンセーバープロキシ"
 
 #~ msgid "Sound Sample Cache plugin"
 #~ msgstr "サウンドサンプルキャッシュのプラグイン"

@@ -3039,7 +3039,7 @@ msgstr[3] "Преостао вам је још један покушај"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Посредник чувара екрана"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
 #~ "Спречавање посредника чувара екрана слободне радне површи за гномову "
 #~ "сесију"

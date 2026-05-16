@@ -1946,9 +1946,9 @@ msgid "Screensaver Proxy"
 msgstr "Propagacion de l'estalviador d'ecran"
 
 #: ../plugins/screensaver-proxy/screensaver-proxy.scarecrow-settings-plugin.in.h:2
-msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 msgstr ""
-"Propagar l'inibicion FreeDesktop de l'estalviador d'ecran a gnome-session"
+"Propagar l'inibicion FreeDesktop de l'estalviador d'ecran a scarecrow-session"
 
 #: ../plugins/smartcard/scsd-smartcard-service.c:222
 msgid "User was not logged in with smartcard."

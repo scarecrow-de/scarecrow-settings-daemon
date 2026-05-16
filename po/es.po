@@ -3166,9 +3166,9 @@ msgstr[1] "Le quedan %u intentos"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "Proxy de salvapantallas"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
 #~ msgstr ""
-#~ "Inhibición del proxy del salvapantallas de FreeDesktop a gnome-session"
+#~ "Inhibición del proxy del salvapantallas de FreeDesktop a scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "Tarjeta inteligente"

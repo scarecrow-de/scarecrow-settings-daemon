@@ -2875,8 +2875,8 @@ msgstr[0] "您还有 %u 次尝试机会"
 #~ msgid "Screensaver Proxy"
 #~ msgstr "屏幕保护程序代理"
 
-#~ msgid "Proxy FreeDesktop screensaver inhibition to gnome-session"
-#~ msgstr "代理 FreeDesktop 屏保禁止 gnome-session"
+#~ msgid "Proxy FreeDesktop screensaver inhibition to scarecrow-session"
+#~ msgstr "代理 FreeDesktop 屏保禁止 scarecrow-session"
 
 #~ msgid "Smartcard"
 #~ msgstr "智能卡"
