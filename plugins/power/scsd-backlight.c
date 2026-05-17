@@ -878,7 +878,7 @@ gsd_backlight_initable_init (GInitable       *initable,
         /* Try GNOME RR as a fallback. */
         output = gsd_backlight_rr_find_output (backlight, TRUE);
         if (output) {
-                g_debug ("Using GNOME RR (mutter) for backlight.");
+                g_debug ("Using GNOME RR (vater) for backlight.");
                 backlight->brightness_min = 1;
                 backlight->brightness_max = 100;
                 backlight->brightness_val = gnome_rr_output_get_backlight (output);

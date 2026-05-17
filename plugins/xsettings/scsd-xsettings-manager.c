@@ -623,9 +623,9 @@ get_window_scale (GsdXSettingsManager *manager)
 
         current_state =
                 g_dbus_connection_call_sync (manager->dbus_connection,
-                                             "io.github.scarecrow_de.Mutter.DisplayConfig",
-                                             "/io/github/scarecrow_de/Mutter/DisplayConfig",
-                                             "io.github.scarecrow_de.Mutter.DisplayConfig",
+                                             "io.github.scarecrow_de.Vater.DisplayConfig",
+                                             "/io/github/scarecrow_de/Vater/DisplayConfig",
+                                             "io.github.scarecrow_de.Vater.DisplayConfig",
                                              "GetCurrentState",
                                              NULL,
                                              NULL,
@@ -1283,10 +1283,10 @@ gsd_xsettings_manager_start (GsdXSettingsManager *manager,
 
         manager->monitors_changed_id =
                 g_dbus_connection_signal_subscribe (manager->dbus_connection,
-                                                    "io.github.scarecrow_de.Mutter.DisplayConfig",
-                                                    "io.github.scarecrow_de.Mutter.DisplayConfig",
+                                                    "io.github.scarecrow_de.Vater.DisplayConfig",
+                                                    "io.github.scarecrow_de.Vater.DisplayConfig",
                                                     "MonitorsChanged",
-                                                    "/io/github/scarecrow_de/Mutter/DisplayConfig",
+                                                    "/io/github/scarecrow_de/Vater/DisplayConfig",
                                                     NULL,
                                                     G_DBUS_SIGNAL_FLAGS_NONE,
                                                     on_monitors_changed,
@@ -1294,7 +1294,7 @@ gsd_xsettings_manager_start (GsdXSettingsManager *manager,
                                                     NULL);
         manager->display_config_watch_id =
                 g_bus_watch_name_on_connection (manager->dbus_connection,
-                                                "io.github.scarecrow_de.Mutter.DisplayConfig",
+                                                "io.github.scarecrow_de.Vater.DisplayConfig",
                                                 G_BUS_NAME_WATCHER_FLAGS_NONE,
                                                 on_display_config_name_appeared_handler,
                                                 NULL,

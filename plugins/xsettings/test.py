@@ -55,7 +55,7 @@ class XsettingsPluginTest(scsdtestcase.GSDTestCase):
         self.obj_session_mgr = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SessionManager', '/io/github/scarecrow_de/SessionManager')
 
-        self.start_mutter()
+        self.start_vater()
 
         Gio.Settings.sync()
         self.plugin_log_write = open(os.path.join(self.workdir, 'plugin_xsettings.log'), 'wb', buffering=0)
@@ -118,7 +118,7 @@ class XsettingsPluginTest(scsdtestcase.GSDTestCase):
         self.plugin_log_write.close()
 
         self.stop_session()
-        self.stop_mutter()
+        self.stop_vater()
         self.stop_logind()
 
         # reset all changed gsettings, so that tests are independent from each

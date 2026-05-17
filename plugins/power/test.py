@@ -97,7 +97,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
         self.obj_session_mgr = self.session_bus_con.get_object(
             'io.github.scarecrow_de.SessionManager', '/io/github/scarecrow_de/SessionManager')
 
-        self.start_mutter()
+        self.start_vater()
 
         # Set up the scarecrow-session presence
         obj_session_presence = self.session_bus_con.get_object(
@@ -170,7 +170,7 @@ class PowerPluginBase(scsdtestcase.GSDTestCase):
         self.screensaver.terminate()
         self.screensaver.wait()
         self.stop_session()
-        self.stop_mutter()
+        self.stop_vater()
         self.stop_logind()
 
         # reset all changed gsettings, so that tests are independent from each
@@ -603,7 +603,7 @@ class PowerPluginTest2(PowerPluginBase):
         # Raise the idle delay, and see that we stop being idle
         # and get idle again after the timeout
         self.settings_session['idle-delay'] = 10
-        # Resolve possible race condition, see also https://gitlab.gnome.org/GNOME/mutter/issues/113
+        # Resolve possible race condition, see also https://gitlab.gnome.org/GNOME/vater/issues/113
         time.sleep(0.2)
         self.reset_idle_timer()
         time.sleep(5)
@@ -613,7 +613,7 @@ class PowerPluginTest2(PowerPluginBase):
 
         # Lower the delay again, and see that we get idle as we should
         self.settings_session['idle-delay'] = 5
-        # Resolve possible race condition, see also https://gitlab.gnome.org/GNOME/mutter/issues/113
+        # Resolve possible race condition, see also https://gitlab.gnome.org/GNOME/vater/issues/113
         time.sleep(0.2)
         self.reset_idle_timer()
         time.sleep(2)

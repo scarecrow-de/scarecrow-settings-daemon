@@ -54,7 +54,7 @@ variables:
     which
     xorg-x11-drv-wacom-devel
     xorg-x11-server-Xvfb
-    xorg-x11-utils mutter
+    xorg-x11-utils vater
 
 image: "$FEDORA_IMAGE"
 

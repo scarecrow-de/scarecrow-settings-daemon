@@ -64,7 +64,7 @@ class GSDTestCase(X11SessionTestCase):
         # Prevent applications from accessing an outside session manager
         os.environ['SESSION_MANAGER'] = ''
 
-        # Signal to mutter and scarecrow-session that we are using X11
+        # Signal to vater and scarecrow-session that we are using X11
         os.environ['XDG_SESSION_TYPE'] = 'x11'
 
         # tell dconf and friends to use our config/runtime directories
@@ -186,31 +186,31 @@ class GSDTestCase(X11SessionTestCase):
         self.logind.terminate()
         self.logind.wait()
 
-    def start_mutter(klass):
-        ''' start mutter '''
+    def start_vater(klass):
+        ''' start vater '''
 
         os.environ['MUTTER_DEBUG_RESET_IDLETIME']='1'
-        klass.mutter_log = open(os.path.join(klass.workdir, 'mutter.log'), 'wb', buffering=0)
-        # See https://gitlab.gnome.org/GNOME/mutter/merge_requests/15
-        klass.mutter = subprocess.Popen(['mutter', '--x11'],
-                                         stdout=klass.mutter_log,
+        klass.vater_log = open(os.path.join(klass.workdir, 'vater.log'), 'wb', buffering=0)
+        # See https://gitlab.gnome.org/GNOME/vater/merge_requests/15
+        klass.vater = subprocess.Popen(['vater', '--x11'],
+                                         stdout=klass.vater_log,
                                          stderr=subprocess.STDOUT)
 
-    def stop_mutter(klass):
-        '''stop mutter'''
+    def stop_vater(klass):
+        '''stop vater'''
 
         assert klass.monitor
-        klass.mutter.terminate()
-        klass.mutter.wait()
+        klass.vater.terminate()
+        klass.vater.wait()
 
-        klass.mutter_log.flush()
-        klass.mutter_log.close()
+        klass.vater_log.flush()
+        klass.vater_log.close()
 
     @classmethod
     def reset_idle_timer(klass):
         '''trigger activity to reset idle timer'''
 
-        obj_mutter_idlemonitor = klass.session_bus_con.get_object(
-            'io.github.scarecrow_de.Mutter.IdleMonitor', '/io/github/scarecrow_de/Mutter/IdleMonitor/Core')
+        obj_vater_idlemonitor = klass.session_bus_con.get_object(
+            'io.github.scarecrow_de.Vater.IdleMonitor', '/io/github/scarecrow_de/Vater/IdleMonitor/Core')
 
-        obj_mutter_idlemonitor.ResetIdletime(dbus_interface='io.github.scarecrow_de.Mutter.IdleMonitor')
+        obj_vater_idlemonitor.ResetIdletime(dbus_interface='io.github.scarecrow_de.Vater.IdleMonitor')
