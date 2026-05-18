@@ -40,7 +40,7 @@
 #include <gio/gunixfdlist.h>
 
 #include <libupower-glib/upower.h>
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 #define GNOME_DESKTOP_USE_UNSTABLE_API
 #include <libscarecrow-desktop/scarecrow-systemd.h>
 

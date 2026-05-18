@@ -26,7 +26,7 @@
 #include <locale.h>
 #include <string.h>
 
-#include <gdesktop-enums.h>
+#include <scdesktop-enums.h>
 
 #include "scarecrow-settings-bus.h"
 #include "scarecrow-settings-profile.h"
